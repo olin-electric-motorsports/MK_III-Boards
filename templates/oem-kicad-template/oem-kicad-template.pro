@@ -1,4 +1,4 @@
-update=Thu 12 Oct 2017 09:17:38 PM EDT
+update=Fri 13 Oct 2017 12:16:03 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,4 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/lucky/Desktop/Formula/Formula_Kicad_Library/schematic/formula
+LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula

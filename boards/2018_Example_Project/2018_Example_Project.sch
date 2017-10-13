@@ -984,12 +984,4 @@ F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5
 	1    9550 1250
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 7650 4850 700  550 
-U 59E015D7
-F0 "Buck" 60
-F1 "buck.sch" 60
-F2 "Vin" I L 7650 5000 60 
-F3 "Vout" O R 8350 5000 60 
-$EndSheet
 $EndSCHEMATC
