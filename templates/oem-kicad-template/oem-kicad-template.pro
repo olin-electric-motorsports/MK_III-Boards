@@ -1,4 +1,4 @@
-update=Mon 18 Sep 2017 08:24:06 PM EDT
+update=Thu 12 Oct 2017 09:17:38 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=/home/lucky/Desktop/Formula/Formula_Kicad_Library/schematic/formula

@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:formula
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -45,4 +46,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L ATMEGA16M1 IC?
+U 1 1 59E01442
+P 4950 4300
+F 0 "IC?" H 4000 6130 50  0000 L BNN
+F 1 "ATMEGA16M1" H 5450 2900 50  0000 L BNN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 4950 4300 50  0000 C CIN
+F 3 "" H 4950 4300 50  0000 C CNN
+	1    4950 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
