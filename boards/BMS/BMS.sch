@@ -827,52 +827,52 @@ $EndComp
 $Comp
 L Ultrafit_4 J?
 U 1 1 59E24F97
-P 1000 7600
-F 0 "J?" H 1000 7900 60  0000 C CNN
-F 1 "Ultrafit_4" H 1000 7400 60  0000 C CNN
-F 2 "footprints:Ultrafit_4" H 900 7850 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1000 7950 60  0001 C CNN
-F 4 "Digi-Key" H 1000 7600 60  0001 C CNN "MFN"
-F 5 "Value" H 1000 7600 60  0001 C CNN "Package"
-F 6 "WM11574-ND" H 1000 7600 60  0001 C CNN "MPN"
-F 7 "WM11564-ND" H 1400 8350 60  0001 C CNN "MPN2"
-F 8 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 1500 8450 60  0001 C CNN "PurchasingLink"
-F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" H 1600 8550 60  0001 C CNN "PurchasingLink2"
-	1    1000 7600
+P 5100 4250
+F 0 "J?" H 5100 4550 60  0000 C CNN
+F 1 "Ultrafit_4" H 5100 4050 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 5000 4500 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 5100 4600 60  0001 C CNN
+F 4 "Digi-Key" H 5100 4250 60  0001 C CNN "MFN"
+F 5 "Value" H 5100 4250 60  0001 C CNN "Package"
+F 6 "WM11574-ND" H 5100 4250 60  0001 C CNN "MPN"
+F 7 "WM11564-ND" H 5500 5000 60  0001 C CNN "MPN2"
+F 8 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 5600 5100 60  0001 C CNN "PurchasingLink"
+F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" H 5700 5200 60  0001 C CNN "PurchasingLink2"
+	1    5100 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 59E25104
-P 1900 7500
-F 0 "#PWR?" H 1900 7250 50  0001 C CNN
-F 1 "GND" H 1900 7350 50  0000 C CNN
-F 2 "" H 1900 7500 50  0001 C CNN
-F 3 "" H 1900 7500 50  0001 C CNN
-	1    1900 7500
+P 6000 4150
+F 0 "#PWR?" H 6000 3900 50  0001 C CNN
+F 1 "GND" H 6000 4000 50  0000 C CNN
+F 2 "" H 6000 4150 50  0001 C CNN
+F 3 "" H 6000 4150 50  0001 C CNN
+	1    6000 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 7500 1900 7500
+	5450 4150 6000 4150
 $Comp
 L +12V #PWR?
 U 1 1 59E26B4D
-P 1900 7400
-F 0 "#PWR?" H 1900 7250 50  0001 C CNN
-F 1 "+12V" H 1900 7540 50  0000 C CNN
-F 2 "" H 1900 7400 50  0001 C CNN
-F 3 "" H 1900 7400 50  0001 C CNN
-	1    1900 7400
+P 6000 4050
+F 0 "#PWR?" H 6000 3900 50  0001 C CNN
+F 1 "+12V" H 6000 4190 50  0000 C CNN
+F 2 "" H 6000 4050 50  0001 C CNN
+F 3 "" H 6000 4050 50  0001 C CNN
+	1    6000 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 7400 1350 7400
+	6000 4050 5450 4050
 $Sheet
-S 4516 1084 800  500 
+S 4516 1134 784  566 
 U 59E289B4
 F0 "CurrentSense" 60
 F1 "CurrentSense.sch" 60
-F2 "current_sense" O R 5316 1334 60 
+F2 "current_sense" I R 5300 1400 60 
 $EndSheet
 $Comp
 L micro-match12pin U?
@@ -1399,4 +1399,64 @@ Wire Wire Line
 	4450 5300 4450 5350
 Wire Wire Line
 	4450 5350 4800 5350
+$Comp
+L Mounting_Hole_4-40 J?
+U 1 1 59E55DB0
+P 5700 7800
+F 0 "J?" H 5700 7950 60  0000 C CNN
+F 1 "Mounting_Hole_4-40" H 5750 7650 60  0000 C CNN
+F 2 "footprints:Mounting_Hole_4-40" H 5600 7850 60  0001 C CNN
+F 3 "" H 5700 7800 60  0001 C CNN
+F 4 "Value" H 5700 7800 60  0001 C CNN "MFN"
+F 5 "Value" H 5700 7800 60  0001 C CNN "MPN"
+F 6 "Value" H 5700 7800 60  0001 C CNN "Package"
+	1    5700 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_4-40 J?
+U 1 1 59E56289
+P 4700 7800
+F 0 "J?" H 4700 7950 60  0000 C CNN
+F 1 "Mounting_Hole_4-40" H 4750 7650 60  0000 C CNN
+F 2 "footprints:Mounting_Hole_4-40" H 4600 7850 60  0001 C CNN
+F 3 "" H 4700 7800 60  0001 C CNN
+F 4 "Value" H 4700 7800 60  0001 C CNN "MFN"
+F 5 "Value" H 4700 7800 60  0001 C CNN "MPN"
+F 6 "Value" H 4700 7800 60  0001 C CNN "Package"
+	1    4700 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_4-40 J?
+U 1 1 59E564F2
+P 3650 7800
+F 0 "J?" H 3650 7950 60  0000 C CNN
+F 1 "Mounting_Hole_4-40" H 3700 7650 60  0000 C CNN
+F 2 "footprints:Mounting_Hole_4-40" H 3550 7850 60  0001 C CNN
+F 3 "" H 3650 7800 60  0001 C CNN
+F 4 "Value" H 3650 7800 60  0001 C CNN "MFN"
+F 5 "Value" H 3650 7800 60  0001 C CNN "MPN"
+F 6 "Value" H 3650 7800 60  0001 C CNN "Package"
+	1    3650 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole_4-40 J?
+U 1 1 59E565DE
+P 2600 7800
+F 0 "J?" H 2600 7950 60  0000 C CNN
+F 1 "Mounting_Hole_4-40" H 2650 7650 60  0000 C CNN
+F 2 "footprints:Mounting_Hole_4-40" H 2500 7850 60  0001 C CNN
+F 3 "" H 2600 7800 60  0001 C CNN
+F 4 "Value" H 2600 7800 60  0001 C CNN "MFN"
+F 5 "Value" H 2600 7800 60  0001 C CNN "MPN"
+F 6 "Value" H 2600 7800 60  0001 C CNN "Package"
+	1    2600 7800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 1400 2    60   Input ~ 0
+BSPD_Current_Sense
+Wire Wire Line
+	5300 1400 5700 1400
 $EndSCHEMATC
