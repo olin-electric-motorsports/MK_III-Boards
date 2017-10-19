@@ -324,7 +324,7 @@ L F_500mA_16V F?
 U 1 1 59E0A5CF
 P 800 1000
 F 0 "F?" V 880 1000 50  0000 C CNN
-F 1 "F_500mA_16V" V 650 1100 50  0000 C CNN
+F 1 "F_500mA_16V" V 650 1200 50  0000 C CNN
 F 2 "footprints:Fuse_1210" V 730 1000 50  0001 C CNN
 F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 880 1000 50  0001 C CNN
 F 4 "Digi-Key" H 800 1000 60  0001 C CNN "MFN"
@@ -619,7 +619,9 @@ $EndComp
 Wire Wire Line
 	1450 850  1450 1150
 Wire Wire Line
-	2350 950  2800 950 
+	2350 950  2500 950 
+Wire Wire Line
+	2500 950  2800 950 
 Wire Wire Line
 	2350 850  2350 650 
 Wire Wire Line
@@ -706,13 +708,19 @@ F 3 "" H 3950 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  2550 1200 2550
+	800  2550 1000 2550
+Wire Wire Line
+	1000 2550 1200 2550
 Connection ~ 1000 2550
 Wire Wire Line
-	800  1150 1150 1150
+	800  1150 1050 1150
+Wire Wire Line
+	1050 1150 1150 1150
 Connection ~ 1050 1150
 Wire Wire Line
-	3400 5250 3850 5250
+	3400 5250 3650 5250
+Wire Wire Line
+	3650 5250 3850 5250
 Wire Wire Line
 	3650 5100 3650 5250
 Connection ~ 3650 5250
@@ -797,15 +805,15 @@ F 7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" H 4000 6125 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X03 P?
+L CONN_02X03 J?
 U 1 1 59E10F9E
 P 3100 6450
-F 0 "P?" H 3100 6650 50  0000 C CNN
+F 0 "J?" H 3100 6650 50  0000 C CNN
 F 1 "CONN_02X03" H 3100 6250 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_2x03" H 3100 5250 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 3100 5250 50  0001 C CNN
-F 4 "609-3234-ND" H 3100 6450 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3100 6450 60  0001 C CNN "MFN"
+F 4 "Digi-Key" H 3100 6450 60  0001 C CNN "MFN"
+F 5 "609-3234-ND" H 3100 6450 60  0001 C CNN "MPN"
 F 6 "Value" H 3100 6450 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 3500 7050 60  0001 C CNN "PurchasingLink"
 	1    3100 6450
@@ -826,4 +834,22 @@ F 7 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 1500 7200 60
 	1    1500 6450
 	1    0    0    -1  
 $EndComp
+Text Notes 1500 600  0    60   ~ 0
+BUCK CONVERTER
+Text Label 800  1150 2    30   ~ 0
+12V_Fused
+Text Notes 600  1900 1    60   ~ 0
+12V Indicator
+Text Notes 3850 1650 1    60   ~ 0
+5V Indicator
+Text Notes 3700 750  0    60   ~ 0
+(5V)
+Text Notes 1900 2400 0    60   ~ 0
+MICROCONTROLLER
+Text Notes 2650 6900 0    60   ~ 0
+PROGRAMMING HEADER
+Text Notes 1200 4900 1    60   ~ 0
+Digital I/O pins say PCINT\nAnalog enabled pins say ADC
+Text Notes 3250 2300 0    60   ~ 0
+Make sure you add 2 200 ohm resistors\nfrom two separate I/O pins which go to\nLED 1 and 2 on your connector\nPlease refer to the Board Interface Sheet\nfor a full pinout of the connectors on your board
 $EndSCHEMATC
