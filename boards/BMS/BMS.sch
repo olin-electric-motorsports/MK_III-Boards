@@ -1224,9 +1224,9 @@ Wire Wire Line
 Text GLabel 8000 5950 1    60   Input ~ 0
 Shutdown_S
 Text GLabel 8000 4250 1    60   Input ~ 0
-Shutdown_N
+Shutdown_T
 Text GLabel 8700 3950 2    60   Input ~ 0
-Sense_Shutdown_N
+Sense_Shutdown_T
 Text GLabel 8700 5700 2    60   Input ~ 0
 Sense_Shutdown_S
 $Comp
@@ -1390,7 +1390,7 @@ LED2
 Text GLabel 4050 5050 2    60   Input ~ 0
 Sense_Shutdown_S
 Text GLabel 4050 4950 2    60   Input ~ 0
-Sense_Shutdown_N
+Sense_Shutdown_T
 Wire Wire Line
 	4300 5250 4300 5300
 Wire Wire Line
@@ -1459,4 +1459,89 @@ Text GLabel 5700 1400 2    60   Input ~ 0
 BSPD_Current_Sense
 Wire Wire Line
 	5300 1400 5700 1400
+$Comp
+L G5Q-1A K?
+U 1 1 59E94541
+P 6350 4900
+F 0 "K?" H 6900 5250 50  0000 L CNN
+F 1 "G5Q-1A" H 6900 5150 50  0000 L CNN
+F 2 "Relays_THT:Relay_SPST-NO_OMRON-G5Q" H 6900 5050 50  0001 L CNN
+F 3 "" H 7450 4600 50  0001 C CNN
+	1    6350 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 4250 5950 4250
+Wire Wire Line
+	5950 4250 5950 4800
+Wire Wire Line
+	5450 4350 5450 5400
+Wire Wire Line
+	5450 5400 5950 5400
+Text GLabel 5950 4550 2    60   Input ~ 0
+Shutdown_T
+Text GLabel 5700 5400 3    60   Input ~ 0
+Shutdown_S
+$Comp
+L D_Schottky_SOD123 D?
+U 1 1 59E96256
+P 7000 5150
+F 0 "D?" H 7000 5250 50  0000 C CNN
+F 1 "D_Schottky_SOD123" H 7000 5050 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 6900 5150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7000 5250 50  0001 C CNN
+F 4 "1727-2394-1-ND" H 7100 5350 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7200 5450 60  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7300 5550 60  0001 C CNN "PurchasingLink"
+	1    7000 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 4800 7000 4800
+Wire Wire Line
+	7000 4800 7000 5000
+Wire Wire Line
+	6350 5400 7000 5400
+Wire Wire Line
+	7000 5400 7000 5300
+$Comp
+L 2N7002 Q?
+U 1 1 59E96A45
+P 6500 5850
+F 0 "Q?" H 6700 5925 50  0000 L CNN
+F 1 "2N7002" H 6700 5850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6700 5775 50  0001 L CIN
+F 3 "" H 6500 5850 50  0001 L CNN
+	1    6500 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5650 6400 5400
+Connection ~ 6400 5400
+Wire Wire Line
+	6700 5850 7050 5850
+$Comp
+L GND #PWR?
+U 1 1 59E96FA5
+P 6400 6050
+F 0 "#PWR?" H 6400 5800 50  0001 C CNN
+F 1 "GND" H 6400 5900 50  0000 C CNN
+F 2 "" H 6400 6050 50  0001 C CNN
+F 3 "" H 6400 6050 50  0001 C CNN
+	1    6400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 59E972B6
+P 7000 4800
+F 0 "#PWR?" H 7000 4650 50  0001 C CNN
+F 1 "+12V" H 7000 4940 50  0000 C CNN
+F 2 "" H 7000 4800 50  0001 C CNN
+F 3 "" H 7000 4800 50  0001 C CNN
+	1    7000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 5850 2    60   Input ~ 0
+Shutdown_Control
 $EndSCHEMATC
