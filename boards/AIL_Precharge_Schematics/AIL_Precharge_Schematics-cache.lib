@@ -1,0 +1,280 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# D_Zener_13V
+#
+DEF D_Zener_13V D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_13V" 0 -100 50 H V C CNN
+F2 "footprints:D_13V_Zener" -100 0 50 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF" 0 100 50 H I C CNN
+F4 "1SMB5928BT3GOSCT-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "CASE 403A, DO-214AA, SMB" 300 400 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/1SMB5928BT3G/1SMB5928BT3GOSCT-ND/917730?WT.z_cid=ref_octopart_dkc_buynow&site=us" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -100 -50 N
+P 2 0 1 8 -50 50 0 50 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener_20V
+#
+DEF D_Zener_20V D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_20V" 0 -100 50 H V C CNN
+F2 "footprints:D_SOD-923" -100 0 50 H I C CNN
+F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/zener/cdzvt2r20b-e.pdf" 0 100 50 H I C CNN
+F4 "CDZVT2R20BCT-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "SOD923, 2-SMD, Flat Lead" 300 400 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/rohm-semiconductor/CDZVT2R20B/CDZVT2R20BCT-ND/5955742" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -100 -50 N
+P 2 0 1 8 -50 50 0 50 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse
+#
+DEF Fuse F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Fuse" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# G6C-1117P-US
+#
+DEF G6C-1117P-US K 0 40 Y Y 1 F N
+F0 "K" 550 350 50 H V L CNN
+F1 "G6C-1117P-US" 550 250 50 H V L CNN
+F2 "Relays_THT:Relay_SPDT_OMRON-G5Q" 650 150 50 H I L CNN
+F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6c.pdf" 650 -150 50 H I L CNN
+F4 "Z3601-ND" 750 450 60 H I C CNN "MPN"
+F5 "Digi-Key" 850 550 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6C-1117P-US-DC12/Z3601-ND/369139" 950 650 60 H I C CNN "PurchasingLink"
+$FPLIST
+ Relay?SPDT?OMRON?G5Q*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 300 350 300 400 N
+S -200 400 500 0 0 1 10 f
+S -125 275 125 125 0 1 10 N
+P 2 0 1 10 -100 125 100 275 N
+P 2 0 1 0 0 0 0 125 N
+P 2 0 1 0 0 400 0 275 N
+P 2 0 1 10 125 200 150 200 N
+P 2 0 1 10 175 200 200 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 275 200 300 200 N
+P 2 0 1 0 300 100 300 0 N
+P 2 0 1 20 300 100 400 300 N
+P 2 0 1 10 325 200 350 200 N
+P 3 0 1 0 300 300 325 325 300 350 F
+X ~ 1 0 -100 100 U 50 50 1 1 P
+X ~ 2 300 -100 100 U 50 50 1 1 P
+X ~ 4 300 500 100 D 50 50 1 1 P
+X ~ 5 0 500 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# NCP785AH150T1G
+#
+DEF NCP785AH150T1G U 0 10 Y Y 1 F N
+F0 "U" -200 150 50 H V C CNN
+F1 "NCP785AH150T1G" 150 150 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-89-3" -50 250 50 H I C CNN
+F3 "http://www.mouser.com/ds/2/308/NCP785A-D-532012.pdf" 250 700 50 H I C CNN
+F4 "http://www.mouser.com/ProductDetail/ON-Semiconductor/NCP785AH150T1G/?qs=%2fha2pyFaduhU%252bpP%252bssYPdUmyogavA%2fAzEn9uBkwFJy882Wv9I%2fcEbQ%3d%3d" -100 275 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 0 375 60 H I C CNN "MFN"
+F6 "NCP785AH150T1G" 100 475 60 H I C CNN "MPN"
+F7 "SOT-89-3" 200 575 60 H I C CNN "Package"
+DRAW
+S -350 50 250 -350 0 1 0 f
+X INPUT 1 -250 -450 100 U 50 50 1 1 W
+X GND 2 -50 -450 100 U 50 50 1 1 W
+X OUTPUT 3 150 -450 100 U 50 50 1 1 P
+X TAB 4 -50 150 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# R_1k
+#
+DEF R_1k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_300k
+#
+DEF R_300k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_300k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "P300KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3k
+#
+DEF R_3k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT3K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_6.2k
+#
+DEF R_6.2k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_6.2k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "P6.20KCCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6201V/P6.20KCCT-ND/1746887" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SSM3K333R
+#
+DEF SSM3K333R Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "SSM3K333R" 200 0 50 H V L CNN
+F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
+F3 "file:///home/sherrieshen/Downloads/SSM3K333R_datasheet_en_20140301.pdf" 200 75 50 H I L CNN
+F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "Purchase_Link"
+F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
+F6 "Digi-Key" 500 375 60 H I C CNN "MFN"
+F7 "SOT-23-3 Flat Leads" 600 475 60 H I C CNN "Package"
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ULTRAFIT_CONNECTOR_2
+#
+DEF ULTRAFIT_CONNECTOR_2 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "ULTRAFIT_CONNECTOR_2" 0 850 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "WM11570-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 950 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
