@@ -1,0 +1,231 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Ampseal_8
+#
+DEF Ampseal_8 J 0 40 Y Y 1 F N
+F0 "J" -250 450 60 H V C CNN
+F1 "Ampseal_8" -300 -450 60 H V L CNN
+F2 "" -200 0 60 H I C CNN
+F3 "" -200 0 60 H I C CNN
+DRAW
+S 0 400 -300 -400 0 1 0 f
+X 1 1 200 350 200 L 50 50 1 1 P
+X 2 2 200 250 200 L 50 50 1 1 P
+X 3 3 200 150 200 L 50 50 1 1 P
+X 4 4 200 50 200 L 50 50 1 1 P
+X 5 5 200 -50 200 L 50 50 1 1 P
+X 6 6 200 -150 200 L 50 50 1 1 P
+X 7 7 200 -250 200 L 50 50 1 1 P
+X 8 8 200 -350 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Schottky
+#
+DEF D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener
+#
+DEF D_Zener D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Earth
+#
+DEF ~Earth #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Earth" 0 -150 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X Earth 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# F_1.1A_12V
+#
+DEF F_1.1A_12V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_1.1A_12V" -75 0 50 V V C CNN
+F2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" -70 0 50 V I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" 80 0 50 V I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "F5764CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=F5764CT-ND" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# G5Q-1
+#
+DEF G5Q-1 K 0 40 Y Y 1 F N
+F0 "K" 650 350 50 H V L CNN
+F1 "G5Q-1" 650 250 50 H V L CNN
+F2 "Relays_THT:Relay_SPDT_OMRON-G5Q" 650 150 50 H I L CNN
+F3 "" 650 -150 50 H I L CNN
+$FPLIST
+ Relay?SPDT?OMRON?G5Q*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 300 350 300 400 N
+P 2 0 0 0 500 350 500 400 N
+P 4 0 0 0 500 350 500 300 475 325 500 350 N
+S -200 400 600 0 0 1 10 f
+S -125 275 125 125 0 1 10 N
+P 2 0 1 10 -100 125 100 275 N
+P 2 0 1 0 0 0 0 125 N
+P 2 0 1 0 0 400 0 275 N
+P 2 0 1 10 125 200 150 200 N
+P 2 0 1 10 175 200 200 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 275 200 300 200 N
+P 2 0 1 10 325 200 350 200 N
+P 2 0 1 20 400 100 325 350 N
+P 2 0 1 0 400 100 400 0 N
+P 3 0 1 0 300 300 325 325 300 350 F
+X ~ 1 0 -100 100 U 50 50 1 1 P
+X ~ 2 400 -100 100 U 50 50 1 1 P
+X ~ 3 500 500 100 D 50 50 1 1 P
+X ~ 4 300 500 100 D 50 50 1 1 P
+X ~ 5 0 500 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_0805
+#
+DEF LED_0805 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED_0805" 0 -100 50 H V C CNN
+F2 "LEDs:LED_0805" -100 0 50 H I C CNN
+F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
+F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3k
+#
+DEF R_3k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT3K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ultrafit_4
+#
+DEF Ultrafit_4 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_4" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "Value" 0 0 60 H I C CNN "Package"
+F6 "WM11574-ND" 0 0 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
+F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
+DRAW
+S 150 250 -150 -150 0 1 0 N
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
