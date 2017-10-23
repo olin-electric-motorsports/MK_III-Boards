@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "2018_Example_Project"
 Date "2017-10-02"
 Rev "2"
@@ -894,62 +894,6 @@ F 5 "TPS561201" H 2050 1150 60  0001 C CNN "MPN"
 F 6 "Value" H 2050 1150 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 2250 1900 60  0001 C CNN "PurchasingLink"
 	1    2050 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole_4-40 J1
-U 1 1 59D4EA98
-P 2500 2350
-F 0 "J1" H 2500 2500 60  0000 C CNN
-F 1 "Mounting_Hole_4-40" H 2550 2200 60  0000 C CNN
-F 2 "footprints:Mounting_Hole_4-40" H 2400 2400 60  0001 C CNN
-F 3 "" H 2500 2350 60  0001 C CNN
-F 4 "Value" H 2500 2350 60  0001 C CNN "MFN"
-F 5 "Value" H 2500 2350 60  0001 C CNN "MPN"
-F 6 "Value" H 2500 2350 60  0001 C CNN "Package"
-	1    2500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole_4-40 J3
-U 1 1 59D4EB72
-P 3550 2350
-F 0 "J3" H 3550 2500 60  0000 C CNN
-F 1 "Mounting_Hole_4-40" H 3600 2200 60  0000 C CNN
-F 2 "footprints:Mounting_Hole_4-40" H 3450 2400 60  0001 C CNN
-F 3 "" H 3550 2350 60  0001 C CNN
-F 4 "Value" H 3550 2350 60  0001 C CNN "MFN"
-F 5 "Value" H 3550 2350 60  0001 C CNN "MPN"
-F 6 "Value" H 3550 2350 60  0001 C CNN "Package"
-	1    3550 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole_4-40 J2
-U 1 1 59D4EBEA
-P 2500 2800
-F 0 "J2" H 2500 2950 60  0000 C CNN
-F 1 "Mounting_Hole_4-40" H 2550 2650 60  0000 C CNN
-F 2 "footprints:Mounting_Hole_4-40" H 2400 2850 60  0001 C CNN
-F 3 "" H 2500 2800 60  0001 C CNN
-F 4 "Value" H 2500 2800 60  0001 C CNN "MFN"
-F 5 "Value" H 2500 2800 60  0001 C CNN "MPN"
-F 6 "Value" H 2500 2800 60  0001 C CNN "Package"
-	1    2500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole_4-40 J4
-U 1 1 59D4EC64
-P 3550 2800
-F 0 "J4" H 3550 2950 60  0000 C CNN
-F 1 "Mounting_Hole_4-40" H 3600 2650 60  0000 C CNN
-F 2 "footprints:Mounting_Hole_4-40" H 3450 2850 60  0001 C CNN
-F 3 "" H 3550 2800 60  0001 C CNN
-F 4 "Value" H 3550 2800 60  0001 C CNN "MFN"
-F 5 "Value" H 3550 2800 60  0001 C CNN "MPN"
-F 6 "Value" H 3550 2800 60  0001 C CNN "Package"
-	1    3550 2800
 	1    0    0    -1  
 $EndComp
 $Comp
