@@ -460,8 +460,8 @@ ENDDEF
 # LED_0805
 #
 DEF LED_0805 D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "LED_0805" 0 -100 50 H V C CNN
+F0 "D" 0 -100 50 H V C CNN
+F1 "LED_0805" 0 100 50 H V C CNN
 F2 "LEDs:LED_0805" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
@@ -645,7 +645,7 @@ ENDDEF
 #
 DEF R_0_Jumper R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_0_Jumper" 0 0 50 V V C CNN
+F1 "R_0_Jumper" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_2512" -70 0 50 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
 F4 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
@@ -667,7 +667,7 @@ ENDDEF
 #
 DEF R_100 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_100" 0 0 50 V V C CNN
+F1 "R_100" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -689,7 +689,7 @@ ENDDEF
 #
 DEF R_100k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_100k" 0 0 50 V V C CNN
+F1 "R_100k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-100KCRCT-ND" 0 0 60 H I C CNN "MPN"
@@ -711,7 +711,7 @@ ENDDEF
 #
 DEF R_10k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_10k" 0 0 50 V V C CNN
+F1 "R_10k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
@@ -733,7 +733,7 @@ ENDDEF
 #
 DEF R_1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1k" 0 0 50 V V C CNN
+F1 "R_1k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -755,7 +755,7 @@ ENDDEF
 #
 DEF R_200 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_200" 0 0 50 V V C CNN
+F1 "R_200" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -777,7 +777,7 @@ ENDDEF
 #
 DEF R_55.1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_55.1k" 0 0 50 V V C CNN
+F1 "R_55.1k" -100 0 50 V V C CNN
 F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-51.1KCRCT-ND" 0 0 60 H I C CNN "MPN"
