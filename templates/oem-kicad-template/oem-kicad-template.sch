@@ -694,8 +694,6 @@ F 3 "" H 3900 5500 50  0001 C CNN
 	1    3900 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 5250 2    60   Input ~ 0
-RESET
 $Comp
 L VCC #PWR027
 U 1 1 59E0B462
@@ -748,32 +746,6 @@ F 3 "" H 3400 6550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 6550 3400 6550
-Text GLabel 3350 6450 2    60   Input ~ 0
-MOSI
-Text GLabel 2850 6350 0    60   Input ~ 0
-MISO
-Text GLabel 2850 6450 0    60   Input ~ 0
-SCK
-Text GLabel 2850 6550 0    60   Input ~ 0
-RESET
-Text GLabel 1000 6250 0    60   Input ~ 0
-TXCAN
-Text GLabel 1000 6350 0    60   Input ~ 0
-RXCAN
-Text GLabel 2000 6350 2    60   Input ~ 0
-CANH
-Text GLabel 2000 6550 2    60   Input ~ 0
-CANL
-Text GLabel 3400 4550 2    60   Input ~ 0
-MISO
-Text GLabel 3400 4650 2    60   Input ~ 0
-MOSI
-Text GLabel 3400 4750 2    60   Input ~ 0
-SCK
-Text GLabel 3400 3650 2    60   Input ~ 0
-TXCAN
-Text GLabel 3400 3750 2    60   Input ~ 0
-RXCAN
 $Comp
 L ATMEGA16M1 IC?
 U 1 1 59E10948
@@ -852,4 +824,34 @@ Text Notes 1200 4900 1    60   ~ 0
 Digital I/O pins say PCINT\nAnalog enabled pins say ADC
 Text Notes 3250 2300 0    60   ~ 0
 Make sure you add 2 200 ohm resistors\nfrom two separate I/O pins which go to\nLED 1 and 2 on your connector\nPlease refer to the Board Interface Sheet\nfor a full pinout of the connectors on your board
+Text Label 2000 6550 0    60   ~ 0
+CANL
+Text Label 2000 6350 0    60   ~ 0
+CANH
+Text Label 1000 6250 2    60   ~ 0
+TXCAN
+Text Label 1000 6350 2    60   ~ 0
+RXCAN
+Text Label 3400 3650 0    60   ~ 0
+TXCAN
+Text Label 3400 3750 0    60   ~ 0
+RXCAN
+Text Label 3400 4550 0    60   ~ 0
+MISO
+Text Label 3400 4650 0    60   ~ 0
+MOSI
+Text Label 3400 4750 0    60   ~ 0
+SCK
+Text Label 3850 5250 0    60   ~ 0
+RESET
+Text Label 2850 6350 2    60   ~ 0
+MISO
+Text Label 2850 6450 2    60   ~ 0
+SCK
+Text Label 2850 6550 2    60   ~ 0
+RESET
+Text Label 3350 6450 0    60   ~ 0
+MOSI
+Text Notes 3750 3150 0    60   ~ 0
+It is best to add at least 2-3 programming\nLEDs on your board for troubleshooting.\nUse Net Labels (the hotkey is "L") to connect\npins on your schematic without using wires.\nStart by placing a connector and labelling all\nthe pins with net labels according to the\nboard interface sheet.
 $EndSCHEMATC
