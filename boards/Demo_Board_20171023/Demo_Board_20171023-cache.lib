@@ -372,6 +372,29 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# MCP6001RT
+#
+DEF MCP6001RT U 0 20 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "MCP6001RT" 0 -200 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-5" -100 100 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
+F4 "Digi-Key" 100 300 60 H I C CNN "MFN"
+F5 "MCP6001RT-I/OTCT-ND" 200 400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001RT-I-OT/MCP6001RT-I-OTCT-ND/669498" 300 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ SOT*23*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V+ 2 -100 300 150 D 50 50 0 1 W
+X V- 5 -100 -300 150 U 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -300 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # PWR_FLAG
 #
 DEF PWR_FLAG #FLG 0 0 N N 1 F P
@@ -546,7 +569,7 @@ F0 "Q" 200 75 50 H V L CNN
 F1 "SSM3K333R" 200 0 50 H V L CNN
 F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
 F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "Purchase_Link"
+F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "PurchasingLink"
 F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
 F6 "Digi-Key" 500 375 60 H I C CNN "MFN"
 F7 "SOT-23-3 Flat Leads" 600 475 60 H I C CNN "Package"
@@ -639,7 +662,7 @@ ENDDEF
 DEF micromatch_female_RA_20 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "micromatch_female_RA_20" 0 -950 60 H V C CNN
-F2 "" -200 1100 60 H I C CNN
+F2 "footprints:micromatch_female_ra_20" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338070-0/A99490CT-ND/1955792" 0 1300 60 H I C CNN "PurchasingLink"
 F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
@@ -675,7 +698,7 @@ ENDDEF
 DEF micromatch_female_RA_6 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
 F1 "micromatch_female_RA_6" 0 450 60 H V C CNN
-F2 "" -200 1100 60 H I C CNN
+F2 "footprints:micromatch_female_ra_6" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-6/A99483CT-ND/1955785" 0 1300 60 H I C CNN "PurchasingLink"
 F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
