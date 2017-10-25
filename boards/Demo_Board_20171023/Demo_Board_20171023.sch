@@ -1105,21 +1105,6 @@ F 7 "Value" H 1400 6000 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrafit_2 J3
-U 1 1 59EE4ECF
-P 1100 5350
-F 0 "J3" H 1000 6550 60  0000 C CNN
-F 1 "Ultrafit_2" H 1100 6200 60  0000 C CNN
-F 2 "" H 900 6450 60  0001 C CNN
-F 3 "" H 1000 6550 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 1100 6650 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 1200 6750 60  0001 C CNN "MFN"
-F 6 "WM11570-ND" H 1300 6850 60  0001 C CNN "MPN"
-F 7 "Value" H 1400 6950 60  0001 C CNN "Package"
-	1    1100 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR034
 U 1 1 59EE5036
 P 1350 750
@@ -1766,4 +1751,19 @@ NoConn ~ 5000 4400
 NoConn ~ 5000 4500
 Text Label 5000 4100 0    60   ~ 0
 SensorAmp
+$Comp
+L Ultrafit_2 J3
+U 1 1 59F0F4FD
+P 1000 4300
+F 0 "J3" H 1000 4450 60  0000 C CNN
+F 1 "Ultrafit_2" H 1100 4100 60  0000 C CNN
+F 2 "" H 900 4350 60  0001 C CNN
+F 3 "" H 1000 4450 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 1100 4550 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 1200 4650 60  0001 C CNN "MFN"
+F 6 "WM11570-ND" H 1300 4750 60  0001 C CNN "MPN"
+F 7 "Value" H 1400 4850 60  0001 C CNN "Package"
+	1    1000 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
