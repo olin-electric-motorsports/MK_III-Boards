@@ -617,8 +617,6 @@ F 3 "" H 5150 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 850  3650 1150
-Wire Wire Line
 	4550 950  5000 950 
 Wire Wire Line
 	4550 850  4550 650 
@@ -1757,13 +1755,17 @@ U 1 1 59F0F4FD
 P 1000 4300
 F 0 "J3" H 1000 4450 60  0000 C CNN
 F 1 "Ultrafit_2" H 1100 4100 60  0000 C CNN
-F 2 "" H 900 4350 60  0001 C CNN
+F 2 "footprints:Ultrafit_2" H 900 4350 60  0001 C CNN
 F 3 "" H 1000 4450 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 1100 4550 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 1200 4650 60  0001 C CNN "MFN"
-F 6 "WM11570-ND" H 1300 4750 60  0001 C CNN "MPN"
-F 7 "Value" H 1400 4850 60  0001 C CNN "Package"
+F 4 "Digi-Key" H 1200 4650 60  0001 C CNN "MFN"
+F 5 "WM11570-ND" H 1300 4750 60  0001 C CNN "MPN"
+F 6 "Value" H 1400 4850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 1100 4550 60  0001 C CNN "PurchasingLink"
 	1    1000 4300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3650 850  3250 850 
+Wire Wire Line
+	3250 850  3250 1150
 $EndSCHEMATC
