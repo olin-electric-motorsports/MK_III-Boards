@@ -324,7 +324,7 @@ L F_500mA_16V F1
 U 1 1 59E0A5CF
 P 3000 1000
 F 0 "F1" V 3080 1000 50  0000 C CNN
-F 1 "F_500mA_16V" V 2850 1200 50  0000 C CNN
+F 1 "500mA" V 3150 1050 50  0000 C CNN
 F 2 "footprints:Fuse_1210" V 2930 1000 50  0001 C CNN
 F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 3080 1000 50  0001 C CNN
 F 4 "Digi-Key" H 3000 1000 60  0001 C CNN "MFN"
@@ -798,9 +798,9 @@ F 7 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 3100 7250 60
 $EndComp
 Text Notes 3700 600  0    60   ~ 0
 BUCK CONVERTER
-Text Label 3000 1150 2    30   ~ 0
+Text Label 3000 1150 0    30   ~ 0
 12V_Fused
-Text Notes 2800 1900 1    60   ~ 0
+Text Notes 2850 2000 1    60   ~ 0
 12V Indicator
 Text Notes 6050 1650 1    60   ~ 0
 5V Indicator
@@ -1302,13 +1302,9 @@ Wire Notes Line
 Wire Notes Line
 	9350 1800 9350 600 
 Wire Notes Line
-	2700 500  2700 2250
-Wire Notes Line
-	2700 2250 6100 2250
+	2650 500  2650 2250
 Wire Notes Line
 	6100 2250 6100 500 
-Wire Notes Line
-	6100 500  2700 500 
 Wire Notes Line
 	500  700  500  4550
 Wire Notes Line
@@ -1768,4 +1764,36 @@ Wire Wire Line
 	3650 850  3250 850 
 Wire Wire Line
 	3250 850  3250 1150
+$Comp
+L D_Zener_18V D7
+U 1 1 59F253C2
+P 2800 1000
+F 0 "D7" H 2800 1100 50  0000 C CNN
+F 1 "D_Zener_18V" H 2800 900 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 2700 1000 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 2800 1100 50  0001 C CNN
+F 4 "SMBJ5355B-TPMSCT-ND" H 2900 1200 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3000 1300 60  0001 C CNN "MFN"
+F 6 "DO-214AA (SMB)" H 3100 1400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 3200 1500 60  0001 C CNN "PurchasingLink"
+	1    2800 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 59F255A7
+P 2800 1150
+F 0 "#PWR049" H 2800 900 50  0001 C CNN
+F 1 "GND" H 2800 1000 50  0000 C CNN
+F 2 "" H 2800 1150 50  0001 C CNN
+F 3 "" H 2800 1150 50  0001 C CNN
+	1    2800 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 850  3000 850 
+Wire Notes Line
+	2650 2250 6100 2250
+Wire Notes Line
+	6100 500  2650 500 
 $EndSCHEMATC
