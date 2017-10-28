@@ -1,4 +1,4 @@
-update=Tue 17 Oct 2017 03:17:03 PM EDT
+update=Thu 26 Oct 2017 11:26:14 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=../../../OEM_Preferred_Parts/schematic
+LibDir=../IMD_Latch;../../../OEM_Preferred_Parts/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,5 +64,5 @@ LibName32=valves
 LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
 LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
 LibName35=/home/josh/Formula/OEM_Preferred_Parts/schematic/formula
-[general]
-version=1
+LibName36=IMD_Latch-cache
+LibName37=/home/josh/Formula/OEM_Preferred_Parts/OEM_Preferred_Parts/schematic/formula
