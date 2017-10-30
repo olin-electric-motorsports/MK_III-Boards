@@ -1,4 +1,4 @@
-update=Thu 26 Oct 2017 11:26:14 PM EDT
+update=Sun 29 Oct 2017 08:45:49 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../IMD_Latch;../../../OEM_Preferred_Parts/schematic
@@ -66,3 +64,5 @@ LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/sche
 LibName35=/home/josh/Formula/OEM_Preferred_Parts/schematic/formula
 LibName36=IMD_Latch-cache
 LibName37=/home/josh/Formula/OEM_Preferred_Parts/OEM_Preferred_Parts/schematic/formula
+[general]
+version=1
