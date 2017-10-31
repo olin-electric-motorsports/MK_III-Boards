@@ -1,4 +1,4 @@
-update=Thu 19 Oct 2017 04:56:44 PM EDT
+update=Mon 30 Oct 2017 09:29:52 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=118
 [eeschema]
 version=1
 LibDir=
@@ -61,16 +71,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
-LibName35=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=118
+LibName33=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
