@@ -860,20 +860,6 @@ F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/TS507IYLT/497-
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLP175A_OEM U2
-U 1 1 59F2E1E7
-P 7500 2450
-F 0 "U2" H 7300 2645 50  0000 L CNN
-F 1 "TLP175A_OEM" H 7300 2250 50  0000 L CNN
-F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 7500 2150 50  0001 C CIN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A" H 7450 2450 50  0001 L CNN
-F 4 "TLP175A(TPLECT-ND" H 7400 2745 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7500 2845 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TLP175A-TPLE/TLP175A-TPLECT-ND/4562904" H 7600 2945 60  0001 C CNN "PurchasingLink"
-	1    7500 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L R_200 R11
 U 1 1 59F2FCF2
 P 8100 2400
@@ -947,48 +933,6 @@ F 6 "Value" H 6150 3300 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" H 6575 3800 60  0001 C CNN "PurchasingLink"
 	1    6150 3300
 	1    0    0    -1  
-$EndComp
-$Comp
-L D_Schottky_SOD123 D4
-U 1 1 59F40E3F
-P 6350 2950
-F 0 "D4" H 6350 3050 50  0000 C CNN
-F 1 "D_Schottky_SOD123" H 6350 2850 50  0000 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 6250 2950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 6350 3050 50  0001 C CNN
-F 4 "1727-2394-1-ND" H 6450 3150 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 6550 3250 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 6650 3350 60  0001 C CNN "PurchasingLink"
-	1    6350 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L D_Schottky_SOD123 D5
-U 1 1 59F41203
-P 7200 3750
-F 0 "D5" H 7200 3850 50  0000 C CNN
-F 1 "D_Schottky_SOD123" H 7200 3650 50  0000 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 7100 3750 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7200 3850 50  0001 C CNN
-F 4 "1727-2394-1-ND" H 7300 3950 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7400 4050 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7500 4150 60  0001 C CNN "PurchasingLink"
-	1    7200 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_Schottky_SOD123 D6
-U 1 1 59F41307
-P 7400 4400
-F 0 "D6" H 7400 4500 50  0000 C CNN
-F 1 "D_Schottky_SOD123" H 7400 4300 50  0000 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 7300 4400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7400 4500 50  0001 C CNN
-F 4 "1727-2394-1-ND" H 7500 4600 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7600 4700 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7700 4800 60  0001 C CNN "PurchasingLink"
-	1    7400 4400
-	0    1    1    0   
 $EndComp
 $Comp
 L R_402k R1
@@ -1066,5 +1010,61 @@ F 6 "Value" H 1600 2100 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 2080 2500 60  0001 C CNN "PurchasingLink"
 	1    1600 2100
 	1    0    0    -1  
+$EndComp
+$Comp
+L TLP175A_OEM U2
+U 1 1 59F822D1
+P 7500 2450
+F 0 "U2" H 7300 2645 50  0000 L CNN
+F 1 "TLP175A_OEM" H 7300 2250 50  0000 L CNN
+F 2 "footprints:MFSOP6-4_4.4x3.6mm_Pitch1.27mm_OEM" H 7500 2150 50  0001 C CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A" H 7450 2450 50  0001 L CNN
+F 4 "TLP175A(TPLECT-ND" H 7400 2745 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7500 2845 60  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TLP175A-TPLE/TLP175A-TPLECT-ND/4562904" H 7600 2945 60  0001 C CNN "PurchasingLink"
+	1    7500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_SOD123 D4
+U 1 1 59F8AACE
+P 6350 2950
+F 0 "D4" H 6350 3050 50  0000 C CNN
+F 1 "D_Schottky_SOD123" H 6350 2850 50  0000 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 6250 2950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 6350 3050 50  0001 C CNN
+F 4 "1727-2394-1-ND" H 6450 3150 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6550 3250 60  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 6650 3350 60  0001 C CNN "PurchasingLink"
+	1    6350 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_Schottky_SOD123 D5
+U 1 1 59F8ADAC
+P 7200 3750
+F 0 "D5" H 7200 3850 50  0000 C CNN
+F 1 "D_Schottky_SOD123" H 7200 3650 50  0000 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 7100 3750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7200 3850 50  0001 C CNN
+F 4 "1727-2394-1-ND" H 7300 3950 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7400 4050 60  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7500 4150 60  0001 C CNN "PurchasingLink"
+	1    7200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_SOD123 D6
+U 1 1 59F8B440
+P 7400 4400
+F 0 "D6" H 7400 4500 50  0000 C CNN
+F 1 "D_Schottky_SOD123" H 7400 4300 50  0000 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 7300 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7400 4500 50  0001 C CNN
+F 4 "1727-2394-1-ND" H 7500 4600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7600 4700 60  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7700 4800 60  0001 C CNN "PurchasingLink"
+	1    7400 4400
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
