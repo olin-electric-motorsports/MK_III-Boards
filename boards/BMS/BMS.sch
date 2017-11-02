@@ -1406,8 +1406,6 @@ $EndComp
 Text GLabel 7050 5850 2    60   Input ~ 0
 Shutdown_Control
 Wire Wire Line
-	1450 850  1450 1150
-Wire Wire Line
 	2350 950  2800 950 
 Wire Wire Line
 	2350 850  2350 650 
@@ -1452,7 +1450,7 @@ Wire Wire Line
 	1450 2550 1850 2550
 Connection ~ 1650 2550
 Wire Wire Line
-	800  1150 1150 1150
+	550  1150 1150 1150
 Connection ~ 1050 1150
 Wire Wire Line
 	4050 5250 4500 5250
@@ -1547,4 +1545,37 @@ Text Label 1050 1150 1    60   ~ 0
 NoConn ~ 4050 4850
 Text GLabel 4250 7350 0    60   Input ~ 0
 Acc_Fan_PWM
+Wire Wire Line
+	1450 850  1150 850 
+Wire Wire Line
+	1150 850  1150 1150
+$Comp
+L D_Zener_18V D?
+U 1 1 59F839F9
+P 550 1350
+F 0 "D?" H 550 1450 50  0000 C CNN
+F 1 "D_Zener_18V" H 550 1250 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 450 1350 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 550 1450 50  0001 C CNN
+F 4 "SMBJ5355B-TPMSCT-ND" H 650 1550 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 750 1650 60  0001 C CNN "MFN"
+F 6 "DO-214AA (SMB)" H 850 1750 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 950 1850 60  0001 C CNN "PurchasingLink"
+	1    550  1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	550  1200 550  1150
+Connection ~ 800  1150
+$Comp
+L GND #PWR?
+U 1 1 59F83B8F
+P 550 1500
+F 0 "#PWR?" H 550 1250 50  0001 C CNN
+F 1 "GND" H 550 1350 50  0000 C CNN
+F 2 "" H 550 1500 50  0001 C CNN
+F 3 "" H 550 1500 50  0001 C CNN
+	1    550  1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
