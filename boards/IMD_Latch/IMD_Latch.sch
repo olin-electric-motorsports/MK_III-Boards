@@ -1051,7 +1051,7 @@ F 4 "1727-2394-1-ND" H 7300 3950 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 7400 4050 60  0001 C CNN "MFN"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7500 4150 60  0001 C CNN "PurchasingLink"
 	1    7200 3750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L D_Schottky_SOD123 D6
