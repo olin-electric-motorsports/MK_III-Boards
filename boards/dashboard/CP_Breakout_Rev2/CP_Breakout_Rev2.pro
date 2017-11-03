@@ -1,4 +1,4 @@
-update=Mon 30 Oct 2017 09:29:52 PM EDT
+update=Tue 31 Oct 2017 01:19:15 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,19 +25,9 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=118
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../../OEM_Preferred_Parts/schematic;../../../../Desktop/SparkFun-Kicad-Libraries-master;../../../../Desktop/SparkFun-Kicad-Libraries-master/SparkFun-PowerIC.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -71,4 +61,6 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
+LibName33=/home/lanfenson/OEM_Preferred_Parts/schematic/formula
+LibName34=/home/lanfenson/Desktop/SparkFun-Kicad-Libraries-master/SparkFun-Connectors
+LibName35=SparkFun-PowerIC
