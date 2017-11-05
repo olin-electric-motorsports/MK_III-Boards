@@ -1662,4 +1662,119 @@ Wire Wire Line
 	5950 4000 6300 4000
 NoConn ~ 5050 4400
 NoConn ~ 5050 3200
+$Comp
+L NanoFit_2 J?
+U 1 1 59FFD325
+P 10050 700
+F 0 "J?" H 10400 650 60  0000 C CNN
+F 1 "NanoFit_2" H 10550 200 60  0000 C CNN
+F 2 "" H 10050 700 60  0001 C CNN
+F 3 "" H 10050 700 60  0001 C CNN
+	1    10050 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L NanoFit_2 J?
+U 1 1 59FFD530
+P 10050 1400
+F 0 "J?" H 10400 1350 60  0000 C CNN
+F 1 "NanoFit_2" H 10550 900 60  0000 C CNN
+F 2 "" H 10050 1400 60  0001 C CNN
+F 3 "" H 10050 1400 60  0001 C CNN
+	1    10050 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 1600 9350 1600
+Wire Wire Line
+	9350 1600 9350 1450
+Wire Wire Line
+	9350 1450 9200 1450
+Wire Wire Line
+	9200 1850 9350 1850
+Wire Wire Line
+	9350 1850 9350 1750
+Wire Wire Line
+	9350 1750 10150 1750
+Wire Wire Line
+	10150 1050 9300 1050
+Wire Wire Line
+	9300 1050 9300 1150
+Wire Wire Line
+	9300 1150 9200 1150
+Wire Wire Line
+	9200 750  9300 750 
+Wire Wire Line
+	9300 750  9300 900 
+Wire Wire Line
+	9300 900  10150 900 
+$Comp
+L MicroFit_11 J?
+U 1 1 59FFBF46
+P 550 3600
+F 0 "J?" H 600 3450 60  0000 C CNN
+F 1 "MicroFit_11" H 800 2250 60  0000 C CNN
+F 2 "" H 550 3600 60  0001 C CNN
+F 3 "" H 550 3600 60  0001 C CNN
+	1    550  3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4350 1200 4350
+Wire Wire Line
+	1200 5050 1200 4450
+Wire Wire Line
+	1200 4450 950  4450
+Wire Wire Line
+	950  4550 1150 4550
+Wire Wire Line
+	1150 4550 1150 5750
+Wire Wire Line
+	1150 5750 1200 5750
+Wire Wire Line
+	950  4650 1100 4650
+Wire Wire Line
+	1100 4650 1100 6400
+Wire Wire Line
+	1100 6400 1200 6400
+Wire Wire Line
+	950  4750 1050 4750
+Wire Wire Line
+	1050 4750 1050 6950
+Wire Wire Line
+	1050 6950 1200 6950
+Wire Wire Line
+	1200 7500 1000 7500
+Wire Wire Line
+	1000 7500 1000 4850
+Wire Wire Line
+	1000 4850 950  4850
+Wire Wire Line
+	950  4250 1200 4250
+Wire Wire Line
+	1200 4250 1200 3700
+Wire Wire Line
+	950  4150 1150 4150
+Wire Wire Line
+	1150 4150 1150 3050
+Wire Wire Line
+	1150 3050 1200 3050
+Wire Wire Line
+	950  4050 1100 4050
+Wire Wire Line
+	1100 4050 1100 2350
+Wire Wire Line
+	1100 2350 1200 2350
+Wire Wire Line
+	950  3950 1050 3950
+Wire Wire Line
+	1050 3950 1050 1650
+Wire Wire Line
+	1050 1650 1200 1650
+Wire Wire Line
+	950  3850 1000 3850
+Wire Wire Line
+	1000 3850 1000 950 
+Wire Wire Line
+	1000 950  1200 950 
 $EndSCHEMATC
