@@ -49,7 +49,7 @@ Comment4 ""
 $EndDescr
 Text HLabel 1650 1400 0    60   Output ~ 0
 V_CELL
-Text HLabel 1650 1900 0    60   Output ~ 0
+Text HLabel 1600 2200 0    60   Output ~ 0
 V_BELOW
 $Comp
 L R_475 R23
@@ -101,34 +101,8 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 2100 60 
 	1    2300 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R24
-U 1 1 59E55C54
-P 2650 1750
-AR Path="/59EE8FBB/59E55C54" Ref="R24"  Part="1" 
-AR Path="/59EEA6DF/59E55C54" Ref="R28"  Part="1" 
-AR Path="/59EEA728/59E55C54" Ref="R32"  Part="1" 
-AR Path="/59EEB0B2/59E55C54" Ref="R36"  Part="1" 
-AR Path="/59EEB0FB/59E55C54" Ref="R40"  Part="1" 
-AR Path="/59EEB144/59E55C54" Ref="R44"  Part="1" 
-AR Path="/59EEB679/59E55C54" Ref="R48"  Part="1" 
-AR Path="/59EEB708/59E55C54" Ref="R52"  Part="1" 
-AR Path="/59EEB751/59E55C54" Ref="R56"  Part="1" 
-AR Path="/59F343C3/59E55C54" Ref="R60"  Part="1" 
-F 0 "R56" V 2730 1750 50  0000 C CNN
-F 1 "27" V 2650 1750 50  0000 C CNN
-F 2 "" V 2580 1750 50  0001 C CNN
-F 3 "" H 2650 1750 50  0001 C CNN
-	1    2650 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1900 2650 1900
-Connection ~ 1950 1900
 Wire Wire Line
 	1950 1600 2150 1600
-Wire Wire Line
-	2450 1600 2850 1600
 $Comp
 L NMOS_GSD_30V Q2
 U 1 1 59E55CA7
@@ -154,7 +128,6 @@ F 7 "https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND" H 3650 2150 
 	1    3050 1700
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2650 1600
 $Comp
 L R_100 R25
 U 1 1 59E55D6B
@@ -180,10 +153,6 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 3180 1
 	1    2700 1400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3250 1400 3250 1600
-Wire Wire Line
-	2850 1400 4150 1400
 Wire Wire Line
 	2550 1400 1650 1400
 Text HLabel 4150 1400 2    60   Input ~ 0
@@ -242,4 +211,45 @@ Wire Wire Line
 	4150 1900 3600 1900
 Wire Wire Line
 	3300 1900 3050 1900
+$Comp
+L DTO25 R24
+U 1 1 59FF43BB
+P 2450 1700
+AR Path="/59EE8FBB/59FF43BB" Ref="R24"  Part="1" 
+AR Path="/59EEA6DF/59FF43BB" Ref="R28"  Part="1" 
+AR Path="/59EEA728/59FF43BB" Ref="R32"  Part="1" 
+AR Path="/59EEB0B2/59FF43BB" Ref="R36"  Part="1" 
+AR Path="/59EEB0FB/59FF43BB" Ref="R40"  Part="1" 
+AR Path="/59EEB144/59FF43BB" Ref="R44"  Part="1" 
+AR Path="/59EEB679/59FF43BB" Ref="R48"  Part="1" 
+AR Path="/59EEB708/59FF43BB" Ref="R52"  Part="1" 
+AR Path="/59EEB751/59FF43BB" Ref="R56"  Part="1" 
+AR Path="/59F343C3/59FF43BB" Ref="R60"  Part="1" 
+F 0 "R56" H 2600 2000 60  0000 C CNN
+F 1 "DTO25" H 2700 1800 60  0000 C CNN
+F 2 "footprints:DTO25" H 2450 1700 60  0001 C CNN
+F 3 "" H 2450 1700 60  0001 C CNN
+	1    2450 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 2200 2650 2200
+Wire Wire Line
+	2450 1600 2850 1600
+Connection ~ 2650 1600
+Wire Wire Line
+	1950 1900 1950 2200
+Connection ~ 1950 2200
+Text Label 2950 2350 0    60   ~ 0
+Thermal_Plane
+Wire Wire Line
+	2950 2350 2950 1900
+Wire Wire Line
+	2950 1900 2900 1900
+Wire Wire Line
+	3250 1600 3250 1400
+Connection ~ 3250 1400
+Wire Wire Line
+	2850 1400 4150 1400
+Connection ~ 3750 1400
 $EndSCHEMATC

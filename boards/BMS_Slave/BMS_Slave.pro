@@ -1,4 +1,4 @@
-update=Mon 16 Oct 2017 09:21:20 PM EDT
+update=Sun 05 Nov 2017 12:20:24 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../OEM_Preferred_Parts/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
