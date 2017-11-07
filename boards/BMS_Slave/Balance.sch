@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BMS_Slave-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -37,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -65,7 +66,7 @@ AR Path="/59EEB679/59E55BD0" Ref="R47"  Part="1"
 AR Path="/59EEB708/59E55BD0" Ref="R51"  Part="1" 
 AR Path="/59EEB751/59E55BD0" Ref="R55"  Part="1" 
 AR Path="/59F343C3/59E55BD0" Ref="R59"  Part="1" 
-F 0 "R59" V 2030 1750 50  0000 C CNN
+F 0 "R39" V 2030 1750 50  0000 C CNN
 F 1 "R_475" V 1950 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" H 1880 1750 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2030 1750 50  0001 C CNN
@@ -90,7 +91,7 @@ AR Path="/59EEB679/59E55C0F" Ref="D8"  Part="1"
 AR Path="/59EEB708/59E55C0F" Ref="D9"  Part="1" 
 AR Path="/59EEB751/59E55C0F" Ref="D10"  Part="1" 
 AR Path="/59F343C3/59E55C0F" Ref="D11"  Part="1" 
-F 0 "D11" H 2300 1700 50  0000 C CNN
+F 0 "D6" H 2300 1700 50  0000 C CNN
 F 1 "LED_0805" H 2300 1500 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 2200 1600 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2300 1700 50  0001 C CNN
@@ -101,8 +102,6 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 2100 60 
 	1    2300 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 1600 2150 1600
 $Comp
 L NMOS_GSD_30V Q2
 U 1 1 59E55CA7
@@ -117,7 +116,7 @@ AR Path="/59EEB679/59E55CA7" Ref="Q8"  Part="1"
 AR Path="/59EEB708/59E55CA7" Ref="Q9"  Part="1" 
 AR Path="/59EEB751/59E55CA7" Ref="Q10"  Part="1" 
 AR Path="/59F343C3/59E55CA7" Ref="Q11"  Part="1" 
-F 0 "Q11" H 3250 1750 50  0000 L CNN
+F 0 "Q6" H 3250 1750 50  0000 L CNN
 F 1 "NMOS_GSD_30V" V 3250 1100 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 1800 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND" H 3250 1750 50  0001 C CNN
@@ -142,7 +141,7 @@ AR Path="/59EEB679/59E55D6B" Ref="R49"  Part="1"
 AR Path="/59EEB708/59E55D6B" Ref="R53"  Part="1" 
 AR Path="/59EEB751/59E55D6B" Ref="R57"  Part="1" 
 AR Path="/59F343C3/59E55D6B" Ref="R61"  Part="1" 
-F 0 "R61" V 2780 1400 50  0000 C CNN
+F 0 "R41" V 2780 1400 50  0000 C CNN
 F 1 "R_100" V 2700 1400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" H 2630 1400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 2780 1400 50  0001 C CNN
@@ -153,8 +152,6 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 3180 1
 	1    2700 1400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2550 1400 1650 1400
 Text HLabel 4150 1400 2    60   Input ~ 0
 CELL_SENSE
 $Comp
@@ -171,7 +168,7 @@ AR Path="/59EEB679/59E55EA7" Ref="C20"  Part="1"
 AR Path="/59EEB708/59E55EA7" Ref="C21"  Part="1" 
 AR Path="/59EEB751/59E55EA7" Ref="C22"  Part="1" 
 AR Path="/59F343C3/59E55EA7" Ref="C23"  Part="1" 
-F 0 "C23" H 3775 1650 50  0000 L CNN
+F 0 "C18" H 3775 1650 50  0000 L CNN
 F 1 "10nF" H 3775 1450 50  0000 L CNN
 F 2 "" H 3788 1400 50  0001 C CNN
 F 3 "" H 3750 1550 50  0001 C CNN
@@ -180,10 +177,6 @@ F 3 "" H 3750 1550 50  0001 C CNN
 $EndComp
 Text HLabel 4150 1750 2    60   Input ~ 0
 SENSE_BELOW
-Wire Wire Line
-	3750 1700 3750 1750
-Wire Wire Line
-	3750 1750 4150 1750
 $Comp
 L R R26
 U 1 1 59E55F5F
@@ -198,7 +191,7 @@ AR Path="/59EEB679/59E55F5F" Ref="R50"  Part="1"
 AR Path="/59EEB708/59E55F5F" Ref="R54"  Part="1" 
 AR Path="/59EEB751/59E55F5F" Ref="R58"  Part="1" 
 AR Path="/59F343C3/59E55F5F" Ref="R62"  Part="1" 
-F 0 "R62" V 3530 1900 50  0000 C CNN
+F 0 "R42" V 3530 1900 50  0000 C CNN
 F 1 "3.3k" V 3450 1900 50  0000 C CNN
 F 2 "" V 3380 1900 50  0001 C CNN
 F 3 "" H 3450 1900 50  0001 C CNN
@@ -207,41 +200,25 @@ F 3 "" H 3450 1900 50  0001 C CNN
 $EndComp
 Text HLabel 4150 1900 2    60   Input ~ 0
 CONTROL
+Text Label 2950 2350 0    60   ~ 0
+Thermal_Plane
+Wire Wire Line
+	1950 1600 2150 1600
+Wire Wire Line
+	2550 1400 1650 1400
+Wire Wire Line
+	3750 1700 3750 1750
+Wire Wire Line
+	3750 1750 4150 1750
 Wire Wire Line
 	4150 1900 3600 1900
 Wire Wire Line
 	3300 1900 3050 1900
-$Comp
-L DTO25 R24
-U 1 1 59FF43BB
-P 2450 1700
-AR Path="/59EE8FBB/59FF43BB" Ref="R24"  Part="1" 
-AR Path="/59EEA6DF/59FF43BB" Ref="R28"  Part="1" 
-AR Path="/59EEA728/59FF43BB" Ref="R32"  Part="1" 
-AR Path="/59EEB0B2/59FF43BB" Ref="R36"  Part="1" 
-AR Path="/59EEB0FB/59FF43BB" Ref="R40"  Part="1" 
-AR Path="/59EEB144/59FF43BB" Ref="R44"  Part="1" 
-AR Path="/59EEB679/59FF43BB" Ref="R48"  Part="1" 
-AR Path="/59EEB708/59FF43BB" Ref="R52"  Part="1" 
-AR Path="/59EEB751/59FF43BB" Ref="R56"  Part="1" 
-AR Path="/59F343C3/59FF43BB" Ref="R60"  Part="1" 
-F 0 "R60" H 2600 2000 60  0000 C CNN
-F 1 "DTO25" H 2700 1800 60  0000 C CNN
-F 2 "footprints:DTO25" H 2450 1700 60  0001 C CNN
-F 3 "" H 2450 1700 60  0001 C CNN
-	1    2450 1700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1600 2200 2650 2200
 Wire Wire Line
-	2450 1600 2850 1600
-Connection ~ 2650 1600
-Wire Wire Line
 	1950 1900 1950 2200
 Connection ~ 1950 2200
-Text Label 2950 2350 0    60   ~ 0
-Thermal_Plane
 Wire Wire Line
 	2950 2350 2950 1900
 Wire Wire Line
@@ -252,4 +229,28 @@ Connection ~ 3250 1400
 Wire Wire Line
 	2850 1400 4150 1400
 Connection ~ 3750 1400
+Wire Wire Line
+	2450 1600 2850 1600
+Connection ~ 2650 1600
+$Comp
+L DTO25 R32
+U 1 1 5A01B8BE
+P 2450 1700
+AR Path="/59EEA728/5A01B8BE" Ref="R32"  Part="1" 
+AR Path="/59EE8FBB/5A01B8BE" Ref="R24"  Part="1" 
+AR Path="/59EEA6DF/5A01B8BE" Ref="R28"  Part="1" 
+AR Path="/59EEB0B2/5A01B8BE" Ref="R36"  Part="1" 
+AR Path="/59EEB0FB/5A01B8BE" Ref="R40"  Part="1" 
+AR Path="/59EEB144/5A01B8BE" Ref="R44"  Part="1" 
+AR Path="/59EEB679/5A01B8BE" Ref="R48"  Part="1" 
+AR Path="/59EEB708/5A01B8BE" Ref="R52"  Part="1" 
+AR Path="/59EEB751/5A01B8BE" Ref="R56"  Part="1" 
+AR Path="/59F343C3/5A01B8BE" Ref="R60"  Part="1" 
+F 0 "R40" H 2600 2000 60  0000 C CNN
+F 1 "DTO25" H 2700 1800 60  0000 C CNN
+F 2 "footprints:DTO25" H 2450 1700 60  0001 C CNN
+F 3 "" H 2450 1700 60  0001 C CNN
+	1    2450 1700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
