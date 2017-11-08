@@ -1,4 +1,4 @@
-update=Tue 07 Nov 2017 09:30:23 PM EST
+update=Tue 07 Nov 2017 09:32:08 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../IMD_Latch;../../../OEM_Preferred_Parts/schematic
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,10 +59,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
-LibName35=/home/josh/Formula/OEM_Preferred_Parts/schematic/formula
-LibName36=IMD_Latch-cache
-LibName37=/home/josh/Formula/OEM_Preferred_Parts/OEM_Preferred_Parts/schematic/formula
 [general]
 version=1

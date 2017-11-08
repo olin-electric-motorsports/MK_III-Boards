@@ -50,350 +50,350 @@ $EndDescr
 $Comp
 L R_10k R5
 U 1 1 59E042A3
-P 2100 2250
-F 0 "R5" V 2180 2250 50  0000 C CNN
-F 1 "R_10k" V 2000 2250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2030 2250 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 2180 2250 50  0001 C CNN
-F 4 "CRS0805-FX-1002ELFCT-ND" H 2100 2250 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 2100 2250 60  0001 C CNN "MFN"
-F 6 "Value" H 2100 2250 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 2580 2650 60  0001 C CNN "PurchasingLink"
-	1    2100 2250
+P 3000 2850
+F 0 "R5" V 3080 2850 50  0000 C CNN
+F 1 "R_10k" V 2900 2850 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2930 2850 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3080 2850 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 3000 2850 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3000 2850 60  0001 C CNN "MFN"
+F 6 "Value" H 3000 2850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3480 3250 60  0001 C CNN "PurchasingLink"
+	1    3000 2850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R_10k R6
 U 1 1 59E042EA
-P 3150 2400
-F 0 "R6" V 3230 2400 50  0000 C CNN
-F 1 "R_10k" V 3050 2400 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3080 2400 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3230 2400 50  0001 C CNN
-F 4 "CRS0805-FX-1002ELFCT-ND" H 3150 2400 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3150 2400 60  0001 C CNN "MFN"
-F 6 "Value" H 3150 2400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3630 2800 60  0001 C CNN "PurchasingLink"
-	1    3150 2400
+P 4050 3000
+F 0 "R6" V 4130 3000 50  0000 C CNN
+F 1 "R_10k" V 3950 3000 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3980 3000 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4130 3000 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 4050 3000 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4050 3000 60  0001 C CNN "MFN"
+F 6 "Value" H 4050 3000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4530 3400 60  0001 C CNN "PurchasingLink"
+	1    4050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_1k R2
 U 1 1 59E0432B
-P 1600 2400
-F 0 "R2" V 1680 2400 50  0000 C CNN
-F 1 "R_1k" V 1500 2400 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1530 2400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1680 2400 50  0001 C CNN
-F 4 "Digi-Key" H 1600 2400 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 1600 2400 60  0001 C CNN "MPN"
-F 6 "Value" H 1600 2400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2080 2800 60  0001 C CNN "PurchasingLink"
-	1    1600 2400
+P 2500 3000
+F 0 "R2" V 2580 3000 50  0000 C CNN
+F 1 "R_1k" V 2400 3000 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2430 3000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 2580 3000 50  0001 C CNN
+F 4 "Digi-Key" H 2500 3000 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 2500 3000 60  0001 C CNN "MPN"
+F 6 "Value" H 2500 3000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2980 3400 60  0001 C CNN "PurchasingLink"
+	1    2500 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_55.1k R7
 U 1 1 59E0438C
-P 3350 2250
-F 0 "R7" V 3250 2250 50  0000 C CNN
-F 1 "R_55.1k" V 3450 2250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3280 2250 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 3430 2250 50  0001 C CNN
-F 4 "311-51.1KCRCT-ND" H 3350 2250 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3350 2250 60  0001 C CNN "MFN"
-F 6 "Value" H 3350 2250 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND" H 3830 2650 60  0001 C CNN "PurchasingLink"
-	1    3350 2250
+P 4250 2850
+F 0 "R7" V 4150 2850 50  0000 C CNN
+F 1 "R_55.1k" V 4350 2850 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4180 2850 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 4330 2850 50  0001 C CNN
+F 4 "311-51.1KCRCT-ND" H 4250 2850 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4250 2850 60  0001 C CNN "MFN"
+F 6 "Value" H 4250 2850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND" H 4730 3250 60  0001 C CNN "PurchasingLink"
+	1    4250 2850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R_200 R10
 U 1 1 59E04401
-P 4400 2200
-F 0 "R10" V 4300 2200 50  0000 C CNN
-F 1 "R_200" V 4500 2200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4330 2200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4480 2200 50  0001 C CNN
-F 4 "Digi-Key" H 4400 2200 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 4400 2200 60  0001 C CNN "MPN"
-F 6 "Value" H 4400 2200 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4880 2600 60  0001 C CNN "PurchasingLink"
-	1    4400 2200
+P 5300 2800
+F 0 "R10" V 5200 2800 50  0000 C CNN
+F 1 "R_200" V 5400 2800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5230 2800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5380 2800 50  0001 C CNN
+F 4 "Digi-Key" H 5300 2800 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 5300 2800 60  0001 C CNN "MPN"
+F 6 "Value" H 5300 2800 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5780 3200 60  0001 C CNN "PurchasingLink"
+	1    5300 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_0_Jumper R8
 U 1 1 59E0444E
-P 4050 2050
-F 0 "R8" V 4130 2050 50  0000 C CNN
-F 1 "R_0_Jumper" V 3950 2050 50  0000 C CNN
-F 2 "footprints:R_2512_OEM" H 3980 2050 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 4130 2050 50  0001 C CNN
-F 4 "A121322CT-ND" H 4050 2050 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 4050 2050 60  0001 C CNN "MFN"
-F 6 "Value" H 4050 2050 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 4530 2450 60  0001 C CNN "PurchasingLink"
-	1    4050 2050
+P 4950 2650
+F 0 "R8" V 5030 2650 50  0000 C CNN
+F 1 "R_0_Jumper" V 4850 2650 50  0000 C CNN
+F 2 "footprints:R_2512_OEM" H 4880 2650 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 5030 2650 50  0001 C CNN
+F 4 "A121322CT-ND" H 4950 2650 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4950 2650 60  0001 C CNN "MFN"
+F 6 "Value" H 4950 2650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 5430 3050 60  0001 C CNN "PurchasingLink"
+	1    4950 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L LED_0805 D1
 U 1 1 59E047E3
-P 1600 2700
-F 0 "D1" H 1600 2600 50  0000 C CNN
-F 1 "LED_0805" H 1600 2800 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 1500 2700 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1600 2800 50  0001 C CNN
-F 4 "475-1410-1-ND" H 1600 2700 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 1600 2700 60  0001 C CNN "MFN"
-F 6 "Value" H 1600 2700 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2000 3200 60  0001 C CNN "PurchasingLink"
-	1    1600 2700
+P 2500 3300
+F 0 "D1" H 2500 3200 50  0000 C CNN
+F 1 "LED_0805" H 2500 3400 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 2400 3300 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2500 3400 50  0001 C CNN
+F 4 "475-1410-1-ND" H 2500 3300 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2500 3300 60  0001 C CNN "MFN"
+F 6 "Value" H 2500 3300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2900 3800 60  0001 C CNN "PurchasingLink"
+	1    2500 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LED_0805 D2
 U 1 1 59E0483A
-P 4400 2500
-F 0 "D2" H 4400 2400 50  0000 C CNN
-F 1 "LED_0805" H 4400 2600 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 4300 2500 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4400 2600 50  0001 C CNN
-F 4 "475-1410-1-ND" H 4400 2500 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 4400 2500 60  0001 C CNN "MFN"
-F 6 "Value" H 4400 2500 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4800 3000 60  0001 C CNN "PurchasingLink"
-	1    4400 2500
+P 5300 3100
+F 0 "D2" H 5300 3000 50  0000 C CNN
+F 1 "LED_0805" H 5300 3200 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 5200 3100 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5300 3200 50  0001 C CNN
+F 4 "475-1410-1-ND" H 5300 3100 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5300 3100 60  0001 C CNN "MFN"
+F 6 "Value" H 5300 3100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5700 3600 60  0001 C CNN "PurchasingLink"
+	1    5300 3100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L L_4.7uH L1
 U 1 1 59E04875
-P 3700 2050
-F 0 "L1" V 3750 2000 50  0000 L CNN
-F 1 "L_4.7uH" V 3650 1900 50  0000 L CNN
-F 2 "footprints:4.7uH_Inductor_OEM" H 3630 1990 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf" H 3730 2090 50  0001 C CNN
-F 4 "445-6583-1-ND" H 3700 2050 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3700 2050 60  0001 C CNN "MFN"
-F 6 "Value" H 3700 2050 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893" H 4130 2490 60  0001 C CNN "PurchasingLink"
-	1    3700 2050
+P 4600 2650
+F 0 "L1" V 4650 2600 50  0000 L CNN
+F 1 "L_4.7uH" V 4550 2500 50  0000 L CNN
+F 2 "footprints:4.7uH_Inductor_OEM" H 4530 2590 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf" H 4630 2690 50  0001 C CNN
+F 4 "445-6583-1-ND" H 4600 2650 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4600 2650 60  0001 C CNN "MFN"
+F 6 "Value" H 4600 2650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893" H 5030 3090 60  0001 C CNN "PurchasingLink"
+	1    4600 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C_0.1uF C3
 U 1 1 59E048C8
-P 3300 1900
-F 0 "C3" H 3350 1800 50  0000 L CNN
-F 1 "C_0.1uF" H 3350 2000 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 3338 1750 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3325 2000 50  0001 C CNN
-F 4 "478-3352-1-ND" H 3300 1900 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3300 1900 60  0001 C CNN "MFN"
-F 6 "Value" H 3300 1900 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3725 2400 60  0001 C CNN "PurchasingLink"
-	1    3300 1900
+P 4200 2500
+F 0 "C3" H 4250 2400 50  0000 L CNN
+F 1 "C_0.1uF" H 4250 2600 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 4238 2350 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4225 2600 50  0001 C CNN
+F 4 "478-3352-1-ND" H 4200 2500 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4200 2500 60  0001 C CNN "MFN"
+F 6 "Value" H 4200 2500 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 4625 3000 60  0001 C CNN "PurchasingLink"
+	1    4200 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_22uF C2
 U 1 1 59E04907
-P 1850 2400
-F 0 "C2" H 1875 2500 50  0000 L CNN
-F 1 "C_22uF" H 1875 2300 50  0000 L CNN
-F 2 "footprints:C_1206_OEM" H 1888 2250 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf" H 1875 2500 50  0001 C CNN
-F 4 "1276-2725-1-ND" H 1850 2400 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 1850 2400 60  0001 C CNN "MFN"
-F 6 "Value" H 1850 2400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" H 2275 2900 60  0001 C CNN "PurchasingLink"
-	1    1850 2400
+P 2750 3000
+F 0 "C2" H 2775 3100 50  0000 L CNN
+F 1 "C_22uF" H 2775 2900 50  0000 L CNN
+F 2 "footprints:C_1206_OEM" H 2788 2850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf" H 2775 3100 50  0001 C CNN
+F 4 "1276-2725-1-ND" H 2750 3000 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2750 3000 60  0001 C CNN "MFN"
+F 6 "Value" H 2750 3000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" H 3175 3500 60  0001 C CNN "PurchasingLink"
+	1    2750 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_47uF C4
 U 1 1 59E0494E
-P 3900 2400
-F 0 "C4" H 3925 2500 50  0000 L CNN
-F 1 "C_47uF" H 3925 2300 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 3938 2250 50  0001 C CNN
-F 3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" H 3925 2500 50  0001 C CNN
-F 4 "587-4280-1-ND" H 3900 2400 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3900 2400 60  0001 C CNN "MFN"
-F 6 "Value" H 3900 2400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" H 4325 2900 60  0001 C CNN "PurchasingLink"
-	1    3900 2400
+P 4800 3000
+F 0 "C4" H 4825 3100 50  0000 L CNN
+F 1 "C_47uF" H 4825 2900 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 4838 2850 50  0001 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" H 4825 3100 50  0001 C CNN
+F 4 "587-4280-1-ND" H 4800 3000 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4800 3000 60  0001 C CNN "MFN"
+F 6 "Value" H 4800 3000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" H 5225 3500 60  0001 C CNN "PurchasingLink"
+	1    4800 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L TPS561201 U1
 U 1 1 59E04993
-P 2700 2150
-F 0 "U1" H 2500 1850 60  0000 C CNN
-F 1 "TPS561201" H 2700 2500 60  0000 C CNN
-F 2 "footprints:SOT-23-6_OEM" H 2400 2400 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" H 2500 2500 60  0001 C CNN
-F 4 "Digi-Key" H 2700 2150 60  0001 C CNN "MFN"
-F 5 "TPS561201" H 2700 2150 60  0001 C CNN "MPN"
-F 6 "Value" H 2700 2150 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 2900 2900 60  0001 C CNN "PurchasingLink"
-	1    2700 2150
+P 3600 2750
+F 0 "U1" H 3400 2450 60  0000 C CNN
+F 1 "TPS561201" H 3600 3100 60  0000 C CNN
+F 2 "footprints:SOT-23-6_OEM" H 3300 3000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" H 3400 3100 60  0001 C CNN
+F 4 "Digi-Key" H 3600 2750 60  0001 C CNN "MFN"
+F 5 "TPS561201" H 3600 2750 60  0001 C CNN "MPN"
+F 6 "Value" H 3600 2750 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 3800 3500 60  0001 C CNN "PurchasingLink"
+	1    3600 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L +12V #PWR01
 U 1 1 59E04C1A
-P 1600 1950
-F 0 "#PWR01" H 1600 1800 50  0001 C CNN
-F 1 "+12V" H 1600 2090 50  0000 C CNN
-F 2 "" H 1600 1950 50  0001 C CNN
-F 3 "" H 1600 1950 50  0001 C CNN
-	1    1600 1950
+P 2500 2550
+F 0 "#PWR01" H 2500 2400 50  0001 C CNN
+F 1 "+12V" H 2500 2690 50  0000 C CNN
+F 2 "" H 2500 2550 50  0001 C CNN
+F 3 "" H 2500 2550 50  0001 C CNN
+	1    2500 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
 U 1 1 59E0588D
-P 1600 2850
-F 0 "#PWR02" H 1600 2600 50  0001 C CNN
-F 1 "GND" H 1600 2700 50  0000 C CNN
-F 2 "" H 1600 2850 50  0001 C CNN
-F 3 "" H 1600 2850 50  0001 C CNN
-	1    1600 2850
+P 2500 3450
+F 0 "#PWR02" H 2500 3200 50  0001 C CNN
+F 1 "GND" H 2500 3300 50  0000 C CNN
+F 2 "" H 2500 3450 50  0001 C CNN
+F 3 "" H 2500 3450 50  0001 C CNN
+	1    2500 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR03
 U 1 1 59E05C13
-P 1850 2550
-F 0 "#PWR03" H 1850 2300 50  0001 C CNN
-F 1 "GND" H 1850 2400 50  0000 C CNN
-F 2 "" H 1850 2550 50  0001 C CNN
-F 3 "" H 1850 2550 50  0001 C CNN
-	1    1850 2550
+P 2750 3150
+F 0 "#PWR03" H 2750 2900 50  0001 C CNN
+F 1 "GND" H 2750 3000 50  0000 C CNN
+F 2 "" H 2750 3150 50  0001 C CNN
+F 3 "" H 2750 3150 50  0001 C CNN
+	1    2750 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 59E05C45
-P 2700 2600
-F 0 "#PWR04" H 2700 2350 50  0001 C CNN
-F 1 "GND" H 2700 2450 50  0000 C CNN
-F 2 "" H 2700 2600 50  0001 C CNN
-F 3 "" H 2700 2600 50  0001 C CNN
-	1    2700 2600
+P 3600 3200
+F 0 "#PWR04" H 3600 2950 50  0001 C CNN
+F 1 "GND" H 3600 3050 50  0000 C CNN
+F 2 "" H 3600 3200 50  0001 C CNN
+F 3 "" H 3600 3200 50  0001 C CNN
+	1    3600 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 59E06A11
-P 3150 2550
-F 0 "#PWR05" H 3150 2300 50  0001 C CNN
-F 1 "GND" H 3150 2400 50  0000 C CNN
-F 2 "" H 3150 2550 50  0001 C CNN
-F 3 "" H 3150 2550 50  0001 C CNN
-	1    3150 2550
+P 4050 3150
+F 0 "#PWR05" H 4050 2900 50  0001 C CNN
+F 1 "GND" H 4050 3000 50  0000 C CNN
+F 2 "" H 4050 3150 50  0001 C CNN
+F 3 "" H 4050 3150 50  0001 C CNN
+	1    4050 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 59E095D1
-P 3900 2550
-F 0 "#PWR06" H 3900 2300 50  0001 C CNN
-F 1 "GND" H 3900 2400 50  0000 C CNN
-F 2 "" H 3900 2550 50  0001 C CNN
-F 3 "" H 3900 2550 50  0001 C CNN
-	1    3900 2550
+P 4800 3150
+F 0 "#PWR06" H 4800 2900 50  0001 C CNN
+F 1 "GND" H 4800 3000 50  0000 C CNN
+F 2 "" H 4800 3150 50  0001 C CNN
+F 3 "" H 4800 3150 50  0001 C CNN
+	1    4800 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
 U 1 1 59E09603
-P 4400 2650
-F 0 "#PWR07" H 4400 2400 50  0001 C CNN
-F 1 "GND" H 4400 2500 50  0000 C CNN
-F 2 "" H 4400 2650 50  0001 C CNN
-F 3 "" H 4400 2650 50  0001 C CNN
-	1    4400 2650
+P 5300 3250
+F 0 "#PWR07" H 5300 3000 50  0001 C CNN
+F 1 "GND" H 5300 3100 50  0000 C CNN
+F 2 "" H 5300 3250 50  0001 C CNN
+F 3 "" H 5300 3250 50  0001 C CNN
+	1    5300 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG08
 U 1 1 59E0A741
-P 2650 3150
-F 0 "#FLG08" H 2650 3225 50  0001 C CNN
-F 1 "PWR_FLAG" H 2650 3300 50  0000 C CNN
-F 2 "" H 2650 3150 50  0001 C CNN
-F 3 "" H 2650 3150 50  0001 C CNN
-	1    2650 3150
+P 3550 3750
+F 0 "#FLG08" H 3550 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3550 3900 50  0000 C CNN
+F 2 "" H 3550 3750 50  0001 C CNN
+F 3 "" H 3550 3750 50  0001 C CNN
+	1    3550 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG09
 U 1 1 59E0A773
-P 3050 3150
-F 0 "#FLG09" H 3050 3225 50  0001 C CNN
-F 1 "PWR_FLAG" H 3050 3300 50  0000 C CNN
-F 2 "" H 3050 3150 50  0001 C CNN
-F 3 "" H 3050 3150 50  0001 C CNN
-	1    3050 3150
+P 3950 3750
+F 0 "#FLG09" H 3950 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 3900 50  0000 C CNN
+F 2 "" H 3950 3750 50  0001 C CNN
+F 3 "" H 3950 3750 50  0001 C CNN
+	1    3950 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG010
 U 1 1 59E0A7A5
-P 3450 3150
-F 0 "#FLG010" H 3450 3225 50  0001 C CNN
-F 1 "PWR_FLAG" H 3450 3300 50  0000 C CNN
-F 2 "" H 3450 3150 50  0001 C CNN
-F 3 "" H 3450 3150 50  0001 C CNN
-	1    3450 3150
+P 4350 3750
+F 0 "#FLG010" H 4350 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 4350 3900 50  0000 C CNN
+F 2 "" H 4350 3750 50  0001 C CNN
+F 3 "" H 4350 3750 50  0001 C CNN
+	1    4350 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L +12V #PWR011
 U 1 1 59E0A7D7
-P 2650 3150
-F 0 "#PWR011" H 2650 3000 50  0001 C CNN
-F 1 "+12V" H 2650 3290 50  0000 C CNN
-F 2 "" H 2650 3150 50  0001 C CNN
-F 3 "" H 2650 3150 50  0001 C CNN
-	1    2650 3150
+P 3550 3750
+F 0 "#PWR011" H 3550 3600 50  0001 C CNN
+F 1 "+12V" H 3550 3890 50  0000 C CNN
+F 2 "" H 3550 3750 50  0001 C CNN
+F 3 "" H 3550 3750 50  0001 C CNN
+	1    3550 3750
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR012
 U 1 1 59E0A859
-P 3450 3150
-F 0 "#PWR012" H 3450 2900 50  0001 C CNN
-F 1 "GND" H 3450 3000 50  0000 C CNN
-F 2 "" H 3450 3150 50  0001 C CNN
-F 3 "" H 3450 3150 50  0001 C CNN
-	1    3450 3150
+P 4350 3750
+F 0 "#PWR012" H 4350 3500 50  0001 C CNN
+F 1 "GND" H 4350 3600 50  0000 C CNN
+F 2 "" H 4350 3750 50  0001 C CNN
+F 3 "" H 4350 3750 50  0001 C CNN
+	1    4350 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR013
 U 1 1 59E09A8F
-P 3050 3150
-F 0 "#PWR013" H 3050 3000 50  0001 C CNN
-F 1 "VCC" H 3050 3300 50  0000 C CNN
-F 2 "" H 3050 3150 50  0001 C CNN
-F 3 "" H 3050 3150 50  0001 C CNN
-	1    3050 3150
+P 3950 3750
+F 0 "#PWR013" H 3950 3600 50  0001 C CNN
+F 1 "VCC" H 3950 3900 50  0000 C CNN
+F 2 "" H 3950 3750 50  0001 C CNN
+F 3 "" H 3950 3750 50  0001 C CNN
+	1    3950 3750
 	-1   0    0    1   
 $EndComp
 $Comp
 L VCC #PWR014
 U 1 1 59E09CE5
-P 4400 1950
-F 0 "#PWR014" H 4400 1800 50  0001 C CNN
-F 1 "VCC" H 4400 2100 50  0000 C CNN
-F 2 "" H 4400 1950 50  0001 C CNN
-F 3 "" H 4400 1950 50  0001 C CNN
-	1    4400 1950
+P 5300 2550
+F 0 "#PWR014" H 5300 2400 50  0001 C CNN
+F 1 "VCC" H 5300 2700 50  0000 C CNN
+F 2 "" H 5300 2550 50  0001 C CNN
+F 3 "" H 5300 2550 50  0001 C CNN
+	1    5300 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -521,30 +521,30 @@ F 3 "" H 6000 1950 50  0001 C CNN
 	1    6000 1950
 	1    0    0    -1  
 $EndComp
-Text Label 1600 2250 0    43   ~ 0
+Text Label 2500 2850 0    43   ~ 0
 12V_Fused
 Wire Wire Line
-	3150 2050 3600 2050
+	4050 2650 4500 2650
 Wire Wire Line
-	3150 1950 3150 1750
+	4050 2550 4050 2350
 Wire Wire Line
-	3150 1750 3300 1750
-Connection ~ 3300 2050
+	4050 2350 4200 2350
+Connection ~ 4200 2650
 Wire Wire Line
-	3800 2050 3900 2050
+	4700 2650 4800 2650
 Wire Wire Line
-	3900 2050 3900 2250
+	4800 2650 4800 2850
 Wire Wire Line
-	3150 2250 3200 2250
+	4050 2850 4100 2850
 Wire Wire Line
-	3900 2250 3500 2250
+	4800 2850 4400 2850
 Wire Wire Line
-	4200 2050 4400 2050
+	5100 2650 5300 2650
 Wire Wire Line
-	4400 2050 4400 1950
+	5300 2650 5300 2550
 Wire Wire Line
-	1600 2250 1950 2250
-Connection ~ 1850 2250
+	2500 2850 2850 2850
+Connection ~ 2750 2850
 Wire Wire Line
 	7050 2350 7200 2350
 Wire Wire Line
@@ -556,14 +556,9 @@ Wire Wire Line
 Wire Wire Line
 	7200 3150 7200 3300
 Wire Wire Line
-	6500 2950 6900 2950
+	5750 2950 6900 2950
 Wire Wire Line
 	7800 1750 7800 2350
-Wire Wire Line
-	7050 3750 6800 3750
-Wire Wire Line
-	6800 3750 6800 2950
-Connection ~ 6800 2950
 Wire Wire Line
 	7800 2550 7800 4050
 Wire Wire Line
@@ -612,8 +607,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 4250 7400 3950
 Connection ~ 6600 2950
-Wire Wire Line
-	5750 2950 6200 2950
 Text Notes 8750 4650 2    60   ~ 0
 Shutdown In
 Text Notes 8750 4050 2    60   ~ 0
@@ -702,9 +695,6 @@ Wire Wire Line
 	6150 2950 6150 3150
 Wire Wire Line
 	6150 3450 6150 3500
-Wire Wire Line
-	7800 3750 7350 3750
-Connection ~ 7800 3750
 $Comp
 L GND #PWR029
 U 1 1 59F3FCD3
@@ -967,48 +957,48 @@ $EndComp
 $Comp
 L D_Zener_18V D3
 U 1 1 59F51C8D
-P 1200 2100
-F 0 "D3" H 1200 2200 50  0000 C CNN
-F 1 "D_Zener_18V" H 1200 2000 50  0000 C CNN
-F 2 "footprints:DO-214AA" H 1100 2100 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 1200 2200 50  0001 C CNN
-F 4 "SMBJ5355B-TPMSCT-ND" H 1300 2300 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 1400 2400 60  0001 C CNN "MFN"
-F 6 "DO-214AA (SMB)" H 1500 2500 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 1600 2600 60  0001 C CNN "PurchasingLink"
-	1    1200 2100
+P 2100 2700
+F 0 "D3" H 2100 2800 50  0000 C CNN
+F 1 "D_Zener_18V" H 2100 2600 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 2000 2700 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 2100 2800 50  0001 C CNN
+F 4 "SMBJ5355B-TPMSCT-ND" H 2200 2900 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2300 3000 60  0001 C CNN "MFN"
+F 6 "DO-214AA (SMB)" H 2400 3100 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 2500 3200 60  0001 C CNN "PurchasingLink"
+	1    2100 2700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 1950 1200 1950
+	2500 2550 2100 2550
 $Comp
 L GND #PWR032
 U 1 1 59F523BA
-P 1200 2250
-F 0 "#PWR032" H 1200 2000 50  0001 C CNN
-F 1 "GND" H 1200 2100 50  0000 C CNN
-F 2 "" H 1200 2250 50  0001 C CNN
-F 3 "" H 1200 2250 50  0001 C CNN
-	1    1200 2250
+P 2100 2850
+F 0 "#PWR032" H 2100 2600 50  0001 C CNN
+F 1 "GND" H 2100 2700 50  0000 C CNN
+F 2 "" H 2100 2850 50  0001 C CNN
+F 3 "" H 2100 2850 50  0001 C CNN
+	1    2100 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 1950 1850 1950
+	3150 2550 2750 2550
 Wire Wire Line
-	1850 1950 1850 2250
+	2750 2550 2750 2850
 $Comp
 L F_500mA_16V F1
 U 1 1 59F570F5
-P 1600 2100
-F 0 "F1" V 1680 2100 50  0000 C CNN
-F 1 "F_500mA_16V" V 1525 2100 50  0000 C CNN
-F 2 "footprints:Fuse_1210" V 1530 2100 50  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 1680 2100 50  0001 C CNN
-F 4 "Digi-Key" H 1600 2100 60  0001 C CNN "MFN"
-F 5 "507-1786-1-ND" H 1600 2100 60  0001 C CNN "MPN"
-F 6 "Value" H 1600 2100 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 2080 2500 60  0001 C CNN "PurchasingLink"
-	1    1600 2100
+P 2500 2700
+F 0 "F1" V 2580 2700 50  0000 C CNN
+F 1 "F_500mA_16V" V 2425 2700 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 2430 2700 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 2580 2700 50  0001 C CNN
+F 4 "Digi-Key" H 2500 2700 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 2500 2700 60  0001 C CNN "MPN"
+F 6 "Value" H 2500 2700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 2980 3100 60  0001 C CNN "PurchasingLink"
+	1    2500 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1023,34 +1013,6 @@ F 4 "TLP175A(TPLECT-ND" H 7400 2745 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 7500 2845 60  0001 C CNN "MFN"
 F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TLP175A-TPLE/TLP175A-TPLECT-ND/4562904" H 7600 2945 60  0001 C CNN "PurchasingLink"
 	1    7500 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_Schottky_SOD123 D4
-U 1 1 59F8AACE
-P 6350 2950
-F 0 "D4" H 6350 3050 50  0000 C CNN
-F 1 "D_Schottky_SOD123" H 6350 2850 50  0000 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 6250 2950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 6350 3050 50  0001 C CNN
-F 4 "1727-2394-1-ND" H 6450 3150 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 6550 3250 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 6650 3350 60  0001 C CNN "PurchasingLink"
-	1    6350 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L D_Schottky_SOD123 D5
-U 1 1 59F8ADAC
-P 7200 3750
-F 0 "D5" H 7200 3850 50  0000 C CNN
-F 1 "D_Schottky_SOD123" H 7200 3650 50  0000 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 7100 3750 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7200 3850 50  0001 C CNN
-F 4 "1727-2394-1-ND" H 7300 3950 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7400 4050 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7500 4150 60  0001 C CNN "PurchasingLink"
-	1    7200 3750
 	1    0    0    -1  
 $EndComp
 $Comp
