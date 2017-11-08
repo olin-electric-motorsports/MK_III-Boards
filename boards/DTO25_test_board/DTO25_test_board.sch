@@ -48,10 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DTO25 R?
+L DTO25 R2
 U 1 1 5A01A039
 P 3300 2750
-F 0 "R?" H 3450 3050 60  0000 C CNN
+F 0 "R2" H 3450 3050 60  0000 C CNN
 F 1 "DTO25" H 3550 2850 60  0000 C CNN
 F 2 "footprints:DTO25" H 3300 2750 60  0001 C CNN
 F 3 "" H 3300 2750 60  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "" H 3300 2750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DTO25 R?
+L DTO25 R1
 U 1 1 5A01A083
 P 3300 2000
-F 0 "R?" H 3450 2300 60  0000 C CNN
+F 0 "R1" H 3450 2300 60  0000 C CNN
 F 1 "DTO25" H 3550 2100 60  0000 C CNN
 F 2 "footprints:DTO25" H 3300 2000 60  0001 C CNN
 F 3 "" H 3300 2000 60  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 3300 2000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DTO25 R?
+L DTO25 R3
 U 1 1 5A01A0B5
 P 3300 3600
-F 0 "R?" H 3450 3900 60  0000 C CNN
+F 0 "R3" H 3450 3900 60  0000 C CNN
 F 1 "DTO25" H 3550 3700 60  0000 C CNN
 F 2 "footprints:DTO25" H 3300 3600 60  0001 C CNN
 F 3 "" H 3300 3600 60  0001 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 3300 3600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DTO25 R?
+L DTO25 R5
 U 1 1 5A01A0FE
 P 4100 3600
-F 0 "R?" H 4250 3900 60  0000 C CNN
+F 0 "R5" H 4250 3900 60  0000 C CNN
 F 1 "DTO25" H 4350 3700 60  0000 C CNN
 F 2 "footprints:DTO25" H 4100 3600 60  0001 C CNN
 F 3 "" H 4100 3600 60  0001 C CNN
@@ -92,10 +92,10 @@ F 3 "" H 4100 3600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DTO25 R?
+L DTO25 R4
 U 1 1 5A01A130
 P 4100 2750
-F 0 "R?" H 4250 3050 60  0000 C CNN
+F 0 "R4" H 4250 3050 60  0000 C CNN
 F 1 "DTO25" H 4350 2850 60  0000 C CNN
 F 2 "footprints:DTO25" H 4100 2750 60  0001 C CNN
 F 3 "" H 4100 2750 60  0001 C CNN
@@ -103,45 +103,15 @@ F 3 "" H 4100 2750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MicroFit_11 J?
+L MicroFit_11 J1
 U 1 1 5A01A1BD
 P 1700 2200
-F 0 "J?" H 1750 2050 60  0000 C CNN
+F 0 "J1" H 1750 2050 60  0000 C CNN
 F 1 "MicroFit_11" H 1950 850 60  0000 C CNN
 F 2 "footprints:Molex_MicroFit_3.0-11x3.00mm_Angled" H 1700 2200 60  0001 C CNN
 F 3 "" H 1700 2200 60  0001 C CNN
 	1    1700 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Ultrafit_5 J?
-U 1 1 5A01A35F
-P 6200 2700
-F 0 "J?" H 6200 3000 60  0000 C CNN
-F 1 "Ultrafit_5" H 6200 2350 60  0000 C CNN
-F 2 "footprints:Ultrafit_4" H 6100 2950 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 6200 3050 60  0001 C CNN
-F 4 "Digi-Key" H 6200 2700 60  0001 C CNN "MFN"
-F 5 "Value" H 6200 2700 60  0001 C CNN "Package"
-F 6 "WM11667-ND" H 6200 2700 60  0001 C CNN "MPN"
-F 7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" H 6700 3550 60  0001 C CNN "PurchasingLink"
-	1    6200 2700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Ultrafit_5 J?
-U 1 1 5A01A3BF
-P 6200 3500
-F 0 "J?" H 6200 3800 60  0000 C CNN
-F 1 "Ultrafit_5" H 6200 3150 60  0000 C CNN
-F 2 "footprints:Ultrafit_4" H 6100 3750 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 6200 3850 60  0001 C CNN
-F 4 "Digi-Key" H 6200 3500 60  0001 C CNN "MFN"
-F 5 "Value" H 6200 3500 60  0001 C CNN "Package"
-F 6 "WM11667-ND" H 6200 3500 60  0001 C CNN "MPN"
-F 7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" H 6700 4350 60  0001 C CNN "PurchasingLink"
-	1    6200 3500
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2100 2450 2100 1900
@@ -266,4 +236,61 @@ Thermal_Plane
 Text Label 4550 3800 3    60   ~ 0
 Thermal_Plane
 NoConn ~ 2100 3450
+$Comp
+L Ultrafit_4 J2
+U 1 1 5A02FDEF
+P 6200 2600
+F 0 "J2" H 6200 2900 60  0000 C CNN
+F 1 "Ultrafit_4" H 6200 2400 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 6100 2850 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 6200 2950 60  0001 C CNN
+F 4 "Digi-Key" H 6200 2600 60  0001 C CNN "MFN"
+F 5 "Value" H 6200 2600 60  0001 C CNN "Package"
+F 6 "WM11574-ND" H 6200 2600 60  0001 C CNN "MPN"
+F 7 "WM11564-ND" H 6600 3350 60  0001 C CNN "MPN2"
+F 8 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 6700 3450 60  0001 C CNN "PurchasingLink"
+F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" H 6800 3550 60  0001 C CNN "PurchasingLink2"
+	1    6200 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Ultrafit_4 J4
+U 1 1 5A02FE73
+P 6200 3500
+F 0 "J4" H 6200 3800 60  0000 C CNN
+F 1 "Ultrafit_4" H 6200 3300 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 6100 3750 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 6200 3850 60  0001 C CNN
+F 4 "Digi-Key" H 6200 3500 60  0001 C CNN "MFN"
+F 5 "Value" H 6200 3500 60  0001 C CNN "Package"
+F 6 "WM11574-ND" H 6200 3500 60  0001 C CNN "MPN"
+F 7 "WM11564-ND" H 6600 4250 60  0001 C CNN "MPN2"
+F 8 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 6700 4350 60  0001 C CNN "PurchasingLink"
+F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" H 6800 4450 60  0001 C CNN "PurchasingLink2"
+	1    6200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Ultrafit_2 J3
+U 1 1 5A02FF03
+P 6200 3100
+F 0 "J3" H 6200 3250 60  0000 C CNN
+F 1 "Ultrafit_2" H 6300 2900 60  0000 C CNN
+F 2 "footprints:Ultrafit_2" H 6100 3150 60  0001 C CNN
+F 3 "" H 6200 3250 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 6300 3350 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 6400 3450 60  0001 C CNN "MFN"
+F 6 "WM11570-ND" H 6500 3550 60  0001 C CNN "MPN"
+F 7 "Value" H 6600 3650 60  0001 C CNN "Package"
+	1    6200 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 3050 5850 3050
+Wire Wire Line
+	5850 3050 5850 2900
+Wire Wire Line
+	5950 3150 5850 3150
+Wire Wire Line
+	5850 3150 5850 3300
 $EndSCHEMATC
