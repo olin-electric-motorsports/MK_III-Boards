@@ -1,4 +1,4 @@
-update=Wed 25 Oct 2017 02:47:04 PM EDT
+update=Wed 08 Nov 2017 07:52:10 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,14 +20,11 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=../../../OEM_Preferred_Parts/schematic;../../../OEM_Preferred_Parts/schematic
+LibDir=../../../OEM_Preferred_Parts/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,7 +58,7 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
-LibName35=/home/lanfenson/OEM_Preferred_Parts/schematic/formula
-LibName36=formula
+LibName33=/home/noah/formula/OEM_Preferred_Parts/schematic/formula
+[cvpcb]
+version=1
+NetIExt=net
