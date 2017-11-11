@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:formula
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,7 +32,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:formula
 LIBS:discharge_circuit-cache
 EELAYER 25 0
 EELAYER END
@@ -179,7 +179,7 @@ U 1 1 59FF47B0
 P 3150 4100
 F 0 "R2" V 3150 4100 50  0000 C CNN
 F 1 "R_10k_HV" V 3050 4150 50  0000 C CNN
-F 2 "footprints:R_1k_HS_TO247" H 3080 4100 50  0001 C CNN
+F 2 "footprints:R_10K_HV" H 3080 4100 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 3230 4100 50  0001 C CNN
 F 4 "PPC5D10.0KCT-ND " H 3150 4100 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 3150 4100 60  0001 C CNN "MFN"
@@ -194,7 +194,7 @@ U 1 1 59FF48D5
 P 3150 4300
 F 0 "R3" V 3150 4300 50  0000 C CNN
 F 1 "R_10k_HV" V 3050 4350 50  0000 C CNN
-F 2 "footprints:R_1k_HS_TO247" H 3080 4300 50  0001 C CNN
+F 2 "footprints:R_10K_HV" H 3080 4300 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 3230 4300 50  0001 C CNN
 F 4 "PPC5D10.0KCT-ND " H 3150 4300 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 3150 4300 60  0001 C CNN "MFN"
