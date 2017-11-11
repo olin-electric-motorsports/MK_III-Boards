@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Ultrafit_2-RESCUE-AIL_Precharge_Schematics
+#
+DEF Ultrafit_2-RESCUE-AIL_Precharge_Schematics J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "Ultrafit_2-RESCUE-AIL_Precharge_Schematics" 0 850 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "WM11570-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 950 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
