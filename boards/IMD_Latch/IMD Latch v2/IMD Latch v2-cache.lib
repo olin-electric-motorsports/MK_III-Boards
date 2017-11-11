@@ -1,0 +1,356 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# +12V
+#
+DEF +12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# CD4043BPWR
+#
+DEF CD4043BPWR U 0 40 Y Y 1 F N
+F0 "U" -250 400 60 H V C CNN
+F1 "CD4043BPWR" -50 -500 60 H V C CNN
+F2 "footprints:TSSOP-16-OEM" -150 450 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" -150 450 60 H I C CNN
+F4 "296-14106-1-ND" -150 500 60 H I C CNN "MPN"
+F5 "Digi-Key" -50 600 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904" 50 700 60 H I C CNN "PurchasingLink"
+DRAW
+S -300 350 250 -450 0 1 0 f
+X Q4 1 -500 300 200 R 50 50 1 1 O
+X Q1 2 -500 200 200 R 50 50 1 1 O
+X R1 3 -500 100 200 R 50 50 1 1 I
+X S1 4 -500 0 200 R 50 50 1 1 O
+X ENABLE 5 -500 -100 200 R 50 50 1 1 I
+X S2 6 -500 -200 200 R 50 50 1 1 I
+X R2 7 -500 -300 200 R 50 50 1 1 I
+X Vss 8 -500 -400 200 R 50 50 1 1 I
+X Q2 9 450 -400 200 L 50 50 1 1 O
+X Q3 10 450 -300 200 L 50 50 1 1 O
+X R3 11 450 -200 200 L 50 50 1 1 I
+X S3 12 450 -100 200 L 50 50 1 1 I
+X NC 13 450 0 200 L 50 50 1 1 N
+X S4 14 450 100 200 L 50 50 1 1 I
+X R4 15 450 200 200 L 50 50 1 1 I
+X Vdd 16 450 300 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C_10uF
+#
+DEF C_10uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_10uF" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://datasheets.avx.com/cx5r.pdf" 25 100 50 H I C CNN
+F4 "478-5167-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener_18V
+#
+DEF D_Zener_18V D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_18V" 0 -100 50 H V C CNN
+F2 "footprints:DO-214AA" -100 0 50 H I C CNN
+F3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" 0 100 50 H I C CNN
+F4 "SMBJ5355B-TPMSCT-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "DO-214AA (SMB)" 300 400 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -100 -50 N
+P 2 0 1 8 -50 50 0 50 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# F_500mA_16V
+#
+DEF F_500mA_16V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_500mA_16V" -75 0 50 V V C CNN
+F2 "footprints:Fuse_1210" -70 0 50 V I C CNN
+F3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" 80 0 50 V I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "507-1786-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# G5Q-1A4-DC5-5V
+#
+DEF G5Q-1A4-DC5-5V K 0 40 Y Y 1 F N
+F0 "K" 350 150 50 H V L CNN
+F1 "G5Q-1A4-DC5-5V" -400 -150 50 H V L CNN
+F2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" 450 -50 50 H I L CNN
+F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" 450 -350 50 H I L CNN
+F4 "Z3632-ND" 750 450 60 H I C CNN "MPN"
+F5 "Digi-Key" 850 550 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" 950 650 60 H I C CNN "PurchasingLink"
+$FPLIST
+ Relay?SPDT?OMRON?G5Q*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 100 150 100 200 N
+S -400 200 300 -200 0 1 10 f
+S -325 75 -75 -75 0 1 10 N
+P 2 0 1 10 -300 -75 -100 75 N
+P 2 0 1 0 -200 -200 -200 -75 N
+P 2 0 1 0 -200 200 -200 75 N
+P 2 0 1 10 -75 0 -50 0 N
+P 2 0 1 10 -25 0 0 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 75 0 100 0 N
+P 2 0 1 0 100 -100 100 -200 N
+P 2 0 1 20 100 -100 200 100 N
+P 2 0 1 10 125 0 150 0 N
+P 3 0 1 0 100 100 125 125 100 150 F
+X ~ 1 -200 -300 100 U 50 50 1 1 P
+X ~ 2 100 -300 100 U 50 50 1 1 P
+X ~ 3 100 300 100 D 50 50 1 1 P
+X ~ 5 -200 300 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LED_0805
+#
+DEF LED_0805 D 0 40 N N 1 F N
+F0 "D" 0 -100 50 H V C CNN
+F1 "LED_0805" 0 100 50 H V C CNN
+F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
+F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
+F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG
+#
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X pwr 1 0 0 0 U 50 50 0 0 w
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1M
+#
+DEF R_1M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1M" 0 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805JT1M00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1k
+#
+DEF R_1k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SSM3K333R
+#
+DEF SSM3K333R Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "SSM3K333R" 200 0 50 H V L CNN
+F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
+F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
+F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "PurchasingLink"
+F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
+F6 "Digi-Key" 500 375 60 H I C CNN "MFN"
+F7 "SOT-23-3 Flat Leads" 600 475 60 H I C CNN "Package"
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ultrafit_2
+#
+DEF Ultrafit_2 J 0 40 Y Y 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "Ultrafit_2" 100 -200 60 H V C CNN
+F2 "footprints:Ultrafit_2" -100 50 60 H I C CNN
+F3 "" 0 150 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 100 250 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 200 350 60 H I C CNN "MFN"
+F6 "WM11570-ND" 300 450 60 H I C CNN "MPN"
+F7 "Value" 400 550 60 H I C CNN "Package"
+DRAW
+S 150 -100 -150 100 0 1 0 f
+X 1 1 250 50 100 L 50 50 1 1 B
+X 2 2 250 -50 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_8
+#
+DEF micromatch_female_RA_8 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_8" -50 250 60 H V C CNN
+F2 "footprints:micromatch_female_ra_8" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-8/A99484CT-ND/1955786" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99484CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 350 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
