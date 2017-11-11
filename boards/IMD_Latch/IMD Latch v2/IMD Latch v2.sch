@@ -562,4 +562,32 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-
 	1    6000 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_2.2k R?
+U 1 1 5A077434
+P 4950 3850
+F 0 "R?" V 5030 3850 50  0000 C CNN
+F 1 "R_2.2k" V 4850 3850 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4880 3850 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5030 3850 50  0001 C CNN
+F 4 "RMCF0805FT2K20CT-ND" H 4950 3850 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4950 3850 60  0001 C CNN "MFN"
+F 6 "Value" H 4950 3850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 5430 4250 60  0001 C CNN "PurchasingLink"
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A077481
+P 4950 4000
+F 0 "#PWR?" H 4950 3750 50  0001 C CNN
+F 1 "GND" H 4950 3850 50  0000 C CNN
+F 2 "" H 4950 4000 50  0001 C CNN
+F 3 "" H 4950 4000 50  0001 C CNN
+	1    4950 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 3700 0    60   ~ 0
+IMD Output
 $EndSCHEMATC
