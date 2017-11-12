@@ -73,6 +73,32 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Schottky_SOD123
+#
+DEF D_Schottky_SOD123 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky_SOD123" 0 -100 50 H V C CNN
+F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" 0 100 50 H I C CNN
+F4 "1727-2394-1-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" 300 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # D_Zener_18V
 #
 DEF D_Zener_18V D 0 40 N N 1 F N
@@ -211,16 +237,20 @@ P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 ENDDRAW
 ENDDEF
 #
-# R
+# R_1.82M
 #
-DEF R R 0 0 N Y 1 F N
+DEF R_1.82M R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "R_1.82M" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT1M82CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
- R_*
+ Resistor_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -284,6 +314,28 @@ F4 "RMCF0805FT2K20CT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F6 "Value" 0 0 60 H I C CNN "Package"
 F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_604k
+#
+DEF R_604k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_604k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT604KCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
