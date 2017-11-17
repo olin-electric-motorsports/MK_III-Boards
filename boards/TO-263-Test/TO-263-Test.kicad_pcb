@@ -2,11 +2,11 @@
 
   (general
     (links 4)
-    (no_connects 0)
-    (area 119.304999 91.364999 162.635001 118.185001)
+    (no_connects 2)
+    (area 118.442381 90.01 162.635001 118.185001)
     (thickness 1.6)
     (drawings 10)
-    (tracks 6)
+    (tracks 8)
     (zones 0)
     (modules 3)
     (nets 3)
@@ -248,9 +248,11 @@
   (gr_arc (start 121.92 115.57) (end 121.92 118.11) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 121.92 93.98) (end 119.38 93.98) (angle 90) (layer Edge.Cuts) (width 0.15))
 
+  (segment (start 121.92 96.52) (end 124.46 96.52) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 124.46 96.52) (end 133.6635 96.52) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 133.6635 96.52) (end 138.3411 101.1976) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 138.3411 101.1976) (end 138.3411 102.4636) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 121.92 111.76) (end 124.46 111.76) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 124.46 111.76) (end 135.3907 111.76) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 135.3907 111.76) (end 138.3411 108.8096) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 138.3411 108.8096) (end 138.3411 107.5436) (width 0.25) (layer F.Cu) (net 2))

@@ -461,7 +461,7 @@ L Ultrafit_2 J1
 U 1 1 5A0D28FA
 P 3000 1700
 F 0 "J1" H 3000 1850 60  0000 C CNN
-F 1 "Ultrafit_2" H 3100 1500 60  0000 C CNN
+F 1 "Ultrafit_2" H 3000 1550 60  0000 C CNN
 F 2 "footprints:Ultrafit_2" H 2900 1750 60  0001 C CNN
 F 3 "" H 3000 1850 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 3100 1950 60  0001 C CNN "PurchasingLink"
@@ -623,4 +623,6 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6750 5400 60 
 	1    6350 4900
 	0    -1   -1   0   
 $EndComp
+Text Notes 7250 4900 0    60   ~ 0
+This is a N-type MOSFET
 $EndSCHEMATC
