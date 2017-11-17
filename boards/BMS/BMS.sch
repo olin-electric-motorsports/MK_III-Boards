@@ -913,234 +913,40 @@ $EndComp
 $Comp
 L GND #PWR034
 U 1 1 59E566B3
-P 5150 7350
-F 0 "#PWR034" H 5150 7100 50  0001 C CNN
-F 1 "GND" H 5150 7200 50  0000 C CNN
-F 2 "" H 5150 7350 50  0001 C CNN
-F 3 "" H 5150 7350 50  0001 C CNN
-	1    5150 7350
+P 5150 7400
+F 0 "#PWR034" H 5150 7150 50  0001 C CNN
+F 1 "GND" H 5150 7250 50  0000 C CNN
+F 2 "" H 5150 7400 50  0001 C CNN
+F 3 "" H 5150 7400 50  0001 C CNN
+	1    5150 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_0.1uF C9
 U 1 1 59E56895
-P 5300 7350
-F 0 "C9" H 5325 7450 50  0000 L CNN
-F 1 "C_0.1uF" H 5325 7250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5338 7200 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5325 7450 50  0001 C CNN
-F 4 "478-3352-1-ND" H 5300 7350 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5300 7350 60  0001 C CNN "MFN"
-F 6 "Value" H 5300 7350 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5725 7850 60  0001 C CNN "PurchasingLink"
-	1    5300 7350
+P 5400 7350
+F 0 "C9" H 5425 7450 50  0000 L CNN
+F 1 "C_0.1uF" H 5425 7250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5438 7200 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5425 7450 50  0001 C CNN
+F 4 "478-3352-1-ND" H 5400 7350 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5400 7350 60  0001 C CNN "MFN"
+F 6 "Value" H 5400 7350 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5825 7850 60  0001 C CNN "PurchasingLink"
+	1    5400 7350
 	0    1    1    0   
 $EndComp
 $Comp
 L VCC #PWR035
 U 1 1 59E569E6
-P 5450 7350
-F 0 "#PWR035" H 5450 7200 50  0001 C CNN
-F 1 "VCC" H 5450 7500 50  0000 C CNN
-F 2 "" H 5450 7350 50  0001 C CNN
-F 3 "" H 5450 7350 50  0001 C CNN
-	1    5450 7350
+P 5600 7350
+F 0 "#PWR035" H 5600 7200 50  0001 C CNN
+F 1 "VCC" H 5600 7500 50  0000 C CNN
+F 2 "" H 5600 7350 50  0001 C CNN
+F 3 "" H 5600 7350 50  0001 C CNN
+	1    5600 7350
 	1    0    0    -1  
 $EndComp
-$Comp
-L NMOS_GSD_30V Q3
-U 1 1 59E56D90
-P 8600 5950
-F 0 "Q3" H 8800 6000 50  0000 L CNN
-F 1 "NMOS_GSD_30V" H 8800 5900 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8800 6050 50  0001 C CNN
-F 3 "https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND" H 8800 6000 50  0001 C CNN
-F 4 "Digi-Key" H 8600 5950 60  0001 C CNN "MFN"
-F 5 "SSM3K333RLFCT-ND" H 8600 5950 60  0001 C CNN "MPN"
-F 6 "Value" H 8600 5950 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND" H 9200 6400 60  0001 C CNN "PurchasingLink"
-	1    8600 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR036
-U 1 1 59E570C5
-P 8700 6350
-F 0 "#PWR036" H 8700 6100 50  0001 C CNN
-F 1 "GND" H 8700 6200 50  0000 C CNN
-F 2 "" H 8700 6350 50  0001 C CNN
-F 3 "" H 8700 6350 50  0001 C CNN
-	1    8700 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_100k R14
-U 1 1 59E5711F
-P 8400 6100
-F 0 "R14" V 8480 6100 50  0000 C CNN
-F 1 "R_100k" V 8400 6100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 8330 6100 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 8480 6100 50  0001 C CNN
-F 4 "311-100KCRCT-ND" H 8400 6100 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8400 6100 60  0001 C CNN "MFN"
-F 6 "Value" H 8400 6100 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=311-100KCRCT-ND" H 8880 6500 60  0001 C CNN "PurchasingLink"
-	1    8400 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_10k R17
-U 1 1 59E57672
-P 8700 5400
-F 0 "R17" V 8780 5400 50  0000 C CNN
-F 1 "R_10k" V 8700 5400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 8630 5400 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 8780 5400 50  0001 C CNN
-F 4 "CRS0805-FX-1002ELFCT-ND" H 8700 5400 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8700 5400 60  0001 C CNN "MFN"
-F 6 "Value" H 8700 5400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 9180 5800 60  0001 C CNN "PurchasingLink"
-	1    8700 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR037
-U 1 1 59E577D0
-P 8700 5250
-F 0 "#PWR037" H 8700 5100 50  0001 C CNN
-F 1 "VCC" H 8700 5400 50  0000 C CNN
-F 2 "" H 8700 5250 50  0001 C CNN
-F 3 "" H 8700 5250 50  0001 C CNN
-	1    8700 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R12
-U 1 1 59E578C2
-P 8250 6350
-F 0 "R12" V 8330 6350 50  0000 C CNN
-F 1 "649" V 8250 6350 50  0000 C CNN
-F 2 "" V 8180 6350 50  0001 C CNN
-F 3 "" H 8250 6350 50  0001 C CNN
-	1    8250 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_0805 D5
-U 1 1 59E57AF0
-P 8000 6100
-F 0 "D5" H 8000 6200 50  0000 C CNN
-F 1 "LED_0805" H 8000 6000 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 7900 6100 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8000 6200 50  0001 C CNN
-F 4 "475-1410-1-ND" H 8000 6100 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8000 6100 60  0001 C CNN "MFN"
-F 6 "Value" H 8000 6100 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8400 6600 60  0001 C CNN "PurchasingLink"
-	1    8000 6100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L NMOS_GSD_30V Q2
-U 1 1 59E5865D
-P 8600 4250
-F 0 "Q2" H 8800 4300 50  0000 L CNN
-F 1 "NMOS_GSD_30V" H 8800 4200 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8800 4350 50  0001 C CNN
-F 3 "https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND" H 8800 4300 50  0001 C CNN
-F 4 "Digi-Key" H 8600 4250 60  0001 C CNN "MFN"
-F 5 "SSM3K333RLFCT-ND" H 8600 4250 60  0001 C CNN "MPN"
-F 6 "Value" H 8600 4250 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND" H 9200 4700 60  0001 C CNN "PurchasingLink"
-	1    8600 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR038
-U 1 1 59E58663
-P 8700 4650
-F 0 "#PWR038" H 8700 4400 50  0001 C CNN
-F 1 "GND" H 8700 4500 50  0000 C CNN
-F 2 "" H 8700 4650 50  0001 C CNN
-F 3 "" H 8700 4650 50  0001 C CNN
-	1    8700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_100k R13
-U 1 1 59E5866D
-P 8400 4400
-F 0 "R13" V 8480 4400 50  0000 C CNN
-F 1 "R_100k" V 8400 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 8330 4400 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 8480 4400 50  0001 C CNN
-F 4 "311-100KCRCT-ND" H 8400 4400 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8400 4400 60  0001 C CNN "MFN"
-F 6 "Value" H 8400 4400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=311-100KCRCT-ND" H 8880 4800 60  0001 C CNN "PurchasingLink"
-	1    8400 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_10k R16
-U 1 1 59E5867A
-P 8700 3700
-F 0 "R16" V 8780 3700 50  0000 C CNN
-F 1 "R_10k" V 8700 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 8630 3700 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 8780 3700 50  0001 C CNN
-F 4 "CRS0805-FX-1002ELFCT-ND" H 8700 3700 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8700 3700 60  0001 C CNN "MFN"
-F 6 "Value" H 8700 3700 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 9180 4100 60  0001 C CNN "PurchasingLink"
-	1    8700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR039
-U 1 1 59E58680
-P 8700 3550
-F 0 "#PWR039" H 8700 3400 50  0001 C CNN
-F 1 "VCC" H 8700 3700 50  0000 C CNN
-F 2 "" H 8700 3550 50  0001 C CNN
-F 3 "" H 8700 3550 50  0001 C CNN
-	1    8700 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R11
-U 1 1 59E58687
-P 8250 4650
-F 0 "R11" V 8330 4650 50  0000 C CNN
-F 1 "649" V 8250 4650 50  0000 C CNN
-F 2 "" V 8180 4650 50  0001 C CNN
-F 3 "" H 8250 4650 50  0001 C CNN
-	1    8250 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L LED_0805 D4
-U 1 1 59E58691
-P 8000 4400
-F 0 "D4" H 8000 4500 50  0000 C CNN
-F 1 "LED_0805" H 8000 4300 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 7900 4400 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8000 4500 50  0001 C CNN
-F 4 "475-1410-1-ND" H 8000 4400 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8000 4400 60  0001 C CNN "MFN"
-F 6 "Value" H 8000 4400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8400 4900 60  0001 C CNN "PurchasingLink"
-	1    8000 4400
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8000 5950 1    60   Input ~ 0
-Shutdown_S
-Text GLabel 8000 4250 1    60   Input ~ 0
-Shutdown_T
-Text GLabel 8700 3950 2    60   Input ~ 0
-Sense_Shutdown_T
-Text GLabel 8700 5700 2    60   Input ~ 0
-Sense_Shutdown_S
 $Comp
 L LED_0805 D6
 U 1 1 59E59122
@@ -1232,10 +1038,10 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9080 23
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L GND #PWR036
 U 1 1 59E59758
 P 9000 2050
-F 0 "#PWR040" H 9000 1800 50  0001 C CNN
+F 0 "#PWR036" H 9000 1800 50  0001 C CNN
 F 1 "GND" H 9000 1900 50  0000 C CNN
 F 2 "" H 9000 2050 50  0001 C CNN
 F 3 "" H 9000 2050 50  0001 C CNN
@@ -1290,10 +1096,6 @@ Text GLabel 4050 3850 2    60   Input ~ 0
 LED1
 Text GLabel 4050 3950 2    60   Input ~ 0
 LED2
-Text GLabel 4050 5050 2    60   Input ~ 0
-Sense_Shutdown_S
-Text GLabel 4050 4950 2    60   Input ~ 0
-Sense_Shutdown_T
 $Comp
 L Mounting_Hole_4-40 J5
 U 1 1 59E55DB0
@@ -1363,10 +1165,6 @@ F 3 "" H 7450 4600 50  0001 C CNN
 	1    6350 4900
 	-1   0    0    1   
 $EndComp
-Text GLabel 5950 4550 2    60   Input ~ 0
-Shutdown_T
-Text GLabel 5700 5400 3    60   Input ~ 0
-Shutdown_S
 $Comp
 L D_Schottky_SOD123 D3
 U 1 1 59E96256
@@ -1393,10 +1191,10 @@ F 3 "" H 6500 5850 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR037
 U 1 1 59E96FA5
 P 6400 6050
-F 0 "#PWR041" H 6400 5800 50  0001 C CNN
+F 0 "#PWR037" H 6400 5800 50  0001 C CNN
 F 1 "GND" H 6400 5900 50  0000 C CNN
 F 2 "" H 6400 6050 50  0001 C CNN
 F 3 "" H 6400 6050 50  0001 C CNN
@@ -1405,8 +1203,47 @@ F 3 "" H 6400 6050 50  0001 C CNN
 $EndComp
 Text GLabel 7050 5850 2    60   Input ~ 0
 Shutdown_Control
-Wire Wire Line
-	1450 850  1450 1150
+Text GLabel 1000 3750 2    60   Input ~ 0
+CANH
+NoConn ~ 5150 7150
+NoConn ~ 4050 4450
+NoConn ~ 4050 4350
+NoConn ~ 4050 4150
+NoConn ~ 4050 4050
+NoConn ~ 1850 3250
+Text Label 7000 4800 0    60   ~ 0
+12V_Fused
+Text Label 1050 1150 1    60   ~ 0
+12V_Fused
+NoConn ~ 4050 4850
+Text GLabel 4250 7350 0    60   Input ~ 0
+Acc_Fan_PWM
+$Comp
+L D_Zener_18V D4
+U 1 1 59F839F9
+P 550 1350
+F 0 "D4" H 550 1450 50  0000 C CNN
+F 1 "D_Zener_18V" H 550 1250 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 450 1350 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 550 1450 50  0001 C CNN
+F 4 "SMBJ5355B-TPMSCT-ND" H 650 1550 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 750 1650 60  0001 C CNN "MFN"
+F 6 "DO-214AA (SMB)" H 850 1750 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 950 1850 60  0001 C CNN "PurchasingLink"
+	1    550  1350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 59F83B8F
+P 550 1500
+F 0 "#PWR038" H 550 1250 50  0001 C CNN
+F 1 "GND" H 550 1350 50  0000 C CNN
+F 2 "" H 550 1500 50  0001 C CNN
+F 3 "" H 550 1500 50  0001 C CNN
+	1    550  1500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2350 950  2800 950 
 Wire Wire Line
@@ -1452,7 +1289,7 @@ Wire Wire Line
 	1450 2550 1850 2550
 Connection ~ 1650 2550
 Wire Wire Line
-	800  1150 1150 1150
+	550  1150 1150 1150
 Connection ~ 1050 1150
 Wire Wire Line
 	4050 5250 4500 5250
@@ -1463,34 +1300,6 @@ Wire Wire Line
 	5450 4150 6000 4150
 Wire Wire Line
 	6000 4050 5450 4050
-Wire Wire Line
-	8400 6250 8400 6350
-Wire Wire Line
-	8400 6350 8700 6350
-Wire Wire Line
-	8700 6350 8700 6150
-Wire Wire Line
-	8700 5550 8700 5750
-Wire Wire Line
-	8000 5950 8400 5950
-Wire Wire Line
-	8000 6250 8000 6350
-Wire Wire Line
-	8000 6350 8100 6350
-Wire Wire Line
-	8400 4550 8400 4650
-Wire Wire Line
-	8400 4650 8700 4650
-Wire Wire Line
-	8700 4650 8700 4450
-Wire Wire Line
-	8700 3850 8700 4050
-Wire Wire Line
-	8000 4250 8400 4250
-Wire Wire Line
-	8000 4550 8000 4650
-Wire Wire Line
-	8000 4650 8100 4650
 Wire Wire Line
 	9400 1750 9400 1600
 Wire Wire Line
@@ -1531,20 +1340,25 @@ Wire Wire Line
 Connection ~ 6400 5400
 Wire Wire Line
 	6700 5850 7050 5850
-Text GLabel 1000 3750 2    60   Input ~ 0
-CANH
-NoConn ~ 5150 7150
-NoConn ~ 5150 7250
-NoConn ~ 4050 4450
-NoConn ~ 4050 4350
-NoConn ~ 4050 4150
-NoConn ~ 4050 4050
-NoConn ~ 1850 3250
-Text Label 7000 4800 0    60   ~ 0
-12V_Fused
-Text Label 1050 1150 1    60   ~ 0
-12V_Fused
-NoConn ~ 4050 4850
-Text GLabel 4250 7350 0    60   Input ~ 0
-Acc_Fan_PWM
+Wire Wire Line
+	1450 850  1150 850 
+Wire Wire Line
+	1150 850  1150 1150
+Wire Wire Line
+	550  1200 550  1150
+Connection ~ 800  1150
+Wire Wire Line
+	5150 7350 5150 7400
+Wire Wire Line
+	5150 7350 5250 7350
+Wire Wire Line
+	5600 7350 5550 7350
+NoConn ~ 4050 4950
+NoConn ~ 4050 5050
+Text GLabel 5350 7200 1    60   Input ~ 0
+Fan_PWM
+Wire Wire Line
+	5350 7200 5350 7250
+Wire Wire Line
+	5350 7250 5150 7250
 $EndSCHEMATC

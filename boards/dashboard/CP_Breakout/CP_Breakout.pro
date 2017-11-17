@@ -1,4 +1,4 @@
-update=Mon 16 Oct 2017 09:29:28 PM EDT
+update=Sat 28 Oct 2017 04:42:24 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../OEM_Preferred_Parts/schematic
+LibDir=../../../../OEM_Preferred_Parts/schematic;../../../../Desktop/SparkFun-Kicad-Libraries-master
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,4 +61,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/sherrieshen/Documents/Formula/OEM_Preferred_Parts/schematic/formula
+LibName33=/home/lanfenson/OEM_Preferred_Parts/schematic/formula
+LibName34=/home/lanfenson/Desktop/SparkFun-Kicad-Libraries-master/SparkFun-Connectors

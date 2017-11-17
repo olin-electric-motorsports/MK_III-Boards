@@ -1642,9 +1642,9 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 888
 	1    0    0    -1  
 $EndComp
 Text Label 5000 2900 0    60   ~ 0
-LSD1_Gate
-Text Label 5000 3000 0    60   ~ 0
 LSD2_Gate
+Text Label 5000 3000 0    60   ~ 0
+LSD1_Gate
 $Comp
 L SSM3K333R Q1
 U 1 1 59EEA499
