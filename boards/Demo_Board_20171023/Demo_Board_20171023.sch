@@ -616,37 +616,6 @@ F 3 "" H 5150 5750 50  0001 C CNN
 	1    5150 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 950  5000 950 
-Wire Wire Line
-	4550 850  4550 650 
-Wire Wire Line
-	4550 650  4700 650 
-Connection ~ 4700 950 
-Wire Wire Line
-	5200 950  5300 950 
-Wire Wire Line
-	5300 950  5300 1150
-Wire Wire Line
-	4550 1150 4600 1150
-Wire Wire Line
-	5300 1150 4900 1150
-Wire Wire Line
-	5600 950  5800 950 
-Wire Wire Line
-	5800 950  5800 850 
-Wire Wire Line
-	2800 5100 2800 5500
-Wire Wire Line
-	2800 2900 2600 2900
-Wire Wire Line
-	3100 6050 3100 6100
-Wire Wire Line
-	3400 6050 3600 6050
-Wire Wire Line
-	5000 5500 5000 5600
-Wire Wire Line
-	5000 5600 5050 5600
 $Comp
 L GND #PWR024
 U 1 1 59E0B187
@@ -669,16 +638,6 @@ F 3 "" H 5300 5900 50  0001 C CNN
 	1    5300 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 5400 5300 5400
-Wire Wire Line
-	5300 5400 5300 5600
-Wire Wire Line
-	5300 5600 5250 5600
-Wire Wire Line
-	5150 5450 5500 5450
-Wire Wire Line
-	5500 5450 5500 5550
 $Comp
 L GND #PWR026
 U 1 1 59E0B2A3
@@ -701,17 +660,6 @@ F 3 "" H 5550 5150 50  0001 C CNN
 	1    5550 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 2600 2800 2600
-Connection ~ 2600 2600
-Wire Wire Line
-	3000 1150 3350 1150
-Connection ~ 3250 1150
-Wire Wire Line
-	5000 5300 5450 5300
-Wire Wire Line
-	5250 5150 5250 5300
-Connection ~ 5250 5300
 $Comp
 L VCC #PWR028
 U 1 1 59E0C6BE
@@ -734,8 +682,6 @@ F 3 "" H 5000 6600 50  0001 C CNN
 	1    5000 6600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 6600 5000 6600
 $Comp
 L ATMEGA16M1 IC1
 U 1 1 59E10948
@@ -935,19 +881,8 @@ F 3 "" H 7300 1950 50  0001 C CNN
 	1    7300 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 1350 7000 1350
-Wire Wire Line
-	6750 1950 7300 1950
-Wire Wire Line
-	7300 1950 7300 1550
-Wire Wire Line
-	7000 1650 7000 1950
-Connection ~ 7000 1950
 Text Label 6750 1350 1    60   ~ 0
 SSI_1
-Wire Wire Line
-	7300 1150 7500 1150
 Text Label 7500 1150 0    60   ~ 0
 SSO_1
 $Comp
@@ -1047,19 +982,8 @@ F 3 "" H 8550 1950 50  0001 C CNN
 	1    8550 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 1350 8250 1350
-Wire Wire Line
-	8000 1950 8550 1950
-Wire Wire Line
-	8550 1950 8550 1550
-Wire Wire Line
-	8250 1650 8250 1950
-Connection ~ 8250 1950
 Text Label 8000 1350 1    60   ~ 0
 SSI_2
-Wire Wire Line
-	8550 1150 8750 1150
 Text Label 8750 1150 0    60   ~ 0
 SSO_2
 Text Notes 6500 2000 1    60   ~ 0
@@ -1185,14 +1109,6 @@ Text Label 1250 4250 0    60   ~ 0
 LSD1
 Text Label 1250 4350 0    60   ~ 0
 LSD2
-Wire Wire Line
-	1250 950  1250 750 
-Wire Wire Line
-	1250 750  1350 750 
-Wire Wire Line
-	1250 1050 1550 1050
-Wire Wire Line
-	1250 1150 1700 1150
 Text Notes 9400 700  0    60   ~ 0
 Programming LEDs
 $Comp
@@ -1285,127 +1201,75 @@ Text Label 5000 2600 0    60   ~ 0
 P_LED_1
 Text Label 5000 2700 0    60   ~ 0
 P_LED_2
-Wire Notes Line
-	6600 650  9100 650 
-Wire Notes Line
-	9100 650  9100 2150
-Wire Notes Line
-	9100 2150 6600 2150
-Wire Notes Line
-	6600 2150 6600 650 
-Wire Notes Line
-	9350 600  10250 600 
-Wire Notes Line
-	10250 600  10250 1800
-Wire Notes Line
-	10250 1800 9350 1800
-Wire Notes Line
-	9350 1800 9350 600 
-Wire Notes Line
-	2650 500  2650 2250
-Wire Notes Line
-	6100 2250 6100 500 
-Wire Notes Line
-	500  700  500  4550
-Wire Notes Line
-	500  4550 2000 4550
-Wire Notes Line
-	2000 4550 2000 700 
-Wire Notes Line
-	2000 700  500  700 
 Text Notes 850  650  0    60   ~ 0
 CONNECTORS
 $Comp
 L R_200 R7
 U 1 1 59EE86E2
-P 5400 4350
-F 0 "R7" V 5480 4350 50  0000 C CNN
-F 1 "R_200" V 5300 4350 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5330 4350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5480 4350 50  0001 C CNN
-F 4 "Digi-Key" H 5400 4350 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5400 4350 60  0001 C CNN "MPN"
-F 6 "Value" H 5400 4350 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5880 4750 60  0001 C CNN "PurchasingLink"
-	1    5400 4350
+P 5150 3200
+F 0 "R7" V 5050 3200 50  0000 C CNN
+F 1 "R_200" V 5150 3200 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5080 3200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5230 3200 50  0001 C CNN
+F 4 "Digi-Key" H 5150 3200 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 5150 3200 60  0001 C CNN "MPN"
+F 6 "Value" H 5150 3200 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5630 3600 60  0001 C CNN "PurchasingLink"
+	1    5150 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L R_200 R10
 U 1 1 59EE888F
-P 5450 4600
-F 0 "R10" V 5530 4600 50  0000 C CNN
-F 1 "R_200" V 5350 4600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5380 4600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5530 4600 50  0001 C CNN
-F 4 "Digi-Key" H 5450 4600 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5450 4600 60  0001 C CNN "MPN"
-F 6 "Value" H 5450 4600 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5930 5000 60  0001 C CNN "PurchasingLink"
-	1    5450 4600
+P 5150 3300
+F 0 "R10" V 5200 3100 50  0000 C CNN
+F 1 "R_200" V 5150 3300 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5080 3300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5230 3300 50  0001 C CNN
+F 4 "Digi-Key" H 5150 3300 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 5150 3300 60  0001 C CNN "MPN"
+F 6 "Value" H 5150 3300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5630 3700 60  0001 C CNN "PurchasingLink"
+	1    5150 3300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5000 5000 5200 5000
-Wire Wire Line
-	5000 4900 5150 4900
-Wire Wire Line
-	5150 4900 5150 4800
-Wire Wire Line
-	5150 4800 5250 4800
-Wire Wire Line
-	5250 4800 5250 4350
-Text Label 5550 4350 0    60   ~ 0
+Text Label 5300 3200 0    60   ~ 0
 LED1
-Text Label 5600 4600 0    60   ~ 0
+Text Label 5300 3300 0    60   ~ 0
 LED2
-Wire Wire Line
-	5200 5000 5200 4850
-Wire Wire Line
-	5200 4850 5300 4850
-Wire Wire Line
-	5300 4850 5300 4600
 $Comp
 L R_200 R11
 U 1 1 59EE933B
-P 5500 4850
-F 0 "R11" V 5580 4850 50  0000 C CNN
-F 1 "R_200" V 5400 4850 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5430 4850 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5580 4850 50  0001 C CNN
-F 4 "Digi-Key" H 5500 4850 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5500 4850 60  0001 C CNN "MPN"
-F 6 "Value" H 5500 4850 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5980 5250 60  0001 C CNN "PurchasingLink"
-	1    5500 4850
+P 5150 4400
+F 0 "R11" V 5230 4400 50  0000 C CNN
+F 1 "R_200" V 5050 4400 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5080 4400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5230 4400 50  0001 C CNN
+F 4 "Digi-Key" H 5150 4400 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 5150 4400 60  0001 C CNN "MPN"
+F 6 "Value" H 5150 4400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5630 4800 60  0001 C CNN "PurchasingLink"
+	1    5150 4400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5000 5100 5250 5100
-Wire Wire Line
-	5250 5100 5250 4900
-Wire Wire Line
-	5250 4900 5350 4900
-Wire Wire Line
-	5350 4900 5350 4850
 $Comp
 L R_200 R6
 U 1 1 59EE95BF
-P 5150 2800
-F 0 "R6" V 5230 2800 50  0000 C CNN
-F 1 "R_200" V 5050 2800 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5080 2800 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5230 2800 50  0001 C CNN
-F 4 "Digi-Key" H 5150 2800 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5150 2800 60  0001 C CNN "MPN"
-F 6 "Value" H 5150 2800 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5630 3200 60  0001 C CNN "PurchasingLink"
-	1    5150 2800
+P 5150 3450
+F 0 "R6" V 5200 3650 50  0000 C CNN
+F 1 "R_200" V 5150 3450 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5080 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5230 3450 50  0001 C CNN
+F 4 "Digi-Key" H 5150 3450 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 5150 3450 60  0001 C CNN "MPN"
+F 6 "Value" H 5150 3450 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5630 3850 60  0001 C CNN "PurchasingLink"
+	1    5150 3450
 	0    1    1    0   
 $EndComp
-Text Label 5300 2800 0    60   ~ 0
+Text Label 5300 3450 0    60   ~ 0
 Ind2+
-Text Label 5650 4850 0    60   ~ 0
+Text Label 5300 4400 0    60   ~ 0
 Ind1+
 $Comp
 L GND #PWR039
@@ -1517,8 +1381,6 @@ F 3 "" H 9850 3300 50  0001 C CNN
 $EndComp
 Text Label 9550 2500 2    60   ~ 0
 RCIn
-Wire Wire Line
-	9850 2800 10050 2800
 Text Label 10050 2800 0    60   ~ 0
 RCOut
 $Comp
@@ -1536,22 +1398,8 @@ F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-
 	1    9550 3150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9550 2800 9550 3000
-Wire Wire Line
-	9550 3300 9850 3300
-Wire Wire Line
-	9850 3300 9850 3200
 Text Notes 9500 2250 0    60   ~ 0
 Falling Edge\nRC Delay
-Wire Notes Line
-	9250 2050 10400 2050
-Wire Notes Line
-	10400 2050 10400 3500
-Wire Notes Line
-	10400 3500 9250 3500
-Wire Notes Line
-	9250 3500 9250 2050
 $Comp
 L MCP6001RT U3
 U 1 1 59EE6F4B
@@ -1603,14 +1451,6 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 8880 4
 	1    8400 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 2950 8400 2950
-Wire Wire Line
-	7550 3050 7550 3500
-Wire Wire Line
-	7550 3500 8400 3500
-Wire Wire Line
-	8400 3500 8400 3250
 $Comp
 L GND #PWR046
 U 1 1 59EE7E2D
@@ -1707,41 +1547,13 @@ Text Label 7800 4550 0    60   ~ 0
 LSD2
 Text Notes 6550 4350 0    60   ~ 0
 High Current LSD
-Wire Notes Line
-	6300 4250 8350 4250
-Wire Notes Line
-	8350 4250 8350 5150
-Wire Notes Line
-	8350 5150 6300 5150
-Wire Notes Line
-	6300 5150 6300 4250
 Text Notes 7450 3750 0    60   ~ 0
 Sensor Amplifier\nGain: 11
-Wire Notes Line
-	7450 2400 8550 2400
-Wire Notes Line
-	8550 2400 8550 4000
-Wire Notes Line
-	8550 4000 7450 4000
-Wire Notes Line
-	7450 4000 7450 2400
 Text Notes 5850 3150 0    60   ~ 0
 SOURCES
-Wire Notes Line
-	5650 2700 6800 2700
-Wire Notes Line
-	6800 2700 6800 3200
-Wire Notes Line
-	6800 3200 5650 3200
-Wire Notes Line
-	5650 3200 5650 2700
 NoConn ~ 2800 3300
 NoConn ~ 5000 3100
-NoConn ~ 5000 3200
-NoConn ~ 5000 3300
-NoConn ~ 5000 3500
 NoConn ~ 5000 4200
-NoConn ~ 5000 4400
 NoConn ~ 5000 4500
 Text Label 5000 4100 0    60   ~ 0
 SensorAmp
@@ -1760,10 +1572,6 @@ F 7 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5
 	1    1000 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3650 850  3250 850 
-Wire Wire Line
-	3250 850  3250 1150
 $Comp
 L D_Zener_18V D7
 U 1 1 59F253C2
@@ -1791,9 +1599,179 @@ F 3 "" H 2800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	4550 950  5000 950 
+Wire Wire Line
+	4550 850  4550 650 
+Wire Wire Line
+	4550 650  4700 650 
+Connection ~ 4700 950 
+Wire Wire Line
+	5200 950  5300 950 
+Wire Wire Line
+	5300 950  5300 1150
+Wire Wire Line
+	4550 1150 4600 1150
+Wire Wire Line
+	5300 1150 4900 1150
+Wire Wire Line
+	5600 950  5800 950 
+Wire Wire Line
+	5800 950  5800 850 
+Wire Wire Line
+	2800 5100 2800 5500
+Wire Wire Line
+	2800 2900 2600 2900
+Wire Wire Line
+	3100 6050 3100 6100
+Wire Wire Line
+	3400 6050 3600 6050
+Wire Wire Line
+	5000 5500 5000 5600
+Wire Wire Line
+	5000 5600 5050 5600
+Wire Wire Line
+	5000 5400 5300 5400
+Wire Wire Line
+	5300 5400 5300 5600
+Wire Wire Line
+	5300 5600 5250 5600
+Wire Wire Line
+	5150 5450 5500 5450
+Wire Wire Line
+	5500 5450 5500 5550
+Wire Wire Line
+	2400 2600 2800 2600
+Connection ~ 2600 2600
+Wire Wire Line
+	3000 1150 3350 1150
+Connection ~ 3250 1150
+Wire Wire Line
+	5000 5300 5450 5300
+Wire Wire Line
+	5250 5150 5250 5300
+Connection ~ 5250 5300
+Wire Wire Line
+	4950 6600 5000 6600
+Wire Wire Line
+	6750 1350 7000 1350
+Wire Wire Line
+	6750 1950 7300 1950
+Wire Wire Line
+	7300 1950 7300 1550
+Wire Wire Line
+	7000 1650 7000 1950
+Connection ~ 7000 1950
+Wire Wire Line
+	7300 1150 7500 1150
+Wire Wire Line
+	8000 1350 8250 1350
+Wire Wire Line
+	8000 1950 8550 1950
+Wire Wire Line
+	8550 1950 8550 1550
+Wire Wire Line
+	8250 1650 8250 1950
+Connection ~ 8250 1950
+Wire Wire Line
+	8550 1150 8750 1150
+Wire Wire Line
+	1250 950  1250 750 
+Wire Wire Line
+	1250 750  1350 750 
+Wire Wire Line
+	1250 1050 1550 1050
+Wire Wire Line
+	1250 1150 1700 1150
+Wire Notes Line
+	6600 650  9100 650 
+Wire Notes Line
+	9100 650  9100 2150
+Wire Notes Line
+	9100 2150 6600 2150
+Wire Notes Line
+	6600 2150 6600 650 
+Wire Notes Line
+	9350 600  10250 600 
+Wire Notes Line
+	10250 600  10250 1800
+Wire Notes Line
+	10250 1800 9350 1800
+Wire Notes Line
+	9350 1800 9350 600 
+Wire Notes Line
+	2650 500  2650 2250
+Wire Notes Line
+	6100 2250 6100 500 
+Wire Notes Line
+	500  700  500  4550
+Wire Notes Line
+	500  4550 2000 4550
+Wire Notes Line
+	2000 4550 2000 700 
+Wire Notes Line
+	2000 700  500  700 
+Wire Wire Line
+	9850 2800 10050 2800
+Wire Wire Line
+	9550 2800 9550 3000
+Wire Wire Line
+	9550 3300 9850 3300
+Wire Wire Line
+	9850 3300 9850 3200
+Wire Notes Line
+	9250 2050 10400 2050
+Wire Notes Line
+	10400 2050 10400 3500
+Wire Notes Line
+	10400 3500 9250 3500
+Wire Notes Line
+	9250 3500 9250 2050
+Wire Wire Line
+	8150 2950 8400 2950
+Wire Wire Line
+	7550 3050 7550 3500
+Wire Wire Line
+	7550 3500 8400 3500
+Wire Wire Line
+	8400 3500 8400 3250
+Wire Notes Line
+	6300 4250 8350 4250
+Wire Notes Line
+	8350 4250 8350 5150
+Wire Notes Line
+	8350 5150 6300 5150
+Wire Notes Line
+	6300 5150 6300 4250
+Wire Notes Line
+	7450 2400 8550 2400
+Wire Notes Line
+	8550 2400 8550 4000
+Wire Notes Line
+	8550 4000 7450 4000
+Wire Notes Line
+	7450 4000 7450 2400
+Wire Notes Line
+	5650 2700 6800 2700
+Wire Notes Line
+	6800 2700 6800 3200
+Wire Notes Line
+	6800 3200 5650 3200
+Wire Notes Line
+	5650 3200 5650 2700
+Wire Wire Line
+	3650 850  3250 850 
+Wire Wire Line
+	3250 850  3250 1150
+Wire Wire Line
 	2800 850  3000 850 
 Wire Notes Line
 	2650 2250 6100 2250
 Wire Notes Line
 	6100 500  2650 500 
+Wire Wire Line
+	5000 3500 5000 3450
+NoConn ~ 5000 4900
+NoConn ~ 5000 5000
+NoConn ~ 5000 5100
+NoConn ~ 5000 2800
 $EndSCHEMATC
