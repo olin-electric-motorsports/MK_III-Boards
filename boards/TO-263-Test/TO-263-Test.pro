@@ -1,4 +1,4 @@
-update=Wed 15 Nov 2017 07:27:02 PM EST
+update=Thu 09 Nov 2017 10:26:15 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,19 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
+[general]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=118
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../OEM_Preferred_Parts/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,6 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-[general]
-version=1
+LibName33=formula
