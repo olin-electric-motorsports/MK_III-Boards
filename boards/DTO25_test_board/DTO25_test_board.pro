@@ -1,4 +1,4 @@
-update=Wed 25 Oct 2017 02:47:04 PM EDT
+update=Tue 07 Nov 2017 06:11:12 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../OEM_Preferred_Parts/schematic;../../../OEM_Preferred_Parts/schematic
+LibDir=../../../OEM_Preferred_Parts/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,7 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
-LibName35=/home/lanfenson/OEM_Preferred_Parts/schematic/formula
-LibName36=formula
+LibName33=/home/noah/formula/OEM_Preferred_Parts/schematic/formula
