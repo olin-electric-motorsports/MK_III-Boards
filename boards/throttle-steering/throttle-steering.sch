@@ -688,7 +688,7 @@ U 1 1 59E10948
 P 8600 2750
 F 0 "IC1" H 7650 4580 50  0000 L BNN
 F 1 "ATMEGA16M1" H 9100 1350 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 8600 2750 50  0001 C CIN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 8600 2750 50  0001 C CIN
 F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 7650 4580 50  0001 C CNN
 F 4 "ATMEGA16M1-AU-ND" H 8600 2750 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 8600 2750 60  0001 C CNN "MFN"
@@ -733,7 +733,7 @@ U 1 1 59E1176B
 P 5050 7050
 F 0 "U2" H 4650 7400 50  0000 L CNN
 F 1 "CAN_Transceiver" H 5100 6700 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5050 6550 50  0001 C CIN
+F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 5050 6550 50  0001 C CIN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 4650 7400 50  0001 C CNN
 F 4 "Digi-Key" H 5050 7050 60  0001 C CNN "MFN"
 F 5 "MCP2561-E/SN-ND" H 5050 7050 60  0001 C CNN "MPN"
@@ -1530,7 +1530,7 @@ GND
 Text Label 950  3350 0    59   ~ 0
 5V
 Text Label 950  3450 0    59   ~ 0
-Throttle_Left_Sense
+Throttle_Right_Sense
 Text Label 950  3550 0    59   ~ 0
 GND
 Text Label 950  3650 0    59   ~ 0
