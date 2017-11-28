@@ -1071,17 +1071,6 @@ F 3 "" H 10050 1400 60  0001 C CNN
 	1    10050 1400
 	1    0    0    -1  
 $EndComp
-$Comp
-L MicroFit_11 J5
-U 1 1 59FFBF46
-P 550 3600
-F 0 "J5" H 600 3450 60  0000 C CNN
-F 1 "MicroFit_11" H 800 2250 60  0000 C CNN
-F 2 "footprints:Molex_MicroFit_3.0-11x3.00mm_Angled" H 550 3600 60  0001 C CNN
-F 3 "" H 550 3600 60  0001 C CNN
-	1    550  3600
-	1    0    0    -1  
-$EndComp
 Text Label 6400 8350 0    60   ~ 0
 CELL_TEMP1
 Text Label 6400 8450 0    60   ~ 0
@@ -1845,4 +1834,16 @@ F 3 "" H 850 7400 60  0001 C CNN
 	1    850  7400
 	1    0    0    -1  
 $EndComp
+$Comp
+L MicroFit_12 J5
+U 1 1 5A1DBB3E
+P 400 3650
+F 0 "J5" H 650 3550 60  0000 C CNN
+F 1 "MicroFit_12" H 850 2250 60  0000 C CNN
+F 2 "footprints:Microfit3_Header_02x06_Angled_OEM" H 400 3650 60  0001 C CNN
+F 3 "" H 400 3650 60  0001 C CNN
+	1    400  3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 950  4950
 $EndSCHEMATC
