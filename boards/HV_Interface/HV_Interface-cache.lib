@@ -21,6 +21,28 @@ X 8 8 200 -350 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# F_1.1A_12V
+#
+DEF F_1.1A_12V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_1.1A_12V" -75 0 50 V V C CNN
+F2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" -70 0 50 V I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" 80 0 50 V I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "F5764CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=F5764CT-ND" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Ultrafit_2
 #
 DEF Ultrafit_2 J 0 40 Y Y 1 F N
