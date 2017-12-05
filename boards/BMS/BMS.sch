@@ -747,7 +747,7 @@ Text GLabel 1300 4450 2    60   Input ~ 0
 LED2
 Text GLabel 1000 4550 2    60   Input ~ 0
 BSPD_Current_Sense
-Text GLabel 1000 4650 2    60   Input ~ 0
+Text GLabel 1000 4750 2    60   Input ~ 0
 Acc_Fan_PWM
 $Comp
 L SN74LVC1G17 U4
@@ -1175,7 +1175,6 @@ F 3 "" H 6350 4800 50  0001 C CNN
 	1    6350 4800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1000 4750
 NoConn ~ 1250 1100
 Connection ~ 3100 950 
 Wire Wire Line
@@ -1292,4 +1291,6 @@ Wire Wire Line
 	2350 850  2350 650 
 Wire Wire Line
 	2350 950  2800 950 
+Text GLabel 1000 4650 2    60   Input ~ 0
+Shutdown_Control
 $EndSCHEMATC
