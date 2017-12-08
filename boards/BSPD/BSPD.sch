@@ -137,10 +137,10 @@ F 7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 4030 1600 60  
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_0805 D1
+L LED_0805 D2
 U 1 1 59E047E3
 P 1100 1850
-F 0 "D1" H 1100 1750 50  0000 C CNN
+F 0 "D2" H 1100 1750 50  0000 C CNN
 F 1 "LED_0805" H 1100 1950 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 1000 1850 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1100 1950 50  0001 C CNN
@@ -152,10 +152,10 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1500 2350 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_0805 D3
+L LED_0805 D4
 U 1 1 59E0483A
 P 3900 1650
-F 0 "D3" H 3900 1550 50  0000 C CNN
+F 0 "D4" H 3900 1550 50  0000 C CNN
 F 1 "LED_0805" H 3900 1750 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 3800 1650 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3900 1750 50  0001 C CNN
@@ -227,29 +227,14 @@ F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPS561201 U1
-U 1 1 59E04993
-P 2200 1300
-F 0 "U1" H 2000 1000 60  0000 C CNN
-F 1 "TPS561201" H 2200 1650 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 1900 1550 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" H 2000 1650 60  0001 C CNN
-F 4 "Digi-Key" H 2200 1300 60  0001 C CNN "MFN"
-F 5 "TPS561201" H 2200 1300 60  0001 C CNN "MPN"
-F 6 "Value" H 2200 1300 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 2400 2050 60  0001 C CNN "PurchasingLink"
-	1    2200 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L +12V #PWR01
 U 1 1 59E04C1A
-P 1100 1100
-F 0 "#PWR01" H 1100 950 50  0001 C CNN
-F 1 "+12V" H 1100 1240 50  0000 C CNN
-F 2 "" H 1100 1100 50  0001 C CNN
-F 3 "" H 1100 1100 50  0001 C CNN
-	1    1100 1100
+P 1100 1045
+F 0 "#PWR01" H 1100 895 50  0001 C CNN
+F 1 "+12V" H 1100 1185 50  0000 C CNN
+F 2 "" H 1100 1045 50  0001 C CNN
+F 3 "" H 1100 1045 50  0001 C CNN
+	1    1100 1045
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -411,8 +396,6 @@ F 3 "" H 3900 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1100 1750 1400
-Wire Wire Line
 	2650 1200 3100 1200
 Wire Wire Line
 	2650 1100 2650 900 
@@ -444,21 +427,6 @@ Text Notes 4150 1900 1    60   ~ 0
 5V Indicator
 Text Notes 4000 1000 0    60   ~ 0
 (5V)
-$Comp
-L Ultrafit_2 J2
-U 1 1 5A0A54BB
-P 7275 950
-F 0 "J2" H 7275 1100 60  0000 C CNN
-F 1 "Ultrafit_2" H 7375 750 60  0000 C CNN
-F 2 "footprints:Ultrafit_2" H 7175 1000 60  0001 C CNN
-F 3 "" H 7275 1100 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 7375 1200 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 7475 1300 60  0001 C CNN "MFN"
-F 6 "WM11570-ND" H 7575 1400 60  0001 C CNN "MPN"
-F 7 "Value" H 7675 1500 60  0001 C CNN "Package"
-	1    7275 950 
-	0    1    1    0   
-$EndComp
 $Comp
 L G5Q-1A4-DC5-5V K1
 U 1 1 5A0A56BC
@@ -845,12 +813,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2770 5250 2770 5440
-Wire Wire Line
-	2770 5440 3710 5440
-Wire Wire Line
-	3120 5440 3120 5660
-Connection ~ 3120 5440
+	3120 5390 3120 5660
 $Comp
 L C_0.1uF C3
 U 1 1 5A0B51A8
@@ -898,9 +861,7 @@ Wire Wire Line
 Wire Wire Line
 	5890 4135 7030 4135
 Wire Wire Line
-	7030 4135 7030 3460
-Wire Wire Line
-	6955 3460 7585 3460
+	7030 4135 7030 3455
 Wire Wire Line
 	3630 3300 3630 3475
 Connection ~ 3630 3300
@@ -908,8 +869,6 @@ Wire Wire Line
 	7215 3460 7215 3635
 Connection ~ 7030 3460
 Connection ~ 7215 3460
-Wire Wire Line
-	7885 3610 7885 3765
 $Comp
 L R_10k R17
 U 1 1 5A0B863B
@@ -939,16 +898,6 @@ F 3 "" H 7885 4205 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7325 1200 7580 1200
-Wire Wire Line
-	7580 1200 7580 1830
-Wire Wire Line
-	7225 1200 6980 1200
-Wire Wire Line
-	6980 1200 6980 1830
-Wire Wire Line
-	7885 3210 7885 2130
-Wire Wire Line
 	7885 2130 7580 2130
 $Comp
 L R_200 R10
@@ -968,10 +917,10 @@ $EndComp
 Wire Wire Line
 	3630 3775 3630 3865
 $Comp
-L LED_0805 D2
+L LED_0805 D3
 U 1 1 5A0B98F1
 P 3630 4015
-F 0 "D2" H 3630 3915 50  0000 C CNN
+F 0 "D3" H 3630 3915 50  0000 C CNN
 F 1 "LED_0805" H 3630 4115 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 3530 4015 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3630 4115 50  0001 C CNN
@@ -1013,10 +962,10 @@ $EndComp
 Wire Wire Line
 	7215 3935 7215 4050
 $Comp
-L LED_0805 D4
+L LED_0805 D5
 U 1 1 5A0BAC93
 P 7215 4200
-F 0 "D4" H 7215 4100 50  0000 C CNN
+F 0 "D5" H 7215 4100 50  0000 C CNN
 F 1 "LED_0805" H 7215 4300 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 7115 4200 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 7215 4300 50  0001 C CNN
@@ -1078,21 +1027,6 @@ F 3 "" H 6590 2025 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_female_RA_6 J1
-U 1 1 5A0CF354
-P 1250 4150
-F 0 "J1" H 1150 5350 60  0000 C CNN
-F 1 "micromatch_female_RA_6" H 1250 4600 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_6" H 1050 5250 60  0001 C CNN
-F 3 "" H 1150 5350 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-6/A99483CT-ND/1955785" H 1250 5450 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 1350 5550 60  0001 C CNN "MFN"
-F 6 "A99483CT-ND" H 1450 5650 60  0001 C CNN "MPN"
-F 7 "Value" H 1550 5750 60  0001 C CNN "Package"
-	1    1250 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L R_10k R15
 U 1 1 5A0D0CB5
 P 5705 3400
@@ -1148,10 +1082,10 @@ F 3 "" H 5910 3895 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_SOD123 D5
+L D_Schottky_SOD123 D6
 U 1 1 5A0E48E6
 P 7290 2625
-F 0 "D5" H 7290 2725 50  0000 C CNN
+F 0 "D6" H 7290 2725 50  0000 C CNN
 F 1 "D_Schottky_SOD123" H 7290 2525 50  0000 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 7190 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7290 2725 50  0001 C CNN
@@ -1171,28 +1105,6 @@ Wire Wire Line
 Wire Wire Line
 	6870 2625 6870 2130
 Connection ~ 6870 2130
-$Comp
-L MMBF170 Q1
-U 1 1 5A0E585D
-P 3910 5390
-F 0 "Q1" H 4110 5465 50  0000 L CNN
-F 1 "MMBF170" H 4110 5390 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4110 5315 50  0000 L CIN
-F 3 "" H 3910 5390 50  0000 L CNN
-	1    3910 5390
-	1    0    0    -1  
-$EndComp
-$Comp
-L MMBF170 Q2
-U 1 1 5A0E5B24
-P 7785 3410
-F 0 "Q2" H 7985 3485 50  0000 L CNN
-F 1 "MMBF170" H 7985 3410 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7985 3335 50  0000 L CIN
-F 3 "" H 7785 3410 50  0000 L CNN
-	1    7785 3410
-	1    0    0    -1  
-$EndComp
 $Comp
 L C_1uF C5
 U 1 1 5A1B7D2C
@@ -1219,5 +1131,177 @@ F 2 "footprints:R_0805_OEM" V 3980 3300 50  0001 C CNN
 F 3 "" H 4050 3300 50  0001 C CNN
 	1    4050 3300
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3650 1475 3650
+Wire Wire Line
+	1475 3650 1475 4150
+Wire Wire Line
+	1475 3750 1400 3750
+Wire Wire Line
+	1475 3850 1400 3850
+Connection ~ 1475 3750
+Wire Wire Line
+	1475 3950 1400 3950
+Connection ~ 1475 3850
+Wire Wire Line
+	1400 4050 1605 4050
+Connection ~ 1475 3950
+Wire Wire Line
+	1475 4150 1400 4150
+Connection ~ 1475 4050
+Wire Wire Line
+	1400 4250 1475 4250
+Wire Wire Line
+	1475 4250 1475 4750
+Wire Wire Line
+	1400 4350 1615 4350
+Wire Wire Line
+	1475 4450 1400 4450
+Connection ~ 1475 4350
+Wire Wire Line
+	1475 4550 1400 4550
+Connection ~ 1475 4450
+Wire Wire Line
+	1475 4650 1400 4650
+Connection ~ 1475 4550
+Wire Wire Line
+	1475 4750 1400 4750
+Connection ~ 1475 4650
+Text Label 1605 4050 0    60   ~ 0
+ShutdownIn
+Text Label 1615 4350 0    60   ~ 0
+ShutdownOut
+Wire Wire Line
+	6980 1830 6595 1830
+Wire Wire Line
+	6595 1830 6595 1480
+Text Label 6595 1480 0    60   ~ 0
+ShutdownIn
+Wire Wire Line
+	7580 1830 8090 1830
+Wire Wire Line
+	8090 1830 8090 1490
+Text Label 8090 1490 0    60   ~ 0
+ShutdownOut
+$Comp
+L micromatch_female_RA_20 J1
+U 1 1 5A24B252
+P 1250 4150
+F 0 "J1" H 1150 5350 60  0000 C CNN
+F 1 "micromatch_female_RA_20" H 1250 3200 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 1050 5250 60  0001 C CNN
+F 3 "" H 1150 5350 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338070-0/A99490CT-ND/1955792" H 1250 5450 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 1350 5550 60  0001 C CNN "MFN"
+F 6 "A99490CT-ND" H 1450 5650 60  0001 C CNN "MPN"
+F 7 "Value" H 1550 5750 60  0001 C CNN "Package"
+	1    1250 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1400 4950
+Wire Wire Line
+	1400 4850 1735 4850
+Text Label 1735 4850 0    60   ~ 0
+BSPDRelaySense
+Text Label 7505 4715 0    60   ~ 0
+BSPDRelaySense
+$Comp
+L SSM3K333R Q1
+U 1 1 5A25FC0D
+P 3910 5390
+F 0 "Q1" H 4110 5465 50  0000 L CNN
+F 1 "SSM3K333R" H 4110 5390 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 4110 5315 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 4110 5465 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 4210 5565 60  0001 C CNN "PurchasingLink"
+F 5 "SSM3K333RLFCT-ND" H 4310 5665 60  0001 C CNN "MPN"
+F 6 "Digi-Key" H 4410 5765 60  0001 C CNN "MFN"
+F 7 "SOT-23-3 Flat Leads" H 4510 5865 60  0001 C CNN "Package"
+	1    3910 5390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3710 5390 2770 5390
+Wire Wire Line
+	2770 5390 2770 5250
+Connection ~ 3120 5390
+$Comp
+L SSM3K333R Q2
+U 1 1 5A261434
+P 7785 3460
+F 0 "Q2" H 7985 3535 50  0000 L CNN
+F 1 "SSM3K333R" H 7985 3460 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 7985 3385 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 7985 3535 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 8085 3635 60  0001 C CNN "PurchasingLink"
+F 5 "SSM3K333RLFCT-ND" H 8185 3735 60  0001 C CNN "MPN"
+F 6 "Digi-Key" H 8285 3835 60  0001 C CNN "MFN"
+F 7 "SOT-23-3 Flat Leads" H 8385 3935 60  0001 C CNN "Package"
+	1    7785 3460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6955 3460 7585 3460
+Connection ~ 7505 3460
+Wire Wire Line
+	7505 3460 7505 4715
+Wire Wire Line
+	7885 3765 7885 3660
+Wire Wire Line
+	7885 2130 7885 3260
+$Comp
+L TPS561201 U1
+U 1 1 59E04993
+P 2200 1300
+F 0 "U1" H 2000 1000 60  0000 C CNN
+F 1 "TPS561201" H 2200 1650 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 1900 1550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" H 2000 1650 60  0001 C CNN
+F 4 "Digi-Key" H 2200 1300 60  0001 C CNN "MFN"
+F 5 "TPS561201" H 2200 1300 60  0001 C CNN "MPN"
+F 6 "Value" H 2200 1300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 2400 2050 60  0001 C CNN "PurchasingLink"
+	1    2200 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1100 1350 1100
+Wire Wire Line
+	1350 1100 1350 1400
+Wire Wire Line
+	1100 1045 1100 1100
+Wire Wire Line
+	1100 1075 660  1075
+Wire Wire Line
+	660  1075 660  1255
+Connection ~ 1100 1075
+$Comp
+L D_Zener_18V D1
+U 1 1 5A2645AE
+P 660 1405
+F 0 "D1" H 660 1505 50  0000 C CNN
+F 1 "D_Zener_18V" H 660 1305 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 560 1405 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 660 1505 50  0001 C CNN
+F 4 "SMBJ5355B-TPMSCT-ND" H 760 1605 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 860 1705 60  0001 C CNN "MFN"
+F 6 "DO-214AA (SMB)" H 960 1805 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 1060 1905 60  0001 C CNN "PurchasingLink"
+	1    660  1405
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	660  1555 660  1610
+$Comp
+L GND #PWR038
+U 1 1 5A264871
+P 660 1610
+F 0 "#PWR038" H 660 1360 50  0001 C CNN
+F 1 "GND" H 660 1460 50  0000 C CNN
+F 2 "" H 660 1610 50  0000 C CNN
+F 3 "" H 660 1610 50  0000 C CNN
+	1    660  1610
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
