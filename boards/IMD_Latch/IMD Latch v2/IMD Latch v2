@@ -1,0 +1,22 @@
+Source:	C:/Formula/2017-18/MK_III-Boards/boards/IMD_Latch/IMD Latch v2/IMD Latch v2.sch
+Date:	11/13/2017 9:50:49 PM
+Tool:	Eeschema 4.0.7
+Component Count:	17
+Ref	Value	Part	Footprint	Description	Vendor
+C1	C_10uF	formula:C_10uF	footprints:C_0805_OEM	CAP CER 10UF 10V X5R 0805	
+D1	D_Zener_18V	formula:D_Zener_18V	footprints:DO-214AA	DIODE ZENER 18V 5W DO214AA	
+D2	LED_0805	formula:LED_0805	footprints:LED_0805_OEM	LED_0805	
+D3	LED_0805	formula:LED_0805	footprints:LED_0805_OEM	LED_0805	
+D4	D_Schottky_SOD123	formula:D_Schottky_SOD123	footprints:D_SOD-123W_OEM	DIODE SCHOTTKY 100V 1A SOD123	
+F1	500mA	formula:F_500mA_16V	footprints:Fuse_1210	PTC Fuse 16V 500mA	
+J1	micromatch_female_RA_8	formula:micromatch_female_RA_8	footprints:micromatch_female_ra_8	connector micromatch female RA 8	
+J2	Ultrafit_2	formula:Ultrafit_2	footprints:Ultrafit_2	ULTRAFIT CONN HDR 02CKT	
+K1	G5Q-1A4-DC5-5V	formula:G5Q-1A4-DC5-5V	footprints:Relay_SPST_OMRON-G5Q-1A4_OEM	g5q power relay	
+Q1	SSM3K333R	formula:SSM3K333R	footprints:SOT-23F	60V Vds, 0.115A Id, N-channel MOSFET, SOT-23	
+R1	R_1k	formula:R_1k	footprints:R_0805_OEM	Res 1k 1%	
+R2	R_576k	formula:R_576k	footprints:R_0805_OEM	RES SMD 576K OHM 1% 1/8W 0805	
+R3	R_2.94M	formula:R_2.94M	footprints:R_0805_OEM	RES SMD 2.94M OHM 1% 1/8W 0805	
+R4	R_1M	formula:R_1M	footprints:R_0805_OEM	RES SMD 1M OHM 5% 1/8W 0805	
+R5	R_1k	formula:R_1k	footprints:R_0805_OEM	Res 1k 1%	
+R6	R_2.2k	formula:R_2.2k	footprints:R_0805_OEM	RES SMD 2.2K OHM 1% 1/8W 0805	
+U1	CD4043BPWR	formula:CD4043BPWR	footprints:TSSOP-16-OEM	IC NOR R/S LTCH 3ST QUAD 16TSSOP	

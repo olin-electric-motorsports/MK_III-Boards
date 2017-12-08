@@ -1,4 +1,4 @@
-update=Mon 30 Oct 2017 09:29:52 PM EDT
+update=Wed 15 Nov 2017 07:27:02 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -72,3 +70,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
+[general]
+version=1
