@@ -1078,9 +1078,9 @@ CELL_TEMP2
 Text Label 6400 8550 0    60   ~ 0
 CELL_TEMP3
 Text Label 6400 8650 0    60   ~ 0
-CELL_TEMP5
+CELL_TEMP4
 Text Label 6400 8750 0    60   ~ 0
-CELL_TEMP6
+CELL_TEMP5
 Text Label 6400 8850 0    60   ~ 0
 CELL_TEMP6
 Text Label 6400 8950 0    60   ~ 0
@@ -1583,8 +1583,6 @@ Connection ~ 6850 7600
 Wire Wire Line
 	6600 6500 6850 6500
 Wire Wire Line
-	10150 1600 9350 1600
-Wire Wire Line
 	9350 1600 9350 1450
 Wire Wire Line
 	9350 1450 9200 1450
@@ -1593,19 +1591,13 @@ Wire Wire Line
 Wire Wire Line
 	9350 1850 9350 1750
 Wire Wire Line
-	9350 1750 10150 1750
-Wire Wire Line
-	10150 1050 9300 1050
-Wire Wire Line
-	9300 1050 9300 1150
+	9300 1000 9300 1150
 Wire Wire Line
 	9300 1150 9200 1150
 Wire Wire Line
 	9200 750  9300 750 
 Wire Wire Line
 	9300 750  9300 900 
-Wire Wire Line
-	9300 900  10150 900 
 Wire Wire Line
 	950  4350 1200 4350
 Wire Wire Line
@@ -1846,4 +1838,32 @@ F 3 "" H 400 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 950  4950
+Wire Wire Line
+	9350 1600 9750 1600
+Wire Wire Line
+	9750 1600 9750 1750
+Wire Wire Line
+	9750 1750 10150 1750
+Wire Wire Line
+	9350 1750 9550 1750
+Wire Wire Line
+	9550 1750 9550 1700
+Wire Wire Line
+	9550 1700 10000 1700
+Wire Wire Line
+	10000 1700 10000 1600
+Wire Wire Line
+	10000 1600 10150 1600
+Wire Wire Line
+	9300 900  9700 900 
+Wire Wire Line
+	9700 900  9700 1050
+Wire Wire Line
+	9700 1050 10150 1050
+Wire Wire Line
+	9300 1000 9750 1000
+Wire Wire Line
+	9750 1000 9750 900 
+Wire Wire Line
+	9750 900  10150 900 
 $EndSCHEMATC
