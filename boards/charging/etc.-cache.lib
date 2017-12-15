@@ -32,6 +32,27 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# 4.7kR
+#
+DEF 4.7kR R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "4.7kR" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" 80 0 50 V I C CNN
+F4 "DigiKey" 180 100 60 V V C CNN "MFN"
+F5 " RC0805JR-074K7L " 280 200 60 V V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274" 380 300 60 V V C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ATMEGA16M1
 #
 DEF ATMEGA16M1 IC 0 40 Y Y 1 F N
@@ -337,62 +358,6 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x02
-#
-DEF Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Conn_01x06
-#
-DEF Conn_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Conn_01x06" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Crystal_SMD
 #
 DEF Crystal_SMD Y 0 40 Y N 1 F N
@@ -509,24 +474,24 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LM78L05ACZ_Voltage_Regulator
+# LM3480
 #
-DEF LM78L05ACZ_Voltage_Regulator Q 0 0 Y Y 1 F N
-F0 "Q" -150 150 50 H V L CNN
-F1 "LM78L05ACZ_Voltage_Regulator" 50 -150 50 H V L CNN
-F2 "footprints:TO-92-3_Inline_Narrow_Oval" 200 -75 50 H I L CIN
-F3 "http://www.ti.com/lit/ds/symlink/lm78l.pdf" 200 75 50 H I L CNN
-F4 "LM78L05ACZNS/NOPB-ND" 850 150 60 H I C CNN "MPN"
-F5 "Digi-Key" 1000 250 60 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM78L05ACZ-NOPB/LM78L05ACZNS-NOPB-ND/6333" 1150 350 60 H I C CNN "PurchasingLink"
+DEF LM3480 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "LM3480" 0 125 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2" -50 200 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" 100 -250 50 H I C CNN
+F4 "DigiKey" 50 325 60 H V C CNN "MFN"
+F5 "LM3480IM3-3.3 " 150 425 60 H V C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" -50 225 60 H V C CNN "PurchasingLink"
 $FPLIST
- TO?92*
+ SOT?223*TabPin2*
 $ENDFPLIST
 DRAW
-S 200 -100 -200 100 0 1 0 f
-X VOUT 1 -400 0 200 R 50 50 1 1 O
-X GND 2 0 -300 200 U 50 50 1 1 I
-X VIN 3 400 0 200 L 50 50 1 1 I
+S -200 -200 200 75 0 1 10 f
+X VO 1 300 0 100 L 50 50 1 1 P
+X VI 2 -300 0 100 R 50 50 1 1 W
+X GND 3 0 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -722,28 +687,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_6.2k
-#
-DEF R_6.2k R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_6.2k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
-F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "P6.20KCCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6201V/P6.20KCCT-ND/1746887" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # TPS561201
 #
 DEF TPS561201 U 0 40 Y Y 1 F N
@@ -815,19 +758,19 @@ X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# micromatch_male_18
+# micromatch_male_20
 #
-DEF micromatch_male_18 J 0 40 Y Y 1 F N
+DEF micromatch_male_20 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "micromatch_male_18" -50 -700 60 H V C CNN
+F1 "micromatch_male_20" -50 -900 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
-F4 "A110884CT-ND" 0 0 60 H I C CNN "MPN"
+F4 "A111126CT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-8/A110884CT-ND/4142268" 300 1600 60 H I C CNN "PurchasingLink"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-215464-0/A111126CT-ND/4142510" 300 1600 60 H I C CNN "PurchasingLink"
 DRAW
-S -250 1150 50 -650 0 1 0 f
+S -250 1150 50 -850 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
 X 10 10 150 200 100 L 50 50 1 1 B
 X 11 11 150 100 100 L 50 50 1 1 B
@@ -838,7 +781,9 @@ X 15 15 150 -300 100 L 50 50 1 1 B
 X 16 16 150 -400 100 L 50 50 1 1 B
 X 17 17 150 -500 100 L 50 50 1 1 B
 X 18 18 150 -600 100 L 50 50 1 1 B
+X 19 19 150 -700 100 L 50 50 1 1 B
 X 2 2 150 1000 100 L 50 50 1 1 B
+X 20 20 150 -800 100 L 50 50 1 1 B
 X 3 3 150 900 100 L 50 50 1 1 B
 X 4 4 150 800 100 L 50 50 1 1 B
 X 5 5 150 700 100 L 50 50 1 1 B
