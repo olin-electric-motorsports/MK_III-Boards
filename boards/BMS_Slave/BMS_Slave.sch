@@ -1091,6 +1091,175 @@ Text Label 6400 9150 0    60   ~ 0
 CELL_TEMP9
 Text Label 6400 9250 0    60   ~ 0
 CELL_TEMP10
+$Comp
+L GND #PWR017
+U 1 1 5A00BA8F
+P 6400 10650
+F 0 "#PWR017" H 6400 10400 50  0001 C CNN
+F 1 "GND" H 6400 10500 50  0000 C CNN
+F 2 "" H 6400 10650 50  0001 C CNN
+F 3 "" H 6400 10650 50  0001 C CNN
+	1    6400 10650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9200 950 
+NoConn ~ 9200 1650
+NoConn ~ 5950 4900
+NoConn ~ 5950 5000
+NoConn ~ 7800 7000
+NoConn ~ 7800 7100
+NoConn ~ 7800 7200
+NoConn ~ 7800 8100
+NoConn ~ 7800 8200
+NoConn ~ 7800 8300
+NoConn ~ 5950 3900
+NoConn ~ 5950 3800
+NoConn ~ 5950 3500
+NoConn ~ 5950 3400
+$Comp
+L MicroFit_20 J6
+U 1 1 5A0F4926
+P 5800 8100
+F 0 "J6" H 6100 7950 60  0000 C CNN
+F 1 "MicroFit_20" H 6300 5850 60  0000 C CNN
+F 2 "footprints:Molex_Microfit3_Header_02x10_Angled_OEM" H 5800 8100 60  0001 C CNN
+F 3 "" H 5800 8100 60  0001 C CNN
+	1    5800 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F1
+U 1 1 5A0E9B29
+P 850 850
+F 0 "F1" H 1350 800 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 600 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 850 60  0001 C CNN
+F 3 "" H 850 850 60  0001 C CNN
+	1    850  850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F2
+U 1 1 5A0E9FDA
+P 850 1550
+F 0 "F2" H 1350 1500 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 1300 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 1550 60  0001 C CNN
+F 3 "" H 850 1550 60  0001 C CNN
+	1    850  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F3
+U 1 1 5A0EA469
+P 850 2250
+F 0 "F3" H 1350 2200 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 2000 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 2250 60  0001 C CNN
+F 3 "" H 850 2250 60  0001 C CNN
+	1    850  2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F4
+U 1 1 5A0EB2BC
+P 850 2950
+F 0 "F4" H 1350 2900 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 2700 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 2950 60  0001 C CNN
+F 3 "" H 850 2950 60  0001 C CNN
+	1    850  2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F5
+U 1 1 5A0EB4BE
+P 850 3600
+F 0 "F5" H 1350 3550 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 3350 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 3600 60  0001 C CNN
+F 3 "" H 850 3600 60  0001 C CNN
+	1    850  3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F6
+U 1 1 5A0EB6BB
+P 850 4250
+F 0 "F6" H 1350 4200 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 4000 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 4250 60  0001 C CNN
+F 3 "" H 850 4250 60  0001 C CNN
+	1    850  4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F7
+U 1 1 5A0EC0DB
+P 850 4950
+F 0 "F7" H 1350 4900 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 4700 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 4950 60  0001 C CNN
+F 3 "" H 850 4950 60  0001 C CNN
+	1    850  4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F8
+U 1 1 5A0EC2E4
+P 850 5650
+F 0 "F8" H 1350 5600 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 5400 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 5650 60  0001 C CNN
+F 3 "" H 850 5650 60  0001 C CNN
+	1    850  5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F9
+U 1 1 5A0EC4E8
+P 850 6300
+F 0 "F9" H 1350 6250 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 6050 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 6300 60  0001 C CNN
+F 3 "" H 850 6300 60  0001 C CNN
+	1    850  6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F10
+U 1 1 5A0ECCB2
+P 850 6850
+F 0 "F10" H 1350 6800 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 6600 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 6850 60  0001 C CNN
+F 3 "" H 850 6850 60  0001 C CNN
+	1    850  6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200mA_Fuse F11
+U 1 1 5A0ED2DE
+P 850 7400
+F 0 "F11" H 1350 7350 60  0000 C CNN
+F 1 "200mA_Fuse" H 1650 7150 60  0000 C CNN
+F 2 "footprints:Fuse_1812" H 850 7400 60  0001 C CNN
+F 3 "" H 850 7400 60  0001 C CNN
+	1    850  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MicroFit_12 J5
+U 1 1 5A1DBB3E
+P 250 3650
+F 0 "J5" H 500 3550 60  0000 C CNN
+F 1 "MicroFit_12" H 700 2250 60  0000 C CNN
+F 2 "footprints:Microfit3_Header_02x06_Angled_OEM" H 250 3650 60  0001 C CNN
+F 3 "" H 250 3650 60  0001 C CNN
+	1    250  3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 800  4950
 Wire Wire Line
 	1800 750  4750 750 
 Wire Wire Line
@@ -1599,59 +1768,23 @@ Wire Wire Line
 Wire Wire Line
 	9300 750  9300 900 
 Wire Wire Line
-	950  4350 1200 4350
+	1050 5750 1200 5750
 Wire Wire Line
-	1200 5050 1200 4450
+	1000 6400 1200 6400
 Wire Wire Line
-	1200 4450 950  4450
+	950  6950 1200 6950
 Wire Wire Line
-	950  4550 1150 4550
+	900  7500 1200 7500
 Wire Wire Line
-	1150 4550 1150 5750
-Wire Wire Line
-	1150 5750 1200 5750
-Wire Wire Line
-	950  4650 1100 4650
-Wire Wire Line
-	1100 4650 1100 6400
-Wire Wire Line
-	1100 6400 1200 6400
-Wire Wire Line
-	950  4750 1050 4750
-Wire Wire Line
-	1050 4750 1050 6950
-Wire Wire Line
-	1050 6950 1200 6950
-Wire Wire Line
-	1200 7500 1000 7500
-Wire Wire Line
-	1000 7500 1000 4850
-Wire Wire Line
-	1000 4850 950  4850
-Wire Wire Line
-	950  4250 1200 4250
-Wire Wire Line
-	1200 4250 1200 3700
-Wire Wire Line
-	950  4150 1150 4150
-Wire Wire Line
-	1150 4150 1150 3050
+	1150 4550 1150 3050
 Wire Wire Line
 	1150 3050 1200 3050
 Wire Wire Line
-	950  4050 1100 4050
-Wire Wire Line
-	1100 4050 1100 2350
-Wire Wire Line
 	1100 2350 1200 2350
 Wire Wire Line
-	950  3950 1050 3950
-Wire Wire Line
-	1050 3950 1050 1650
+	1050 4450 1050 1650
 Wire Wire Line
 	1050 1650 1200 1650
-Wire Wire Line
-	950  3850 1000 3850
 Wire Wire Line
 	1000 3850 1000 950 
 Wire Wire Line
@@ -1665,179 +1798,10 @@ Connection ~ 6400 9950
 Connection ~ 6400 10050
 Connection ~ 6400 10150
 Connection ~ 6400 10250
-$Comp
-L GND #PWR017
-U 1 1 5A00BA8F
-P 6400 10650
-F 0 "#PWR017" H 6400 10400 50  0001 C CNN
-F 1 "GND" H 6400 10500 50  0000 C CNN
-F 2 "" H 6400 10650 50  0001 C CNN
-F 3 "" H 6400 10650 50  0001 C CNN
-	1    6400 10650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9200 950 
-NoConn ~ 9200 1650
-NoConn ~ 5950 4900
-NoConn ~ 5950 5000
-NoConn ~ 7800 7000
-NoConn ~ 7800 7100
-NoConn ~ 7800 7200
-NoConn ~ 7800 8100
-NoConn ~ 7800 8200
-NoConn ~ 7800 8300
-NoConn ~ 5950 3900
-NoConn ~ 5950 3800
-NoConn ~ 5950 3500
-NoConn ~ 5950 3400
 Wire Wire Line
 	6300 4000 5950 4000
-$Comp
-L MicroFit_20 J6
-U 1 1 5A0F4926
-P 5800 8100
-F 0 "J6" H 6100 7950 60  0000 C CNN
-F 1 "MicroFit_20" H 6300 5850 60  0000 C CNN
-F 2 "footprints:Molex_Microfit3_Header_02x10_Angled_OEM" H 5800 8100 60  0001 C CNN
-F 3 "" H 5800 8100 60  0001 C CNN
-	1    5800 8100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6400 9350 6400 10650
-$Comp
-L 200mA_Fuse F1
-U 1 1 5A0E9B29
-P 850 850
-F 0 "F1" H 1350 800 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 600 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 850 60  0001 C CNN
-F 3 "" H 850 850 60  0001 C CNN
-	1    850  850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F2
-U 1 1 5A0E9FDA
-P 850 1550
-F 0 "F2" H 1350 1500 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 1300 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 1550 60  0001 C CNN
-F 3 "" H 850 1550 60  0001 C CNN
-	1    850  1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F3
-U 1 1 5A0EA469
-P 850 2250
-F 0 "F3" H 1350 2200 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 2000 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 2250 60  0001 C CNN
-F 3 "" H 850 2250 60  0001 C CNN
-	1    850  2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F4
-U 1 1 5A0EB2BC
-P 850 2950
-F 0 "F4" H 1350 2900 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 2700 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 2950 60  0001 C CNN
-F 3 "" H 850 2950 60  0001 C CNN
-	1    850  2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F5
-U 1 1 5A0EB4BE
-P 850 3600
-F 0 "F5" H 1350 3550 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 3350 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 3600 60  0001 C CNN
-F 3 "" H 850 3600 60  0001 C CNN
-	1    850  3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F6
-U 1 1 5A0EB6BB
-P 850 4250
-F 0 "F6" H 1350 4200 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 4000 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 4250 60  0001 C CNN
-F 3 "" H 850 4250 60  0001 C CNN
-	1    850  4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F7
-U 1 1 5A0EC0DB
-P 850 4950
-F 0 "F7" H 1350 4900 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 4700 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 4950 60  0001 C CNN
-F 3 "" H 850 4950 60  0001 C CNN
-	1    850  4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F8
-U 1 1 5A0EC2E4
-P 850 5650
-F 0 "F8" H 1350 5600 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 5400 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 5650 60  0001 C CNN
-F 3 "" H 850 5650 60  0001 C CNN
-	1    850  5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F9
-U 1 1 5A0EC4E8
-P 850 6300
-F 0 "F9" H 1350 6250 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 6050 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 6300 60  0001 C CNN
-F 3 "" H 850 6300 60  0001 C CNN
-	1    850  6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F10
-U 1 1 5A0ECCB2
-P 850 6850
-F 0 "F10" H 1350 6800 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 6600 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 6850 60  0001 C CNN
-F 3 "" H 850 6850 60  0001 C CNN
-	1    850  6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 200mA_Fuse F11
-U 1 1 5A0ED2DE
-P 850 7400
-F 0 "F11" H 1350 7350 60  0000 C CNN
-F 1 "200mA_Fuse" H 1650 7150 60  0000 C CNN
-F 2 "footprints:Fuse_1812" H 850 7400 60  0001 C CNN
-F 3 "" H 850 7400 60  0001 C CNN
-	1    850  7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MicroFit_12 J5
-U 1 1 5A1DBB3E
-P 400 3650
-F 0 "J5" H 650 3550 60  0000 C CNN
-F 1 "MicroFit_12" H 850 2250 60  0000 C CNN
-F 2 "footprints:Microfit3_Header_02x06_Angled_OEM" H 400 3650 60  0001 C CNN
-F 3 "" H 400 3650 60  0001 C CNN
-	1    400  3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 950  4950
 Wire Wire Line
 	9350 1600 9750 1600
 Wire Wire Line
@@ -1866,4 +1830,44 @@ Wire Wire Line
 	9750 1000 9750 900 
 Wire Wire Line
 	9750 900  10150 900 
+Wire Wire Line
+	800  3850 1000 3850
+Wire Wire Line
+	800  4450 1050 4450
+Wire Wire Line
+	1100 3950 1100 2350
+Wire Wire Line
+	800  3950 1100 3950
+Wire Wire Line
+	800  4550 1150 4550
+Wire Wire Line
+	1200 4050 1200 3700
+Wire Wire Line
+	800  4050 1200 4050
+Wire Wire Line
+	1200 4650 1200 4350
+Wire Wire Line
+	800  4650 1200 4650
+Wire Wire Line
+	1200 5050 1100 5050
+Wire Wire Line
+	1100 5050 1100 4150
+Wire Wire Line
+	1100 4150 800  4150
+Wire Wire Line
+	1050 4750 1050 5750
+Wire Wire Line
+	800  4750 1050 4750
+Wire Wire Line
+	1000 4250 1000 6400
+Wire Wire Line
+	800  4250 1000 4250
+Wire Wire Line
+	950  6950 950  4350
+Wire Wire Line
+	950  4350 800  4350
+Wire Wire Line
+	900  7500 900  4850
+Wire Wire Line
+	900  4850 800  4850
 $EndSCHEMATC
