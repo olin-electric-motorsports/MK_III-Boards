@@ -836,7 +836,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A0EC3FF)
+<<<<<<< HEAD
+    (at 369.524434 134.698599)
+=======
     (at 144.78 111.76 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59EEA6DF/59E55EA7)
@@ -935,7 +939,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A0EC42F)
+<<<<<<< HEAD
+    (at 365.934434 164.078599)
+=======
     (at 141.605 127)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59EEB0FB/59E55EA7)
@@ -1001,7 +1009,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A0EC44F)
+<<<<<<< HEAD
+    (at 406.134434 140.148599)
+=======
     (at 144.78 123.825 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59EEB679/59E55EA7)
@@ -1067,7 +1079,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A0EC46F)
+<<<<<<< HEAD
+    (at 397.904434 171.208599)
+=======
     (at 144.78 91.44 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59EEB751/59E55EA7)
@@ -1222,7 +1238,11 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 59F2572F) (tstamp 5A0EC4C9)
+<<<<<<< HEAD
+    (at 355.415958 141.698599)
+=======
     (at 153.67 106.68)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59EEA6DF/59E55C0F)
@@ -1336,7 +1356,11 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 59F2572F) (tstamp 5A0EC508)
+<<<<<<< HEAD
+    (at 355.415958 165.628599)
+=======
     (at 111.76 107.95 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59EEB0FB/59E55C0F)
@@ -1412,7 +1436,11 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 59F2572F) (tstamp 5A0EC532)
+<<<<<<< HEAD
+    (at 395.615958 141.698599)
+=======
     (at 153.67 95.25)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59EEB679/59E55C0F)
@@ -1488,7 +1516,11 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 59F2572F) (tstamp 5A0EC55C)
+<<<<<<< HEAD
+    (at 395.615958 165.628599)
+=======
     (at 152.4 85.09)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59EEB751/59E55C0F)
@@ -1773,7 +1805,11 @@
   )
 
   (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A0EC5E4)
+<<<<<<< HEAD
+    (at 229.87 71.12)
+=======
     (at 75.565 71.12)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (path /59FFBA4A)
     (fp_text reference J1 (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1785,7 +1821,11 @@
   )
 
   (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A0EC5E9)
+<<<<<<< HEAD
+    (at 68.58 71.12)
+=======
     (at 173.99 71.12)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (path /59FFDFD6)
     (fp_text reference J2 (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1797,7 +1837,11 @@
   )
 
   (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A0EC5EE)
+<<<<<<< HEAD
+    (at 67.31 137.16)
+=======
     (at 74.93 138.43)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (path /59FFD9BF)
     (fp_text reference J3 (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1809,7 +1853,11 @@
   )
 
   (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A0EC5F3)
+<<<<<<< HEAD
+    (at 229.87 138.43)
+=======
     (at 172.72 139.065)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (path /59FFDBD2)
     (fp_text reference J4 (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1995,7 +2043,11 @@
   )
 
   (module footprints:SOT-223 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5A0EC6B0)
+<<<<<<< HEAD
+    (at 140.97 105.41)
+=======
     (at 133.35 101.6)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /59F3B883)
@@ -2075,7 +2127,11 @@
   )
 
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A0EC6D8)
+<<<<<<< HEAD
+    (at 357.995387 135.698599)
+=======
     (at 148.59 110.49)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /59EEA6DF/59E55CA7)
@@ -2189,7 +2245,11 @@
   )
 
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A0EC714)
+<<<<<<< HEAD
+    (at 357.995387 159.628599)
+=======
     (at 116.84 104.14 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /59EEB0FB/59E55CA7)
@@ -2265,7 +2325,11 @@
   )
 
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A0EC73C)
+<<<<<<< HEAD
+    (at 398.195387 135.698599)
+=======
     (at 148.59 99.06)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /59EEB679/59E55CA7)
@@ -2341,7 +2405,11 @@
   )
 
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A0EC764)
+<<<<<<< HEAD
+    (at 398.195387 159.628599)
+=======
     (at 148.59 87.63)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /59EEB751/59E55CA7)
@@ -3271,7 +3339,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0EC92B)
+<<<<<<< HEAD
+    (at 362.270625 141.898599)
+=======
     (at 149.225 106.68 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEA6DF/59E55BD0)
@@ -3333,7 +3405,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0EC94E)
+<<<<<<< HEAD
+    (at 354.590625 147.428599)
+=======
     (at 119.38 133.35 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEA6DF/59E55D6B)
@@ -3366,7 +3442,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0EC95E)
+<<<<<<< HEAD
+    (at 365.696339 134.848599)
+=======
     (at 144.78 109.22)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEA6DF/59E55F5F)
@@ -3655,7 +3735,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0EC9F4)
+<<<<<<< HEAD
+    (at 366.410625 158.778599)
+=======
     (at 115.57 107.95)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB0FB/59E55BD0)
@@ -3717,7 +3801,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECA17)
+<<<<<<< HEAD
+    (at 354.590625 171.358599)
+=======
     (at 144.78 129.54)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB0FB/59E55D6B)
@@ -3750,7 +3838,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECA27)
+<<<<<<< HEAD
+    (at 361.556339 165.828599)
+=======
     (at 120.65 105.41 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB0FB/59E55F5F)
@@ -3911,7 +4003,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECA7A)
+<<<<<<< HEAD
+    (at 406.610625 134.848599)
+=======
     (at 149.225 95.25 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB679/59E55BD0)
@@ -3973,7 +4069,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECA9D)
+<<<<<<< HEAD
+    (at 394.790625 147.428599)
+=======
     (at 149.86 127)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB679/59E55D6B)
@@ -4006,7 +4106,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECAAD)
+<<<<<<< HEAD
+    (at 401.756339 141.898599)
+=======
     (at 144.78 97.79)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB679/59E55F5F)
@@ -4167,7 +4271,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECB00)
+<<<<<<< HEAD
+    (at 406.610625 158.778599)
+=======
     (at 148.59 83.185 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB751/59E55BD0)
@@ -4229,7 +4337,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECB23)
+<<<<<<< HEAD
+    (at 402.470625 165.828599)
+=======
     (at 115.57 85.09 180)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB751/59E55D6B)
@@ -4262,7 +4374,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A0ECB33)
+<<<<<<< HEAD
+    (at 394.076339 171.358599)
+=======
     (at 144.78 86.36)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EEB751/59E55F5F)
@@ -4557,7 +4673,11 @@
   )
 
   (module footprints:SOT-23-5_OEM (layer F.Cu) (tedit 59F25167) (tstamp 5A0ECBE7)
+<<<<<<< HEAD
+    (at 140.97 114.3)
+=======
     (at 137.795 114.3)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /59FCBF57)
@@ -4597,7 +4717,11 @@
   )
 
   (module footprints:SOT-23-5_OEM (layer F.Cu) (tedit 59F25167) (tstamp 5A0ECBFB)
+<<<<<<< HEAD
+    (at 140.97 118.11)
+=======
     (at 137.795 118.11)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /59FE0E62)
@@ -4735,7 +4859,11 @@
   )
 
   (module footprints:SOT-23-5_OEM (layer F.Cu) (tedit 59F25167) (tstamp 5A0ECC43)
+<<<<<<< HEAD
+    (at 106.68 76.2)
+=======
     (at 105.41 76.2)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /59F0A4C9)
@@ -4827,7 +4955,11 @@
   )
 
   (module footprints:7490100111A (layer F.Cu) (tedit 59FF4DC8) (tstamp 5A2117D4)
+<<<<<<< HEAD
+    (at 140.97 72.39)
+=======
     (at 138.43 72.39)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (path /59FA4193)
     (fp_text reference T1 (at 2.54 -3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
