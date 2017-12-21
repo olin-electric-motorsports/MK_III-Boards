@@ -1,15 +1,24 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu14.04.1)
 
   (general
+<<<<<<< HEAD
+    (links 143)
+    (no_connects 143)
+=======
     (links 144)
     (no_connects 144)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 64)
+<<<<<<< HEAD
+    (nets 77)
+=======
     (nets 76)
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
   )
 
   (page A4)
@@ -166,9 +175,16 @@
   (net 70 CANL)
   (net 71 CANH)
   (net 72 Acc_Fan_PWM)
+<<<<<<< HEAD
+  (net 73 "Net-(U1-Pad12)")
+  (net 74 "Net-(U2-Pad5)")
+  (net 75 "Net-(U4-Pad1)")
+  (net 76 "Net-(U5-Pad6)")
+=======
   (net 73 "Net-(U2-Pad5)")
   (net 74 "Net-(U4-Pad1)")
   (net 75 "Net-(U5-Pad6)")
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
 
   (net_class Default "This is the default net class."
     (clearance 0.1524)
@@ -242,6 +258,10 @@
     (add_net "Net-(T1-Pad7)")
     (add_net "Net-(T1-Pad8)")
     (add_net "Net-(T1-Pad9)")
+<<<<<<< HEAD
+    (add_net "Net-(U1-Pad12)")
+=======
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (add_net "Net-(U2-Pad5)")
     (add_net "Net-(U4-Pad1)")
     (add_net "Net-(U5-Pad6)")
@@ -2206,7 +2226,11 @@
     (pad 11 thru_hole circle (at 0 7.62 90) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 72 Acc_Fan_PWM))
     (pad 12 thru_hole circle (at 2.54 8.89 90) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
+<<<<<<< HEAD
+      (net 73 "Net-(U1-Pad12)"))
+=======
       (net 34 Shutdown_Control))
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
   )
 
   (module footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM (layer F.Cu) (tedit 59F25ACD) (tstamp 5A2106B4)
@@ -2246,7 +2270,11 @@
     (pad 4 smd rect (at -2.7 1.905 90) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 27 RXCAN))
     (pad 5 smd rect (at 2.7 1.905 90) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
+      (net 74 "Net-(U2-Pad5)"))
+=======
       (net 73 "Net-(U2-Pad5)"))
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (pad 6 smd rect (at 2.7 0.635 90) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 70 CANL))
     (pad 7 smd rect (at 2.7 -0.635 90) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
@@ -2326,7 +2354,11 @@
     (fp_line (start 0.9 1.55) (end -0.9 1.55) (layer F.Fab) (width 0.1))
     (fp_line (start 0.9 -1.55) (end 0.9 1.55) (layer F.Fab) (width 0.1))
     (pad 1 smd rect (at -1.1 -0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
+      (net 75 "Net-(U4-Pad1)"))
+=======
       (net 74 "Net-(U4-Pad1)"))
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (pad 2 smd rect (at -1.1 0) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 25 Fan_PWM))
     (pad 3 smd rect (at -1.1 0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
@@ -2367,7 +2399,11 @@
     (pad 5 smd rect (at 2.8 -1.94) (size 1.27 0.49) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 6 smd rect (at 2.8 -3.21) (size 1.27 0.49) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
+      (net 76 "Net-(U5-Pad6)"))
+=======
       (net 75 "Net-(U5-Pad6)"))
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (pad 7 smd rect (at 2.8 -4.48) (size 1.27 0.49) (layers F.Cu F.Paste F.Mask)
       (net 3 VCC))
     (pad 8 smd rect (at 2.8 -5.75) (size 1.27 0.49) (layers F.Cu F.Paste F.Mask)
@@ -2402,7 +2438,11 @@
     (pad 2 smd rect (at -1.1 0) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 3 smd rect (at -1.1 0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
+      (net 76 "Net-(U5-Pad6)"))
+=======
       (net 75 "Net-(U5-Pad6)"))
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
     (pad 4 smd rect (at 1.1 0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 58 "Net-(R21-Pad2)"))
     (pad 5 smd rect (at 1.1 -0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)

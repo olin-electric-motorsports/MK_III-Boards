@@ -1175,6 +1175,10 @@ F 3 "" H 6350 4800 50  0001 C CNN
 	1    6350 4800
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+NoConn ~ 1000 4750
+=======
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
 NoConn ~ 1250 1100
 Connection ~ 3100 950 
 Wire Wire Line
@@ -1291,6 +1295,9 @@ Wire Wire Line
 	2350 850  2350 650 
 Wire Wire Line
 	2350 950  2800 950 
+<<<<<<< HEAD
+=======
 Text GLabel 1000 4750 2    60   Input ~ 0
 Shutdown_Control
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
 $EndSCHEMATC

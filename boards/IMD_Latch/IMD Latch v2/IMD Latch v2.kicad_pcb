@@ -291,11 +291,14 @@
     (pad 1 thru_hole circle (at 0 3.5 270) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 10 "Net-(J2-Pad1)"))
     (pad "" thru_hole circle (at 2.23 1.75 270) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
+<<<<<<< HEAD
+=======
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2/Ultrafit-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+>>>>>>> 4f4b14f570d8429ee98aca112b98e357c4d1f2e3
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A07945E)
