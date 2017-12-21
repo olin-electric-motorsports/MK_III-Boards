@@ -44,7 +44,7 @@
     (trace_clearance 0.1524)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.2)
+    (trace_min 0.254)
     (segment_width 0.2)
     (edge_width 0.1)
     (via_size 0.6096)
