@@ -93,61 +93,61 @@ $EndComp
 $Comp
 L micromatch_female_RA_4 J?
 U 1 1 5A0E477A
-P 3300 5900
-F 0 "J?" H 3200 7100 60  0000 C CNN
-F 1 "GLMP" H 3200 6600 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 3100 7000 60  0001 C CNN
-F 3 "" H 3200 7100 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 3300 7200 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 3400 7300 60  0001 C CNN "MFN"
-F 6 "A99482CT-ND" H 3500 7400 60  0001 C CNN "MPN"
-F 7 "Value" H 3600 7500 60  0001 C CNN "Package"
-	1    3300 5900
+P 4750 5900
+F 0 "J?" H 4650 7100 60  0000 C CNN
+F 1 "GLMP" H 4650 6600 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_4" H 4550 7000 60  0001 C CNN
+F 3 "" H 4650 7100 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 4750 7200 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 4850 7300 60  0001 C CNN "MFN"
+F 6 "A99482CT-ND" H 4950 7400 60  0001 C CNN "MPN"
+F 7 "Value" H 5050 7500 60  0001 C CNN "Package"
+	1    4750 5900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L micromatch_female_RA_4 J?
 U 1 1 5A0E4B23
-P 3300 5250
-F 0 "J?" H 3200 6450 60  0000 C CNN
-F 1 "Extra" H 3200 5950 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 3100 6350 60  0001 C CNN
-F 3 "" H 3200 6450 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 3300 6550 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 3400 6650 60  0001 C CNN "MFN"
-F 6 "A99482CT-ND" H 3500 6750 60  0001 C CNN "MPN"
-F 7 "Value" H 3600 6850 60  0001 C CNN "Package"
-	1    3300 5250
+P 4750 5250
+F 0 "J?" H 4650 6450 60  0000 C CNN
+F 1 "Extra" H 4650 5950 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_4" H 4550 6350 60  0001 C CNN
+F 3 "" H 4650 6450 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 4750 6550 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 4850 6650 60  0001 C CNN "MFN"
+F 6 "A99482CT-ND" H 4950 6750 60  0001 C CNN "MPN"
+F 7 "Value" H 5050 6850 60  0001 C CNN "Package"
+	1    4750 5250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L micromatch_female_RA_4 J?
 U 1 1 5A0E4D5D
-P 3300 4600
-F 0 "J?" H 3200 5800 60  0000 C CNN
-F 1 "DC Shutdown" H 3200 5300 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 3100 5700 60  0001 C CNN
-F 3 "" H 3200 5800 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 3300 5900 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 3400 6000 60  0001 C CNN "MFN"
-F 6 "A99482CT-ND" H 3500 6100 60  0001 C CNN "MPN"
-F 7 "Value" H 3600 6200 60  0001 C CNN "Package"
-	1    3300 4600
+P 4750 4600
+F 0 "J?" H 4650 5800 60  0000 C CNN
+F 1 "DC Shutdown" H 4650 5300 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_4" H 4550 5700 60  0001 C CNN
+F 3 "" H 4650 5800 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 4750 5900 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 4850 6000 60  0001 C CNN "MFN"
+F 6 "A99482CT-ND" H 4950 6100 60  0001 C CNN "MPN"
+F 7 "Value" H 5050 6200 60  0001 C CNN "Package"
+	1    4750 4600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L micromatch_female_RA_4 J?
 U 1 1 5A0E5397
-P 3300 3950
-F 0 "J?" H 3200 5150 60  0000 C CNN
-F 1 "TSAL LSD" H 3200 4650 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 3100 5050 60  0001 C CNN
-F 3 "" H 3200 5150 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 3300 5250 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 3400 5350 60  0001 C CNN "MFN"
-F 6 "A99482CT-ND" H 3500 5450 60  0001 C CNN "MPN"
-F 7 "Value" H 3600 5550 60  0001 C CNN "Package"
-	1    3300 3950
+P 4750 3950
+F 0 "J?" H 4650 5150 60  0000 C CNN
+F 1 "TSAL LSD" H 4650 4650 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_4" H 4550 5050 60  0001 C CNN
+F 3 "" H 4650 5150 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 4750 5250 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 4850 5350 60  0001 C CNN "MFN"
+F 6 "A99482CT-ND" H 4950 5450 60  0001 C CNN "MPN"
+F 7 "Value" H 5050 5550 60  0001 C CNN "Package"
+	1    4750 3950
 	-1   0    0    -1  
 $EndComp
 Text Label 1400 2850 0    60   ~ 0
@@ -164,23 +164,23 @@ Text Label 2600 800  2    60   ~ 0
 Fused_TS+
 Text Label 2600 900  2    60   ~ 0
 Fused_TS-
-Text Label 3150 2850 2    60   ~ 0
+Text Label 4600 2850 2    60   ~ 0
 12V
-Text Label 3150 2950 2    60   ~ 0
+Text Label 4600 2950 2    60   ~ 0
 TSAL_LSD
-Text Label 3150 3050 2    60   ~ 0
+Text Label 4600 3050 2    60   ~ 0
 GND
-Text Label 3150 3500 2    60   ~ 0
+Text Label 4600 3500 2    60   ~ 0
 Shutdown
-Text Label 3150 3600 2    60   ~ 0
+Text Label 4600 3600 2    60   ~ 0
 GND
-Text Label 3150 4150 2    60   ~ 0
+Text Label 4600 4150 2    60   ~ 0
 12V
-Text Label 3150 4250 2    60   ~ 0
+Text Label 4600 4250 2    60   ~ 0
 GND
-Text Label 3150 4800 2    60   ~ 0
+Text Label 4600 4800 2    60   ~ 0
 12V
-Text Label 3150 4900 2    60   ~ 0
+Text Label 4600 4900 2    60   ~ 0
 GND
 Text Label 1400 800  0    60   ~ 0
 Fused_TS+
@@ -189,16 +189,16 @@ Fused_TS-
 $Comp
 L micromatch_female_RA_4 J?
 U 1 1 5A0E547A
-P 3300 6550
-F 0 "J?" H 3200 7750 60  0000 C CNN
-F 1 "Energy Meter" H 3200 7250 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 3100 7650 60  0001 C CNN
-F 3 "" H 3200 7750 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 3300 7850 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 3400 7950 60  0001 C CNN "MFN"
-F 6 "A99482CT-ND" H 3500 8050 60  0001 C CNN "MPN"
-F 7 "Value" H 3600 8150 60  0001 C CNN "Package"
-	1    3300 6550
+P 4750 6550
+F 0 "J?" H 4650 7750 60  0000 C CNN
+F 1 "Energy Meter" H 4650 7250 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_4" H 4550 7650 60  0001 C CNN
+F 3 "" H 4650 7750 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 4750 7850 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 4850 7950 60  0001 C CNN "MFN"
+F 6 "A99482CT-ND" H 4950 8050 60  0001 C CNN "MPN"
+F 7 "Value" H 5050 8150 60  0001 C CNN "Package"
+	1    4750 6550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -218,9 +218,9 @@ F 7 "Value" H 3250 1800 60  0001 C CNN "Package"
 $EndComp
 Text Label 2600 1200 2    60   ~ 0
 Fused_TS+
-Text Label 2150 5450 2    60   ~ 0
+Text Label 3600 5450 2    60   ~ 0
 12V
-Text Label 3150 5550 2    60   ~ 0
+Text Label 4600 5550 2    60   ~ 0
 GND
 Text Label 1400 1000 0    60   ~ 0
 TSMP-
@@ -248,16 +248,31 @@ TSMP-
 $Comp
 L F_1.1A_12V F?
 U 1 1 5A1CD8BD
-P 2550 5450
-F 0 "F?" V 2630 5450 50  0000 C CNN
-F 1 "F_1.1A_12V" V 2475 5450 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" V 2480 5450 50  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" V 2630 5450 50  0001 C CNN
-F 4 "Digi-Key" H 2550 5450 60  0001 C CNN "MFN"
-F 5 "F5764CT-ND" H 2550 5450 60  0001 C CNN "MPN"
-F 6 "Value" H 2550 5450 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=F5764CT-ND" V 3030 5850 60  0001 C CNN "PurchasingLink"
-	1    2550 5450
+P 4000 5450
+F 0 "F?" V 4080 5450 50  0000 C CNN
+F 1 "F_1.1A_12V" V 3925 5450 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" V 3930 5450 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" V 4080 5450 50  0001 C CNN
+F 4 "Digi-Key" H 4000 5450 60  0001 C CNN "MFN"
+F 5 "F5764CT-ND" H 4000 5450 60  0001 C CNN "MPN"
+F 6 "Value" H 4000 5450 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=F5764CT-ND" V 4480 5850 60  0001 C CNN "PurchasingLink"
+	1    4000 5450
 	0    1    1    0   
+$EndComp
+$Comp
+L D_Zener_18V D?
+U 1 1 5A20BCAD
+P 2300 3150
+F 0 "D?" H 2300 3250 50  0000 C CNN
+F 1 "D_Zener_18V" H 2300 3050 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 2200 3150 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 2300 3250 50  0001 C CNN
+F 4 "SMBJ5355B-TPMSCT-ND" H 2400 3350 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2500 3450 60  0001 C CNN "MFN"
+F 6 "DO-214AA (SMB)" H 2600 3550 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 2700 3650 60  0001 C CNN "PurchasingLink"
+	1    2300 3150
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
