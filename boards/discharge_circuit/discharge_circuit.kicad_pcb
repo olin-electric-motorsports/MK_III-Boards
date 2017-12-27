@@ -3,7 +3,7 @@
   (general
     (links 15)
     (no_connects 0)
-    (area 100.4694 82.1814 195.051101 127.7226)
+    (area 101.951099 83.203599 195.051101 126.803601)
     (thickness 1.6)
     (drawings 44)
     (tracks 48)
@@ -363,6 +363,11 @@
     (pad 1 thru_hole circle (at 0 3.5 90) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 4 /TS+Unfused))
     (pad "" thru_hole circle (at 2.23 1.75 90) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
+    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2/Ultrafit-2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:Ultrafit_2 (layer F.Cu) (tedit 5A085A73) (tstamp 5A01314B)
@@ -393,6 +398,11 @@
     (pad 1 thru_hole circle (at 0 3.5 180) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 1 /Shutdown))
     (pad "" thru_hole circle (at 2.23 1.75 180) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
+    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2/Ultrafit-2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:Ultrafit_4 (layer F.Cu) (tedit 5A1978F3) (tstamp 5A013160)
