@@ -178,6 +178,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Relay_SPDT_OMRON-G2RL-1-E/part235_sp.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:R_3k_HS_TO247 (layer F.Cu) (tedit 5A14E958) (tstamp 5A0131A4)
@@ -219,9 +224,9 @@
       (net 9 "Net-(K1-Pad6)"))
     (pad 2 thru_hole circle (at 10.9 0 90) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 /TS+Unfused))
-    (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Radial_Power_L11.0mm_W7.0mm_P5.00mm.wrl
+    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_3K_heatsink/RA-T2X-51E_sp.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -437,6 +442,11 @@
       (net 7 "Net-(J3-Pad3)"))
     (pad 4 thru_hole circle (at 0 -5.25 90) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 8 "Net-(J3-Pad4)"))
+    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-4/1722861104.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:R_10K_HV (layer F.Cu) (tedit 5A14E94F) (tstamp 5A0131B2)
@@ -462,9 +472,9 @@
       (net 8 "Net-(J3-Pad4)"))
     (pad 2 thru_hole circle (at 33 0 90) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 /TS+Unfused))
-    (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Radial_Power_L11.0mm_W7.0mm_P5.00mm.wrl
+    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_10K_HV/part_sp.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -492,9 +502,9 @@
       (net 7 "Net-(J3-Pad3)"))
     (pad 2 thru_hole circle (at 33 0 90) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 6 /TS-Unfused))
-    (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Radial_Power_L11.0mm_W7.0mm_P5.00mm.wrl
+    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_10K_HV/part_sp.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
