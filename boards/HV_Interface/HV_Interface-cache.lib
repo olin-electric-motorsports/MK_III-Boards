@@ -21,6 +21,57 @@ X 8 8 200 -350 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Zener_18V
+#
+DEF D_Zener_18V D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_18V" 0 -100 50 H V C CNN
+F2 "footprints:DO-214AA" -100 0 50 H I C CNN
+F3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" 0 100 50 H I C CNN
+F4 "SMBJ5355B-TPMSCT-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "DO-214AA (SMB)" 300 400 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -100 -50 N
+P 2 0 1 8 -50 50 0 50 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# F_1.1A_12V
+#
+DEF F_1.1A_12V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_1.1A_12V" -75 0 50 V V C CNN
+F2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" -70 0 50 V I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" 80 0 50 V I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "F5764CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=F5764CT-ND" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Ultrafit_2
 #
 DEF Ultrafit_2 J 0 40 Y Y 1 F N
