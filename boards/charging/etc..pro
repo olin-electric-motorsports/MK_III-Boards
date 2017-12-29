@@ -1,4 +1,4 @@
-update=Sun 17 Dec 2017 11:57:16 PM EST
+update=Sun 26 Nov 2017 22:37:38 EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,19 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
+[general]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=118
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/hyegibang/Formula/OEM_Preferred_Parts/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,6 +61,16 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-[general]
+LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
+LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
+LibName35=/home/hyegibang/Formula/OEM_Preferred_Parts/schematic/formula
+[schematic_editor]
 version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

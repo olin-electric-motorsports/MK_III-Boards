@@ -1017,7 +1017,7 @@ U 1 1 59E9335E
 P 6150 3550
 F 0 "Q3" H 6350 3625 50  0000 L CNN
 F 1 "SSM3K333R" H 6350 3550 50  0000 L CNN
-F 2 "footprints:SOT-23-5_OEM" H 6350 3475 50  0001 L CIN
+F 2 "footprints:SOT-23F" H 6350 3475 50  0001 L CIN
 F 3 "file:///home/sherrieshen/Downloads/SSM3K333R_datasheet_en_20140301.pdf" H 6350 3625 50  0001 L CNN
 F 4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 6450 3725 60  0001 C CNN "Purchase_Link"
 F 5 "SSM3K333RLFCT-ND" H 6550 3825 60  0001 C CNN "MPN"
@@ -1099,7 +1099,7 @@ U 1 1 59E96CA6
 P 4550 4600
 F 0 "Q2" H 4750 4675 50  0000 L CNN
 F 1 "SSM3K333R" H 4750 4600 50  0000 L CNN
-F 2 "footprints:SOT-23-5_OEM" H 4750 4525 50  0001 L CIN
+F 2 "footprints:SOT-23F" H 4750 4525 50  0001 L CIN
 F 3 "file:///home/sherrieshen/Downloads/SSM3K333R_datasheet_en_20140301.pdf" H 4750 4675 50  0001 L CNN
 F 4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 4850 4775 60  0001 C CNN "Purchase_Link"
 F 5 "SSM3K333RLFCT-ND" H 4950 4875 60  0001 C CNN "MPN"
@@ -1181,7 +1181,7 @@ U 1 1 59E970D8
 P 3500 3550
 F 0 "Q1" H 3700 3625 50  0000 L CNN
 F 1 "SSM3K333R" H 3700 3550 50  0000 L CNN
-F 2 "footprints:SOT-23-5_OEM" H 3700 3475 50  0001 L CIN
+F 2 "footprints:SOT-23F" H 3700 3475 50  0001 L CIN
 F 3 "file:///home/sherrieshen/Downloads/SSM3K333R_datasheet_en_20140301.pdf" H 3700 3625 50  0001 L CNN
 F 4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 3800 3725 60  0001 C CNN "Purchase_Link"
 F 5 "SSM3K333RLFCT-ND" H 3900 3825 60  0001 C CNN "MPN"
