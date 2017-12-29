@@ -32,6 +32,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Interface_throttle-steering-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,17 +47,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Ampseal_14 J?
-U 1 1 5A255D30
-P 1300 4900
-F 0 "J?" H 1050 5650 60  0000 C CNN
-F 1 "Ampseal_14" H 1000 4150 60  0000 L CNN
-F 2 "" H 1100 5200 60  0001 C CNN
-F 3 "" H 1100 5200 60  0001 C CNN
-	1    1300 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L micromatch_male_20 J?
 U 1 1 5A255E5F
@@ -162,4 +152,79 @@ Text Label 1500 5450 0    60   ~ 0
 12V
 Text Label 1500 5550 0    60   ~ 0
 GND
+Text Label 3500 4250 2    60   ~ 0
+IS_in
+Text Label 3850 4250 0    60   ~ 0
+IS_out
+Wire Wire Line
+	3500 4250 3650 4250
+Wire Wire Line
+	3650 4250 3850 4250
+$Comp
+L Ultrafit_2 J?
+U 1 1 5A260206
+P 1150 6850
+F 0 "J?" H 1150 7000 60  0000 C CNN
+F 1 "Ultrafit_2" H 1250 6650 60  0000 C CNN
+F 2 "footprints:Ultrafit_2" H 1050 6900 60  0001 C CNN
+F 3 "" H 1150 7000 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 1250 7100 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 1350 7200 60  0001 C CNN "MFN"
+F 6 "WM11570-ND" H 1450 7300 60  0001 C CNN "MPN"
+F 7 "Value" H 1550 7400 60  0001 C CNN "Package"
+	1    1150 6850
+	1    0    0    -1  
+$EndComp
+Text Label 1400 6800 0    60   ~ 0
+ESTOP_in
+Text Label 1400 6900 0    60   ~ 0
+ESTOP_I_out
+Text Label 3700 4500 0    60   ~ 0
+Crash_sense
+Wire Wire Line
+	3700 4500 3650 4500
+Wire Wire Line
+	3650 4500 3650 4250
+Connection ~ 3650 4250
+Text Label 3500 4700 2    60   ~ 0
+ESTOP_in
+Text Label 3850 4700 0    60   ~ 0
+BOTS_in
+Wire Wire Line
+	3500 4700 3650 4700
+Wire Wire Line
+	3650 4700 3850 4700
+Text Label 3700 4950 0    60   ~ 0
+BOTS_sense
+Wire Wire Line
+	3700 4950 3650 4950
+Wire Wire Line
+	3650 4950 3650 4700
+Connection ~ 3650 4700
+Text Label 3500 5150 2    60   ~ 0
+ESTOP_I_out
+Text Label 3850 5150 0    60   ~ 0
+ESTOP_out
+Wire Wire Line
+	3500 5150 3650 5150
+Wire Wire Line
+	3650 5150 3850 5150
+Text Label 3700 5400 0    60   ~ 0
+ESTOP_sense
+Wire Wire Line
+	3700 5400 3650 5400
+Wire Wire Line
+	3650 5400 3650 5150
+Connection ~ 3650 5150
+$Comp
+L Ampseal_23 J?
+U 1 1 5A260E79
+P 1300 5350
+F 0 "J?" H 1050 6550 60  0000 C CNN
+F 1 "Ampseal_23" H 1000 4150 60  0000 L CNN
+F 2 "" H 1100 6100 60  0001 C CNN
+F 3 "" H 1100 6100 60  0001 C CNN
+	1    1300 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
