@@ -1,4 +1,4 @@
-update=Tue 24 Oct 2017 05:09:59 PM EDT
+update=1/4/2018 12:20:00 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../../OEM_Preferred_Parts
+LibDir=../../../OEM_Preferred_Parts/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -72,3 +72,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=/home/utsav22g/Desktop/Formula/OEM/OEM_Preferred_Parts/schematic/formula
+LibName34=schematic/formula

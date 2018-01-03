@@ -1,0 +1,306 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# +5V
+#
+DEF +5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 200mA_Fuse
+#
+DEF 200mA_Fuse F 0 40 Y Y 1 F N
+F0 "F" 500 -50 60 H V C CNN
+F1 "200mA_Fuse" 800 -250 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+A 600 -100 50 -1799 -1 0 1 0 N 550 -100 650 -100
+A 699 -100 49 1800 889 0 1 0 N 650 -100 700 -50
+A 700 -99 49 900 -11 0 1 0 N 700 -50 750 -100
+X 1 1 350 -100 200 R 50 50 1 1 I
+X 2 2 950 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BSS308PE
+#
+DEF BSS308PE Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "BSS308PE" 200 -50 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 200 100 50 H I C CNN
+F3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" 200 50 50 H I C CNN
+F4 "BSS308PEH6327XTSA1TR-ND" 0 0 60 H I C CNN "MPN"
+F5 "Value" 0 0 60 H I C CNN "Package"
+F6 "Value" 0 0 60 H I C CNN "MFN"
+F7 "https://www.digikey.com/product-detail/en/infineon-technologies/BSS308PEH6327XTSA1/BSS308PEH6327XTSA1TR-ND/2783466" 600 450 60 H I C CNN "PurchasingLink"
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 90 0 50 -15 50 15 90 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 200 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LED_0805
+#
+DEF LED_0805 D 0 40 N N 1 F N
+F0 "D" 0 -100 50 H V C CNN
+F1 "LED_0805" 0 100 50 H V C CNN
+F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
+F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
+F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LR8K4-G
+#
+DEF LR8K4-G U 0 40 Y Y 1 F N
+F0 "U" -300 150 50 H V L CNN
+F1 "LR8K4-G" 0 150 50 H V L CNN
+F2 "Package_TO_SOT_SMD:TO-252-2" 0 50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO?252*
+ DPAK*
+$ENDFPLIST
+DRAW
+S -300 100 300 -200 0 1 10 f
+X IN 1 -400 0 100 R 50 50 1 1 I
+X OUT 2 400 0 100 L 50 50 1 1 w
+X ADJ 3 0 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MCP6L91T-EOT
+#
+DEF MCP6L91T-EOT U 0 20 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "MCP6L91T-EOT" 0 -200 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+ALIAS MCP6561 MCP6001 MCP601-xOT OPA333xxDBV OPA340NA OPA376xxDBV TS881 TSV911ILT
+$FPLIST
+ SOT*23*
+ *SC*70*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 2 -100 -300 150 U 50 50 0 1 W
+X V+ 5 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -300 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# R_10k
+#
+DEF R_10k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_10k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
+F4 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1M
+#
+DEF R_1M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1M" 0 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805JT1M00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1k_HS
+#
+DEF R_1k_HS R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1k_HS" -100 0 50 V V C CNN
+F2 "footprints:R_1k_HS_TO247" -70 0 50 H I C CNN
+F3 "https://riedon.com/media/pdf/PF2470.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "696-1105-5-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=696-1105-5-ND" 480 400 60 H I C CNN "PurchasingLink"
+F8 "RA-T2X-25E-ND" 580 500 60 V I C CNN "MPN2"
+F9 "https://www.digikey.com/products/en?keywords=RA-T2X-25E-ND" 680 600 60 V I C CNN "PurchasingLink2"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_2.94M
+#
+DEF R_2.94M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_2.94M" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "541-2.94MCCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_22M
+#
+DEF R_22M R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_22M" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "RMCF0805JT22M0CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT22M0/RMCF0805JT22M0CT-ND/1942605" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3.01k
+#
+DEF R_3.01k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3.01k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
+F4 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3k_HS
+#
+DEF R_3k_HS R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3k_HS" -100 0 50 V V C CNN
+F2 "footprints:R_3k_HS_TO247" -70 0 50 H I C CNN
+F3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "AP101 3K J " 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
