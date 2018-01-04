@@ -3,12 +3,12 @@
   (general
     (links 264)
     (no_connects 3)
-    (area 71.449015 67.386999 170.230001 142.544001)
+    (area 60.198 50.038 192.532001 170.434001)
     (thickness 1.6)
-    (drawings 15)
+    (drawings 11)
     (tracks 1300)
     (zones 0)
-    (modules 129)
+    (modules 133)
     (nets 137)
   )
 
@@ -67,8 +67,8 @@
     (grid_origin 80.645 125.73)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010fc_80000007)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -88,9 +88,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "/home/noah/formula/MK_III-Boards/boards/BMS_Slave/Gerber Files/"))
   )
 
   (net 0 "")
@@ -4824,6 +4824,54 @@
     )
   )
 
+  (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A4E1917)
+    (at 75.565 138.43)
+    (path /59FFBA4A)
+    (fp_text reference J1 (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Mounting_Hole_4-40 (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 4.6482 4.6482) (drill 3.2639) (layers *.Cu *.Mask))
+  )
+
+  (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A4E191C)
+    (at 166.37 138.43)
+    (path /59FFDFD6)
+    (fp_text reference J2 (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Mounting_Hole_4-40 (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 4.6482 4.6482) (drill 3.2639) (layers *.Cu *.Mask))
+  )
+
+  (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A4E1921)
+    (at 75.565 71.755)
+    (path /59FFD9BF)
+    (fp_text reference J3 (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Mounting_Hole_4-40 (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 4.6482 4.6482) (drill 3.2639) (layers *.Cu *.Mask))
+  )
+
+  (module footprints:Mounting_Hole_4-40 (layer F.Cu) (tedit 59D2C8FF) (tstamp 5A4E1926)
+    (at 165.735 71.755)
+    (path /59FFDBD2)
+    (fp_text reference J4 (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Mounting_Hole_4-40 (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 4.6482 4.6482) (drill 3.2639) (layers *.Cu *.Mask))
+  )
+
   (gr_line (start 166.116 67.437) (end 75.438 67.437) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 170.18 138.557) (end 170.18 71.501) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 75.438 142.494) (end 166.243 142.494) (angle 90) (layer Edge.Cuts) (width 0.1))
@@ -4832,8 +4880,6 @@
   (gr_arc (start 166.116 71.501) (end 166.116 67.437) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 75.565 71.501) (end 71.501 71.628) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 75.438 138.557) (end 75.438 142.494) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 166.1211 71.5036) (end 167.75305 71.5036) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 166.1211 138.5036) (end 167.75305 138.5036) (layer Edge.Cuts) (width 0.1))
   (gr_text "Noah Rivkin\n" (at 140.335 135.89) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -4843,8 +4889,6 @@
   (gr_text "BMS Slave Rev 1" (at 143.51 138.43) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_circle (center 75.5091 138.5036) (end 77.14105 138.5036) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 75.5091 71.5036) (end 77.14105 71.5036) (layer Edge.Cuts) (width 0.1))
 
   (segment (start 130.429 103.124) (end 130.429 102.87) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 153.4 95.901) (end 153.4 94.615) (width 0.25) (layer F.Cu) (net 1) (tstamp 5A41236F))
