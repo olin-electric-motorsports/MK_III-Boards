@@ -32,7 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:formula
-LIBS:IMD Latch v3-cache
+LIBS:IMD_Latch_v3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -158,8 +158,6 @@ F 3 "" H 3100 4650 50  0001 C CNN
 	1    3100 4650
 	1    0    0    -1  
 $EndComp
-Text Label 2800 3150 0    30   ~ 0
-12V_Fused
 Text Notes 2650 3950 1    60   ~ 0
 12V Indicator
 $Comp
@@ -186,21 +184,6 @@ F 1 "GND" H 2600 3000 50  0000 C CNN
 F 2 "" H 2600 3150 50  0001 C CNN
 F 3 "" H 2600 3150 50  0001 C CNN
 	1    2600 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_10uF C1
-U 1 1 5A027880
-P 2525 1500
-F 0 "C1" H 2550 1600 50  0000 L CNN
-F 1 "C_10uF" H 2391 1426 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 2563 1350 50  0001 C CNN
-F 3 "http://datasheets.avx.com/cx5r.pdf" H 2550 1600 50  0001 C CNN
-F 4 "478-5167-1-ND" H 2525 1500 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 2525 1500 60  0001 C CNN "MFN"
-F 6 "Value" H 2525 1500 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" H 2950 2000 60  0001 C CNN "PurchasingLink"
-	1    2525 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -394,12 +377,12 @@ $EndComp
 $Comp
 L GND #PWR016
 U 1 1 5A05A2C9
-P 2975 1800
-F 0 "#PWR016" H 2975 1550 50  0001 C CNN
-F 1 "GND" H 2975 1650 50  0000 C CNN
-F 2 "" H 2975 1800 50  0001 C CNN
-F 3 "" H 2975 1800 50  0001 C CNN
-	1    2975 1800
+P 4225 2200
+F 0 "#PWR016" H 4225 1950 50  0001 C CNN
+F 1 "GND" H 4225 2050 50  0000 C CNN
+F 2 "" H 4225 2200 50  0001 C CNN
+F 3 "" H 4225 2200 50  0001 C CNN
+	1    4225 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -435,7 +418,7 @@ Text Label 6550 2950 0    60   ~ 0
 Text Label 7500 2850 0    60   ~ 0
 12V_Fused
 NoConn ~ 3950 4200
-Text Label 1925 1100 0    60   ~ 0
+Text Label 3450 1550 0    60   ~ 0
 12V_Fused
 Wire Wire Line
 	2600 2850 2800 2850
@@ -497,28 +480,25 @@ Wire Wire Line
 Wire Wire Line
 	7050 4500 7050 4550
 Wire Wire Line
-	2375 1350 2525 1350
+	3825 1800 3900 1800
 Wire Wire Line
-	2525 1350 2975 1350
+	3900 1800 4225 1800
 Wire Wire Line
-	2975 1350 3275 1350
+	4225 1800 4525 1800
+Connection ~ 4225 1800
 Wire Wire Line
-	3275 1350 3275 2150
-Connection ~ 2975 1350
-Connection ~ 2525 1350
+	3525 1800 3450 1800
 Wire Wire Line
-	2075 1350 1925 1350
+	3450 1800 3450 1550
 Wire Wire Line
-	1925 1350 1925 1100
+	3900 2100 3900 2150
 Wire Wire Line
-	2525 1650 2525 1700
+	3900 2150 4225 2150
 Wire Wire Line
-	2525 1700 2975 1700
+	4225 2100 4225 2150
 Wire Wire Line
-	2975 1650 2975 1700
-Wire Wire Line
-	2975 1700 2975 1800
-Connection ~ 2975 1700
+	4225 2150 4225 2200
+Connection ~ 4225 2150
 Wire Wire Line
 	7800 2900 8350 2900
 Wire Wire Line
@@ -604,35 +584,33 @@ Wire Wire Line
 $Comp
 L R_2.94M R3
 U 1 1 5A08F396
-P 2975 1500
-F 0 "R3" V 3055 1500 50  0000 C CNN
-F 1 "R_2.94M" V 2875 1500 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2905 1500 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3055 1500 50  0001 C CNN
-F 4 "Digi-Key" H 2975 1500 60  0001 C CNN "MFN"
-F 5 "541-2.94MCCT-ND" H 2975 1500 60  0001 C CNN "MPN"
-F 6 "Value" H 2975 1500 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" H 3455 1900 60  0001 C CNN "PurchasingLink"
-	1    2975 1500
+P 4225 1950
+F 0 "R3" V 4305 1950 50  0000 C CNN
+F 1 "R_2.94M" V 4125 1950 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4155 1950 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4305 1950 50  0001 C CNN
+F 4 "Digi-Key" H 4225 1950 60  0001 C CNN "MFN"
+F 5 "541-2.94MCCT-ND" H 4225 1950 60  0001 C CNN "MPN"
+F 6 "Value" H 4225 1950 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" H 4705 2350 60  0001 C CNN "PurchasingLink"
+	1    4225 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_576k R2
 U 1 1 5A08F41B
-P 2225 1350
-F 0 "R2" V 2305 1350 50  0000 C CNN
-F 1 "R_576k" V 2125 1350 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2155 1350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2305 1350 50  0001 C CNN
-F 4 "Digi-Key" H 2225 1350 60  0001 C CNN "MFN"
-F 5 "541-576KCCT-ND" H 2225 1350 60  0001 C CNN "MPN"
-F 6 "Value" H 2225 1350 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" H 2705 1750 60  0001 C CNN "PurchasingLink"
-	1    2225 1350
+P 3675 1800
+F 0 "R2" V 3755 1800 50  0000 C CNN
+F 1 "R_576k" V 3575 1800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3605 1800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3755 1800 50  0001 C CNN
+F 4 "Digi-Key" H 3675 1800 60  0001 C CNN "MFN"
+F 5 "541-576KCCT-ND" H 3675 1800 60  0001 C CNN "MPN"
+F 6 "Value" H 3675 1800 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" H 4155 2200 60  0001 C CNN "PurchasingLink"
+	1    3675 1800
 	0    1    1    0   
 $EndComp
-Text Label 4800 2900 0    30   ~ 0
-12V_Fused
 $Comp
 L GND #PWR?
 U 1 1 5A4B4937
@@ -662,42 +640,10 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q
 	1    4900 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L R_300k R?
-U 1 1 5A4B642C
-P 3650 2650
-F 0 "R?" V 3730 2650 50  0000 C CNN
-F 1 "R_300k" V 3550 2650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3580 2650 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3730 2650 50  0001 C CNN
-F 4 "Digi-Key" H 3650 2650 60  0001 C CNN "MFN"
-F 5 "P300KDACT-ND" H 3650 2650 60  0001 C CNN "MPN"
-F 6 "Value" H 3650 2650 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" H 4130 3050 60  0001 C CNN "PurchasingLink"
-	1    3650 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_300k R?
-U 1 1 5A4B64AB
-P 3650 3000
-F 0 "R?" V 3730 3000 50  0000 C CNN
-F 1 "R_300k" V 3550 3000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3580 3000 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3730 3000 50  0001 C CNN
-F 4 "Digi-Key" H 3650 3000 60  0001 C CNN "MFN"
-F 5 "P300KDACT-ND" H 3650 3000 60  0001 C CNN "MPN"
-F 6 "Value" H 3650 3000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" H 4130 3400 60  0001 C CNN "PurchasingLink"
-	1    3650 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3650 2800 3650 2825
 Wire Wire Line
 	3650 2825 3650 2850
-Text Label 3650 2500 0    30   ~ 0
-12V_Fused
 $Comp
 L GND #PWR?
 U 1 1 5A4B68E5
@@ -716,4 +662,56 @@ Wire Wire Line
 Wire Wire Line
 	4325 3300 4600 3300
 Connection ~ 3650 2825
+Text Label 4800 2900 0    60   ~ 0
+12V_Fused
+Text Label 2800 3150 0    60   ~ 0
+12V_Fused
+Text Label 3650 2500 0    60   ~ 0
+12V_Fused
+$Comp
+L R_576k R?
+U 1 1 5A4CC00F
+P 3650 3000
+F 0 "R?" V 3730 3000 50  0000 C CNN
+F 1 "R_576k" V 3550 3000 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3580 3000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3730 3000 50  0001 C CNN
+F 4 "Digi-Key" H 3650 3000 60  0001 C CNN "MFN"
+F 5 "541-576KCCT-ND" H 3650 3000 60  0001 C CNN "MPN"
+F 6 "Value" H 3650 3000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" H 4130 3400 60  0001 C CNN "PurchasingLink"
+	1    3650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_576k R?
+U 1 1 5A4CC07D
+P 3650 2650
+F 0 "R?" V 3730 2650 50  0000 C CNN
+F 1 "R_576k" V 3550 2650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3580 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 3730 2650 50  0001 C CNN
+F 4 "Digi-Key" H 3650 2650 60  0001 C CNN "MFN"
+F 5 "541-576KCCT-ND" H 3650 2650 60  0001 C CNN "MPN"
+F 6 "Value" H 3650 2650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" H 4130 3050 60  0001 C CNN "PurchasingLink"
+	1    3650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_10uF_16V C?
+U 1 1 5A4CD8EA
+P 3900 1950
+F 0 "C?" H 3925 2050 50  0000 L CNN
+F 1 "C_10uF_16V" V 3850 1650 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3938 1800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf" H 3925 2050 50  0001 C CNN
+F 4 "1276-2399-1-ND" H 3900 1950 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3900 1950 60  0001 C CNN "MFN"
+F 6 "Value" H 3900 1950 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485" H 4325 2450 60  0001 C CNN "PurchasingLink"
+	1    3900 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 1800
 $EndSCHEMATC

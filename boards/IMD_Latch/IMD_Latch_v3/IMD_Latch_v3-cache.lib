@@ -47,17 +47,17 @@ X Vdd 16 450 300 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# C_10uF
+# C_10uF_16V
 #
-DEF C_10uF C 0 10 N Y 1 F N
+DEF C_10uF_16V C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_10uF" 25 -100 50 H V L CNN
+F1 "C_10uF_16V" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
-F3 "http://datasheets.avx.com/cx5r.pdf" 25 100 50 H I C CNN
-F4 "478-5167-1-ND" 0 0 60 H I C CNN "MPN"
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf" 25 100 50 H I C CNN
+F4 "1276-2399-1-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" 425 500 60 H I C CNN "PurchasingLink"
+F7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -314,28 +314,6 @@ F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "541-2.94MCCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "Value" 0 0 60 H I C CNN "Package"
 F7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_300k
-#
-DEF R_300k R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_300k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
-F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "P300KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
