@@ -3,7 +3,7 @@
   (general
     (links 90)
     (no_connects 0)
-    (area 31.978599 32.501999 102.118001 102.626001)
+    (area 31.993999 32.501999 102.094001 102.602001)
     (thickness 1.6)
     (drawings 34)
     (tracks 261)
@@ -234,12 +234,12 @@
     (at 54.102 55.626 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
-    (path /5A1B7D2C)
+    (path /5A4E9EC4)
     (attr smd)
     (fp_text reference C5 (at -2.54 0.254 180) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
-    (fp_text value C_1uF (at 0 1.75 180) (layer F.Fab) hide
+    (fp_text value C_10uF (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))

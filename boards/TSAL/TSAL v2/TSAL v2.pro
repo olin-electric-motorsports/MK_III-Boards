@@ -1,4 +1,4 @@
-update=Tue 24 Oct 2017 05:09:59 PM EDT
+update=1/5/2018 3:45:30 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,19 +25,9 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
-LibDir=../../../OEM_Preferred_Parts
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -71,4 +61,14 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/utsav22g/Desktop/Formula/OEM/OEM_Preferred_Parts/schematic/formula
+LibName33=C:/Users/ugupta/Documents/GitHub/OEM_Preferred_Parts/schematic/formula
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
