@@ -237,17 +237,17 @@ P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 ENDDRAW
 ENDDEF
 #
-# R_1M
+# R_120k
 #
-DEF R_1M R 0 0 N Y 1 F N
+DEF R_120k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1M" 0 0 50 V V C CNN
+F1 "R_120k" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "RMCF0805JT1M00CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "RMCF0805FT120KCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600" 480 400 60 H I C CNN "PurchasingLink"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -303,17 +303,17 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_2.94M
+# R_200k
 #
-DEF R_2.94M R 0 0 N Y 1 F N
+DEF R_200k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_2.94M" -100 0 50 V V C CNN
+F1 "R_200k" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 80 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "541-2.94MCCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "RMCF0805FG200K" 0 0 60 H I C CNN "MPN"
 F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW08052M94FKEA/541-2.94MCCT-ND/1181178" 480 400 60 H I C CNN "PurchasingLink"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FG200K/RMCF0805FG200KCT-ND/6053195" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -325,17 +325,17 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_576k
+# R_604k
 #
-DEF R_576k R 0 0 N Y 1 F N
+DEF R_604k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_576k" -100 0 50 V V C CNN
+F1 "R_604k" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 80 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "541-576KCCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "RMCF0805FT604KCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0805576KFKEA/541-576KCCT-ND/1181100" 480 400 60 H I C CNN "PurchasingLink"
+F7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
