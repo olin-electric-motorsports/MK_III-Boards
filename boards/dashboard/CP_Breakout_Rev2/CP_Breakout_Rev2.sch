@@ -65,21 +65,6 @@ F 7 "https://www.digikey.com/product-detail/en/silicon-labs/CP2120-GM/336-1324-N
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_10uF C3
-U 1 1 59F77735
-P 4600 2300
-F 0 "C3" H 4625 2400 50  0000 L CNN
-F 1 "C_10uF" H 4625 2200 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 4638 2150 50  0001 C CNN
-F 3 "http://datasheets.avx.com/cx5r.pdf" H 4625 2400 50  0001 C CNN
-F 4 "478-5167-1-ND" H 4600 2300 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 4600 2300 60  0001 C CNN "MFN"
-F 6 "Value" H 4600 2300 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" H 5025 2800 60  0001 C CNN "PurchasingLink"
-	1    4600 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED_0805 D1
 U 1 1 59F77766
 P 7750 3200
@@ -125,28 +110,6 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8500 3700 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
-U 1 1 59F779A0
-P 7750 2800
-F 0 "R4" V 7830 2800 50  0000 C CNN
-F 1 "500" V 7750 2800 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" V 7680 2800 50  0001 C CNN
-F 3 "" H 7750 2800 50  0001 C CNN
-	1    7750 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 59F779F2
-P 8100 2800
-F 0 "R5" V 8180 2800 50  0000 C CNN
-F 1 "500" V 8100 2800 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" V 8030 2800 50  0001 C CNN
-F 3 "" H 8100 2800 50  0001 C CNN
-	1    8100 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_0.1uF C2
 U 1 1 59F77A32
 P 4350 3800
@@ -175,17 +138,6 @@ F 6 "Value" H 8450 3200 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8850 3700 60  0001 C CNN "PurchasingLink"
 	1    8450 3200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L R R6
-U 1 1 59F77AF7
-P 8450 2800
-F 0 "R6" V 8530 2800 50  0000 C CNN
-F 1 "500" V 8450 2800 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" V 8380 2800 50  0001 C CNN
-F 3 "" H 8450 2800 50  0001 C CNN
-	1    8450 2800
-	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR01
@@ -308,28 +260,6 @@ F 1 "GND" H 5400 4300 50  0000 C CNN
 F 2 "" H 5400 4450 50  0001 C CNN
 F 3 "" H 5400 4450 50  0001 C CNN
 	1    5400 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 59F7C7FD
-P 6400 3500
-F 0 "R2" V 6480 3500 50  0000 C CNN
-F 1 "4.7k" V 6400 3500 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" V 6330 3500 50  0001 C CNN
-F 3 "" H 6400 3500 50  0001 C CNN
-	1    6400 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3
-U 1 1 59F7C8CA
-P 6550 3600
-F 0 "R3" V 6630 3600 50  0000 C CNN
-F 1 "4.7k" V 6550 3600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" V 6480 3600 50  0001 C CNN
-F 3 "" H 6550 3600 50  0001 C CNN
-	1    6550 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -575,17 +505,6 @@ Wire Wire Line
 	6750 2250 6750 2200
 Wire Wire Line
 	6650 2250 6650 2200
-$Comp
-L R R1
-U 1 1 59F7EB19
-P 4050 3300
-F 0 "R1" V 4130 3300 50  0000 C CNN
-F 1 "4.7k" V 4050 3300 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" V 3980 3300 50  0001 C CNN
-F 3 "" H 4050 3300 50  0001 C CNN
-	1    4050 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 3350 4350 3650
 $Comp
@@ -604,17 +523,6 @@ Wire Wire Line
 Connection ~ 4050 3450
 Wire Wire Line
 	4050 3150 4050 3100
-$Comp
-L LM2936-3.3 U1
-U 1 1 59F8B32B
-P 4150 2150
-F 0 "U1" H 4000 2275 50  0000 C CNN
-F 1 "LM2936-3.3" H 4150 2275 50  0000 L CNN
-F 2 "SparkFun-PowerIC:SOT223" H 4150 2375 50  0001 C CIN
-F 3 "" H 4150 2100 50  0001 C CNN
-	1    4150 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 2150 4850 2150
 NoConn ~ 4850 3650
@@ -670,5 +578,109 @@ F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6750 2450 50  0001 C CN
 F 3 "" H 6750 2450 50  0001 C CNN
 	1    6750 2450
 	0    1    1    0   
+$EndComp
+$Comp
+L LM3480 U1
+U 1 1 5A0E50F5
+P 4150 2150
+F 0 "U1" H 4000 2275 50  0000 C CNN
+F 1 "LM3480" H 4150 2275 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4100 2350 50  0001 C CNN
+F 3 "" H 4250 1900 50  0001 C CNN
+	1    4150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0.1uF C3
+U 1 1 5A0E5198
+P 4600 2300
+F 0 "C3" H 4625 2400 50  0000 L CNN
+F 1 "C_0.1uF" H 4625 2200 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 4638 2150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4625 2400 50  0001 C CNN
+F 4 "478-3352-1-ND" H 4600 2300 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4600 2300 60  0001 C CNN "MFN"
+F 6 "Value" H 4600 2300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5025 2800 60  0001 C CNN "PurchasingLink"
+	1    4600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4.7kR R1
+U 1 1 5A1338FF
+P 4050 3300
+F 0 "R1" V 4130 3300 50  0000 C CNN
+F 1 "4.7kR" V 3950 3300 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 3980 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+	1    4050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4.7kR R2
+U 1 1 5A133A30
+P 6400 3500
+F 0 "R2" V 6480 3500 50  0000 C CNN
+F 1 "4.7kR" V 6300 3500 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 6330 3500 50  0001 C CNN
+F 3 "" H 6400 3500 50  0001 C CNN
+	1    6400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4.7kR R3
+U 1 1 5A133AB8
+P 6550 3600
+F 0 "R3" V 6630 3600 50  0000 C CNN
+F 1 "4.7kR" V 6450 3600 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 6480 3600 50  0001 C CNN
+F 3 "" H 6550 3600 50  0001 C CNN
+	1    6550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_499 R4
+U 1 1 5A14858B
+P 7750 2800
+F 0 "R4" V 7830 2800 50  0000 C CNN
+F 1 "R_499" V 7650 2800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 7680 2800 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 7830 2800 50  0001 C CNN
+F 4 "Digi-Key" H 7750 2800 60  0001 C CNN "MFN"
+F 5 "RC0805FR-07499RL" H 7750 2800 60  0001 C CNN "MPN"
+F 6 "Value" H 7750 2800 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07499RL/311-499CRCT-ND/730933" H 8230 3200 60  0001 C CNN "PurchasingLink"
+	1    7750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_499 R5
+U 1 1 5A1486C3
+P 8100 2800
+F 0 "R5" V 8180 2800 50  0000 C CNN
+F 1 "R_499" V 8000 2800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8030 2800 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 8180 2800 50  0001 C CNN
+F 4 "Digi-Key" H 8100 2800 60  0001 C CNN "MFN"
+F 5 "RC0805FR-07499RL" H 8100 2800 60  0001 C CNN "MPN"
+F 6 "Value" H 8100 2800 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07499RL/311-499CRCT-ND/730933" H 8580 3200 60  0001 C CNN "PurchasingLink"
+	1    8100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_499 R6
+U 1 1 5A148719
+P 8450 2800
+F 0 "R6" V 8530 2800 50  0000 C CNN
+F 1 "R_499" V 8350 2800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8380 2800 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 8530 2800 50  0001 C CNN
+F 4 "Digi-Key" H 8450 2800 60  0001 C CNN "MFN"
+F 5 "RC0805FR-07499RL" H 8450 2800 60  0001 C CNN "MPN"
+F 6 "Value" H 8450 2800 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07499RL/311-499CRCT-ND/730933" H 8930 3200 60  0001 C CNN "PurchasingLink"
+	1    8450 2800
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

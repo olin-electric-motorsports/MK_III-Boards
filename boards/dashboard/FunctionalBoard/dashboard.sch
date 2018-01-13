@@ -1133,17 +1133,13 @@ Text GLabel 4650 6000 0    55   Input ~ 0
 IMD
 Text GLabel 4650 6300 0    55   Input ~ 0
 START
-Text GLabel 5750 5450 0    55   Input ~ 0
-SCL
-Text GLabel 5750 5550 0    55   Input ~ 0
-SDA
 Text GLabel 5750 5750 0    55   Input ~ 0
 LED2
 Text GLabel 5750 5850 0    55   Input ~ 0
 LED1
-Text GLabel 5750 5950 0    55   Input ~ 0
-CANL
 Text GLabel 5750 6050 0    55   Input ~ 0
+CANL
+Text GLabel 5750 5950 0    55   Input ~ 0
 CANH
 Text GLabel 5750 6150 0    55   Input ~ 0
 AT_RESET
@@ -1450,8 +1446,6 @@ F 3 "" H 5660 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 3400 2850
-Text GLabel 5750 5650 0    55   Input ~ 0
-START
 Text GLabel 3400 3550 2    60   Input ~ 0
 CS
 Text GLabel 7700 4200 2    60   Input ~ 0
