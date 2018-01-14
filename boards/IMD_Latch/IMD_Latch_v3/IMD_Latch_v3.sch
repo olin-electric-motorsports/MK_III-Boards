@@ -117,45 +117,45 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 59E0A741
-P 2675 2725
-F 0 "#FLG03" H 2675 2800 50  0001 C CNN
-F 1 "PWR_FLAG" H 2675 2875 50  0000 C CNN
-F 2 "" H 2675 2725 50  0001 C CNN
-F 3 "" H 2675 2725 50  0001 C CNN
-	1    2675 2725
+P 2675 2375
+F 0 "#FLG03" H 2675 2450 50  0001 C CNN
+F 1 "PWR_FLAG" H 2675 2525 50  0000 C CNN
+F 2 "" H 2675 2375 50  0001 C CNN
+F 3 "" H 2675 2375 50  0001 C CNN
+	1    2675 2375
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 59E0A7A5
-P 3175 2725
-F 0 "#FLG04" H 3175 2800 50  0001 C CNN
-F 1 "PWR_FLAG" H 3175 2875 50  0000 C CNN
-F 2 "" H 3175 2725 50  0001 C CNN
-F 3 "" H 3175 2725 50  0001 C CNN
-	1    3175 2725
+P 3175 2375
+F 0 "#FLG04" H 3175 2450 50  0001 C CNN
+F 1 "PWR_FLAG" H 3175 2525 50  0000 C CNN
+F 2 "" H 3175 2375 50  0001 C CNN
+F 3 "" H 3175 2375 50  0001 C CNN
+	1    3175 2375
 	1    0    0    -1  
 $EndComp
 $Comp
 L +12V #PWR05
 U 1 1 59E0A7D7
-P 2675 2725
-F 0 "#PWR05" H 2675 2575 50  0001 C CNN
-F 1 "+12V" H 2675 2865 50  0000 C CNN
-F 2 "" H 2675 2725 50  0001 C CNN
-F 3 "" H 2675 2725 50  0001 C CNN
-	1    2675 2725
+P 2675 2375
+F 0 "#PWR05" H 2675 2225 50  0001 C CNN
+F 1 "+12V" H 2675 2515 50  0000 C CNN
+F 2 "" H 2675 2375 50  0001 C CNN
+F 3 "" H 2675 2375 50  0001 C CNN
+	1    2675 2375
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 59E0A859
-P 3175 2725
-F 0 "#PWR06" H 3175 2475 50  0001 C CNN
-F 1 "GND" H 3175 2575 50  0000 C CNN
-F 2 "" H 3175 2725 50  0001 C CNN
-F 3 "" H 3175 2725 50  0001 C CNN
-	1    3175 2725
+P 3175 2375
+F 0 "#PWR06" H 3175 2125 50  0001 C CNN
+F 1 "GND" H 3175 2225 50  0000 C CNN
+F 2 "" H 3175 2375 50  0001 C CNN
+F 3 "" H 3175 2375 50  0001 C CNN
+	1    3175 2375
 	1    0    0    -1  
 $EndComp
 Text Notes 2750 4300 1    60   ~ 0
@@ -310,9 +310,6 @@ F 3 "" H 5400 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5500 3100
-NoConn ~ 5500 3200
-NoConn ~ 5500 3300
-NoConn ~ 5500 3400
 NoConn ~ 6450 3200
 NoConn ~ 6450 3300
 NoConn ~ 6450 3500
@@ -396,7 +393,7 @@ F 3 "" H 6700 4200 50  0001 C CNN
 	1    6700 4200
 	1    0    0    -1  
 $EndComp
-Text Label 5400 2950 0    60   ~ 0
+Text Label 5025 3725 0    60   ~ 0
 12V_Fused
 Text Label 6550 2950 0    60   ~ 0
 12V_Fused
@@ -429,10 +426,6 @@ Wire Wire Line
 Wire Wire Line
 	4225 3300 4225 3425
 Wire Wire Line
-	3950 3700 4950 3700
-Wire Wire Line
-	4950 3700 5500 3700
-Wire Wire Line
 	7500 2775 7500 2675
 Wire Wire Line
 	7500 3175 7500 3275
@@ -443,13 +436,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 3800 5400 3875
 Wire Wire Line
-	5500 3500 5400 3500
+	5500 3500 5025 3500
 Wire Wire Line
-	5400 3500 5400 2950
-Wire Wire Line
-	6450 3800 6700 3800
-Wire Wire Line
-	6700 3800 7050 3800
+	5025 3500 5025 3725
 Wire Wire Line
 	7050 2975 7200 2975
 Connection ~ 7050 3800
@@ -466,9 +455,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2200 4375 2200
 Wire Wire Line
-	4375 2150 4375 2200
-Wire Wire Line
-	4375 2200 4375 2250
+	4375 2150 4375 2250
 Connection ~ 4375 2200
 Wire Wire Line
 	7800 2075 8350 2075
@@ -482,7 +469,6 @@ Wire Wire Line
 	7500 2025 7500 2075
 Wire Wire Line
 	6700 3850 6700 3800
-Connection ~ 6700 3800
 Wire Wire Line
 	6700 4150 6700 4200
 Wire Wire Line
@@ -517,20 +503,6 @@ Text Notes 3950 3700 0    60   ~ 0
 IMD Output
 Connection ~ 4950 3700
 $Comp
-L CD4043BPWR U1
-U 1 1 5A078803
-P 6000 3400
-F 0 "U1" H 5750 3800 60  0000 C CNN
-F 1 "CD4043BPWR" H 5950 2900 60  0000 C CNN
-F 2 "footprints:TSSOP-16-OEM" H 5850 3850 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" H 5850 3850 60  0001 C CNN
-F 4 "296-14106-1-ND" H 5850 3900 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5950 4000 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904" H 6050 4100 60  0001 C CNN "PurchasingLink"
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L D_Schottky_SOD123 D4
 U 1 1 5A07A854
 P 7150 2375
@@ -563,16 +535,12 @@ F 3 "" H 4800 3500 50  0001 C CNN
 	1    4800 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 3200 5200 3600
-Wire Wire Line
-	5200 3600 5500 3600
 $Comp
 L TLV3701QDBVRG4Q1 U2
 U 1 1 5A4B60C8
 P 4900 3200
 F 0 "U2" H 4950 3400 50  0000 C CNN
-F 1 "TLV3701QDBVRG4Q1" H 5050 3000 50  0000 C CNN
+F 1 "TLV3701QDBVRG4Q1" H 4700 3225 50  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 4900 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" H 4900 3400 50  0001 C CNN
 F 4 "497-10249-1-ND" H 5150 3600 60  0001 C CNN "MPN"
@@ -582,9 +550,7 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 2800 3650 2825
-Wire Wire Line
-	3650 2825 3650 2850
+	3650 2800 3650 2850
 $Comp
 L GND #PWR020
 U 1 1 5A4B68E5
@@ -687,11 +653,7 @@ F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 $EndComp
 Connection ~ 4375 1850
 Wire Wire Line
-	3975 1850 4050 1850
-Wire Wire Line
-	4050 1850 4375 1850
-Wire Wire Line
-	4375 1850 4600 1850
+	3975 1850 4600 1850
 Wire Wire Line
 	4600 1850 4600 3100
 $Comp
@@ -727,13 +689,49 @@ $EndComp
 Text Label 7500 3600 0    60   ~ 0
 12V_Fused
 Wire Wire Line
-	7050 2975 7050 3800
-Wire Wire Line
-	7050 3800 7050 4450
+	7050 2800 7050 4450
 Text Label 6700 3800 0    39   ~ 0
 IMD_Status_Output
 Text Label 3950 4200 3    39   ~ 0
 IMD_Status_Output
 Wire Wire Line
 	7050 4450 7200 4450
+Wire Wire Line
+	3950 3700 4950 3700
+Wire Wire Line
+	4950 3700 4950 3300
+Wire Wire Line
+	4950 3300 5500 3300
+Wire Wire Line
+	6700 3800 7050 3800
+Wire Wire Line
+	5500 3200 5425 3200
+Wire Wire Line
+	5425 3200 5425 2800
+Wire Wire Line
+	5425 2800 7050 2800
+Connection ~ 7050 2975
+NoConn ~ 5500 3600
+NoConn ~ 5500 3700
+NoConn ~ 6450 3800
+Wire Wire Line
+	5200 3200 5275 3200
+Wire Wire Line
+	5275 3200 5275 3400
+Wire Wire Line
+	5275 3400 5500 3400
+$Comp
+L CD4043BPWR U1
+U 1 1 5A5B443B
+P 6000 3400
+F 0 "U1" H 5750 3800 60  0000 C CNN
+F 1 "CD4043BPWR" H 5950 2900 60  0000 C CNN
+F 2 "footprints:TSSOP-16-OEM" H 5850 3850 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" H 5850 3850 60  0001 C CNN
+F 4 "296-14106-1-ND" H 5850 3900 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5950 4000 60  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904" H 6050 4100 60  0001 C CNN "PurchasingLink"
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

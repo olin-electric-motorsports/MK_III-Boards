@@ -1,0 +1,139 @@
+Cmp-Mod V01 Created by PcbNew   date = Sat 13 Jan 2018 07:43:36 AM EST
+
+BeginCmp
+TimeStamp = 5A0794AE
+Path = /5A077434
+Reference = R6;
+ValeurCmp = R_2.2k;
+IdModule  = footprints:R_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A0793DF
+Path = /5A0578CF
+Reference = D3;
+ValeurCmp = LED_0805;
+IdModule  = footprints:LED_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A079401
+Path = /5A02849E
+Reference = J1;
+ValeurCmp = micromatch_female_RA_8;
+IdModule  = footprints:micromatch_female_ra_8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A079414
+Path = /5A058265
+Reference = J2;
+ValeurCmp = Ultrafit_2;
+IdModule  = footprints:Ultrafit_2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07945E
+Path = /59E0432B
+Reference = R1;
+ValeurCmp = R_1k;
+IdModule  = footprints:R_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07946E
+Path = /5A08F41B
+Reference = R2;
+ValeurCmp = R_576k;
+IdModule  = footprints:R_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07947E
+Path = /5A08F396
+Reference = R3;
+ValeurCmp = R_2.94M;
+IdModule  = footprints:R_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07948E
+Path = /5A054B2F
+Reference = R4;
+ValeurCmp = R_1M;
+IdModule  = footprints:R_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07949E
+Path = /5A057840
+Reference = R5;
+ValeurCmp = R_1k;
+IdModule  = footprints:R_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07944E
+Path = /5A02B82C
+Reference = Q1;
+ValeurCmp = SSM3K333R;
+IdModule  = footprints:SOT-23F;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07939E
+Path = /5A027880
+Reference = C1;
+ValeurCmp = C_10uF;
+IdModule  = footprints:C_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A0793CA
+Path = /59E047E3
+Reference = D2;
+ValeurCmp = LED_0805;
+IdModule  = footprints:LED_0805_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07943A
+Path = /5A029E8F
+Reference = K1;
+ValeurCmp = G5Q-1A4-DC5-5V;
+IdModule  = footprints:Relay_SPST_OMRON-G5Q-1A4_OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A0793EF
+Path = /59E0A5CF
+Reference = F1;
+ValeurCmp = 500mA;
+IdModule  = footprints:Fuse_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A079AB9
+Path = /5A078803
+Reference = U1;
+ValeurCmp = CD4043BPWR;
+IdModule  = footprints:TSSOP-16-OEM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A0793B5
+Path = /59F27771
+Reference = D1;
+ValeurCmp = D_Zener_18V;
+IdModule  = footprints:DO-214AA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A07A5ED
+Path = /5A07A854
+Reference = D4;
+ValeurCmp = D_Schottky_SOD123;
+IdModule  = footprints:D_SOD-123W_OEM;
+EndCmp
+
+EndListe
