@@ -1,0 +1,40 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink
+1,Unpolarized capacitor,C,C1 C7 C8 C9 C10 C13 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23,10nF,C_0805_OEM,16,,,,,
+2,Unpolarized capacitor,C,C3 C4 C5 C11 C12,1uF,C_0805_OEM,5,,,,,
+3,Cap 50V 0.1uF 10% 0805,C_0.1uF,C2 C6,C_0.1uF,C_0805_OEM,2,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND
+4,DIODE SCHOTTKY 100V 1A SOD123,D_Schottky_SOD123,D1,D_Schottky_SOD123,D_SOD-123W_OEM,1,https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf,,1727-2394-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140
+5,LED_0805,LED_0805,D2 D3 D4 D5 D6 D7 D8 D9 D10 D11,LED_0805,LED_0805_OEM,10,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND
+6,,200mA_Fuse,F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11,200mA_Fuse,Fuse_1812,11,,,,,
+7,,MicroFit_12,J5,MicroFit_12,Microfit3_Header_02x06_Angled_OEM,1,,,,,
+8,,MicroFit_20,J6,MicroFit_20,Molex_Microfit3_Header_02x10_Angled_OEM,1,,,,,
+9,,NanoFit_2,J7 J8,NanoFit_2,Molex_NanoFit_1x02x2.50mm_Angled_OEM,2,,,,,
+10,N-channel MOSFET,NMOS_GSD_30V,Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11,NMOS_GSD_30V,SOT-23F,10,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND,Value,SSM3K333RLFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND
+11,Transistor NPN (general),Q_NPN_BCE,Q1,Q_NPN_BCE,SOT-223,1,,,,,
+12,Resistor,R,R26 R30 R34 R38 R42 R46 R50 R54 R58 R62,3.3k,R_0805_OEM,10,,,,,
+13,Resistor,R,R3 R4,4.99k,R_0805_OEM,2,,,,,
+14,Resistor,R,R18 R19 R20 R21,60.4,R_0805_OEM,4,,,,,
+15,,DTO25,R24 R28 R32 R36 R40 R44 R48 R52 R56 R60,DTO25,DTO25,10,,,,,
+16,Res 100 1%,R_100,R1 R2 R7 R22 R25 R29 R33 R37 R41 R45 R49 R53 R57 R61,R_100,R_0805_OEM,14,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD100RCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND
+17,Res 10k 1%,R_10k,R8 R9 R10 R11 R12 R13 R14 R15 R16 R17,R_10k,R_0805_OEM,10,http://www.bourns.com/data/global/pdfs/CRS.pdf,Value,CRS0805-FX-1002ELFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND
+18,Res 1k 1%,R_1k,R5 R6,R_1k,R_0805_OEM,2,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD1K00CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND
+19,Res 475 1%,R_475,R23 R27 R31 R35 R39 R43 R47 R51 R55 R59,R_475,R_0805_OEM,10,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,Value,311-475CRCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=311-475CRCT-ND
+20,,T_LAN_7490100111A,T1,T_LAN_7490100111A,7490100111A,1,,,,,
+21,,24AA01,U2,24AA01,SOT-23-5_OEM,1,,,,,
+22,,LTC1380,U4 U5,LTC1380,SSOP-16_LTC1380,2,,,,,
+23,,LTC6811-1,U1,LTC6811-1,TSSOP-48_LTC6811-1,1,,,,,
+24,"10 MHz, 850 µA Op Amps, SOT-23-5",MCP6001,U3 U6,MCP6001,SOT-23-5_OEM,2,http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf,,,,
+
+
+
+
+
+Component Groups:,24
+Component Count:,129
+Fitted Components:,129
+Number of PCBs:,1
+Total components:,129
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Tue 16 Jan 2018 05:32:04 AM EST
+Schematic Source:,/home/noah/formula/MK_III-Boards/boards/BMS_Slave/BMS_Slave.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu14.04.1
