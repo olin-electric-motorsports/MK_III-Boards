@@ -65,6 +65,24 @@ F 7 "https://www.digikey.com/product-detail/en/silicon-labs/CP2120-GM/336-1324-N
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
+=======
+L C_10uF C3
+U 1 1 59F77735
+P 4600 2300
+F 0 "C3" H 4625 2400 50  0000 L CNN
+F 1 "C_10uF" H 4625 2200 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 4638 2150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/cx5r.pdf" H 4625 2400 50  0001 C CNN
+F 4 "478-5167-1-ND" H 4600 2300 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4600 2300 60  0001 C CNN "MFN"
+F 6 "Value" H 4600 2300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" H 5025 2800 60  0001 C CNN "PurchasingLink"
+	1    4600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 L LED_0805 D1
 U 1 1 59F77766
 P 7750 3200
@@ -110,6 +128,31 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8500 3700 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
+<<<<<<< HEAD
+=======
+L R R4
+U 1 1 59F779A0
+P 7750 2800
+F 0 "R4" V 7830 2800 50  0000 C CNN
+F 1 "500" V 7750 2800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 7680 2800 50  0001 C CNN
+F 3 "" H 7750 2800 50  0001 C CNN
+	1    7750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 59F779F2
+P 8100 2800
+F 0 "R5" V 8180 2800 50  0000 C CNN
+F 1 "500" V 8100 2800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 8030 2800 50  0001 C CNN
+F 3 "" H 8100 2800 50  0001 C CNN
+	1    8100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 L C_0.1uF C2
 U 1 1 59F77A32
 P 4350 3800
@@ -140,6 +183,20 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8850 3700 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
+<<<<<<< HEAD
+=======
+L R R6
+U 1 1 59F77AF7
+P 8450 2800
+F 0 "R6" V 8530 2800 50  0000 C CNN
+F 1 "500" V 8450 2800 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 8380 2800 50  0001 C CNN
+F 3 "" H 8450 2800 50  0001 C CNN
+	1    8450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 L +3.3V #PWR01
 U 1 1 59F78D77
 P 4850 2150
@@ -262,6 +319,31 @@ F 3 "" H 5400 4450 50  0001 C CNN
 	1    5400 4450
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+=======
+$Comp
+L R R2
+U 1 1 59F7C7FD
+P 6400 3500
+F 0 "R2" V 6480 3500 50  0000 C CNN
+F 1 "4.7k" V 6400 3500 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 6330 3500 50  0001 C CNN
+F 3 "" H 6400 3500 50  0001 C CNN
+	1    6400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 59F7C8CA
+P 6550 3600
+F 0 "R3" V 6630 3600 50  0000 C CNN
+F 1 "4.7k" V 6550 3600 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 6480 3600 50  0001 C CNN
+F 3 "" H 6550 3600 50  0001 C CNN
+	1    6550 3600
+	1    0    0    -1  
+$EndComp
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 Wire Wire Line
 	8100 3450 8100 3350
 Wire Wire Line
@@ -505,6 +587,20 @@ Wire Wire Line
 	6750 2250 6750 2200
 Wire Wire Line
 	6650 2250 6650 2200
+<<<<<<< HEAD
+=======
+$Comp
+L R R1
+U 1 1 59F7EB19
+P 4050 3300
+F 0 "R1" V 4130 3300 50  0000 C CNN
+F 1 "4.7k" V 4050 3300 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 3980 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+	1    4050 3300
+	1    0    0    -1  
+$EndComp
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 Wire Wire Line
 	4350 3350 4350 3650
 $Comp
@@ -523,6 +619,20 @@ Wire Wire Line
 Connection ~ 4050 3450
 Wire Wire Line
 	4050 3150 4050 3100
+<<<<<<< HEAD
+=======
+$Comp
+L LM2936-3.3 U1
+U 1 1 59F8B32B
+P 4150 2150
+F 0 "U1" H 4000 2275 50  0000 C CNN
+F 1 "LM2936-3.3" H 4150 2275 50  0000 L CNN
+F 2 "SparkFun-PowerIC:SOT223" H 4150 2375 50  0001 C CIN
+F 3 "" H 4150 2100 50  0001 C CNN
+	1    4150 2150
+	1    0    0    -1  
+$EndComp
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 Wire Wire Line
 	4450 2150 4850 2150
 NoConn ~ 4850 3650
@@ -579,6 +689,7 @@ F 3 "" H 6750 2450 50  0001 C CNN
 	1    6750 2450
 	0    1    1    0   
 $EndComp
+<<<<<<< HEAD
 $Comp
 L LM3480 U1
 U 1 1 5A0E50F5
@@ -683,4 +794,6 @@ F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07499RL/311-499CRC
 	1    8450 2800
 	1    0    0    -1  
 $EndComp
+=======
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 $EndSCHEMATC

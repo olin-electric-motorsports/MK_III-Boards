@@ -37,7 +37,11 @@
   )
 
   (setup
+<<<<<<< HEAD
     (last_trace_width 0.254)
+=======
+    (last_trace_width 0.508)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)

@@ -36,7 +36,10 @@ LIBS:formula
 LIBS:SparkFun-Aesthetics
 LIBS:SparkFun-Displays
 LIBS:adafruit
+<<<<<<< HEAD
 LIBS:Backpack-cache
+=======
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -100,6 +103,20 @@ F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/47
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
+=======
+L Conn_01x04 J1
+U 1 1 5A25A55D
+P 1200 1750
+F 0 "J1" H 1200 1950 50  0000 C CNN
+F 1 "Conn_01x04" H 1200 1450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1200 1750 50  0001 C CNN
+F 3 "" H 1200 1750 50  0001 C CNN
+	1    1200 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 L PWR_FLAG #FLG01
 U 1 1 5A25A625
 P 2450 1150
@@ -463,6 +480,7 @@ Text GLabel 7360 5540 3    60   BiDi ~ 0
 COM1
 Text GLabel 4960 5540 3    60   BiDi ~ 0
 COM2
+<<<<<<< HEAD
 $Comp
 L Ultrafit_4 J1
 U 1 1 5A5BD75B
@@ -480,4 +498,6 @@ F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5
 	1    1050 1750
 	1    0    0    -1  
 $EndComp
+=======
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 $EndSCHEMATC

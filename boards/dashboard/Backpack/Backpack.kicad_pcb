@@ -3,10 +3,17 @@
   (general
     (links 41)
     (no_connects 0)
+<<<<<<< HEAD
     (area 143.180999 100.508999 205.307001 123.519001)
     (thickness 1.6)
     (drawings 14)
     (tracks 171)
+=======
+    (area 141.83934 98.75738 207.03474 123.519001)
+    (thickness 1.6)
+    (drawings 14)
+    (tracks 163)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
     (zones 0)
     (modules 9)
     (nets 30)
@@ -159,6 +166,7 @@
     (add_net SDA)
   )
 
+<<<<<<< HEAD
   (module footprints:Ultrafit_4 (layer B.Cu) (tedit 59F24F6F) (tstamp 5A5BD6B1)
     (at 193.675 104.267 270)
     (path /5A5BD75B)
@@ -193,6 +201,8 @@
       (net 4 SCL))
   )
 
+=======
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
   (module footprints:SOP28 (layer B.Cu) (tedit 5A42AF63) (tstamp 5A42B0FE)
     (at 178.562 106.045 270)
     (path /5A25A0FB)
@@ -402,15 +412,26 @@
   )
 
   (module footprints:C_0805_OEM (layer B.Cu) (tedit 59F250E7) (tstamp 5A285EBA)
+<<<<<<< HEAD
     (at 183.515 101.727)
+=======
+    (at 187.325 107.95 180)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A25A180)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference C1 (at 0 -1.397) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10uF (at 0 -1.75) (layer B.Fab) hide
+=======
+    (fp_text reference C1 (at 0 -1.397 180) (layer B.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value C_10uF (at 0 -1.75 180) (layer B.Fab) hide
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1 -0.62) (end -1 0.62) (layer B.Fab) (width 0.1))
@@ -423,9 +444,15 @@
     (fp_line (start -1.75 0.88) (end -1.75 -0.87) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.75 -0.87) (end 1.75 0.88) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.75 -0.87) (end -1.75 -0.87) (layer B.CrtYd) (width 0.05))
+<<<<<<< HEAD
     (pad 1 smd rect (at -1 0) (size 1 1.25) (layers B.Cu B.Paste B.Mask)
       (net 1 5V))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers B.Cu B.Paste B.Mask)
+=======
+    (pad 1 smd rect (at -1 0 180) (size 1 1.25) (layers B.Cu B.Paste B.Mask)
+      (net 1 5V))
+    (pad 2 smd rect (at 1 0 180) (size 1 1.25) (layers B.Cu B.Paste B.Mask)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (net 2 GND))
     (model Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
@@ -435,7 +462,11 @@
   )
 
   (module footprints:LED_0805_OEM (layer B.Cu) (tedit 59F2572F) (tstamp 5A285EC0)
+<<<<<<< HEAD
     (at 203.2 103.124 270)
+=======
+    (at 203.2 103.505 270)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5A263930)
@@ -472,6 +503,53 @@
     )
   )
 
+<<<<<<< HEAD
+=======
+  (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer B.Cu) (tedit 59650532) (tstamp 5A285EC8)
+    (at 191.77 103.505 270)
+    (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x04 2.54mm single row")
+    (path /5A25A55D)
+    (fp_text reference J1 (at 0 2.33 270) (layer B.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value Conn_01x04 (at 0 -9.95 270) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_line (start -0.635 1.27) (end 1.27 1.27) (layer B.Fab) (width 0.1))
+    (fp_line (start 1.27 1.27) (end 1.27 -8.89) (layer B.Fab) (width 0.1))
+    (fp_line (start 1.27 -8.89) (end -1.27 -8.89) (layer B.Fab) (width 0.1))
+    (fp_line (start -1.27 -8.89) (end -1.27 0.635) (layer B.Fab) (width 0.1))
+    (fp_line (start -1.27 0.635) (end -0.635 1.27) (layer B.Fab) (width 0.1))
+    (fp_line (start -1.33 -8.95) (end 1.33 -8.95) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.33 -1.27) (end -1.33 -8.95) (layer B.SilkS) (width 0.12))
+    (fp_line (start 1.33 -1.27) (end 1.33 -8.95) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.33 -1.27) (end 1.33 -1.27) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.33 0) (end -1.33 1.33) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.33 1.33) (end 0 1.33) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.8 1.8) (end -1.8 -9.4) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -1.8 -9.4) (end 1.8 -9.4) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 1.8 -9.4) (end 1.8 1.8) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 1.8 1.8) (end -1.8 1.8) (layer B.CrtYd) (width 0.05))
+    (fp_text user %R (at 0 -3.81 540) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 4 SCL))
+    (pad 2 thru_hole oval (at 0 -2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 5 SDA))
+    (pad 3 thru_hole oval (at 0 -5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 2 GND))
+    (pad 4 thru_hole oval (at 0 -7.62 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 1 5V))
+    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
   (module adafruit:SEGMENT_BICOL_BL-AR12Z3010 (layer F.Cu) (tedit 200000) (tstamp 5A285F78)
     (at 158.75 114.3 270)
     (descr "SOUCE: HTTP://WWW.BETLUX.COM/PRODUCT/LED_LIGHT_BAR/BL-AR12B3010XX.PDF")
@@ -609,15 +687,26 @@
   )
 
   (module footprints:R_0805_OEM (layer B.Cu) (tedit 5A27275B) (tstamp 5A285F84)
+<<<<<<< HEAD
     (at 184.738656 104.713024 270)
+=======
+    (at 194.31 107.315 90)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A25A857)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference R2 (at 1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value R_10k (at 0 -1.75 270) (layer B.Fab) hide
+=======
+    (fp_text reference R2 (at 1.905 0 180) (layer B.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
+    )
+    (fp_text value R_10k (at 0 -1.75 90) (layer B.Fab) hide
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1 -0.62) (end -1 0.62) (layer B.Fab) (width 0.1))
@@ -630,9 +719,15 @@
     (fp_line (start -1.55 0.9) (end -1.55 -0.9) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.55 -0.9) (end 1.55 0.9) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.55 -0.9) (end -1.55 -0.9) (layer B.CrtYd) (width 0.05))
+<<<<<<< HEAD
     (pad 1 smd rect (at -0.95 0 270) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 1 5V))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+=======
+    (pad 1 smd rect (at -0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+      (net 1 5V))
+    (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (net 5 SDA))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
@@ -642,15 +737,26 @@
   )
 
   (module footprints:R_0805_OEM (layer B.Cu) (tedit 5A272773) (tstamp 5A285F8A)
+<<<<<<< HEAD
     (at 182.325656 104.713024 270)
+=======
+    (at 191.77 107.315 90)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A25A7D4)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference R3 (at 1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value R_10k (at 0 -1.75 270) (layer B.Fab) hide
+=======
+    (fp_text reference R3 (at 1.905 0 180) (layer B.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
+    )
+    (fp_text value R_10k (at 0 -1.75 90) (layer B.Fab) hide
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1 -0.62) (end -1 0.62) (layer B.Fab) (width 0.1))
@@ -663,9 +769,15 @@
     (fp_line (start -1.55 0.9) (end -1.55 -0.9) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.55 -0.9) (end 1.55 0.9) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.55 -0.9) (end -1.55 -0.9) (layer B.CrtYd) (width 0.05))
+<<<<<<< HEAD
     (pad 1 smd rect (at -0.95 0 270) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 1 5V))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+=======
+    (pad 1 smd rect (at -0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+      (net 1 5V))
+    (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (net 4 SCL))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
@@ -675,15 +787,26 @@
   )
 
   (module footprints:R_0805_OEM (layer B.Cu) (tedit 5A272789) (tstamp 5A29795A)
+<<<<<<< HEAD
     (at 203.2 107.188 90)
+=======
+    (at 196.85 107.315 270)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A263A0D)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference R1 (at -1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value R_500 (at 0 -1.75 90) (layer B.Fab) hide
+=======
+    (fp_text reference R1 (at -1.905 0 360) (layer B.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
+    )
+    (fp_text value R_500 (at 0 -1.75 270) (layer B.Fab) hide
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1 -0.62) (end -1 0.62) (layer B.Fab) (width 0.1))
@@ -696,9 +819,15 @@
     (fp_line (start -1.55 0.9) (end -1.55 -0.9) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.55 -0.9) (end 1.55 0.9) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.55 -0.9) (end -1.55 -0.9) (layer B.CrtYd) (width 0.05))
+<<<<<<< HEAD
     (pad 1 smd rect (at -0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 1 5V))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+=======
+    (pad 1 smd rect (at -0.95 0 270) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+      (net 1 5V))
+    (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
       (net 3 "Net-(D1-Pad2)"))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
@@ -717,6 +846,7 @@
   (gr_arc (start 144.526 109.728) (end 143.256 109.728) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 203.962 101.854) (end 203.962 100.584) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 203.962 122.174) (end 205.232 122.174) (angle 90) (layer Edge.Cuts) (width 0.15))
+<<<<<<< HEAD
   (gr_text 5V (at 198.882 101.219) (layer B.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
   )
@@ -776,6 +906,59 @@
   (segment (start 184.403024 105.663024) (end 183.642 104.902) (width 0.254) (layer B.Cu) (net 5))
   (segment (start 184.738656 105.663024) (end 184.403024 105.663024) (width 0.254) (layer B.Cu) (net 5))
   (segment (start 172.72 107.315) (end 169.5196 107.315) (width 0.254) (layer B.Cu) (net 5))
+=======
+  (gr_text 5V (at 199.39 101.219) (layer B.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text GND (at 196.85 101.219) (layer B.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text SDA (at 194.31 101.219) (layer B.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text SCL (at 191.643 101.219) (layer B.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
+  )
+
+  (segment (start 176.784 102.489) (end 173.228 106.045) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 173.228 106.045) (end 169.5196 106.045) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 189.23 102.489) (end 176.784 102.489) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 189.749812 101.969188) (end 189.23 102.489) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 199.39 103.505) (end 197.854188 101.969188) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 197.854188 101.969188) (end 189.749812 101.969188) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 191.77 108.265) (end 188.64 108.265) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 188.64 108.265) (end 188.325 107.95) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 196.85 106.365) (end 196.55 106.365) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 196.55 106.365) (end 194.65 108.265) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 194.65 108.265) (end 194.31 108.265) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 194.31 108.265) (end 191.77 108.265) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 199.39 105.41) (end 198.435 106.365) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 198.435 106.365) (end 196.85 106.365) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 199.39 103.505) (end 199.39 105.41) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 203.2 102.405) (end 201.846 102.405) (width 0.254) (layer B.Cu) (net 2))
+  (segment (start 201.846 102.405) (end 201.803 102.362) (width 0.254) (layer B.Cu) (net 2))
+  (via (at 201.803 102.362) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 2))
+  (segment (start 178.562 106.045) (end 179.959 106.045) (width 0.254) (layer B.Cu) (net 2))
+  (via (at 179.959 106.045) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 2))
+  (segment (start 186.325 107.95) (end 185.039 107.95) (width 0.254) (layer B.Cu) (net 2))
+  (via (at 185.039 107.95) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 2))
+  (segment (start 203.2 104.605) (end 203.2 105.459) (width 0.254) (layer B.Cu) (net 3))
+  (segment (start 203.2 105.459) (end 200.394 108.265) (width 0.254) (layer B.Cu) (net 3))
+  (segment (start 200.394 108.265) (end 197.754 108.265) (width 0.254) (layer B.Cu) (net 3))
+  (segment (start 197.754 108.265) (end 196.85 108.265) (width 0.254) (layer B.Cu) (net 3))
+  (segment (start 177.292 103.505) (end 172.212 108.585) (width 0.254) (layer B.Cu) (net 4))
+  (segment (start 172.212 108.585) (end 169.5196 108.585) (width 0.254) (layer B.Cu) (net 4))
+  (segment (start 191.77 103.505) (end 177.292 103.505) (width 0.254) (layer B.Cu) (net 4))
+  (segment (start 191.77 103.505) (end 191.77 104.609) (width 0.254) (layer B.Cu) (net 4))
+  (segment (start 191.77 104.609) (end 191.77 106.365) (width 0.254) (layer B.Cu) (net 4))
+  (segment (start 177.038 102.997) (end 172.72 107.315) (width 0.254) (layer B.Cu) (net 5))
+  (segment (start 172.72 107.315) (end 169.5196 107.315) (width 0.254) (layer B.Cu) (net 5))
+  (segment (start 189.357 102.997) (end 177.038 102.997) (width 0.254) (layer B.Cu) (net 5))
+  (segment (start 189.978401 102.375599) (end 189.357 102.997) (width 0.254) (layer B.Cu) (net 5))
+  (segment (start 194.31 103.505) (end 193.180599 102.375599) (width 0.254) (layer B.Cu) (net 5))
+  (segment (start 193.180599 102.375599) (end 189.978401 102.375599) (width 0.254) (layer B.Cu) (net 5))
+  (segment (start 194.31 103.505) (end 194.31 106.365) (width 0.254) (layer B.Cu) (net 5))
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
   (segment (start 176.784 107.95) (end 176.784 109.601) (width 0.254) (layer F.Cu) (net 6))
   (segment (start 176.784 109.601) (end 176.276 110.109) (width 0.254) (layer F.Cu) (net 6))
   (segment (start 176.276 110.109) (end 167.259 110.109) (width 0.254) (layer F.Cu) (net 6))
@@ -916,6 +1099,7 @@
         (xy 204.170979 101.349478) (xy 204.348145 101.467856) (xy 204.466521 101.645019) (xy 204.522 101.923931) (xy 204.522 109.093)
         (xy 177.546 109.093) (xy 177.546 108.517248) (xy 177.580259 108.483049) (xy 177.723637 108.137758) (xy 177.723963 107.763882)
         (xy 177.581188 107.418341) (xy 177.317049 107.153741) (xy 176.971758 107.010363) (xy 176.597882 107.010037) (xy 176.252341 107.152812)
+<<<<<<< HEAD
         (xy 175.987741 107.416951) (xy 175.895 107.640295) (xy 175.895 104.531086) (xy 187.091269 104.531086) (xy 187.293854 105.02138)
         (xy 187.668647 105.396827) (xy 188.158587 105.600268) (xy 188.689086 105.600731) (xy 189.17938 105.398146) (xy 189.554827 105.023353)
         (xy 189.758268 104.533413) (xy 189.75827 104.531086) (xy 190.591269 104.531086) (xy 190.793854 105.02138) (xy 191.168647 105.396827)
@@ -938,6 +1122,24 @@
         (xy 190.795173 103.510647) (xy 190.591732 104.000587) (xy 190.591269 104.531086) (xy 189.75827 104.531086) (xy 189.758731 104.002914)
         (xy 189.556146 103.51262) (xy 189.181353 103.137173) (xy 188.691413 102.933732) (xy 188.160914 102.933269) (xy 187.67062 103.135854)
         (xy 187.295173 103.510647) (xy 187.091732 104.000587) (xy 187.091269 104.531086) (xy 175.895 104.531086) (xy 175.895 101.294)
+=======
+        (xy 175.987741 107.416951) (xy 175.895 107.640295) (xy 175.895 102.655) (xy 190.27256 102.655) (xy 190.27256 104.355)
+        (xy 190.316838 104.590317) (xy 190.45591 104.806441) (xy 190.66811 104.951431) (xy 190.92 105.00244) (xy 192.62 105.00244)
+        (xy 192.855317 104.958162) (xy 193.071441 104.81909) (xy 193.216431 104.60689) (xy 193.230086 104.539459) (xy 193.259946 104.584147)
+        (xy 193.741715 104.906054) (xy 194.31 105.019093) (xy 194.878285 104.906054) (xy 195.360054 104.584147) (xy 195.587702 104.243447)
+        (xy 195.654817 104.386358) (xy 196.083076 104.776645) (xy 196.49311 104.946476) (xy 196.723 104.825155) (xy 196.723 103.632)
+        (xy 196.703 103.632) (xy 196.703 103.378) (xy 196.723 103.378) (xy 196.723 102.184845) (xy 196.977 102.184845)
+        (xy 196.977 103.378) (xy 196.997 103.378) (xy 196.997 103.632) (xy 196.977 103.632) (xy 196.977 104.825155)
+        (xy 197.20689 104.946476) (xy 197.616924 104.776645) (xy 198.045183 104.386358) (xy 198.112298 104.243447) (xy 198.339946 104.584147)
+        (xy 198.821715 104.906054) (xy 199.39 105.019093) (xy 199.958285 104.906054) (xy 200.440054 104.584147) (xy 200.761961 104.102378)
+        (xy 200.875 103.534093) (xy 200.875 103.475907) (xy 200.761961 102.907622) (xy 200.440054 102.425853) (xy 199.958285 102.103946)
+        (xy 199.39 101.990907) (xy 198.821715 102.103946) (xy 198.339946 102.425853) (xy 198.112298 102.766553) (xy 198.045183 102.623642)
+        (xy 197.616924 102.233355) (xy 197.20689 102.063524) (xy 196.977 102.184845) (xy 196.723 102.184845) (xy 196.49311 102.063524)
+        (xy 196.083076 102.233355) (xy 195.654817 102.623642) (xy 195.587702 102.766553) (xy 195.360054 102.425853) (xy 194.878285 102.103946)
+        (xy 194.31 101.990907) (xy 193.741715 102.103946) (xy 193.259946 102.425853) (xy 193.23215 102.467452) (xy 193.223162 102.419683)
+        (xy 193.08409 102.203559) (xy 192.87189 102.058569) (xy 192.62 102.00756) (xy 190.92 102.00756) (xy 190.684683 102.051838)
+        (xy 190.468559 102.19091) (xy 190.323569 102.40311) (xy 190.27256 102.655) (xy 175.895 102.655) (xy 175.895 101.294)
+>>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
         (xy 203.89207 101.294)
       )
     )
