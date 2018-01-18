@@ -1,24 +1,14 @@
 M48
-<<<<<<< HEAD
 ;DRILL file {KiCad 4.0.7-e2-6376~58~ubuntu16.04.1} date Tue Nov 21 15:05:03 2017
 ;FORMAT={-:-/ absolute / inch / decimal}
 FMAT,2
 INCH,TZ
 T1C0.012
-=======
-;DRILL file {KiCad 4.0.7-e2-6376~58~ubuntu16.04.1} date Mon Nov  6 21:19:06 2017
-;FORMAT={-:-/ absolute / inch / decimal}
-FMAT,2
-INCH,TZ
-T1C0.016
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
-T2C0.039
 %
 G90
 G05
 M72
 T1
-<<<<<<< HEAD
 X4.33Y-5.4
 X4.47Y-4.84
 X4.5Y-5.34
@@ -43,32 +33,5 @@ X4.8Y-5.3
 X4.8Y-5.4
 X4.8Y-5.5
 X4.8Y-5.6
-=======
-X4.36Y-5.4
-X4.38Y-4.88
-X4.44Y-5.74
-X4.52Y-4.96
-X4.52Y-5.45
-X4.55Y-5.34
-X4.64Y-5.53
-X4.72Y-5.3
-X4.75Y-5.53
-X4.77Y-5.66
-T2
-X4.1Y-5.15
-X4.1Y-5.25
-X4.1Y-5.35
-X4.1Y-5.45
-X4.1Y-5.55
-X4.1Y-5.65
-X4.25Y-5.8
-X4.35Y-5.8
-X4.9Y-5.15
-X4.9Y-5.25
-X4.9Y-5.35
-X4.9Y-5.45
-X4.9Y-5.55
-X4.9Y-5.65
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 T0
 M30

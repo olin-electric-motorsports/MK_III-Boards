@@ -36,10 +36,7 @@ LIBS:formula
 LIBS:SparkFun-Aesthetics
 LIBS:SparkFun-Displays
 LIBS:adafruit
-<<<<<<< HEAD
 LIBS:Backpack-cache
-=======
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -63,7 +60,7 @@ F 1 "SEGMENT_12BAR_BICOLOR" H 4080 3350 45  0000 L BNN
 F 2 "adafruit:SEGMENT_BICOL_BL-AR12Z3010" H 7580 2650 60  0001 C CNN
 F 3 "" H 7580 2650 60  0001 C CNN
 	1    7580 2650
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L SEGMENT_12BAR_BICOLOR LED1
@@ -74,7 +71,7 @@ F 1 "SEGMENT_12BAR_BICOLOR" H 4060 5540 45  0000 L BNN
 F 2 "adafruit:SEGMENT_BICOL_BL-AR12Z3010" H 7560 4840 60  0001 C CNN
 F 3 "" H 7560 4840 60  0001 C CNN
 	1    7560 4840
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L HT16K33 U1
@@ -85,7 +82,7 @@ F 1 "HT16K33" H 2000 4970 60  0000 C CNN
 F 2 "footprints:SOP28" H 2750 5470 60  0001 C CNN
 F 3 "" H 2750 5470 60  0001 C CNN
 	1    2100 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_10uF C1
@@ -100,23 +97,9 @@ F 5 "Digi-Key" H 2000 5150 60  0001 C CNN "MFN"
 F 6 "Value" H 2000 5150 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" H 2425 5650 60  0001 C CNN "PurchasingLink"
 	1    2000 5150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-<<<<<<< HEAD
-=======
-L Conn_01x04 J1
-U 1 1 5A25A55D
-P 1200 1750
-F 0 "J1" H 1200 1950 50  0000 C CNN
-F 1 "Conn_01x04" H 1200 1450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1200 1750 50  0001 C CNN
-F 3 "" H 1200 1750 50  0001 C CNN
-	1    1200 1750
-	-1   0    0    1   
-$EndComp
-$Comp
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 L PWR_FLAG #FLG01
 U 1 1 5A25A625
 P 2450 1150
@@ -125,7 +108,7 @@ F 1 "PWR_FLAG" H 2450 1300 50  0000 C CNN
 F 2 "" H 2450 1150 50  0001 C CNN
 F 3 "" H 2450 1150 50  0001 C CNN
 	1    2450 1150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG02
@@ -136,7 +119,7 @@ F 1 "PWR_FLAG" H 2650 1300 50  0000 C CNN
 F 2 "" H 2650 1150 50  0001 C CNN
 F 3 "" H 2650 1150 50  0001 C CNN
 	1    2650 1150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 5V #SUPPLY03
@@ -147,7 +130,7 @@ F 1 "5V" H 2410 1440 50  0000 L BNN
 F 2 "" H 2450 1300 60  0001 C CNN
 F 3 "" H 2450 1300 60  0001 C CNN
 	1    2450 1300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L GND #PWR04
@@ -158,7 +141,7 @@ F 1 "GND" H 2650 1150 50  0000 C CNN
 F 2 "" H 2650 1300 50  0001 C CNN
 F 3 "" H 2650 1300 50  0001 C CNN
 	1    2650 1300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 5V #SUPPLY05
@@ -169,7 +152,7 @@ F 1 "5V" H 1460 1590 50  0000 L BNN
 F 2 "" H 1500 1450 60  0001 C CNN
 F 3 "" H 1500 1450 60  0001 C CNN
 	1    1500 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR06
@@ -180,7 +163,7 @@ F 1 "GND" H 1700 1300 50  0000 C CNN
 F 2 "" H 1700 1450 50  0001 C CNN
 F 3 "" H 1700 1450 50  0001 C CNN
 	1    1700 1450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	1400 1550 1500 1550
@@ -199,7 +182,7 @@ F 1 "5V" H 1960 4990 50  0000 L BNN
 F 2 "" H 2000 4850 60  0001 C CNN
 F 3 "" H 2000 4850 60  0001 C CNN
 	1    2000 4850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR08
@@ -210,7 +193,7 @@ F 1 "GND" H 2000 5300 50  0000 C CNN
 F 2 "" H 2000 5450 50  0001 C CNN
 F 3 "" H 2000 5450 50  0001 C CNN
 	1    2000 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2000 4850 2000 5000
@@ -229,7 +212,7 @@ F 5 "Digi-Key" H 3450 3000 60  0001 C CNN "MFN"
 F 6 "Value" H 3450 3000 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3930 3400 60  0001 C CNN "PurchasingLink"
 	1    3450 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R_10k R2
@@ -244,7 +227,7 @@ F 5 "Digi-Key" H 3150 3000 60  0001 C CNN "MFN"
 F 6 "Value" H 3150 3000 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3630 3400 60  0001 C CNN "PurchasingLink"
 	1    3150 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 5V #SUPPLY09
@@ -255,7 +238,7 @@ F 1 "5V" H 3410 2890 50  0000 L BNN
 F 2 "" H 3450 2750 60  0001 C CNN
 F 3 "" H 3450 2750 60  0001 C CNN
 	1    3450 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 5V #SUPPLY010
@@ -266,7 +249,7 @@ F 1 "5V" H 3110 2890 50  0000 L BNN
 F 2 "" H 3150 2750 60  0001 C CNN
 F 3 "" H 3150 2750 60  0001 C CNN
 	1    3150 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2760 3160 3150 3160
@@ -289,7 +272,7 @@ F 1 "5V" H 2880 2890 50  0000 L BNN
 F 2 "" H 2920 2750 60  0001 C CNN
 F 3 "" H 2920 2750 60  0001 C CNN
 	1    2920 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2920 2750 2920 3060
@@ -304,7 +287,7 @@ F 1 "GND" H 1080 2750 50  0000 C CNN
 F 2 "" H 1080 2900 50  0001 C CNN
 F 3 "" H 1080 2900 50  0001 C CNN
 	1    1080 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	1210 3020 1080 3020
@@ -417,7 +400,7 @@ F 5 "Digi-Key" H 2560 5360 60  0001 C CNN "MFN"
 F 6 "Value" H 2560 5360 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2960 5860 60  0001 C CNN "PurchasingLink"
 	1    2560 5360
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L R_500 R1
@@ -432,7 +415,7 @@ F 5 "Digi Key" V 2740 5080 60  0001 C CNN "MFN"
 F 6 "541-1905-2-ND" V 2840 5180 60  0001 C CNN "MPN"
 F 7 "https://www.digikey.com/product-detail/en/vishay-dale/PNM0402E5000BST1/541-1905-2-ND/4341867" V 2940 5280 60  0001 C CNN "PurchasingLink"
 	1    2560 4980
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 5V #SUPPLY013
@@ -443,7 +426,7 @@ F 1 "5V" H 2520 4910 50  0000 L BNN
 F 2 "" H 2560 4770 60  0001 C CNN
 F 3 "" H 2560 4770 60  0001 C CNN
 	1    2560 4770
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR014
@@ -454,7 +437,7 @@ F 1 "GND" H 2560 5420 50  0000 C CNN
 F 2 "" H 2560 5570 50  0001 C CNN
 F 3 "" H 2560 5570 50  0001 C CNN
 	1    2560 5570
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2560 4770 2560 4830
@@ -480,7 +463,6 @@ Text GLabel 7360 5540 3    60   BiDi ~ 0
 COM1
 Text GLabel 4960 5540 3    60   BiDi ~ 0
 COM2
-<<<<<<< HEAD
 $Comp
 L Ultrafit_4 J1
 U 1 1 5A5BD75B
@@ -496,8 +478,6 @@ F 7 "WM11564-ND" H 1450 2500 60  0001 C CNN "MPN2"
 F 8 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 1550 2600 60  0001 C CNN "PurchasingLink"
 F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" H 1650 2700 60  0001 C CNN "PurchasingLink2"
 	1    1050 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
-=======
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 $EndSCHEMATC

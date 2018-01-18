@@ -17,7 +17,6 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
 # 4.7kR
 #
 DEF 4.7kR R 0 0 N Y 1 F N
@@ -36,8 +35,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-=======
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 # CP2120
 #
 DEF CP2120 U 0 40 Y Y 1 F N
@@ -101,35 +98,6 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
-=======
-# C_10uF
-#
-DEF C_10uF C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C_10uF" 25 -100 50 H V L CNN
-F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
-F3 "http://datasheets.avx.com/cx5r.pdf" 25 100 50 H I C CNN
-F4 "478-5167-1-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" 425 500 60 H I C CNN "PurchasingLink"
-$FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 # Conn_01x02
 #
 DEF Conn_01x02 J 0 40 Y N 1 F N
@@ -224,7 +192,6 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
 # LM3480
 #
 DEF LM3480 U 0 10 Y Y 1 F N
@@ -240,25 +207,6 @@ S -200 -200 200 75 0 1 10 f
 X VO 1 300 0 100 L 50 50 1 1 P
 X VI 2 -300 0 100 R 50 50 1 1 W
 X GND 3 0 -300 100 U 50 50 1 1 W
-=======
-# LM2936-3.0
-#
-DEF LM2936-3.0 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "LM2936-3.0" 0 125 50 H V L CNN
-F2 "" 0 225 50 H I C CIN
-F3 "" 0 -50 50 H I C CNN
-ALIAS LM2936-3.3 LM2936-5.0
-$FPLIST
- TO?252*
- SOT?223*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X VI 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X VO 3 300 0 100 L 50 50 1 1 w
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 ENDDRAW
 ENDDEF
 #
@@ -275,7 +223,6 @@ P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
 # R_499
 #
 DEF R_499 R 0 0 N Y 1 F N
@@ -290,18 +237,6 @@ F7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07499RL/311-499CRCT
 $FPLIST
  R_*
  Resistor_*
-=======
-# R
-#
-DEF R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
->>>>>>> 32bfc1fbeb0075f2edf25abd08975b23595f24f4
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
