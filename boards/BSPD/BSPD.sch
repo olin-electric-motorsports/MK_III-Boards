@@ -448,7 +448,11 @@ P 3250 3300
 F 0 "U2" H 3700 3450 60  0000 C CNN
 F 1 "SN74LVC1G08" H 3700 3550 60  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 3350 3300 60  0001 C CNN
-F 3 "" H 3350 3300 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf" H 4930 4380 60  0001 C CNN
+F 4 "SN74LVC1G08DBVR " H 3250 3300 60  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 3250 3300 60  0001 C CNN "MFN"
+F 6 "SC-74A, SOT-753" H 3250 3300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G08DBVR/296-11601-1-ND/385740" H 3250 3300 60  0001 C CNN "PurchasingLink"
 	1    3250 3300
 	1    0    0    -1  
 $EndComp
@@ -605,7 +609,11 @@ P 5200 3400
 F 0 "U3" H 5250 3600 50  0000 C CNN
 F 1 "MCP6001" H 5400 3200 50  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 5150 3500 50  0001 C CNN
-F 3 "" H 5250 3600 50  0000 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5250 3600 50  0000 C CNN
+F 4 " MCP6001T-I/OT" H 5200 3400 60  0001 C CNN "MPN"
+F 5 "Microchip Technology" H 5200 3400 60  0001 C CNN "MNF"
+F 6 "SC-74A, SOT-753 " H 5200 3400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" H 5200 3400 60  0001 C CNN "PurchasingLink"
 	1    5200 3400
 	1    0    0    -1  
 $EndComp
@@ -705,7 +713,11 @@ P 6625 3460
 F 0 "U5" H 7025 3810 60  0000 C CNN
 F 1 "SN74LVC1G02" H 6205 3665 60  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 6625 3460 60  0001 C CNN
-F 3 "" H 6625 3460 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" H 6625 3460 60  0001 C CNN
+F 4 "SN74LVC1G02DBVR" H 6625 3460 60  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 6625 3460 60  0001 C CNN "MFN"
+F 6 "SC-74A, SOT-753" H 6625 3460 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G02DBVR/296-11597-1-ND/385736" H 6625 3460 60  0001 C CNN "PurchasingLink"
 	1    6625 3460
 	1    0    0    -1  
 $EndComp
@@ -738,7 +750,11 @@ P 6320 4720
 F 0 "U4" H 6720 5070 60  0000 C CNN
 F 1 "SN74LVC1G02" H 6580 4910 60  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 6320 4720 60  0001 C CNN
-F 3 "" H 6320 4720 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" H 6320 4720 60  0000 C CNN
+F 4 "SN74LVC1G02DBVR" H 6320 4720 60  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 6320 4720 60  0001 C CNN "MFN"
+F 6 " SC-74A, SOT-753 " H 6320 4720 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G02DBVR/296-11597-1-ND/385736" H 6320 4720 60  0001 C CNN "PurchasingLink"
 	1    6320 4720
 	1    0    0    -1  
 $EndComp
@@ -857,9 +873,9 @@ Wire Wire Line
 Wire Wire Line
 	5890 4660 5890 4135
 Wire Wire Line
-	5890 4135 7030 4135
+	7030 4135 5890 4135
 Wire Wire Line
-	7030 4135 7030 3455
+	7030 3455 7030 4135
 Wire Wire Line
 	3630 3300 3630 3475
 Connection ~ 3630 3300
@@ -896,7 +912,7 @@ F 3 "" H 7885 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7885 2130 7580 2130
+	7580 2130 7885 2130
 $Comp
 L R_200 R10
 U 1 1 5A0B9520
@@ -1010,7 +1026,7 @@ F 3 "" H 2150 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6980 2130 6590 2130
+	6590 2130 6980 2130
 Wire Wire Line
 	6590 2130 6590 2025
 $Comp
@@ -1110,7 +1126,11 @@ P 4050 3300
 F 0 "R12" V 4130 3300 50  0000 C CNN
 F 1 "R_71.5k" V 3950 3300 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 3980 3300 50  0001 C CNN
-F 3 "" H 4050 3300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 4050 3300 50  0001 C CNN
+F 4 "RC0805FR-0771K5L " V 4050 3300 60  0001 C CNN "MPN"
+F 5 "Yageo" V 4050 3300 60  0001 C CNN "MFN"
+F 6 "Value" V 4050 3300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0771K5L/311-71.5KCRCT-ND/731072" V 4050 3300 60  0001 C CNN "PurchasingLink"
 	1    4050 3300
 	0    1    1    0   
 $EndComp
@@ -1204,7 +1224,7 @@ F 7 "SOT-23-3 Flat Leads" H 4510 5865 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3710 5390 2770 5390
+	2770 5390 3710 5390
 Wire Wire Line
 	2770 5390 2770 5250
 Connection ~ 3120 5390
