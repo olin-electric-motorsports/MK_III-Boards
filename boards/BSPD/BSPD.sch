@@ -609,7 +609,7 @@ P 5200 3400
 F 0 "U3" H 5250 3600 50  0000 C CNN
 F 1 "MCP6001" H 5400 3200 50  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 5150 3500 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5250 3600 50  0000 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5250 3600 50  0001 C CNN
 F 4 " MCP6001T-I/OT" H 5200 3400 60  0001 C CNN "MPN"
 F 5 "Microchip Technology" H 5200 3400 60  0001 C CNN "MNF"
 F 6 "SC-74A, SOT-753 " H 5200 3400 60  0001 C CNN "Package"
@@ -750,7 +750,7 @@ P 6320 4720
 F 0 "U4" H 6720 5070 60  0000 C CNN
 F 1 "SN74LVC1G02" H 6580 4910 60  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 6320 4720 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" H 6320 4720 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" H 6320 4720 60  0001 C CNN
 F 4 "SN74LVC1G02DBVR" H 6320 4720 60  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 6320 4720 60  0001 C CNN "MFN"
 F 6 " SC-74A, SOT-753 " H 6320 4720 60  0001 C CNN "Package"
