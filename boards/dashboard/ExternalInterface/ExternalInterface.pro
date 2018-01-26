@@ -1,4 +1,4 @@
-update=Sun 14 Jan 2018 10:21:51 PM EST
+update=Sun 21 Jan 2018 12:36:49 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../../../OEM_Preferred_Parts/schematic
@@ -59,8 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
-LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
-LibName35=/home/josh/Formula/OEM_Preferred_Parts/schematic/formula
-[general]
-version=1
+LibName33=/home/lanfenson/OEM_Preferred_Parts/schematic/formula

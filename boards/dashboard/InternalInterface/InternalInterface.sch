@@ -62,12 +62,12 @@ F 7 "Value" H 1650 4320 60  0001 C CNN "Package"
 	1    1350 2720
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 1720 2    60   BiDi ~ 0
+Text GLabel 1500 1820 2    60   BiDi ~ 0
 START
 Text GLabel 1500 1920 2    60   BiDi ~ 0
-IMS
+AMS
 Text GLabel 1500 2120 2    60   BiDi ~ 0
-AMD
+IMD
 Text GLabel 1500 2420 2    60   BiDi ~ 0
 SDA
 Text GLabel 1500 2520 2    60   BiDi ~ 0
@@ -145,12 +145,12 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 5A28DFF4
-P 1580 1820
-F 0 "#PWR07" H 1580 1570 50  0001 C CNN
-F 1 "GND" H 1580 1670 50  0000 C CNN
-F 2 "" H 1580 1820 50  0001 C CNN
-F 3 "" H 1580 1820 50  0001 C CNN
-	1    1580 1820
+P 1580 1720
+F 0 "#PWR07" H 1580 1470 50  0001 C CNN
+F 1 "GND" H 1580 1570 50  0000 C CNN
+F 2 "" H 1580 1720 50  0001 C CNN
+F 3 "" H 1580 1720 50  0001 C CNN
+	1    1580 1720
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -178,17 +178,15 @@ $EndComp
 Wire Wire Line
 	1580 1620 1500 1620
 Wire Wire Line
-	1580 1820 1500 1820
-Wire Wire Line
 	1580 2020 1500 2020
 Wire Wire Line
 	1500 2220 1580 2220
 Wire Wire Line
 	1580 2320 1500 2320
 Text GLabel 2720 1850 0    60   BiDi ~ 0
-IMS
+IMD
 Text GLabel 2690 2460 0    60   BiDi ~ 0
-AMD
+AMS
 $Comp
 L GND #PWR010
 U 1 1 5A28E161
@@ -397,4 +395,6 @@ F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5
 	1    3780 2660
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	1500 1720 1580 1720
 $EndSCHEMATC
