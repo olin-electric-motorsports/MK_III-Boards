@@ -63,36 +63,6 @@ F 7 "Value" H 3950 2900 60  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L F_3.15A_450V F1
-U 1 1 59FF2AA8
-P 3150 3350
-F 0 "F1" V 3230 3350 50  0000 C CNN
-F 1 "F_3.15A_450V" V 3000 3350 50  0000 C CNN
-F 2 "footprints:Fuse_TE7_Littelfuse-807Series" V 3080 3350 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/240/Littelfuse_Fuse_807_Datasheet.pdf-794915.pdf" V 3230 3350 50  0001 C CNN
-F 4 "Mouser" H 3150 3350 60  0001 C CNN "MFN"
-F 5 "80713150440" H 3150 3350 60  0001 C CNN "MPN"
-F 6 "Value" H 3150 3350 60  0001 C CNN "Package"
-F 7 "https://www.mouser.com/ProductDetail/Littelfuse/80713150440/?qs=%2fha2pyFaduj6aUSS3K8RSlC9flo%2fx0HLwwpdMiFRoD3Yb7kI5hEeOg%3d%3d" V 3630 3750 60  0001 C CNN "PurchasingLink"
-	1    3150 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L F_3.15A_450V F2
-U 1 1 59FF2BEF
-P 3150 3700
-F 0 "F2" V 3250 3700 50  0000 C CNN
-F 1 "F_3.15A_450V" V 3000 3700 50  0000 C CNN
-F 2 "footprints:Fuse_TE7_Littelfuse-807Series" V 3080 3700 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/240/Littelfuse_Fuse_807_Datasheet.pdf-794915.pdf" V 3230 3700 50  0001 C CNN
-F 4 "Mouser" H 3150 3700 60  0001 C CNN "MFN"
-F 5 "80713150440" H 3150 3700 60  0001 C CNN "MPN"
-F 6 "Value" H 3150 3700 60  0001 C CNN "Package"
-F 7 "https://www.mouser.com/ProductDetail/Littelfuse/80713150440/?qs=%2fha2pyFaduj6aUSS3K8RSlC9flo%2fx0HLwwpdMiFRoD3Yb7kI5hEeOg%3d%3d" V 3630 4100 60  0001 C CNN "PurchasingLink"
-	1    3150 3700
-	0    1    1    0   
-$EndComp
-$Comp
 L Ultrafit_2 J1
 U 1 1 59FF2D03
 P 1500 3000
@@ -174,36 +144,6 @@ TS+Unfused
 Text Label 3400 2650 0    60   ~ 0
 TS-Unfused
 $Comp
-L R_10k_HV R2
-U 1 1 59FF47B0
-P 3150 4100
-F 0 "R2" V 3150 4100 50  0000 C CNN
-F 1 "R_10k_HV" V 3050 4150 50  0000 C CNN
-F 2 "footprints:R_10K_HV" H 3080 4100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 3230 4100 50  0001 C CNN
-F 4 "PPC5D10.0KCT-ND " H 3150 4100 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3150 4100 60  0001 C CNN "MFN"
-F 6 "Value" H 3150 4100 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 3630 4500 60  0001 C CNN "PurchasingLink"
-	1    3150 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L R_10k_HV R3
-U 1 1 59FF48D5
-P 3150 4300
-F 0 "R3" V 3150 4300 50  0000 C CNN
-F 1 "R_10k_HV" V 3050 4350 50  0000 C CNN
-F 2 "footprints:R_10K_HV" H 3080 4300 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 3230 4300 50  0001 C CNN
-F 4 "PPC5D10.0KCT-ND " H 3150 4300 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3150 4300 60  0001 C CNN "MFN"
-F 6 "Value" H 3150 4300 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 3630 4700 60  0001 C CNN "PurchasingLink"
-	1    3150 4300
-	0    1    1    0   
-$EndComp
-$Comp
 L R_3k_HS R1
 U 1 1 59FF494B
 P 2500 2550
@@ -216,53 +156,8 @@ F 5 "AP101 3K J " H 2500 2550 60  0001 C CNN "MPN"
 F 6 "Value" H 2500 2550 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" H 2980 2950 60  0001 C CNN "PurchasingLink"
 	1    2500 2550
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-$Comp
-L Ultrafit_4 J3
-U 1 1 59FF677E
-P 4300 4250
-F 0 "J3" H 4300 4300 60  0000 C CNN
-F 1 "TSMP/TSAL" H 4300 4050 60  0000 C CNN
-F 2 "footprints:Ultrafit_4" H 4200 4500 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 4300 4600 60  0001 C CNN
-F 4 "Digi-Key" H 4300 4250 60  0001 C CNN "MFN"
-F 5 "Value" H 4300 4250 60  0001 C CNN "Package"
-F 6 "WM11574-ND" H 4300 4250 60  0001 C CNN "MPN"
-F 7 "WM11564-ND" H 4700 5000 60  0001 C CNN "MPN2"
-F 8 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 4800 5100 60  0001 C CNN "PurchasingLink"
-F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" H 4900 5200 60  0001 C CNN "PurchasingLink2"
-	1    4300 4250
-	-1   0    0    1   
-$EndComp
-Text Label 3950 4350 2    60   ~ 0
-TS+Fused
-Text Label 3950 4450 2    60   ~ 0
-TS-Fused
-Wire Wire Line
-	3300 4100 3450 4100
-Wire Wire Line
-	3450 4100 3450 4150
-Wire Wire Line
-	3450 4150 3950 4150
-Wire Wire Line
-	3300 4300 3450 4300
-Wire Wire Line
-	3450 4300 3450 4250
-Wire Wire Line
-	3450 4250 3950 4250
-Text Label 3000 4300 2    60   ~ 0
-TS-Unfused
-Text Label 3000 4100 2    60   ~ 0
-TS+Unfused
-Text Label 3000 3350 2    60   ~ 0
-TS+Unfused
-Text Label 3000 3700 2    60   ~ 0
-TS-Unfused
-Text Label 3300 3350 0    60   ~ 0
-TS+Fused
-Text Label 3300 3700 0    60   ~ 0
-TS-Fused
 Text Label 1750 2950 0    60   ~ 0
 TS+Unfused
 Text Label 1750 3050 0    60   ~ 0
@@ -278,12 +173,6 @@ Wire Wire Line
 	2700 2150 2800 2150
 Text Label 2700 2150 2    60   ~ 0
 Shutdown
-Wire Notes Line
-	1100 700  1100 4800
-Wire Notes Line
-	1100 4800 4700 4800
-Wire Notes Line
-	4700 4800 4700 700 
 Wire Notes Line
 	4700 700  1100 700 
 Wire Notes Line
@@ -317,4 +206,10 @@ F 3 "" H 3950 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3400 2450
+Wire Notes Line
+	1100 700  1100 3300
+Wire Notes Line
+	1100 3300 4700 3300
+Wire Notes Line
+	4700 3300 4700 700 
 $EndSCHEMATC
