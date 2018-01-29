@@ -1,4 +1,4 @@
-update=Sun 17 Dec 2017 11:57:16 PM EST
+update=Sun 28 Jan 2018 05:48:57 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,16 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=118
 [eeschema]
 version=1
 LibDir=
@@ -72,3 +62,13 @@ LibName32=valves
 LibName33=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=118
