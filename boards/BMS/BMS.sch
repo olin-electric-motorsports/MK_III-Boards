@@ -1059,7 +1059,6 @@ NoConn ~ 5150 7150
 NoConn ~ 4050 4450
 NoConn ~ 4050 4350
 NoConn ~ 4050 4150
-NoConn ~ 4050 4050
 NoConn ~ 1850 3250
 NoConn ~ 4050 4850
 Text GLabel 4250 7350 0    60   Input ~ 0
@@ -1175,7 +1174,6 @@ F 3 "" H 6350 4800 50  0001 C CNN
 	1    6350 4800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1250 1100
 Connection ~ 3100 950 
 Wire Wire Line
 	6350 5650 6350 5400
@@ -1293,4 +1291,40 @@ Wire Wire Line
 	2350 950  2800 950 
 Text GLabel 1000 4750 2    60   Input ~ 0
 Shutdown_Control
+$Comp
+L Ultrafit_2 J8
+U 1 1 5A6A8A5C
+P 4850 3450
+F 0 "J8" H 4850 3600 60  0000 C CNN
+F 1 "Ultrafit_2" H 4950 3250 60  0000 C CNN
+F 2 "footprints:Ultrafit_2" H 4750 3500 60  0001 C CNN
+F 3 "" H 4850 3600 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 4950 3700 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 5050 3800 60  0001 C CNN "MFN"
+F 6 "WM11570-ND" H 5150 3900 60  0001 C CNN "MPN"
+F 7 "Value" H 5250 4000 60  0001 C CNN "Package"
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 5A6A8B59
+P 5100 3500
+F 0 "#PWR034" H 5100 3250 50  0001 C CNN
+F 1 "GND" H 5100 3350 50  0000 C CNN
+F 2 "" H 5100 3500 50  0001 C CNN
+F 3 "" H 5100 3500 50  0001 C CNN
+	1    5100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4050 4850 4050
+Wire Wire Line
+	4850 4050 4850 3800
+Wire Wire Line
+	4850 3800 5300 3800
+Wire Wire Line
+	5300 3800 5300 3400
+Wire Wire Line
+	5300 3400 5100 3400
 $EndSCHEMATC
