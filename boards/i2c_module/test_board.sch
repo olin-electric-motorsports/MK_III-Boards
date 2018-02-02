@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:formula
+LIBS:test_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -85,7 +86,9 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 655
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 4050 6200 4050
+	5450 4050 6075 4050
+Wire Wire Line
+	6075 4050 6200 4050
 $Comp
 L VCC #PWR?
 U 1 1 5A74CACF
@@ -130,7 +133,13 @@ F 3 "" H 3350 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 2475 3350 3475
+	3350 2475 3350 2600
+Wire Wire Line
+	3350 2600 3350 2900
+Wire Wire Line
+	3350 2900 3350 3200
+Wire Wire Line
+	3350 3200 3350 3475
 Wire Wire Line
 	3350 2600 3550 2600
 $Comp
@@ -156,7 +165,11 @@ Wire Wire Line
 	3550 2900 3350 2900
 Connection ~ 3350 2900
 Wire Wire Line
-	3350 3775 3350 5125
+	3350 3775 3350 4800
+Wire Wire Line
+	3350 4800 3350 4900
+Wire Wire Line
+	3350 4900 3350 5125
 Wire Wire Line
 	3350 4800 3550 4800
 Wire Wire Line
@@ -265,21 +278,27 @@ F 3 "" H 6775 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6475 4050 7125 4050
+	6475 4050 6775 4050
+Wire Wire Line
+	6775 4050 7125 4050
 Wire Wire Line
 	7125 4050 7125 3925
 Wire Wire Line
 	6475 4050 6475 3925
 Connection ~ 6775 4050
 Wire Wire Line
-	5450 3450 6725 3450
+	5450 3450 6475 3450
+Wire Wire Line
+	6475 3450 6725 3450
 Wire Wire Line
 	6475 3625 6475 3450
 Connection ~ 6475 3450
 Wire Wire Line
 	7125 3625 7125 3550
 Wire Wire Line
-	5450 3550 7325 3550
+	5450 3550 7125 3550
+Wire Wire Line
+	7125 3550 7325 3550
 Connection ~ 7125 3550
 Text GLabel 7850 3450 2    60   Input ~ 0
 PWM_0
@@ -321,16 +340,18 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5A74D7D2
-P 6625 2675
-F 0 "#PWR?" H 6625 2425 50  0001 C CNN
-F 1 "GND" H 6625 2525 50  0000 C CNN
-F 2 "" H 6625 2675 50  0001 C CNN
-F 3 "" H 6625 2675 50  0001 C CNN
-	1    6625 2675
+P 6625 2775
+F 0 "#PWR?" H 6625 2525 50  0001 C CNN
+F 1 "GND" H 6625 2625 50  0000 C CNN
+F 2 "" H 6625 2775 50  0001 C CNN
+F 3 "" H 6625 2775 50  0001 C CNN
+	1    6625 2775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6625 2675 6625 2475
+	6625 2775 6625 2600
+Wire Wire Line
+	6625 2600 6625 2475
 Wire Wire Line
 	6625 2175 6775 2175
 Wire Wire Line
@@ -339,13 +360,58 @@ Wire Wire Line
 	6775 2600 6625 2600
 Connection ~ 6625 2600
 Wire Wire Line
-	6725 2325 6950 2325
+	6725 2325 6900 2325
+Wire Wire Line
+	6900 2325 6950 2325
 Text Label 6950 2325 0    60   ~ 0
 XTAL1
 Wire Wire Line
-	6525 2325 6300 2325
+	6525 2325 6375 2325
+Wire Wire Line
+	6375 2325 6300 2325
 Text Label 6300 2325 2    60   ~ 0
 XTAL2
 Text Notes 7475 1950 2    60   ~ 0
 Same 16MHz as on 16M1
+$Comp
+L C_30pF C?
+U 1 1 5A74D2E7
+P 6900 2625
+F 0 "C?" H 6925 2725 50  0000 L CNN
+F 1 "C_30pF" H 6925 2525 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6938 2475 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6925 2725 50  0001 C CNN
+F 4 "1276-1130-1-ND" H 6900 2625 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6900 2625 60  0001 C CNN "MFN"
+F 6 "Value" H 6900 2625 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 7325 3125 60  0001 C CNN "PurchasingLink"
+	1    6900 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_30pF C?
+U 1 1 5A74D38A
+P 6375 2625
+F 0 "C?" H 6400 2725 50  0000 L CNN
+F 1 "C_30pF" H 6400 2525 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6413 2475 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6400 2725 50  0001 C CNN
+F 4 "1276-1130-1-ND" H 6375 2625 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6375 2625 60  0001 C CNN "MFN"
+F 6 "Value" H 6375 2625 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 6800 3125 60  0001 C CNN "PurchasingLink"
+	1    6375 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 2475 6375 2325
+Connection ~ 6375 2325
+Wire Wire Line
+	6900 2475 6900 2325
+Connection ~ 6900 2325
+Wire Wire Line
+	6375 2775 6625 2775
+Wire Wire Line
+	6625 2775 6900 2775
+Connection ~ 6625 2775
 $EndSCHEMATC

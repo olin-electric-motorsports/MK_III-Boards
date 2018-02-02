@@ -1,4 +1,4 @@
-update=Fri 02 Feb 2018 03:24:26 PM EST
+update=Fri 02 Feb 2018 04:04:45 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,4 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=formula
+LibName33=/home/aehoppe/Documents/Formula/OEM_Preferred_Parts/schematic/formula
