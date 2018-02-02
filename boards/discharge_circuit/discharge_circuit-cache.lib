@@ -27,6 +27,28 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# F_3.15A_450V
+#
+DEF F_3.15A_450V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_3.15A_450V" -75 0 50 V V C CNN
+F2 "footprints:Fuse_TE7_Littelfuse-807Series" -70 0 50 V I C CNN
+F3 "http://www.mouser.com/ds/2/240/Littelfuse_Fuse_807_Datasheet.pdf-794915.pdf" 80 0 50 V I C CNN
+F4 "Mouser" 0 0 60 H I C CNN "MFN"
+F5 "80713150440" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.mouser.com/ProductDetail/Littelfuse/80713150440/?qs=%2fha2pyFaduj6aUSS3K8RSlC9flo%2fx0HLwwpdMiFRoD3Yb7kI5hEeOg%3d%3d" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # G2RL-1-E
 #
 DEF G2RL-1-E K 0 40 Y Y 1 F N
@@ -95,6 +117,28 @@ P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 ENDDRAW
 ENDDEF
 #
+# R_10k_HV
+#
+DEF R_10k_HV R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_10k_HV" -100 0 50 V V C CNN
+F2 "footprints:R_1K_HV" -70 0 50 H I C CNN
+F3 "http://www.vishay.com/docs/28731/pacserie.pdf" 80 0 50 H I C CNN
+F4 "PPC5D10.0KCT-ND " 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_3k_HS
 #
 DEF R_3k_HS R 0 0 Y Y 1 F N
@@ -132,6 +176,26 @@ DRAW
 S 150 -100 -150 100 0 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
 X 2 2 250 -50 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_4
+#
+DEF micromatch_female_RA_4 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_4" -50 650 60 H V C CNN
+F2 "footprints:micromatch_female_ra_4" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99482CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 750 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
