@@ -353,21 +353,6 @@ Wire Wire Line
 	3900 4350 3900 4300
 Wire Wire Line
 	3900 4300 4150 4300
-$Comp
-L micromatch_female_RA_4 J3
-U 1 1 5A73D401
-P 4300 5300
-F 0 "J3" H 4100 6100 60  0000 C CNN
-F 1 "TSMP" H 4200 6500 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 4100 6400 60  0001 C CNN
-F 3 "" H 4200 6500 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 4300 6600 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 4400 6700 60  0001 C CNN "MFN"
-F 6 "A99482CT-ND" H 4500 6800 60  0001 C CNN "MPN"
-F 7 "Value" H 4600 6900 60  0001 C CNN "Package"
-	1    4300 5300
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 4150 4400
 NoConn ~ 4150 4500
 $EndSCHEMATC
