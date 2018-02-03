@@ -427,27 +427,44 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# micromatch_female_RA_8
+# Ultrafit_5
 #
-DEF micromatch_female_RA_8 J 0 40 Y Y 1 F N
+DEF Ultrafit_5 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_5" 0 -350 60 H V C CNN
+F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "Value" 0 0 60 H I C CNN "Package"
+F6 "WM11667-ND" 0 0 60 H I C CNN "MPN"
+F7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -250 0 1 0 N
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+X ~ 5 350 -200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_4
+#
+DEF micromatch_female_RA_4 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "micromatch_female_RA_8" -50 250 60 H V C CNN
-F2 "footprints:micromatch_female_ra_8" -200 1100 60 H I C CNN
+F1 "micromatch_female_RA_4" -50 650 60 H V C CNN
+F2 "footprints:micromatch_female_ra_4" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-8/A99484CT-ND/1955786" 0 1300 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" 0 1300 60 H I C CNN "PurchasingLink"
 F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
-F6 "A99484CT-ND" 200 1500 60 H I C CNN "MPN"
+F6 "A99482CT-ND" 200 1500 60 H I C CNN "MPN"
 F7 "Value" 300 1600 60 H I C CNN "Package"
 DRAW
-S 50 350 -250 1150 0 1 0 f
+S 50 750 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
 X 2 2 150 1000 100 L 50 50 1 1 B
 X 3 3 150 900 100 L 50 50 1 1 B
 X 4 4 150 800 100 L 50 50 1 1 B
-X 5 5 150 700 100 L 50 50 1 1 B
-X 6 6 150 600 100 L 50 50 1 1 B
-X 7 7 150 500 100 L 50 50 1 1 B
-X 8 8 150 400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
