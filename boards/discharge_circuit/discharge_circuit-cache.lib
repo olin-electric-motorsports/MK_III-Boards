@@ -179,4 +179,24 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# mx150L_2
+#
+DEF mx150L_2 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "mx150L_2" 0 -200 60 H V C CNN
+F2 "" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" 0 350 60 H I C CNN
+F4 "Value" 0 0 60 H I C CNN "Package"
+$FPLIST
+ mx150l_2
+$ENDFPLIST
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

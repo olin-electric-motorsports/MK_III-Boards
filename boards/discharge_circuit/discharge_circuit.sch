@@ -355,4 +355,16 @@ Wire Wire Line
 	3900 4300 4150 4300
 NoConn ~ 4150 4400
 NoConn ~ 4150 4500
+$Comp
+L mx150L_2 J3
+U 1 1 5A75E408
+P 4500 4400
+F 0 "J3" H 4400 4600 60  0000 C CNN
+F 1 "TSMP" H 4550 4200 60  0000 C CNN
+F 2 "footprints:mx150l_2" H 4400 4650 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" H 4500 4750 60  0001 C CNN
+F 4 "Value" H 4500 4400 60  0001 C CNN "Package"
+	1    4500 4400
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
