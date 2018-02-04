@@ -169,9 +169,9 @@ Wire Wire Line
 Wire Wire Line
 	3500 2150 3400 2150
 Connection ~ 3500 1700
-Text Label 2350 2550 2    60   ~ 0
+Text Label 3700 2650 0    60   ~ 0
 TS+Unfused
-Text Label 3400 2650 0    60   ~ 0
+Text Label 2650 2550 2    60   ~ 0
 TS-Unfused
 $Comp
 L R_10k_HV R2
@@ -206,16 +206,16 @@ $EndComp
 $Comp
 L R_3k_HS R1
 U 1 1 59FF494B
-P 2500 2550
-F 0 "R1" V 2500 2550 50  0000 C CNN
-F 1 "R_3k_HS" V 2600 2550 50  0000 C CNN
-F 2 "footprints:R_3k_HS_TO247" H 2430 2550 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" H 2580 2550 50  0001 C CNN
-F 4 "Digi-Key" H 2500 2550 60  0001 C CNN "MFN"
-F 5 "AP101 3K J " H 2500 2550 60  0001 C CNN "MPN"
-F 6 "Value" H 2500 2550 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" H 2980 2950 60  0001 C CNN "PurchasingLink"
-	1    2500 2550
+P 3550 2650
+F 0 "R1" V 3550 2650 50  0000 C CNN
+F 1 "R_3k_HS" V 3650 2650 50  0000 C CNN
+F 2 "footprints:R_3k_HS_TO247" H 3480 2650 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" H 3630 2650 50  0001 C CNN
+F 4 "Digi-Key" H 3550 2650 60  0001 C CNN "MFN"
+F 5 "AP101 3K J " H 3550 2650 60  0001 C CNN "MPN"
+F 6 "Value" H 3550 2650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" H 4030 3050 60  0001 C CNN "PurchasingLink"
+	1    3550 2650
 	0    1    1    0   
 $EndComp
 Text Label 3450 4350 2    60   ~ 0

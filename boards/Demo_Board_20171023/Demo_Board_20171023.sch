@@ -1014,16 +1014,16 @@ $EndComp
 $Comp
 L micromatch_female_RA_6 J2
 U 1 1 59EE4E2C
-P 1100 4400
-F 0 "J2" H 1000 5600 60  0000 C CNN
-F 1 "micromatch_female_RA_6" H 1100 4850 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_6" H 900 5500 60  0001 C CNN
-F 3 "" H 1000 5600 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-6/A99483CT-ND/1955785" H 1100 5700 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 1200 5800 60  0001 C CNN "MFN"
-F 6 "A99483CT-ND" H 1300 5900 60  0001 C CNN "MPN"
-F 7 "Value" H 1400 6000 60  0001 C CNN "Package"
-	1    1100 4400
+P 1000 3550
+F 0 "J2" H 900 4750 60  0000 C CNN
+F 1 "micromatch_female_RA_6" H 1000 4000 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_6" H 800 4650 60  0001 C CNN
+F 3 "" H 900 4750 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-6/A99483CT-ND/1955785" H 1000 4850 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 1100 4950 60  0001 C CNN "MFN"
+F 6 "A99483CT-ND" H 1200 5050 60  0001 C CNN "MPN"
+F 7 "Value" H 1300 5150 60  0001 C CNN "Package"
+	1    1000 3550
 	1    0    0    -1  
 $EndComp
 $Comp

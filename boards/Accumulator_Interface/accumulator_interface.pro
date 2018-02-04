@@ -1,4 +1,4 @@
-update=Sat 03 Feb 2018 11:53:41 PM EST
+update=Sun 04 Feb 2018 10:07:38 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,14 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/yichen/Documents/Projects/Formula/OEM_Preferred_Parts/schematic/formula
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName33=/home/william/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
