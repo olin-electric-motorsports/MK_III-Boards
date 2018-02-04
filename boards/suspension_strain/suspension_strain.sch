@@ -2793,4 +2793,8 @@ Text Notes 700  800  0    60   ~ 0
 Buck Convertor\n
 Text Notes 4550 900  0    60   ~ 0
 Strain Gauge Sensing
+Text Notes 15900 10350 0    60   ~ 0
+1\n
+Text Notes 12650 10250 0    60   ~ 0
+Suspension Strain Sensing - Yichen Jiang
 $EndSCHEMATC

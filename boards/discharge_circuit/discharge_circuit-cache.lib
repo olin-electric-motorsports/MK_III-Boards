@@ -141,7 +141,7 @@ ENDDEF
 #
 # R_3k_HS
 #
-DEF R_3k_HS R 0 0 N Y 1 F N
+DEF R_3k_HS R 0 0 Y Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_3k_HS" -100 0 50 V V C CNN
 F2 "footprints:R_3k_HS_TO247" -70 0 50 H I C CNN
@@ -179,21 +179,19 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Ultrafit_4
+# mx150L_2
 #
-DEF Ultrafit_4 J 0 40 Y N 1 F N
+DEF mx150L_2 J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
-F1 "Ultrafit_4" 0 -200 60 H V C CNN
-F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
-F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
-F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "Value" 0 0 60 H I C CNN "Package"
-F6 "WM11574-ND" 0 0 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
-F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
+F1 "mx150L_2" 0 -200 60 H V C CNN
+F2 "" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" 0 350 60 H I C CNN
+F4 "Value" 0 0 60 H I C CNN "Package"
+$FPLIST
+ mx150l_2
+$ENDFPLIST
 DRAW
-S 150 250 -150 -150 0 1 0 N
+S 150 250 -150 -150 0 1 0 f
 X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
