@@ -1,0 +1,34 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink,Webpage
+1,Cap 50V 0.1uF 10% 0805,C_0.1uF,C3,C_0.1uF,C_0805_OEM,1,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND,
+2,CAP CER 10UF 10V X5R 0805,C_10uF,C4,C_10uF,C_0805_OEM,1,http://datasheets.avx.com/cx5r.pdf,Value,478-5167-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257,
+3,CAP CER 1UF 25V X7R 0805,C_1uF,C1 C2,C_1uF,C_0805_OEM,2,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-10487-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628,
+4,LED_0805,LED_0805,D1,LED_0805,LED_0805_OEM,1,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND,
+5,PTC Fuse 420V 21mA,F_21mA_420V,F1,F_21mA_420V,F_21mA_420V,1,https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf,,495-75309-ND,Digi-Key,https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926,
+6,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J1 J2,Ultrafit_2,Ultrafit_2,2,,Value,WM11570-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,
+7,connector micromatch female RA 4,micromatch_female_RA_4,J3,micromatch_female_RA_4,micromatch_female_ra_4,1,,Value,A99482CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784,
+8,N-channel MOSFET,NMOS_GSD_30V,Q1,NMOS_GSD_30V,SOT-23,1,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND,Value,SSM3K333RLFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND,
+9,Res 10k 1%,R_10k,R5 R11,R_10k,R_0805_OEM,2,http://www.bourns.com/data/global/pdfs/CRS.pdf,Value,CRS0805-FX-1002ELFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND,
+10,RES SMD 178K OHM 0.1% 1/8W 0805,R_178k,R7,R_178k,R_0805_OEM,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,,P178KDATR-ND,Digikey,,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864
+11,Res 1k 1%,R_1k,R2 R8 R9,R_1k,R_0805_OEM,3,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD1K00CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND,
+12,RES SMD 270K OHM 0.1% 1/8W 0805,R_270k,R3 R4 R6,R_270k,R_0805_OEM,3,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,,P270KDACT-ND,DigiKey,,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB274V/P270KDACT-ND/1466005
+13,Res 3k 1% 0805 1/8W,R_3k,R1,R_3k,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805FT3K00CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389,
+14,Res 499 1%,R_499,R10,R_499,R_0805_OEM,1,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,Value,RC0805FR-07499RL,Digi-Key,https://www.digikey.com/product-detail/en/yageo/RC0805FR-07499RL/311-499CRCT-ND/730933,
+15,Linear Voltage Regulators 450V Adj 3 Termnl,LR8K4-G,U1,LR8K4-G,TO-252-3_TabPin2,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf,,689-LR8K4-G,Mouser,,https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D
+16,"DC Optocoupler, Vce 80V, CTR 50%, SO-4",LTV-356T,U4,LTV-356T,SO-4_4.4x3.6mm_Pitch2.54mm,1,http://optoelectronics.liteon.com/upload/download/DS70-2001-010/S_110_LTV-356T%2020140520.pdf,,,,,
+17,IC OPAMP GP 1MHZ RRO SOT23-5  1.8-6V,MCP6001RT,U3,MCP6001RT,SOT-23-5_OEM,1,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,Value,MCP6001RT-I/OTCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/microchip-technology/MCP6001RT-I-OT/MCP6001RT-I-OTCT-ND/669498,
+18,IC VREF SHUNT ADJ SOT353,ZXRE160,U2,ZXRE160,ZXRE160,1,https://www.diodes.com/assets/Datasheets/ZXRE160.pdf,,ZXRE160FT4-7DICT-ND,DigiKey,,https://www.digikey.com/product-detail/en/diodes-incorporated/ZXRE160H5TA/ZXRE160H5TADICT-ND/3677932
+
+
+
+
+
+Component Groups:,18
+Component Count:,25
+Fitted Components:,25
+Number of PCBs:,1
+Total components:,25
+Schematic Version:,
+Schematic Date:,
+BoM Date:,2/4/2018 2:38:22 PM
+Schematic Source:,C:/Users/ugupta/Documents/GitHub/MK_III-Boards/boards/TSAL/TSAL v2/TSAL v2.sch
+KiCad Version:,Eeschema 4.0.7
