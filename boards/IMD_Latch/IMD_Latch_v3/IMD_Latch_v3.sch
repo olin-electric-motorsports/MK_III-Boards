@@ -187,29 +187,14 @@ F 3 "" H 2700 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_female_RA_8 J1
-U 1 1 5A02849E
-P 3800 4600
-F 0 "J1" H 3700 5800 60  0000 C CNN
-F 1 "micromatch_female_RA_8" V 3500 5350 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_8" H 3600 5700 60  0001 C CNN
-F 3 "" H 3700 5800 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-8/A99484CT-ND/1955786" H 3800 5900 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 3900 6000 60  0001 C CNN "MFN"
-F 6 "A99484CT-ND" H 4000 6100 60  0001 C CNN "MPN"
-F 7 "Value" H 4100 6200 60  0001 C CNN "Package"
-	1    3800 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L +12V #PWR08
 U 1 1 5A028E2B
-P 4075 3550
-F 0 "#PWR08" H 4075 3400 50  0001 C CNN
-F 1 "+12V" H 4075 3690 50  0000 C CNN
-F 2 "" H 4075 3550 50  0001 C CNN
-F 3 "" H 4075 3550 50  0001 C CNN
-	1    4075 3550
+P 5900 4725
+F 0 "#PWR08" H 5900 4575 50  0001 C CNN
+F 1 "+12V" H 5900 4865 50  0000 C CNN
+F 2 "" H 5900 4725 50  0001 C CNN
+F 3 "" H 5900 4725 50  0001 C CNN
+	1    5900 4725
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -250,12 +235,12 @@ Text Label 3950 3900 0    60   ~ 0
 $Comp
 L GND #PWR012
 U 1 1 5A02994C
-P 4225 3425
-F 0 "#PWR012" H 4225 3175 50  0001 C CNN
-F 1 "GND" H 4225 3275 50  0000 C CNN
-F 2 "" H 4225 3425 50  0001 C CNN
-F 3 "" H 4225 3425 50  0001 C CNN
-	1    4225 3425
+P 6050 4600
+F 0 "#PWR012" H 6050 4350 50  0001 C CNN
+F 1 "GND" H 6050 4450 50  0000 C CNN
+F 2 "" H 6050 4600 50  0001 C CNN
+F 3 "" H 6050 4600 50  0001 C CNN
+	1    6050 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -404,9 +389,9 @@ Text Label 3600 1600 0    60   ~ 0
 Wire Wire Line
 	2700 3200 2900 3200
 Wire Wire Line
-	3950 3600 4075 3600
+	5775 4775 5900 4775
 Wire Wire Line
-	4075 3600 4075 3550
+	5900 4775 5900 4725
 Wire Wire Line
 	4100 4275 4100 4100
 Wire Wire Line
@@ -420,11 +405,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 3800 3950 3800
 Wire Wire Line
-	3950 3500 3950 3300
+	5775 4675 5775 4475
 Wire Wire Line
-	3950 3300 4225 3300
+	5775 4475 6050 4475
 Wire Wire Line
-	4225 3300 4225 3425
+	6050 4475 6050 4600
 Wire Wire Line
 	7500 2775 7500 2675
 Wire Wire Line
@@ -692,7 +677,7 @@ Wire Wire Line
 	7050 2800 7050 4450
 Text Label 6700 3800 0    39   ~ 0
 IMD_Status_Output
-Text Label 3950 4200 3    39   ~ 0
+Text Label 5775 4875 0    39   ~ 0
 IMD_Status_Output
 Wire Wire Line
 	7050 4450 7200 4450
@@ -734,4 +719,35 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-
 	1    6000 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Ultrafit_5 J1
+U 1 1 5A73C3A5
+P 3600 3900
+F 0 "J1" H 3600 4200 60  0000 C CNN
+F 1 "Ultrafit_5" H 3600 3550 60  0000 C CNN
+F 2 "footprints:Ultrafit_5" H 3500 4150 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 3600 4250 60  0001 C CNN
+F 4 "Digi-Key" H 3600 3900 60  0001 C CNN "MFN"
+F 5 "Value" H 3600 3900 60  0001 C CNN "Package"
+F 6 "WM11667-ND" H 3600 3900 60  0001 C CNN "MPN"
+F 7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" H 4100 4750 60  0001 C CNN "PurchasingLink"
+	1    3600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L micromatch_female_RA_4 J3
+U 1 1 5A73CD20
+P 5625 5775
+F 0 "J3" H 5525 6975 60  0000 C CNN
+F 1 "micromatch_female_RA_4" H 5575 6425 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_4" H 5425 6875 60  0001 C CNN
+F 3 "" H 5525 6975 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 5625 7075 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 5725 7175 60  0001 C CNN "MFN"
+F 6 "A99482CT-ND" H 5825 7275 60  0001 C CNN "MPN"
+F 7 "Value" H 5925 7375 60  0001 C CNN "Package"
+	1    5625 5775
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5775 4975
 $EndSCHEMATC
