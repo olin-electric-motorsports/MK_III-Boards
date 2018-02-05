@@ -279,7 +279,7 @@ F 3 "" H 12600 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_female_RA_4 J3
+L micromatch_female_RA_4-RESCUE-TSAL_v2 J3
 U 1 1 5A73FCF8
 P 10400 2300
 F 0 "J3" H 10300 3500 60  0000 C CNN
