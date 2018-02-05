@@ -21,7 +21,7 @@ ENDDEF
 DEF ATMEGA16M1 IC 0 40 Y Y 1 F N
 F0 "IC" -950 1830 50 H V L BNN
 F1 "ATMEGA16M1" 500 -1400 50 H V L BNN
-F2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
+F2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
 F3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" -950 1830 50 H I C CNN
 F4 "ATMEGA16M1-AU-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -72,7 +72,7 @@ ENDDEF
 DEF CAN_Transceiver U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
 F1 "CAN_Transceiver" 100 350 50 H V L CNN
-F2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" 0 -500 50 H I C CIN
+F2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" 0 -500 50 H I C CIN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" -400 350 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "MCP2561-E/SN-ND" 0 0 60 H I C CNN "MPN"
@@ -133,7 +133,7 @@ ENDDEF
 DEF C_0.1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_0.1uF" 25 -100 50 H V L CNN
-F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -159,7 +159,7 @@ ENDDEF
 DEF C_100pF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_100pF" 25 -100 50 H V L CNN
-F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" 25 100 50 H I C CNN
 F4 "399-1122-1-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -185,7 +185,7 @@ ENDDEF
 DEF C_22uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_22uF" 25 -100 50 H V L CNN
-F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
+F2 "Capacitors_SMD:C_1206" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf" 25 100 50 H I C CNN
 F4 "1276-2725-1-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -211,7 +211,7 @@ ENDDEF
 DEF C_30pF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_30pF" 25 -100 50 H V L CNN
-F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
 F4 "1276-1130-1-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -237,7 +237,7 @@ ENDDEF
 DEF C_47uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_47uF" 25 -100 50 H V L CNN
-F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
 F3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" 25 100 50 H I C CNN
 F4 "587-4280-1-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -352,9 +352,9 @@ ENDDEF
 # LED_0805
 #
 DEF LED_0805 D 0 40 N N 1 F N
-F0 "D" 0 -100 50 H V C CNN
-F1 "LED_0805" 0 100 50 H V C CNN
-F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
+F0 "D" 0 100 50 H V C CNN
+F1 "LED_0805" 0 -100 50 H V C CNN
+F2 "LEDs:LED_0805" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -442,8 +442,8 @@ ENDDEF
 #
 DEF R_0_Jumper R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_0_Jumper" -100 0 50 V V C CNN
-F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
+F1 "R_0_Jumper" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_2512" -70 0 50 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
 F4 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -464,8 +464,8 @@ ENDDEF
 #
 DEF R_100 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_100" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F1 "R_100" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD100RCT-ND" 0 0 60 H I C CNN "MPN"
@@ -486,8 +486,8 @@ ENDDEF
 #
 DEF R_100k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_100k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F1 "R_100k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-100KCRCT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -508,8 +508,8 @@ ENDDEF
 #
 DEF R_10k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_10k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F1 "R_10k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -552,8 +552,8 @@ ENDDEF
 #
 DEF R_1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F1 "R_1k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
@@ -575,7 +575,7 @@ ENDDEF
 DEF R_2.2k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_2.2k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "RMCF0805FT2K20CT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -596,8 +596,8 @@ ENDDEF
 #
 DEF R_200 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_200" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F1 "R_200" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "MPN"
@@ -618,8 +618,8 @@ ENDDEF
 #
 DEF R_55.1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_55.1k" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F1 "R_55.1k" 0 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-51.1KCRCT-ND" 0 0 60 H I C CNN "MPN"
 F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -642,8 +642,8 @@ DEF SSM3K333R Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
 F1 "SSM3K333R" 200 0 50 H V L CNN
 F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
-F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
-F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "PurchasingLink"
+F3 "file:///home/sherrieshen/Downloads/SSM3K333R_datasheet_en_20140301.pdf" 200 75 50 H I L CNN
+F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "Purchase_Link"
 F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
 F6 "Digi-Key" 500 375 60 H I C CNN "MFN"
 F7 "SOT-23-3 Flat Leads" 600 475 60 H I C CNN "Package"
@@ -679,7 +679,7 @@ ENDDEF
 DEF TPS561201 U 0 40 Y Y 1 F N
 F0 "U" -200 -300 60 H V C CNN
 F1 "TPS561201" 0 350 60 H V C CNN
-F2 "footprints:SOT-23-6_OEM" -300 250 60 H I C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-6" -300 250 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" -200 350 60 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "TPS561201" 0 0 60 H I C CNN "MPN"
