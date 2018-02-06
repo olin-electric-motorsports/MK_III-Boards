@@ -454,35 +454,35 @@ Wire Wire Line
 	2200 4300 2050 4300
 Text GLabel 2200 3050 0    60   Input ~ 0
 TS+
-Text GLabel 14150 6700 0    60   Input ~ 0
+Text GLabel 7350 8650 0    60   Input ~ 0
 TSAL-
 Wire Wire Line
-	14150 6700 14500 6700
+	7350 8650 7700 8650
 Wire Wire Line
-	14500 6700 14500 6500
-Text GLabel 14150 7050 0    60   Input ~ 0
+	7700 8650 7700 8450
+Text GLabel 7350 9000 0    60   Input ~ 0
 TSAL+
 Wire Wire Line
-	14150 7050 14600 7050
+	7350 9000 7800 9000
 Wire Wire Line
-	14600 7050 14600 6500
-Text GLabel 15050 7050 2    60   Input ~ 0
+	7800 9000 7800 8450
+Text GLabel 8250 9000 2    60   Input ~ 0
 GLV+
 $Comp
 L GND #PWR03
 U 1 1 5A741A32
-P 14800 6500
-F 0 "#PWR03" H 14800 6250 50  0001 C CNN
-F 1 "GND" H 14800 6350 50  0000 C CNN
-F 2 "" H 14800 6500 50  0001 C CNN
-F 3 "" H 14800 6500 50  0001 C CNN
-	1    14800 6500
+P 8000 8450
+F 0 "#PWR03" H 8000 8200 50  0001 C CNN
+F 1 "GND" H 8000 8300 50  0000 C CNN
+F 2 "" H 8000 8450 50  0001 C CNN
+F 3 "" H 8000 8450 50  0001 C CNN
+	1    8000 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14700 6500 14700 7050
+	7900 8450 7900 9000
 Wire Wire Line
-	14700 7050 15050 7050
+	7900 9000 8250 9000
 Wire Notes Line
 	15350 5550 15350 2800
 $Comp
@@ -587,49 +587,49 @@ Connection ~ 10950 4400
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 5A76C4FF
-P 14200 1750
-F 0 "#FLG04" H 14200 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 14200 1900 50  0000 C CNN
-F 2 "" H 14200 1750 50  0001 C CNN
-F 3 "" H 14200 1750 50  0001 C CNN
-	1    14200 1750
+P 9300 8400
+F 0 "#FLG04" H 9300 8475 50  0001 C CNN
+F 1 "PWR_FLAG" H 9300 8550 50  0000 C CNN
+F 2 "" H 9300 8400 50  0001 C CNN
+F 3 "" H 9300 8400 50  0001 C CNN
+	1    9300 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG05
 U 1 1 5A76C5DC
-P 14600 1750
-F 0 "#FLG05" H 14600 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 14600 1900 50  0000 C CNN
-F 2 "" H 14600 1750 50  0001 C CNN
-F 3 "" H 14600 1750 50  0001 C CNN
-	1    14600 1750
+P 9700 8400
+F 0 "#FLG05" H 9700 8475 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 8550 50  0000 C CNN
+F 2 "" H 9700 8400 50  0001 C CNN
+F 3 "" H 9700 8400 50  0001 C CNN
+	1    9700 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG06
 U 1 1 5A76C632
-P 15000 1750
-F 0 "#FLG06" H 15000 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 15000 1900 50  0000 C CNN
-F 2 "" H 15000 1750 50  0001 C CNN
-F 3 "" H 15000 1750 50  0001 C CNN
-	1    15000 1750
+P 10100 8400
+F 0 "#FLG06" H 10100 8475 50  0001 C CNN
+F 1 "PWR_FLAG" H 10100 8550 50  0000 C CNN
+F 2 "" H 10100 8400 50  0001 C CNN
+F 3 "" H 10100 8400 50  0001 C CNN
+	1    10100 8400
 	1    0    0    -1  
 $EndComp
-Text GLabel 14600 1750 3    60   Input ~ 0
+Text GLabel 9700 8400 3    60   Input ~ 0
 TS-
-Text GLabel 14200 1750 3    60   Input ~ 0
+Text GLabel 9300 8400 3    60   Input ~ 0
 TS+
 $Comp
 L GND #PWR07
 U 1 1 5A76CA1A
-P 15000 1750
-F 0 "#PWR07" H 15000 1500 50  0001 C CNN
-F 1 "GND" H 15000 1600 50  0000 C CNN
-F 2 "" H 15000 1750 50  0001 C CNN
-F 3 "" H 15000 1750 50  0001 C CNN
-	1    15000 1750
+P 10100 8400
+F 0 "#PWR07" H 10100 8150 50  0001 C CNN
+F 1 "GND" H 10100 8250 50  0000 C CNN
+F 2 "" H 10100 8400 50  0001 C CNN
+F 3 "" H 10100 8400 50  0001 C CNN
+	1    10100 8400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -738,19 +738,29 @@ $EndComp
 $Comp
 L micromatch_female_TOP_ENTRY_locking_4 J3
 U 1 1 5A78D935
-P 14600 6250
-F 0 "J3" H 14600 6650 60  0000 C CNN
-F 1 "micromatch_female_TOP_ENTRY_locking_4" V 14350 6250 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_4" H 14400 7350 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English" H 14500 7450 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740" H 14600 7550 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 14700 7650 60  0001 C CNN "MFN"
-F 6 "338068-4" H 14800 7750 60  0001 C CNN "MPN"
-F 7 "Value" H 14900 7850 60  0001 C CNN "Package"
-	1    14600 6250
+P 7800 8200
+F 0 "J3" H 7800 8600 60  0000 C CNN
+F 1 "micromatch_female_TOP_ENTRY_locking_4" V 7550 8200 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 7600 9300 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English" H 7700 9400 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740" H 7800 9500 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 7900 9600 60  0001 C CNN "MFN"
+F 6 "338068-4" H 8000 9700 60  0001 C CNN "MPN"
+F 7 "Value" H 8100 9800 60  0001 C CNN "Package"
+	1    7800 8200
 	0    1    1    0   
 $EndComp
 Text GLabel 12600 3850 2    60   Input ~ 0
 GLV+
 Connection ~ 3000 5700
+Text Notes 8350 7650 0    118  ~ 24
+MISC
+Wire Notes Line
+	6700 7800 10450 7800
+Wire Notes Line
+	10450 7800 10450 9250
+Wire Notes Line
+	10450 9250 6700 9250
+Wire Notes Line
+	6700 9250 6700 7800
 $EndSCHEMATC
