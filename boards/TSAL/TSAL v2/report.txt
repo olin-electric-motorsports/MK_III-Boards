@@ -4,235 +4,53 @@ Info: Using references to match components and footprints.
 
 Info: Checking netlist component footprint "C1:/5A6AA0D7:footprints:C_0805_OEM".
 
-Adding new component "C1:/5A6AA0D7" footprint "footprints:C_0805_OEM".
-
-Changing component "C1:/5A6AA0D7" pin "1" net name from "" to "/5V_TS".
-
-Changing component "C1:/5A6AA0D7" pin "2" net name from "" to "GND".
-
 Info: Checking netlist component footprint "C2:/5A72B0F2:footprints:C_0805_OEM".
-
-Adding new component "C2:/5A72B0F2" footprint "footprints:C_0805_OEM".
-
-Changing component "C2:/5A72B0F2" pin "1" net name from "" to "TS-".
-
-Changing component "C2:/5A72B0F2" pin "2" net name from "" to "Net-(C2-Pad2)".
 
 Info: Checking netlist component footprint "C3:/5A72B56E:footprints:C_0805_OEM".
 
-Adding new component "C3:/5A72B56E" footprint "footprints:C_0805_OEM".
-
-Changing component "C3:/5A72B56E" pin "1" net name from "" to "/5V_TS".
-
-Changing component "C3:/5A72B56E" pin "2" net name from "" to "TS-".
-
 Info: Checking netlist component footprint "C4:/5A6A9455:footprints:C_0805_OEM".
-
-Adding new component "C4:/5A6A9455" footprint "footprints:C_0805_OEM".
-
-Changing component "C4:/5A6A9455" pin "1" net name from "" to "/5V_TS".
-
-Changing component "C4:/5A6A9455" pin "2" net name from "" to "TS-".
 
 Info: Checking netlist component footprint "D1:/5A4D7BD9:footprints:LED_0805_OEM".
 
-Adding new component "D1:/5A4D7BD9" footprint "footprints:LED_0805_OEM".
-
-Changing component "D1:/5A4D7BD9" pin "2" net name from "" to "Net-(D1-Pad2)".
-
-Changing component "D1:/5A4D7BD9" pin "1" net name from "" to "Net-(D1-Pad1)".
-
 Info: Checking netlist component footprint "F1:/5A778567:footprints:F_21mA_420V".
-
-Adding new component "F1:/5A778567" footprint "footprints:F_21mA_420V".
-
-Changing component "F1:/5A778567" pin "1" net name from "" to "TS+".
-
-Changing component "F1:/5A778567" pin "2" net name from "" to "Net-(F1-Pad2)".
 
 Info: Checking netlist component footprint "J1:/5A7400DA:footprints:Ultrafit_2".
 
-Adding new component "J1:/5A7400DA" footprint "footprints:Ultrafit_2".
-
-Changing component "J1:/5A7400DA" pin "2" net name from "" to "TS-".
-
-Changing component "J1:/5A7400DA" pin "1" net name from "" to "TS+".
-
 Info: Checking netlist component footprint "J2:/5A729471:footprints:Ultrafit_2".
 
-Adding new component "J2:/5A729471" footprint "footprints:Ultrafit_2".
-
-Changing component "J2:/5A729471" pin "2" net name from "" to "TS-".
-
-Changing component "J2:/5A729471" pin "1" net name from "" to "Net-(D1-Pad2)".
-
-Info: Checking netlist component footprint "J3:/5A73FCF8:footprints:micromatch_female_ra_4".
-
-Adding new component "J3:/5A73FCF8" footprint "footprints:micromatch_female_ra_4".
-
-Changing component "J3:/5A73FCF8" pin "3" net name from "" to "GLV+".
-
-Changing component "J3:/5A73FCF8" pin "1" net name from "" to "GND".
-
-Changing component "J3:/5A73FCF8" pin "2" net name from "" to "GLV+".
-
-Changing component "J3:/5A73FCF8" pin "4" net name from "" to "TSAL-".
+Info: Checking netlist component footprint "J3:/5A78D935:footprints:micromatch_female_vert_4".
 
 Info: Checking netlist component footprint "Q1:/5A779297:TO_SOT_Packages_SMD:SOT-23".
 
-Adding new component "Q1:/5A779297" footprint "TO_SOT_Packages_SMD:SOT-23".
+Info: Checking netlist component footprint "R1:/5A779E04:footprints:R_0805_OEM".
 
-Changing component "Q1:/5A779297" pin "1" net name from "" to "Net-(Q1-Pad1)".
-
-Changing component "Q1:/5A779297" pin "2" net name from "" to "GND".
-
-Changing component "Q1:/5A779297" pin "3" net name from "" to "TSAL-".
-
-Info: Checking netlist component footprint "R1:/5A4D3CD4:footprints:R_3k_HS_TO247".
-
-Adding new component "R1:/5A4D3CD4" footprint "footprints:R_3k_HS_TO247".
-
-Changing component "R1:/5A4D3CD4" pin "1" net name from "" to "Net-(R1-Pad1)".
-
-Changing component "R1:/5A4D3CD4" pin "2" net name from "" to "TS-".
-
-Info: Checking netlist component footprint "R2:/5A4D3D17:footprints:R_1k_HS_TO247".
-
-Adding new component "R2:/5A4D3D17" footprint "footprints:R_1k_HS_TO247".
-
-Changing component "R2:/5A4D3D17" pin "1" net name from "" to "/5V_TS".
-
-Changing component "R2:/5A4D3D17" pin "2" net name from "" to "Net-(R1-Pad1)".
+Info: Checking netlist component footprint "R2:/5A779EF8:footprints:R_0805_OEM".
 
 Info: Checking netlist component footprint "R3:/5A76A339:footprints:R_0805_OEM".
 
-Adding new component "R3:/5A76A339" footprint "footprints:R_0805_OEM".
-
-Changing component "R3:/5A76A339" pin "1" net name from "" to "Net-(R3-Pad1)".
-
-Changing component "R3:/5A76A339" pin "2" net name from "" to "TS+".
-
 Info: Checking netlist component footprint "R4:/5A76A6C9:footprints:R_0805_OEM".
-
-Adding new component "R4:/5A76A6C9" footprint "footprints:R_0805_OEM".
-
-Changing component "R4:/5A76A6C9" pin "1" net name from "" to "Net-(R4-Pad1)".
-
-Changing component "R4:/5A76A6C9" pin "2" net name from "" to "Net-(R3-Pad1)".
 
 Info: Checking netlist component footprint "R5:/5A76A3B1:footprints:R_0805_OEM".
 
-Adding new component "R5:/5A76A3B1" footprint "footprints:R_0805_OEM".
-
-Changing component "R5:/5A76A3B1" pin "1" net name from "" to "Net-(R5-Pad1)".
-
-Changing component "R5:/5A76A3B1" pin "2" net name from "" to "TS-".
-
 Info: Checking netlist component footprint "R6:/5A76A72E:footprints:R_0805_OEM".
-
-Adding new component "R6:/5A76A72E" footprint "footprints:R_0805_OEM".
-
-Changing component "R6:/5A76A72E" pin "1" net name from "" to "Net-(R6-Pad1)".
-
-Changing component "R6:/5A76A72E" pin "2" net name from "" to "Net-(R4-Pad1)".
 
 Info: Checking netlist component footprint "R7:/5A76A43A:footprints:R_0805_OEM".
 
-Adding new component "R7:/5A76A43A" footprint "footprints:R_0805_OEM".
-
-Changing component "R7:/5A76A43A" pin "1" net name from "" to "Net-(R5-Pad1)".
-
-Changing component "R7:/5A76A43A" pin "2" net name from "" to "Net-(R6-Pad1)".
-
 Info: Checking netlist component footprint "R8:/5A72C48F:footprints:R_0805_OEM".
-
-Adding new component "R8:/5A72C48F" footprint "footprints:R_0805_OEM".
-
-Changing component "R8:/5A72C48F" pin "1" net name from "" to "/5V_TS".
-
-Changing component "R8:/5A72C48F" pin "2" net name from "" to "Net-(R8-Pad2)".
 
 Info: Checking netlist component footprint "R9:/5A6A8451:footprints:R_0805_OEM".
 
-Adding new component "R9:/5A6A8451" footprint "footprints:R_0805_OEM".
-
-Changing component "R9:/5A6A8451" pin "1" net name from "" to "Net-(D1-Pad1)".
-
-Changing component "R9:/5A6A8451" pin "2" net name from "" to "TS-".
-
 Info: Checking netlist component footprint "R10:/5A776213:footprints:R_0805_OEM".
-
-Adding new component "R10:/5A776213" footprint "footprints:R_0805_OEM".
-
-Changing component "R10:/5A776213" pin "1" net name from "" to "Net-(R10-Pad1)".
-
-Changing component "R10:/5A776213" pin "2" net name from "" to "Net-(D1-Pad2)".
 
 Info: Checking netlist component footprint "R11:/5A4D7E79:footprints:R_0805_OEM".
 
-Adding new component "R11:/5A4D7E79" footprint "footprints:R_0805_OEM".
-
-Changing component "R11:/5A4D7E79" pin "1" net name from "" to "Net-(Q1-Pad1)".
-
-Changing component "R11:/5A4D7E79" pin "2" net name from "" to "GND".
-
 Info: Checking netlist component footprint "U1:/5A76D9DB:TO_SOT_Packages_SMD:TO-252-3_TabPin2".
-
-Adding new component "U1:/5A76D9DB" footprint "TO_SOT_Packages_SMD:TO-252-3_TabPin2".
-
-Changing component "U1:/5A76D9DB" pin "1" net name from "" to "Net-(F1-Pad2)".
-
-Changing component "U1:/5A76D9DB" pin "2" net name from "" to "/5V_TS".
-
-Changing component "U1:/5A76D9DB" pin "3" net name from "" to "Net-(R1-Pad1)".
-
-Changing component "U1:/5A76D9DB" pin "2" net name from "" to "/5V_TS".
-
-Changing component "U1:/5A76D9DB" pin "2" net name from "" to "/5V_TS".
-
-Changing component "U1:/5A76D9DB" pin "2" net name from "" to "/5V_TS".
-
-Changing component "U1:/5A76D9DB" pin "2" net name from "" to "/5V_TS".
-
-Changing component "U1:/5A76D9DB" pin "2" net name from "" to "/5V_TS".
 
 Info: Checking netlist component footprint "U2:/5A7696F2:footprints:ZXRE160".
 
-Adding new component "U2:/5A7696F2" footprint "footprints:ZXRE160".
-
-Changing component "U2:/5A7696F2" pin "1" net name from "" to "Net-(R8-Pad2)".
-
-Changing component "U2:/5A7696F2" pin "3" net name from "" to "TS-".
-
-Changing component "U2:/5A7696F2" pin "2" net name from "" to "/5V_TS".
-
-Changing component "U2:/5A7696F2" pin "4" net name from "" to "TS-".
-
-Changing component "U2:/5A7696F2" pin "5" net name from "" to "Net-(C2-Pad2)".
-
 Info: Checking netlist component footprint "U3:/5A775866:footprints:SOT-23-5_OEM".
-
-Adding new component "U3:/5A775866" footprint "footprints:SOT-23-5_OEM".
-
-Changing component "U3:/5A775866" pin "1" net name from "" to "Net-(D1-Pad2)".
-
-Changing component "U3:/5A775866" pin "2" net name from "" to "/5V_TS".
-
-Changing component "U3:/5A775866" pin "3" net name from "" to "Net-(R5-Pad1)".
-
-Changing component "U3:/5A775866" pin "4" net name from "" to "Net-(R8-Pad2)".
-
-Changing component "U3:/5A775866" pin "5" net name from "" to "TS-".
 
 Info: Checking netlist component footprint "U4:/5A4E83AE:Housings_SOIC:SO-4_4.4x3.6mm_Pitch2.54mm".
 
-Adding new component "U4:/5A4E83AE" footprint "Housings_SOIC:SO-4_4.4x3.6mm_Pitch2.54mm".
-
-Changing component "U4:/5A4E83AE" pin "1" net name from "" to "Net-(R10-Pad1)".
-
-Changing component "U4:/5A4E83AE" pin "2" net name from "" to "TS-".
-
-Changing component "U4:/5A4E83AE" pin "3" net name from "" to "Net-(Q1-Pad1)".
-
-Changing component "U4:/5A4E83AE" pin "4" net name from "" to "VCC".
+Changing component "U4:/5A4E83AE" pin "4" net name from "VCC" to "GLV+".
 
