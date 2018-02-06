@@ -3,10 +3,10 @@
   (general
     (links 5)
     (no_connects 2)
-    (area 123.418599 67.540599 179.359401 114.8118)
+    (area 115.672399 67.247203 182.772401 110.384035)
     (thickness 1.6)
     (drawings 36)
-    (tracks 13)
+    (tracks 14)
     (zones 0)
     (modules 5)
     (nets 9)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.762)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -248,19 +248,19 @@
   )
 
   (module footprints:Ultrafit_2 (layer F.Cu) (tedit 59F934F3) (tstamp 59F7E8A9)
-    (at 173.482 87.63 90)
+    (at 178.5366 89.8652 270)
     (path /59F29554)
-    (fp_text reference J2 (at 9.0678 0.5917 90) (layer F.SilkS) hide
+    (fp_text reference J2 (at 9.0678 0.5917 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Ultrafit_2 (at 4.572 0.508 180) (layer F.Fab) hide
+    (fp_text value Ultrafit_2 (at 4.572 0.508 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.588 -2.032) (end -2.54 -2.032) (layer F.Fab) (width 0.15))
     (fp_line (start -2.54 -2.032) (end -2.54 5.588) (layer F.Fab) (width 0.15))
     (fp_line (start -2.54 5.588) (end -5.588 5.588) (layer F.Fab) (width 0.15))
     (fp_line (start -5.588 5.588) (end -5.588 -2.032) (layer F.Fab) (width 0.15))
-    (fp_text user "6.55mm Clearance" (at -4.07 1.75 180) (layer F.Fab) hide
+    (fp_text user "6.55mm Clearance" (at -4.07 1.75 360) (layer F.Fab) hide
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
     (fp_line (start -2.42 -2.15) (end -5.73 -2.15) (layer F.SilkS) (width 0.15))
@@ -270,11 +270,11 @@
     (fp_line (start -2.42 -2.15) (end 3.302 -2.15) (layer F.SilkS) (width 0.15))
     (fp_line (start -2.42 5.65) (end -2.42 -2.15) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.302 5.65) (end 3.302 -2.15) (layer F.SilkS) (width 0.15))
-    (pad 2 thru_hole circle (at 0 0 90) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 0 270) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 5 Shutdown_in))
-    (pad 1 thru_hole circle (at 0 3.5 90) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 3.5 270) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 6 Low_Side_Drive))
-    (pad "" thru_hole circle (at 2.23 1.75 90) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
+    (pad "" thru_hole circle (at 2.23 1.75 270) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
     (model /home/sherrieshen/Documents/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2/Ultrafit-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -335,10 +335,10 @@
     )
   )
 
-  (gr_text SD_IN (at 173.5709 91.948) (layer F.SilkS)
+  (gr_text SD_IN (at 178.3842 85.9282) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.22225)))
   )
-  (gr_text LSD (at 180.1368 91.8845 90) (layer F.SilkS)
+  (gr_text LSD (at 174.8028 85.7758 90) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.1905)))
   )
   (gr_arc (start 178.7224 71.334034) (end 182.7224 71.334034) (angle -90) (layer Edge.Cuts) (width 0.1))
@@ -409,10 +409,11 @@
   (segment (start 131.5238 88.4402) (end 139.446 80.518) (width 0.762) (layer F.Cu) (net 2))
   (segment (start 150.346 80.518) (end 150.346 93.323) (width 0.762) (layer F.Cu) (net 3))
   (segment (start 150.346 93.323) (end 153.416 96.393) (width 0.762) (layer F.Cu) (net 3))
-  (segment (start 176.982 100.327) (end 173.416 103.893) (width 0.762) (layer F.Cu) (net 5))
-  (segment (start 173.482 87.63) (end 173.482 96.327) (width 0.762) (layer F.Cu) (net 6))
+  (segment (start 173.416 103.893) (end 178.5366 98.7724) (width 0.762) (layer F.Cu) (net 5))
+  (segment (start 178.5366 98.7724) (end 178.5366 89.8652) (width 0.762) (layer F.Cu) (net 5))
+  (segment (start 175.0366 89.8652) (end 175.0366 94.7724) (width 0.762) (layer F.Cu) (net 6))
+  (segment (start 175.0366 94.7724) (end 173.416 96.393) (width 0.762) (layer F.Cu) (net 6))
   (segment (start 173.482 96.327) (end 173.416 96.393) (width 0.762) (layer F.Cu) (net 6))
-  (segment (start 176.982 87.63) (end 176.982 100.327) (width 0.762) (layer F.Cu) (net 6))
   (segment (start 139.827 99.314) (end 141.058901 98.082099) (width 0.762) (layer F.Cu) (net 8))
   (segment (start 141.058901 98.082099) (end 143.918313 98.082099) (width 0.762) (layer F.Cu) (net 8))
   (segment (start 143.918313 98.082099) (end 148.416 102.579786) (width 0.762) (layer F.Cu) (net 8))
