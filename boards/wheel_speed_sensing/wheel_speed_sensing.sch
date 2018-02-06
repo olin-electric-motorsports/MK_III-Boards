@@ -1110,21 +1110,6 @@ F 3 "" H 1300 5450 50  0001 C CNN
 	1    1300 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L LM324DT U3
-U 1 1 5A7827B2
-P 8300 3000
-F 0 "U3" V 8380 3000 50  0000 C CNN
-F 1 "LM324DT" H 8500 2450 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8230 3000 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bd/fc/46/43/26/8f/40/7f/CD00001046.pdf/files/CD00001046.pdf/jcr:content/translations/en.CD00001046.pdf" H 8380 3000 50  0001 C CNN
-F 4 "497-1580-1-ND " H 8300 3000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8300 3000 60  0001 C CNN "MFN"
-F 6 "Value" H 8300 3000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LM324DT/497-1580-1-ND/592078" H 8780 3400 60  0001 C CNN "PurchasingLink"
-	1    8300 3000
-	1    0    0    -1  
-$EndComp
 Text Label 7850 2750 2    60   ~ 0
 SensorLeft1+
 Text Label 7850 2950 2    60   ~ 0
@@ -1504,4 +1489,19 @@ NoConn ~ 1300 3100
 Wire Wire Line
 	1300 1400 1700 1400
 NoConn ~ 3700 3350
+$Comp
+L LM324DT U3
+U 1 1 5A792918
+P 8300 3000
+F 0 "U3" V 8380 3000 50  0000 C CNN
+F 1 "LM324DT" H 8500 2450 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8230 3000 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bd/fc/46/43/26/8f/40/7f/CD00001046.pdf/files/CD00001046.pdf/jcr:content/translations/en.CD00001046.pdf" H 8380 3000 50  0001 C CNN
+F 4 "497-1580-1-ND " H 8300 3000 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 8300 3000 60  0001 C CNN "MFN"
+F 6 "Value" H 8300 3000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LM324DT/497-1580-1-ND/592078" H 8780 3400 60  0001 C CNN "PurchasingLink"
+	1    8300 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
