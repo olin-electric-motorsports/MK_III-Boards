@@ -3,7 +3,11 @@
   (general
     (links 19)
     (no_connects 0)
+<<<<<<< HEAD
     (area 113.665 107.95 168.910001 144.145001)
+=======
+    (area 118.11 75.5266 165.100001 106.414401)
+>>>>>>> ab3f9dede9a2ba7ff21475b9044eb887bcf60262
     (thickness 1.6)
     (drawings 28)
     (tracks 46)

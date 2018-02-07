@@ -1012,6 +1012,27 @@ X 4 4 350 -100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Ultrafit_5
+#
+DEF Ultrafit_5 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_5" 0 -350 60 H V C CNN
+F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "Value" 0 0 60 H I C CNN "Package"
+F6 "WM11667-ND" 0 0 60 H I C CNN "MPN"
+F7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -250 0 1 0 N
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+X ~ 5 350 -200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # VCC
 #
 DEF VCC #PWR 0 0 Y Y 1 F P
