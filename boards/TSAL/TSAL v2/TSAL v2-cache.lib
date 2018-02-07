@@ -222,7 +222,7 @@ ENDDEF
 DEF NMOS_GSD_30V Q 0 0 N Y 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "NMOS_GSD_30V" 200 -50 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 200 100 50 H I C CNN
+F2 "footprints:SOT-23F" 200 100 50 H I C CNN
 F3 "https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND" 200 50 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
 F5 "SSM3K333RLFCT-ND" 0 0 60 H I C CNN "MPN"
@@ -263,6 +263,27 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 X pwr 1 0 0 0 U 50 50 0 0 w
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+ENDDRAW
+ENDDEF
+#
+# R_1.43k
+#
+DEF R_1.43k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1.43k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -200 300 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/RN73_Series_2011.pdf" 50 -300 50 H I C CNN
+F4 "Digi-Key" 0 -500 60 H I C CNN "MFN"
+F5 "A103351CT-ND" 0 -400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RN73C2A1K43BTDF/A103351CT-ND/2730566" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

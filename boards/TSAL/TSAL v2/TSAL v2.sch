@@ -578,8 +578,6 @@ Wire Wire Line
 	6550 2550 6700 2550
 Wire Wire Line
 	7000 2550 7150 2550
-Wire Wire Line
-	9450 5500 9450 4400
 Connection ~ 9450 4400
 Wire Wire Line
 	10950 4600 10950 4400
@@ -650,8 +648,8 @@ $Comp
 L MCP6001RT U3
 U 1 1 5A775866
 P 9000 4400
-F 0 "U3" H 9000 4600 50  0000 L CNN
-F 1 "MCP6001RT" H 9000 4200 50  0000 L CNN
+F 0 "U3" H 8650 4150 50  0000 L CNN
+F 1 "MCP6001RT" H 9000 4650 50  0000 L CNN
 F 2 "footprints:SOT-23-5_OEM" H 8900 4500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9000 4600 50  0001 C CNN
 F 4 "Value" H 9000 4400 60  0001 C CNN "Package"
@@ -753,7 +751,7 @@ $EndComp
 Text GLabel 12600 3850 2    60   Input ~ 0
 GLV+
 Connection ~ 3000 5700
-Text Notes 8350 7650 0    118  ~ 24
+Text Notes 8250 7650 0    118  ~ 24
 MISC
 Wire Notes Line
 	6700 7800 10450 7800
@@ -763,4 +761,22 @@ Wire Notes Line
 	10450 9250 6700 9250
 Wire Notes Line
 	6700 9250 6700 7800
+$Comp
+L R_1.43k R12
+U 1 1 5A7BCAC8
+P 9450 5000
+F 0 "R12" V 9530 5000 50  0000 C CNN
+F 1 "R_1.43k" V 9350 5000 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 9250 5300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/RN73_Series_2011.pdf" H 9500 4700 50  0001 C CNN
+F 4 "Digi-Key" H 9450 4500 60  0001 C CNN "MFN"
+F 5 "A103351CT-ND" H 9450 4600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RN73C2A1K43BTDF/A103351CT-ND/2730566" H 9930 5400 60  0001 C CNN "PurchasingLink"
+	1    9450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5150 9450 5500
+Wire Wire Line
+	9450 4850 9450 4400
 $EndSCHEMATC
