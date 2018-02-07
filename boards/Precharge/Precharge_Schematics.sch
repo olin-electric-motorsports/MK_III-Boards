@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:AIL_Precharge_Schematics-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -33,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:formula
-LIBS:AIL_Precharge_Schematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -50,16 +48,12 @@ Comment4 ""
 $EndDescr
 NoConn ~ 2150 1100
 NoConn ~ 2350 3100
-Text Label 1100 4300 0    60   ~ 0
-TS
-Text Label 1500 1100 0    60   ~ 0
-BAT+
 $Comp
 L Ultrafit_2 J1
 U 1 1 59F2943A
 P 1900 1050
 F 0 "J1" H 1900 1200 60  0000 C CNN
-F 1 "Ultrafit_2" H 2000 850 60  0000 C CNN
+F 1 "BAT+" H 2000 850 60  0000 C CNN
 F 2 "footprints:Ultrafit_2" H 1800 1100 60  0001 C CNN
 F 3 "" H 1900 1200 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 2000 1300 60  0001 C CNN "PurchasingLink"
@@ -73,8 +67,8 @@ $Comp
 L Ultrafit_2 J2
 U 1 1 59F29554
 P 1400 3600
-F 0 "J2" H 1150 3600 60  0000 C CNN
-F 1 "Ultrafit_2" H 1500 3400 60  0000 C CNN
+F 0 "J2" H 1400 3800 60  0000 C CNN
+F 1 "Shutdown_LSD" H 1500 3400 60  0000 C CNN
 F 2 "footprints:Ultrafit_2" H 1300 3650 60  0001 C CNN
 F 3 "" H 1400 3750 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 1500 3850 60  0001 C CNN "PurchasingLink"
@@ -104,7 +98,7 @@ L Ultrafit_2 J3
 U 1 1 59F7E5A0
 P 1400 4300
 F 0 "J3" H 1400 4450 60  0000 C CNN
-F 1 "Ultrafit_2" H 1500 4100 60  0000 C CNN
+F 1 "TS+" H 1500 4100 60  0000 C CNN
 F 2 "footprints:Ultrafit_2" H 1300 4350 60  0001 C CNN
 F 3 "" H 1400 4450 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 1500 4550 60  0001 C CNN "PurchasingLink"
@@ -127,8 +121,6 @@ Text GLabel 1650 3650 2    60   Input ~ 0
 Low_Side_Drive
 Text GLabel 2850 3100 3    60   Input ~ 0
 Low_Side_Drive
-Text Label 1050 3850 0    60   ~ 0
-ShutDown_LowSideDrive
 $Comp
 L R_1k_HS R1
 U 1 1 5A767EE3
