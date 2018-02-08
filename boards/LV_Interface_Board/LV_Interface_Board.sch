@@ -49,53 +49,48 @@ $EndDescr
 $Comp
 L micromatch_male_4 J?
 U 1 1 5A74DC14
-P 5955 6175
-F 0 "J?" H 5955 6325 60  0000 C CNN
-F 1 "micromatch_male_4" H 5955 5825 60  0000 C CNN
-F 2 "" H 5855 6225 60  0001 C CNN
-F 3 "" H 5955 6325 60  0001 C CNN
-F 4 "A107034CT-ND" H 6005 5925 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5955 5875 60  0001 C CNN "MFN"
-F 6 "Value" H 5955 5875 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-4/A107034CT-ND/3488595" H 6255 7775 60  0001 C CNN "PurchasingLink"
-	1    5955 6175
+P 5845 6175
+F 0 "J?" H 5845 6325 60  0000 C CNN
+F 1 "micromatch_male_4" H 5845 5825 60  0000 C CNN
+F 2 "" H 5745 6225 60  0001 C CNN
+F 3 "" H 5845 6325 60  0001 C CNN
+F 4 "A107034CT-ND" H 5895 5925 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5845 5875 60  0001 C CNN "MFN"
+F 6 "Value" H 5845 5875 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-4/A107034CT-ND/3488595" H 6145 7775 60  0001 C CNN "PurchasingLink"
+	1    5845 6175
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5A74E31D
-P 6375 6000
-F 0 "#PWR?" H 6375 5750 50  0001 C CNN
-F 1 "GND" H 6375 5850 50  0000 C CNN
-F 2 "" H 6375 6000 50  0000 C CNN
-F 3 "" H 6375 6000 50  0000 C CNN
-	1    6375 6000
+P 6265 6000
+F 0 "#PWR?" H 6265 5750 50  0001 C CNN
+F 1 "GND" H 6265 5850 50  0000 C CNN
+F 2 "" H 6265 6000 50  0000 C CNN
+F 3 "" H 6265 6000 50  0000 C CNN
+	1    6265 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6375 5950 6375 6000
+	6095 6125 6095 5905
 Wire Wire Line
-	6205 6125 6205 5905
-Wire Wire Line
-	6205 5905 6375 5905
-Wire Wire Line
-	6375 5905 6375 5955
-Connection ~ 6375 5955
-Text Label 6205 6325 0    60   ~ 0
+	6095 5905 6265 5905
+Text Label 6095 6325 0    60   ~ 0
 CAN_HIGH
-Text Label 6205 6425 0    60   ~ 0
+Text Label 6095 6425 0    60   ~ 0
 CAN_LOW
 Wire Notes Line
-	5730 5750 6770 5750
+	5620 5750 6660 5750
 Wire Notes Line
-	6770 5750 6770 6730
+	6660 5750 6660 6730
 Wire Notes Line
-	6770 6730 5475 6730
+	6660 6730 5365 6730
 Wire Notes Line
-	5475 6730 5475 5750
+	5365 6730 5365 5750
 Wire Notes Line
-	5475 5750 5735 5750
-Text Notes 5780 5735 0    60   ~ 0
+	5365 5750 5625 5750
+Text Notes 5670 5735 0    60   ~ 0
 DATA LOGGER\n
 $Comp
 L GND #PWR?
@@ -322,10 +317,10 @@ Wire Wire Line
 Wire Wire Line
 	4025 7325 3850 7325
 Wire Wire Line
-	3850 7225 4025 7225
+	4025 7225 3850 7225
 Connection ~ 4025 7225
 Wire Wire Line
-	3850 7125 4025 7125
+	4025 7125 3850 7125
 Connection ~ 4025 7125
 Wire Wire Line
 	3850 7025 4200 7025
@@ -554,113 +549,239 @@ BRAKE LIGHT\n
 $Comp
 L Ampseal_35 J?
 U 1 1 5A7531B2
-P 6250 3025
-F 0 "J?" H 6000 4825 60  0000 C CNN
-F 1 "Ampseal_35" H 5950 1225 60  0000 L CNN
-F 2 "" H 6050 4375 60  0001 C CNN
-F 3 "" H 6050 4375 60  0001 C CNN
-	1    6250 3025
+P 6320 2505
+F 0 "J?" H 6070 4305 60  0000 C CNN
+F 1 "Ampseal_35" H 6020 705 60  0000 L CNN
+F 2 "" H 6120 3855 60  0001 C CNN
+F 3 "" H 6120 3855 60  0001 C CNN
+	1    6320 2505
 	1    0    0    -1  
 $EndComp
 $Comp
 L Ampseal_35 J?
 U 1 1 5A7532DE
-P 8425 3025
-F 0 "J?" H 8175 4825 60  0000 C CNN
-F 1 "Ampseal_35" H 8125 1225 60  0000 L CNN
-F 2 "" H 8225 4375 60  0001 C CNN
-F 3 "" H 8225 4375 60  0001 C CNN
-	1    8425 3025
+P 8465 2495
+F 0 "J?" H 8215 4295 60  0000 C CNN
+F 1 "Ampseal_35" H 8165 695 60  0000 L CNN
+F 2 "" H 8265 3845 60  0001 C CNN
+F 3 "" H 8265 3845 60  0001 C CNN
+	1    8465 2495
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5A7537E4
-P 6950 1350
-F 0 "#PWR?" H 6950 1100 50  0001 C CNN
-F 1 "GND" H 6950 1200 50  0000 C CNN
-F 2 "" H 6950 1350 50  0000 C CNN
-F 3 "" H 6950 1350 50  0000 C CNN
-	1    6950 1350
+P 7020 830
+F 0 "#PWR?" H 7020 580 50  0001 C CNN
+F 1 "GND" H 7020 680 50  0000 C CNN
+F 2 "" H 7020 830 50  0000 C CNN
+F 3 "" H 7020 830 50  0000 C CNN
+	1    7020 830 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 1525 6550 1525
+	6620 1005 6520 1005
 Wire Wire Line
-	6550 1525 6550 1325
+	6620 805  6620 1005
 Wire Wire Line
-	6550 1325 6450 1325
+	6620 805  6520 805 
 Wire Wire Line
-	6450 1425 6725 1425
-Connection ~ 6550 1425
+	6520 905  6795 905 
+Connection ~ 6620 905 
 Wire Wire Line
-	6725 1425 6725 1200
+	6795 905  6795 680 
 Wire Wire Line
-	6725 1200 6950 1200
+	6795 680  7020 680 
 Wire Wire Line
-	6950 1200 6950 1350
-Text Label 6450 2525 0    60   ~ 0
+	7020 680  7020 830 
+Text Label 6520 2005 0    60   ~ 0
 CAN_HIGH
-Text Label 6450 3625 0    60   ~ 0
+Text Label 6520 3105 0    60   ~ 0
 CAN_HIGH
-Text Label 6450 2625 0    60   ~ 0
+Text Label 6520 2105 0    60   ~ 0
 CAN_LOW
-Text Label 6450 3725 0    60   ~ 0
+Text Label 6520 3205 0    60   ~ 0
 CAN_LOW
-Text Label 6450 2725 0    60   ~ 0
-BAT+
-Text Label 6450 3825 0    60   ~ 0
+Text Label 6520 2205 0    60   ~ 0
 12V
+Text Label 6520 3305 0    60   ~ 0
+BAT+
 Text Label 3850 5725 0    60   ~ 0
 12V
 Text Label 3850 1475 0    60   ~ 0
 12V
 Text Label 1250 4750 0    60   ~ 0
 12V
-Text Label 6205 6225 0    60   ~ 0
+Text Label 6095 6225 0    60   ~ 0
 12V
 Text Label 1275 2000 0    60   ~ 0
 12V
 $Comp
 L 3P4T_rotary_switch SW?
 U 1 1 5A74E8A3
-P 7425 6200
-F 0 "SW?" H 7325 7400 60  0000 C CNN
-F 1 "3P4T_rotary_switch" H 7375 5750 60  0000 C CNN
-F 2 "" H 7225 7300 60  0001 C CNN
-F 3 "" H 7325 7400 60  0001 C CNN
-F 4 "s14100400am2451" H 7425 6200 60  0001 C CNN "MPN"
-F 5 "Uxcell" H 7425 6200 60  0001 C CNN "MFN"
-F 6 "Value" H 7425 6200 60  0001 C CNN "Package"
-F 7 "https://www.amazon.com/Single-Rotary-Switch-Selector-Position/dp/B00K86H2SE/ref=pd_cp_60_3?_encoding=UTF8&pd_rd_i=B00K86H2SE&pd_rd_r=GKBDC7XXPS2AG12Y4S0Q&pd_rd_w=njTRL&pd_rd_wg=MZCL4&psc=1&refRID=GKBDC7XXPS2AG12Y4S0Q" H 7725 7800 60  0001 C CNN "PurchasingLink"
-	1    7425 6200
+P 7175 6220
+F 0 "SW?" H 7075 7420 60  0000 C CNN
+F 1 "3P4T_rotary_switch" H 7125 5770 60  0000 C CNN
+F 2 "" H 6975 7320 60  0001 C CNN
+F 3 "" H 7075 7420 60  0001 C CNN
+F 4 "s14100400am2451" H 7175 6220 60  0001 C CNN "MPN"
+F 5 "Uxcell" H 7175 6220 60  0001 C CNN "MFN"
+F 6 "Value" H 7175 6220 60  0001 C CNN "Package"
+F 7 "https://www.amazon.com/Single-Rotary-Switch-Selector-Position/dp/B00K86H2SE/ref=pd_cp_60_3?_encoding=UTF8&pd_rd_i=B00K86H2SE&pd_rd_r=GKBDC7XXPS2AG12Y4S0Q&pd_rd_w=njTRL&pd_rd_wg=MZCL4&psc=1&refRID=GKBDC7XXPS2AG12Y4S0Q" H 7475 7820 60  0001 C CNN "PurchasingLink"
+	1    7175 6220
 	1    0    0    -1  
 $EndComp
-Text Label 7575 5100 0    60   ~ 0
+Text Label 7325 5120 0    60   ~ 0
 RESET
-Text Label 7575 5200 0    60   ~ 0
+Text Label 7325 5220 0    60   ~ 0
 BRAKE_RESET
-Text Label 7575 5300 0    60   ~ 0
+Text Label 7325 5320 0    60   ~ 0
 STRAIN_RESET
-Text Label 7575 5400 0    60   ~ 0
+Text Label 7325 5420 0    60   ~ 0
 WHEEL_SPEED_RESET
-NoConn ~ 7575 5500
-NoConn ~ 7575 6000
-NoConn ~ 7575 6500
-Text Label 7575 5600 0    60   ~ 0
+NoConn ~ 7325 5520
+NoConn ~ 7325 6020
+NoConn ~ 7325 6520
+Text Label 7325 5620 0    60   ~ 0
 LED1
-Text Label 7575 6100 0    60   ~ 0
+Text Label 7325 6120 0    60   ~ 0
 LED2
-Text Label 7575 5700 0    60   ~ 0
+Text Label 7325 5720 0    60   ~ 0
 BRAKE_LED1
-Text Label 7575 5800 0    60   ~ 0
+Text Label 7325 5820 0    60   ~ 0
 STRAIN_LED1
-Text Label 7575 5900 0    60   ~ 0
+Text Label 7325 5920 0    60   ~ 0
 WHEEL_SPEED_LED1
-Text Label 7575 6200 0    60   ~ 0
+Text Label 7325 6220 0    60   ~ 0
 BRAKE_LED2
-Text Label 7575 6300 0    60   ~ 0
+Text Label 7325 6320 0    60   ~ 0
 STRAIN_LED2
-Text Label 7575 6400 0    60   ~ 0
+Text Label 7325 6420 0    60   ~ 0
 WHEEL_SPEED_LED2
+$Comp
+L RJ45_RA U?
+U 1 1 5A78F0D6
+P 9380 5950
+F 0 "U?" H 9380 5360 60  0000 C CNN
+F 1 "RJ45_RA" H 9390 6610 60  0000 C CNN
+F 2 "footprints:RJ45-RightAngle" H 9280 5260 60  0001 C CNN
+F 3 "" H 9380 5360 60  0001 C CNN
+	1    9380 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9890 6340 9890 6430
+Wire Wire Line
+	9780 6340 9780 6430
+$Comp
+L GND #PWR?
+U 1 1 5A78F362
+P 9890 6430
+F 0 "#PWR?" H 9890 6180 50  0001 C CNN
+F 1 "GND" H 9890 6280 50  0000 C CNN
+F 2 "" H 9890 6430 50  0000 C CNN
+F 3 "" H 9890 6430 50  0000 C CNN
+	1    9890 6430
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A78F392
+P 9780 6430
+F 0 "#PWR?" H 9780 6180 50  0001 C CNN
+F 1 "GND" H 9780 6280 50  0000 C CNN
+F 2 "" H 9780 6430 50  0000 C CNN
+F 3 "" H 9780 6430 50  0000 C CNN
+	1    9780 6430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9420 6340 9420 6470
+Wire Wire Line
+	9090 6340 9090 6480
+Wire Wire Line
+	10230 5820 10350 5820
+Wire Wire Line
+	10350 5820 10350 5890
+$Comp
+L GND #PWR?
+U 1 1 5A78F609
+P 9090 6480
+F 0 "#PWR?" H 9090 6230 50  0001 C CNN
+F 1 "GND" H 9090 6330 50  0000 C CNN
+F 2 "" H 9090 6480 50  0000 C CNN
+F 3 "" H 9090 6480 50  0000 C CNN
+	1    9090 6480
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A78F639
+P 9420 6470
+F 0 "#PWR?" H 9420 6220 50  0001 C CNN
+F 1 "GND" H 9420 6320 50  0000 C CNN
+F 2 "" H 9420 6470 50  0000 C CNN
+F 3 "" H 9420 6470 50  0000 C CNN
+	1    9420 6470
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A78F6AF
+P 10350 5890
+F 0 "#PWR?" H 10350 5640 50  0001 C CNN
+F 1 "GND" H 10350 5740 50  0000 C CNN
+F 2 "" H 10350 5890 50  0000 C CNN
+F 3 "" H 10350 5890 50  0000 C CNN
+	1    10350 5890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6265 5905 6265 6000
+Text Label 10230 5720 0    60   ~ 0
+5V
+Text Label 10230 5520 0    60   ~ 0
+MISO
+Text Label 10230 5620 0    60   ~ 0
+MOSI
+Text Label 8900 5820 2    60   ~ 0
+SCK
+Text Label 9310 6340 3    60   ~ 0
+LED1
+Text Label 9590 6340 3    60   ~ 0
+LED2
+Wire Wire Line
+	9480 6340 9420 6340
+Wire Wire Line
+	9200 6340 9090 6340
+Text Label 8900 5720 2    60   ~ 0
+RESET
+Text Label 8900 5620 2    60   ~ 0
+CAN_HIGH
+Text Label 8900 5520 2    60   ~ 0
+CAN_LOW
+Wire Notes Line
+	6690 5070 6690 6720
+Wire Notes Line
+	6690 6720 8360 6720
+Wire Notes Line
+	8360 6720 8360 4940
+Wire Notes Line
+	8360 4940 6690 4940
+Wire Notes Line
+	6690 4940 6690 5230
+Text Notes 7570 4890 2    60   ~ 0
+Internal Switch\n
+Wire Notes Line
+	8440 5260 8440 6680
+Wire Notes Line
+	8440 6680 10480 6680
+Wire Notes Line
+	10480 6680 10480 5130
+Wire Notes Line
+	10480 5130 8440 5130
+Wire Notes Line
+	8440 5130 8440 5350
+Text Notes 9720 5120 2    60   ~ 0
+External RJ45\n
 $EndSCHEMATC
