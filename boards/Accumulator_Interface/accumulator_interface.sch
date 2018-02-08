@@ -275,11 +275,11 @@ Text Label 5050 2350 0    60   ~ 0
 Text Label 5050 2450 0    60   ~ 0
 AIR_CTRL_5V_OUT
 Text Label 5050 2550 0    60   ~ 0
-MOSI
+MOSI_AIR
 Text Label 5050 2650 0    60   ~ 0
-MISO
+MISO_AIR
 Text Label 5050 2750 0    60   ~ 0
-SCK
+SCK_AIR
 Text Label 5050 2850 0    60   ~ 0
 AIR_CTRL_RESET
 Text Label 5050 2950 0    60   ~ 0
@@ -324,11 +324,11 @@ Text Label 5050 4400 0    60   ~ 0
 Text Label 5050 4500 0    60   ~ 0
 BMS_5V_OUT
 Text Label 5050 4600 0    60   ~ 0
-MOSI
+MOSI_BMS
 Text Label 5050 4700 0    60   ~ 0
-MISO
+MISO_BMS
 Text Label 5050 4800 0    60   ~ 0
-SCK
+SCK_BMS
 Text Label 5050 4900 0    60   ~ 0
 BMS_RESET
 Text Label 5050 5000 0    60   ~ 0
@@ -345,4 +345,82 @@ Text Label 5050 5500 0    60   ~ 0
 BMS_STATUS
 Text Label 5050 5600 0    60   ~ 0
 BSPD_CURRENT_SENSE
+Text Label 5050 1900 0    60   ~ 0
+GND
+$Comp
+L RJ45_VT U?
+U 1 1 5A791FDB
+P 3075 3635
+F 0 "U?" H 3075 3045 60  0000 C CNN
+F 1 "RJ45_VT_BMS" H 3085 4295 60  0000 C CNN
+F 2 "footprints:RJ45-Vertical" H 2975 2945 60  0001 C CNN
+F 3 "" H 3075 3045 60  0001 C CNN
+	1    3075 3635
+	1    0    0    -1  
+$EndComp
+Text Label 3475 4025 3    60   ~ 0
+GND
+Text Label 3585 4025 3    60   ~ 0
+GND
+Text Label 3175 4025 3    60   ~ 0
+GND
+Text Label 3925 3505 0    60   ~ 0
+GND
+Text Label 2895 4025 3    60   ~ 0
+GND
+Text Label 3925 3405 0    60   ~ 0
+BMS_5V_OUT
+Text Label 3925 3305 0    60   ~ 0
+MOSI_BMS
+Text Label 3925 3205 0    60   ~ 0
+MISO_BMS
+Text Label 3005 4025 3    60   ~ 0
+BMS_LED_1
+Text Label 3285 4025 3    60   ~ 0
+BMS_LED_2
+Text Label 2595 3405 2    60   ~ 0
+BMS_RESET
+Text Label 2595 3205 2    60   ~ 0
+CAN_LOW
+Text Label 2595 3305 2    60   ~ 0
+CAN_HIGH
+$Comp
+L RJ45_VT U?
+U 1 1 5A793BC8
+P 2955 5420
+F 0 "U?" H 2955 4830 60  0000 C CNN
+F 1 "RJ45_VT_AIR" H 2965 6080 60  0000 C CNN
+F 2 "footprints:RJ45-Vertical" H 2855 4730 60  0001 C CNN
+F 3 "" H 2955 4830 60  0001 C CNN
+	1    2955 5420
+	1    0    0    -1  
+$EndComp
+Text Label 3355 5810 3    60   ~ 0
+GND
+Text Label 3465 5810 3    60   ~ 0
+GND
+Text Label 3055 5810 3    60   ~ 0
+GND
+Text Label 3805 5290 0    60   ~ 0
+GND
+Text Label 2775 5810 3    60   ~ 0
+GND
+Text Label 2475 4990 2    60   ~ 0
+CAN_LOW
+Text Label 2475 5090 2    60   ~ 0
+CAN_HIGH
+Text Label 2595 3505 2    60   ~ 0
+SCK_BMS
+Text Label 2475 5290 2    60   ~ 0
+SCK_AIR
+Text Label 2885 5810 3    60   ~ 0
+AIR_CTRL_LED_1
+Text Label 3165 5810 3    60   ~ 0
+AIR_CTRL_LED_2
+Text Label 3805 4990 0    60   ~ 0
+MISO_AIR
+Text Label 3805 5090 0    60   ~ 0
+MOSI_AIR
+Text Label 3805 5190 0    60   ~ 0
+AIR_CTRL_5V_OUT
 $EndSCHEMATC

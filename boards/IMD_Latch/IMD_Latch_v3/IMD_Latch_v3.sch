@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:IMD_Latch_v3-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -487,20 +488,6 @@ $EndComp
 Text Notes 3950 3700 0    60   ~ 0
 IMD Output
 Connection ~ 4950 3700
-$Comp
-L D_Schottky_SOD123 D4
-U 1 1 5A07A854
-P 7150 2375
-F 0 "D4" H 7150 2475 50  0000 C CNN
-F 1 "D_Schottky_SOD123" H 7150 2275 50  0000 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 7050 2375 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7150 2475 50  0001 C CNN
-F 4 "1727-2394-1-ND" H 7250 2575 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 7350 2675 60  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7450 2775 60  0001 C CNN "PurchasingLink"
-	1    7150 2375
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7150 2225 7150 2075
 Wire Wire Line
@@ -735,19 +722,66 @@ F 7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_female_RA_4 J3
-U 1 1 5A73CD20
-P 5625 5775
-F 0 "J3" H 5525 6975 60  0000 C CNN
-F 1 "micromatch_female_RA_4" H 5575 6425 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 5425 6875 60  0001 C CNN
-F 3 "" H 5525 6975 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784" H 5625 7075 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 5725 7175 60  0001 C CNN "MFN"
-F 6 "A99482CT-ND" H 5825 7275 60  0001 C CNN "MPN"
-F 7 "Value" H 5925 7375 60  0001 C CNN "Package"
-	1    5625 5775
+L micromatch_female_TOP_ENTRY_locking_4 J3
+U 1 1 5A79027A
+P 5525 4875
+F 0 "J3" H 5425 6075 60  0000 C CNN
+F 1 "micromatch_female_TOP_ENTRY_locking_4" H 5575 4625 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 5325 5975 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English" H 5425 6075 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740" H 5525 6175 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 5625 6275 60  0001 C CNN "MFN"
+F 6 "338068-4" H 5725 6375 60  0001 C CNN "MPN"
+F 7 "Value" H 5825 6475 60  0001 C CNN "Package"
+	1    5525 4875
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5775 4975
+$Comp
+L D_Schottky_SOD123 D4
+U 1 1 5A7909FE
+P 7150 2375
+F 0 "D4" H 7150 2475 50  0000 C CNN
+F 1 "D_Schottky_SOD123" H 7150 2275 50  0000 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 7050 2375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 7150 2475 50  0001 C CNN
+F 4 "1727-2394-1-ND" H 7250 2575 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7350 2675 60  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 7450 2775 60  0001 C CNN "PurchasingLink"
+	1    7150 2375
+	0    1    1    0   
+$EndComp
+$Comp
+L C_10uF_16V C2
+U 1 1 5A791F49
+P 3175 3775
+F 0 "C2" H 3200 3875 50  0000 L CNN
+F 1 "C_10uF_16V" H 3000 3700 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3213 3625 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf" H 3200 3875 50  0001 C CNN
+F 4 "1276-2399-1-ND" H 3175 3775 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3175 3775 60  0001 C CNN "MFN"
+F 6 "Value" H 3175 3775 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485" H 3600 4275 60  0001 C CNN "PurchasingLink"
+	1    3175 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3500 3175 3500
+Wire Wire Line
+	3175 3500 3175 3625
+Wire Wire Line
+	3175 3925 3175 4100
+Wire Wire Line
+	3175 4100 2900 4100
+$Comp
+L GND #PWR?
+U 1 1 5A793F25
+P 5775 4975
+F 0 "#PWR?" H 5775 4725 50  0001 C CNN
+F 1 "GND" H 5775 4825 50  0000 C CNN
+F 2 "" H 5775 4975 50  0001 C CNN
+F 3 "" H 5775 4975 50  0001 C CNN
+	1    5775 4975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
