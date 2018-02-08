@@ -47,10 +47,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L micromatch_male_4 J?
+L micromatch_male_4 J9
 U 1 1 5A74DC14
 P 5845 6175
-F 0 "J?" H 5845 6325 60  0000 C CNN
+F 0 "J9" H 5845 6325 60  0000 C CNN
 F 1 "micromatch_male_4" H 5845 5825 60  0000 C CNN
 F 2 "" H 5745 6225 60  0001 C CNN
 F 3 "" H 5845 6325 60  0001 C CNN
@@ -62,10 +62,10 @@ F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/21
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR5
 U 1 1 5A74E31D
 P 6265 6000
-F 0 "#PWR?" H 6265 5750 50  0001 C CNN
+F 0 "#PWR5" H 6265 5750 50  0001 C CNN
 F 1 "GND" H 6265 5850 50  0000 C CNN
 F 2 "" H 6265 6000 50  0000 C CNN
 F 3 "" H 6265 6000 50  0000 C CNN
@@ -93,10 +93,10 @@ Wire Notes Line
 Text Notes 5670 5735 0    60   ~ 0
 DATA LOGGER\n
 $Comp
-L GND #PWR?
+L GND #PWR3
 U 1 1 5A750CFB
 P 3975 1225
-F 0 "#PWR?" H 3975 975 50  0001 C CNN
+F 0 "#PWR3" H 3975 975 50  0001 C CNN
 F 1 "GND" H 3975 1075 50  0000 C CNN
 F 2 "" H 3975 1225 50  0000 C CNN
 F 3 "" H 3975 1225 50  0000 C CNN
@@ -159,10 +159,10 @@ GAUGE6-
 Wire Wire Line
 	3850 1575 4475 1575
 $Comp
-L D_Schottky_SOD123 D?
+L D_Schottky_SOD123 D3
 U 1 1 5A750FE8
 P 4625 1575
-F 0 "D?" H 4625 1675 50  0000 C CNN
+F 0 "D3" H 4625 1675 50  0000 C CNN
 F 1 "D_Schottky_SOD123" H 4625 1475 50  0000 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 4525 1575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 4625 1675 50  0001 C CNN
@@ -197,10 +197,10 @@ Wire Notes Line
 Text Notes 3775 1100 0    60   ~ 0
 STRAIN\n\n
 $Comp
-L micromatch_male_12 J?
+L micromatch_male_12 J6
 U 1 1 5A751294
 P 3700 2475
-F 0 "J?" H 3600 3675 60  0000 C CNN
+F 0 "J6" H 3600 3675 60  0000 C CNN
 F 1 "micromatch_male_12" H 3650 2375 60  0000 C CNN
 F 2 "" H 3500 3575 60  0001 C CNN
 F 3 "" H 3600 3675 60  0001 C CNN
@@ -212,10 +212,10 @@ F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_male_18 J?
+L micromatch_male_18 J7
 U 1 1 5A75139D
 P 3700 4075
-F 0 "J?" H 3600 5275 60  0000 C CNN
+F 0 "J7" H 3600 5275 60  0000 C CNN
 F 1 "micromatch_male_18" H 3650 3375 60  0000 C CNN
 F 2 "" H 3500 5175 60  0001 C CNN
 F 3 "" H 3600 5275 60  0001 C CNN
@@ -227,10 +227,10 @@ F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_male_20 J?
+L micromatch_male_20 J5
 U 1 1 5A751491
 P 1125 3000
-F 0 "J?" H 1025 4200 60  0000 C CNN
+F 0 "J5" H 1025 4200 60  0000 C CNN
 F 1 "micromatch_male_20" H 1075 2100 60  0000 C CNN
 F 2 "" H 925 4100 60  0001 C CNN
 F 3 "" H 1025 4200 60  0001 C CNN
@@ -242,10 +242,10 @@ F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_male_20 J?
+L micromatch_male_20 J8
 U 1 1 5A751530
 P 3700 6725
-F 0 "J?" H 3600 7925 60  0000 C CNN
+F 0 "J8" H 3600 7925 60  0000 C CNN
 F 1 "micromatch_male_20" H 3650 5825 60  0000 C CNN
 F 2 "" H 3500 7825 60  0001 C CNN
 F 3 "" H 3600 7925 60  0001 C CNN
@@ -257,10 +257,10 @@ F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_male_20 J?
+L micromatch_male_20 J4
 U 1 1 5A7515A3
 P 1100 5750
-F 0 "J?" H 1000 6950 60  0000 C CNN
+F 0 "J4" H 1000 6950 60  0000 C CNN
 F 1 "micromatch_male_20" H 1050 4850 60  0000 C CNN
 F 2 "" H 900 6850 60  0001 C CNN
 F 3 "" H 1000 6950 60  0001 C CNN
@@ -272,10 +272,10 @@ F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR4
 U 1 1 5A751669
 P 4050 5450
-F 0 "#PWR?" H 4050 5200 50  0001 C CNN
+F 0 "#PWR4" H 4050 5200 50  0001 C CNN
 F 1 "GND" H 4050 5300 50  0000 C CNN
 F 2 "" H 4050 5450 50  0000 C CNN
 F 3 "" H 4050 5450 50  0000 C CNN
@@ -336,9 +336,9 @@ Text Label 3850 7425 0    60   ~ 0
 BSPD_STATUS
 NoConn ~ 3850 7525
 Text Label 3850 6025 0    60   ~ 0
-BSPD_TEST_SWITCH_OUT
+BSPD_TEST_SWITCH+
 Text Label 3850 6125 0    60   ~ 0
-BSPD_TEST_SWITCH_IN
+BSPD_TEST_SWITCH-
 Wire Notes Line
 	2950 5250 2950 7900
 Wire Notes Line
@@ -352,10 +352,10 @@ Wire Notes Line
 Text Notes 3450 5200 0    60   ~ 0
 BSPD\n
 $Comp
-L GND #PWR?
+L GND #PWR2
 U 1 1 5A751D89
 P 1475 1725
-F 0 "#PWR?" H 1475 1475 50  0001 C CNN
+F 0 "#PWR2" H 1475 1475 50  0001 C CNN
 F 1 "GND" H 1475 1575 50  0000 C CNN
 F 2 "" H 1475 1725 50  0000 C CNN
 F 3 "" H 1475 1725 50  0000 C CNN
@@ -367,10 +367,10 @@ Wire Wire Line
 Wire Wire Line
 	1475 1600 1475 1725
 $Comp
-L GND #PWR?
+L GND #PWR1
 U 1 1 5A751DCD
 P 1450 4475
-F 0 "#PWR?" H 1450 4225 50  0001 C CNN
+F 0 "#PWR1" H 1450 4225 50  0001 C CNN
 F 1 "GND" H 1450 4325 50  0000 C CNN
 F 2 "" H 1450 4475 50  0000 C CNN
 F 3 "" H 1450 4475 50  0000 C CNN
@@ -386,10 +386,10 @@ Wire Wire Line
 Wire Wire Line
 	1275 2100 1950 2100
 $Comp
-L D_Schottky_SOD123 D?
+L D_Schottky_SOD123 D2
 U 1 1 5A751EE2
 P 2100 2100
-F 0 "D?" H 2100 2200 50  0000 C CNN
+F 0 "D2" H 2100 2200 50  0000 C CNN
 F 1 "D_Schottky_SOD123" H 2100 2000 50  0000 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 2000 2100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 2100 2200 50  0001 C CNN
@@ -421,22 +421,6 @@ Text Label 1275 2800 0    60   ~ 0
 WHEEL_SPEED_LED1
 Text Label 1275 2900 0    60   ~ 0
 WHEEL_SPEED_LED2
-Text Label 1275 3000 0    60   ~ 0
-WHEEL_SPEED_FRONT_LEFT+
-Text Label 1275 3100 0    60   ~ 0
-WHEEL_SPEED_FRONT_LEFT-
-Text Label 1275 3200 0    60   ~ 0
-WHEEL_SPEED_FRONT_RIGHT+
-Text Label 1275 3300 0    60   ~ 0
-WHEEL_SPEED_FRONT_RIGHT-
-Text Label 1275 3400 0    60   ~ 0
-WHEEL_SPEED_BACK_LEFT+
-Text Label 1275 3500 0    60   ~ 0
-WHEEL_SPEED_BACK_LEFT-
-Text Label 1275 3600 0    60   ~ 0
-WHEEL_SPEED_BACK_RIGHT+
-Text Label 1275 3700 0    60   ~ 0
-WHEEL_SPEED_BACK_RIGHT-
 NoConn ~ 1275 3800
 Wire Notes Line
 	525  1575 525  4100
@@ -455,10 +439,10 @@ Wire Wire Line
 Wire Wire Line
 	1250 4850 1925 4850
 $Comp
-L D_Schottky_SOD123 D?
+L D_Schottky_SOD123 D1
 U 1 1 5A7524F1
 P 2075 4850
-F 0 "D?" H 2075 4950 50  0000 C CNN
+F 0 "D1" H 2075 4950 50  0000 C CNN
 F 1 "D_Schottky_SOD123" H 2075 4750 50  0000 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 1975 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" H 2075 4950 50  0001 C CNN
@@ -520,10 +504,10 @@ HVD_SHUTDOWN_SENSE
 Text Label 1225 7525 0    60   ~ 0
 TSMS_SHUTDOWN_SENSE
 $Comp
-L micromatch_male_6 J?
+L micromatch_male_6 J3
 U 1 1 5A752C12
 P 975 7275
-F 0 "J?" H 975 7625 60  0000 C CNN
+F 0 "J3" H 975 7625 60  0000 C CNN
 F 1 "micromatch_male_6" H 975 6925 60  0000 C CNN
 F 2 "" H 875 7525 60  0001 C CNN
 F 3 "" H 975 7625 60  0001 C CNN
@@ -547,10 +531,10 @@ Wire Notes Line
 Text Notes 1275 4250 0    60   ~ 0
 BRAKE LIGHT\n
 $Comp
-L Ampseal_35 J?
+L Ampseal_35 J1
 U 1 1 5A7531B2
 P 6320 2505
-F 0 "J?" H 6070 4305 60  0000 C CNN
+F 0 "J1" H 6070 4305 60  0000 C CNN
 F 1 "Ampseal_35" H 6020 705 60  0000 L CNN
 F 2 "" H 6120 3855 60  0001 C CNN
 F 3 "" H 6120 3855 60  0001 C CNN
@@ -558,10 +542,10 @@ F 3 "" H 6120 3855 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ampseal_35 J?
+L Ampseal_35 J2
 U 1 1 5A7532DE
 P 8465 2495
-F 0 "J?" H 8215 4295 60  0000 C CNN
+F 0 "J2" H 8215 4295 60  0000 C CNN
 F 1 "Ampseal_35" H 8165 695 60  0000 L CNN
 F 2 "" H 8265 3845 60  0001 C CNN
 F 3 "" H 8265 3845 60  0001 C CNN
@@ -569,10 +553,10 @@ F 3 "" H 8265 3845 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR6
 U 1 1 5A7537E4
 P 7020 830
-F 0 "#PWR?" H 7020 580 50  0001 C CNN
+F 0 "#PWR6" H 7020 580 50  0001 C CNN
 F 1 "GND" H 7020 680 50  0000 C CNN
 F 2 "" H 7020 830 50  0000 C CNN
 F 3 "" H 7020 830 50  0000 C CNN
@@ -611,16 +595,16 @@ Text Label 3850 5725 0    60   ~ 0
 Text Label 3850 1475 0    60   ~ 0
 12V
 Text Label 1250 4750 0    60   ~ 0
-12V
+BRAKE_LIGHT_12V
 Text Label 6095 6225 0    60   ~ 0
 12V
 Text Label 1275 2000 0    60   ~ 0
 12V
 $Comp
-L 3P4T_rotary_switch SW?
+L 3P4T_rotary_switch SW1
 U 1 1 5A74E8A3
 P 7175 6220
-F 0 "SW?" H 7075 7420 60  0000 C CNN
+F 0 "SW1" H 7075 7420 60  0000 C CNN
 F 1 "3P4T_rotary_switch" H 7125 5770 60  0000 C CNN
 F 2 "" H 6975 7320 60  0001 C CNN
 F 3 "" H 7075 7420 60  0001 C CNN
@@ -659,10 +643,10 @@ STRAIN_LED2
 Text Label 7325 6420 0    60   ~ 0
 WHEEL_SPEED_LED2
 $Comp
-L RJ45_RA U?
+L RJ45_RA U1
 U 1 1 5A78F0D6
 P 9380 5950
-F 0 "U?" H 9380 5360 60  0000 C CNN
+F 0 "U1" H 9105 6565 60  0000 C CNN
 F 1 "RJ45_RA" H 9390 6610 60  0000 C CNN
 F 2 "footprints:RJ45-RightAngle" H 9280 5260 60  0001 C CNN
 F 3 "" H 9380 5360 60  0001 C CNN
@@ -674,10 +658,10 @@ Wire Wire Line
 Wire Wire Line
 	9780 6340 9780 6430
 $Comp
-L GND #PWR?
+L GND #PWR10
 U 1 1 5A78F362
 P 9890 6430
-F 0 "#PWR?" H 9890 6180 50  0001 C CNN
+F 0 "#PWR10" H 9890 6180 50  0001 C CNN
 F 1 "GND" H 9890 6280 50  0000 C CNN
 F 2 "" H 9890 6430 50  0000 C CNN
 F 3 "" H 9890 6430 50  0000 C CNN
@@ -685,10 +669,10 @@ F 3 "" H 9890 6430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR9
 U 1 1 5A78F392
 P 9780 6430
-F 0 "#PWR?" H 9780 6180 50  0001 C CNN
+F 0 "#PWR9" H 9780 6180 50  0001 C CNN
 F 1 "GND" H 9780 6280 50  0000 C CNN
 F 2 "" H 9780 6430 50  0000 C CNN
 F 3 "" H 9780 6430 50  0000 C CNN
@@ -704,10 +688,10 @@ Wire Wire Line
 Wire Wire Line
 	10350 5820 10350 5890
 $Comp
-L GND #PWR?
+L GND #PWR7
 U 1 1 5A78F609
 P 9090 6480
-F 0 "#PWR?" H 9090 6230 50  0001 C CNN
+F 0 "#PWR7" H 9090 6230 50  0001 C CNN
 F 1 "GND" H 9090 6330 50  0000 C CNN
 F 2 "" H 9090 6480 50  0000 C CNN
 F 3 "" H 9090 6480 50  0000 C CNN
@@ -715,10 +699,10 @@ F 3 "" H 9090 6480 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR8
 U 1 1 5A78F639
 P 9420 6470
-F 0 "#PWR?" H 9420 6220 50  0001 C CNN
+F 0 "#PWR8" H 9420 6220 50  0001 C CNN
 F 1 "GND" H 9420 6320 50  0000 C CNN
 F 2 "" H 9420 6470 50  0000 C CNN
 F 3 "" H 9420 6470 50  0000 C CNN
@@ -726,10 +710,10 @@ F 3 "" H 9420 6470 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR11
 U 1 1 5A78F6AF
 P 10350 5890
-F 0 "#PWR?" H 10350 5640 50  0001 C CNN
+F 0 "#PWR11" H 10350 5640 50  0001 C CNN
 F 1 "GND" H 10350 5740 50  0000 C CNN
 F 2 "" H 10350 5890 50  0000 C CNN
 F 3 "" H 10350 5890 50  0000 C CNN
@@ -784,4 +768,164 @@ Wire Notes Line
 	8440 5130 8440 5350
 Text Notes 9720 5120 2    60   ~ 0
 External RJ45\n
+Text Label 8665 1495 0    60   ~ 0
+GAUGE1+
+Text Label 8665 1395 0    60   ~ 0
+GAUGE1-
+Text Label 8665 1295 0    60   ~ 0
+GAUGE4+
+Text Label 8665 1195 0    60   ~ 0
+GAUGE4_MID
+Text Label 8665 1095 0    60   ~ 0
+GAUGE4-
+Text Label 8665 995  0    60   ~ 0
+GAUGE6+
+Text Label 8665 895  0    60   ~ 0
+GAUGE6_MID
+Text Label 8665 795  0    60   ~ 0
+GAUGE6-
+Text Label 8665 2595 0    60   ~ 0
+GAUGE1_MID
+Text Label 8665 2495 0    60   ~ 0
+GAUGE2_MID
+Text Label 8665 2395 0    60   ~ 0
+GAUGE3+
+Text Label 8665 2295 0    60   ~ 0
+GAUGE3-
+Text Label 8665 3695 0    60   ~ 0
+GAUGE2+
+Text Label 8665 3595 0    60   ~ 0
+GAUGE2-
+Text Label 8665 3495 0    60   ~ 0
+GAUGE3_MID
+Text Label 8665 3395 0    60   ~ 0
+GAUGE5+
+Text Label 8665 2095 0    60   ~ 0
+GAUGE5-
+Text Label 8665 2195 0    60   ~ 0
+GAUGE5_MID
+Text Label 1275 3000 0    60   ~ 0
+SENSOR_LEFT1+
+Text Label 1275 3100 0    60   ~ 0
+SENSOR_LEFT1-
+Text Label 1275 3200 0    60   ~ 0
+SENSOR_LEFT2+
+Text Label 1275 3300 0    60   ~ 0
+SENSOR_LEFT2-
+Text Label 1275 3400 0    60   ~ 0
+SENSOR_RIGHT1+
+Text Label 1275 3500 0    60   ~ 0
+SENSOR_RIGHT1-
+Text Label 1275 3600 0    60   ~ 0
+SENSOR_RIGHT2+
+Text Label 1275 3700 0    60   ~ 0
+SENSOR_RIGHT2-
+Text Label 8665 3995 0    60   ~ 0
+SENSOR_LEFT1+
+Text Label 8665 3895 0    60   ~ 0
+SENSOR_LEFT1-
+Text Label 8665 2895 0    60   ~ 0
+SENSOR_LEFT2+
+Text Label 8665 3795 0    60   ~ 0
+SENSOR_LEFT2-
+Text Label 8665 2795 0    60   ~ 0
+SENSOR_RIGHT1+
+Text Label 8665 1595 0    60   ~ 0
+SENSOR_RIGHT1-
+Text Label 8665 1695 0    60   ~ 0
+SENSOR_RIGHT2+
+Text Label 8665 2695 0    60   ~ 0
+SENSOR_RIGHT2-
+Text Label 8665 3295 0    60   ~ 0
+BSPD_CURRENT_SENSE
+Text Label 8665 4095 0    60   ~ 0
+ANALOG_BRAKE_SENSE_OUTPUT
+Text Label 8665 4195 0    60   ~ 0
+ANALOG_BRAKE_SENSE_12V
+Text Label 8665 2995 0    60   ~ 0
+ANALOG_BRAKE_SENSE_GND
+Text Label 8665 1995 0    60   ~ 0
+BSPD_SHUTDOWN_OUT
+Text Notes 9645 1985 0    60   ~ 0
+(to inertia switch)\n
+Text Label 8665 3095 0    60   ~ 0
+BSPD_TEST_SWITCH+
+Text Label 8665 3195 0    60   ~ 0
+BSPD_TEST_SWITCH-
+Text Label 6520 1605 0    60   ~ 0
+BRAKE_LIGHT_12V
+Text Label 6520 1705 0    60   ~ 0
+BRAKE_LIGHT_LSD
+Text Label 6520 1805 0    60   ~ 0
+BRAKE_SWITCH+
+Text Label 6520 1905 0    60   ~ 0
+BRAKE_SWITCH-
+Text Label 6520 1105 0    60   ~ 0
+IMU_GND
+Text Label 6520 1405 0    60   ~ 0
+IMU_12V
+Text Label 6520 1205 0    60   ~ 0
+IMU_CAN_HIGH
+Text Label 6520 1305 0    60   ~ 0
+IMU_CAN_LOW
+Text Label 6520 1505 0    60   ~ 0
+BRAKE_DISC_TEMP_12V
+Text Label 6520 2305 0    60   ~ 0
+BRAKE_DISC_TEMP_GND
+Text Label 6520 2405 0    60   ~ 0
+BRAKE_DISC_TEMP_CAN_HIGH
+Text Label 6520 2505 0    60   ~ 0
+BRAKE_DISC_TEMP_CAN_LOW
+Text Label 6520 2605 0    60   ~ 0
+COOLING_PUMP_12V_FUSED
+Text Label 6520 3705 0    60   ~ 0
+COOLING_PUMP_GND
+NoConn ~ 8665 1795
+NoConn ~ 8665 1895
+Text Label 6520 3405 0    60   ~ 0
+BAT+
+Text Notes 6755 3400 0    60   ~ 0
+(to breaker)\n
+Text Label 6520 3505 0    60   ~ 0
+BREAKER
+Text Label 6520 3605 0    60   ~ 0
+BREAKER
+Text Notes 6925 3600 0    60   ~ 0
+(to GLVMS)\n(to GLVMS)\n
+Text Label 6520 3005 0    60   ~ 0
+MAIN_SHUTDOWN_FUSE
+Text Notes 7530 2995 0    60   ~ 0
+(to left E-stop)
+Text Label 6520 2905 0    60   ~ 0
+LEFT_E-STOP
+Text Notes 7120 2895 0    60   ~ 0
+(to right E-stop)\n
+Text Label 6520 2805 0    60   ~ 0
+HVD
+Text Notes 6690 2795 0    60   ~ 0
+(to TSMS)\n
+Text Label 6520 2705 0    60   ~ 0
+TSMS
+Text Notes 6735 2700 0    60   ~ 0
+(to AIRS)\n
+Text Label 6520 3805 0    60   ~ 0
+TSMS
+Text Notes 6755 3805 0    60   ~ 0
+(to AIRS)\n
+Text Label 6520 3905 0    60   ~ 0
+HVD
+Text Notes 6700 3895 0    60   ~ 0
+(to TSMS)\n
+Text Label 6520 4005 0    60   ~ 0
+RIGHT_E-STOP
+Text Notes 7175 3995 0    60   ~ 0
+(to BSPD shutdown in)\n
+Text Label 6520 4205 0    60   ~ 0
+GLVMS
+Text Notes 6810 4200 0    60   ~ 0
+(to fuses)\n
+Text Label 6520 4105 0    60   ~ 0
+LEFT_E-STOP
+Text Notes 7120 4100 0    60   ~ 0
+(to right E-stop)\n
 $EndSCHEMATC
