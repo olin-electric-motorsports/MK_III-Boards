@@ -200,16 +200,16 @@ $EndComp
 $Comp
 L C_47uF C6
 U 1 1 59E0494E
-P 3100 1300
-F 0 "C6" H 3125 1400 50  0000 L CNN
-F 1 "C_47uF" H 3125 1200 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 3138 1150 50  0001 C CNN
-F 3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" H 3125 1400 50  0001 C CNN
-F 4 "587-4280-1-ND" H 3100 1300 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3100 1300 60  0001 C CNN "MFN"
-F 6 "Value" H 3100 1300 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" H 3525 1800 60  0001 C CNN "PurchasingLink"
-	1    3100 1300
+P 3150 1350
+F 0 "C6" H 3175 1450 50  0000 L CNN
+F 1 "C_47uF" H 3175 1250 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3188 1200 50  0001 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" H 3175 1450 50  0001 C CNN
+F 4 "587-4280-1-ND" H 3150 1350 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3150 1350 60  0001 C CNN "MFN"
+F 6 "Value" H 3150 1350 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" H 3575 1850 60  0001 C CNN "PurchasingLink"
+	1    3150 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -270,12 +270,12 @@ $EndComp
 $Comp
 L GND #PWR16
 U 1 1 59E095D1
-P 3100 1450
-F 0 "#PWR16" H 3100 1200 50  0001 C CNN
-F 1 "GND" H 3100 1300 50  0000 C CNN
-F 2 "" H 3100 1450 50  0001 C CNN
-F 3 "" H 3100 1450 50  0001 C CNN
-	1    3100 1450
+P 3150 1550
+F 0 "#PWR16" H 3150 1300 50  0001 C CNN
+F 1 "GND" H 3150 1400 50  0000 C CNN
+F 2 "" H 3150 1550 50  0001 C CNN
+F 3 "" H 3150 1550 50  0001 C CNN
+	1    3150 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -556,10 +556,10 @@ $EndComp
 Text GLabel 4500 5250 2    60   Input ~ 0
 RESET
 $Comp
-L VCC #PWR26
+L VCC #PWR27
 U 1 1 59E0B462
 P 5100 5350
-F 0 "#PWR26" H 5100 5200 50  0001 C CNN
+F 0 "#PWR27" H 5100 5200 50  0001 C CNN
 F 1 "VCC" H 5100 5500 50  0000 C CNN
 F 2 "" H 5100 5350 50  0001 C CNN
 F 3 "" H 5100 5350 50  0001 C CNN
@@ -662,10 +662,10 @@ F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR30
+L GND #PWR31
 U 1 1 59E25104
 P 6000 4150
-F 0 "#PWR30" H 6000 3900 50  0001 C CNN
+F 0 "#PWR31" H 6000 3900 50  0001 C CNN
 F 1 "GND" H 6000 4000 50  0000 C CNN
 F 2 "" H 6000 4150 50  0001 C CNN
 F 3 "" H 6000 4150 50  0001 C CNN
@@ -673,10 +673,10 @@ F 3 "" H 6000 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR29
+L +12V #PWR30
 U 1 1 59E26B4D
 P 6000 4050
-F 0 "#PWR29" H 6000 3900 50  0001 C CNN
+F 0 "#PWR30" H 6000 3900 50  0001 C CNN
 F 1 "+12V" H 6000 4190 50  0000 C CNN
 F 2 "" H 6000 4050 50  0001 C CNN
 F 3 "" H 6000 4050 50  0001 C CNN
@@ -772,10 +772,10 @@ F 3 "" H 4250 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR27
+L GND #PWR28
 U 1 1 59E566B3
 P 5150 7400
-F 0 "#PWR27" H 5150 7150 50  0001 C CNN
+F 0 "#PWR28" H 5150 7150 50  0001 C CNN
 F 1 "GND" H 5150 7250 50  0000 C CNN
 F 2 "" H 5150 7400 50  0001 C CNN
 F 3 "" H 5150 7400 50  0001 C CNN
@@ -798,10 +798,10 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5825 7850 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR28
+L VCC #PWR29
 U 1 1 59E569E6
 P 5600 7350
-F 0 "#PWR28" H 5600 7200 50  0001 C CNN
+F 0 "#PWR29" H 5600 7200 50  0001 C CNN
 F 1 "VCC" H 5600 7500 50  0000 C CNN
 F 2 "" H 5600 7350 50  0001 C CNN
 F 3 "" H 5600 7350 50  0001 C CNN
@@ -899,10 +899,10 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9080 23
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR35
+L GND #PWR36
 U 1 1 59E59758
 P 9000 2050
-F 0 "#PWR35" H 9000 1800 50  0001 C CNN
+F 0 "#PWR36" H 9000 1800 50  0001 C CNN
 F 1 "GND" H 9000 1900 50  0000 C CNN
 F 2 "" H 9000 2050 50  0001 C CNN
 F 3 "" H 9000 2050 50  0001 C CNN
@@ -1041,10 +1041,10 @@ F 3 "" H 6450 5850 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR32
+L GND #PWR33
 U 1 1 59E96FA5
 P 6350 6050
-F 0 "#PWR32" H 6350 5800 50  0001 C CNN
+F 0 "#PWR33" H 6350 5800 50  0001 C CNN
 F 1 "GND" H 6350 5900 50  0000 C CNN
 F 2 "" H 6350 6050 50  0001 C CNN
 F 3 "" H 6350 6050 50  0001 C CNN
@@ -1057,11 +1057,8 @@ Text GLabel 1000 3750 2    60   Input ~ 0
 CANH
 NoConn ~ 5150 7150
 NoConn ~ 4050 4450
-<<<<<<< HEAD
 NoConn ~ 4050 4350
 NoConn ~ 4050 4150
-=======
->>>>>>> ab3f9dede9a2ba7ff21475b9044eb887bcf60262
 NoConn ~ 1850 3250
 Text GLabel 4250 7350 0    60   Input ~ 0
 Acc_Fan_PWM
@@ -1165,10 +1162,10 @@ F 6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR31
+L VCC #PWR32
 U 1 1 5A1E7FDB
 P 6350 4800
-F 0 "#PWR31" H 6350 4650 50  0001 C CNN
+F 0 "#PWR32" H 6350 4650 50  0001 C CNN
 F 1 "VCC" H 6350 4950 50  0000 C CNN
 F 2 "" H 6350 4800 50  0001 C CNN
 F 3 "" H 6350 4800 50  0001 C CNN
@@ -1276,7 +1273,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 950  3600 850 
 Wire Wire Line
-	3100 1150 2700 1150
+	2700 1150 3150 1150
 Wire Wire Line
 	2350 1150 2400 1150
 Wire Wire Line
@@ -1292,51 +1289,13 @@ Wire Wire Line
 	2350 950  2800 950 
 Text GLabel 1000 4750 2    60   Input ~ 0
 Shutdown_Control
-<<<<<<< HEAD
-$Comp
-L Ultrafit_2 J8
-U 1 1 5A6A8A5C
-P 4850 3450
-F 0 "J8" H 4850 3600 60  0000 C CNN
-F 1 "Ultrafit_2" H 4950 3250 60  0000 C CNN
-F 2 "footprints:Ultrafit_2" H 4750 3500 60  0001 C CNN
-F 3 "" H 4850 3600 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 4950 3700 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 5050 3800 60  0001 C CNN "MFN"
-F 6 "WM11570-ND" H 5150 3900 60  0001 C CNN "MPN"
-F 7 "Value" H 5250 4000 60  0001 C CNN "Package"
-	1    4850 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR034
-U 1 1 5A6A8B59
-P 5100 3500
-F 0 "#PWR034" H 5100 3250 50  0001 C CNN
-F 1 "GND" H 5100 3350 50  0000 C CNN
-F 2 "" H 5100 3500 50  0001 C CNN
-F 3 "" H 5100 3500 50  0001 C CNN
-	1    5100 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 4050 4850 4050
-Wire Wire Line
-	4850 4050 4850 3800
-Wire Wire Line
-	4850 3800 5300 3800
-Wire Wire Line
-	5300 3800 5300 3400
-Wire Wire Line
-	5300 3400 5100 3400
-=======
 Wire Wire Line
 	4850 3700 4850 4950
 $Comp
-L GND #PWR33
+L GND #PWR34
 U 1 1 5A73C849
 P 6450 3800
-F 0 "#PWR33" H 6450 3550 50  0001 C CNN
+F 0 "#PWR34" H 6450 3550 50  0001 C CNN
 F 1 "GND" H 6450 3650 50  0000 C CNN
 F 2 "" H 6450 3800 50  0001 C CNN
 F 3 "" H 6450 3800 50  0001 C CNN
@@ -1352,10 +1311,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 3600 6800 3600
 $Comp
-L VCC #PWR34
+L VCC #PWR35
 U 1 1 5A73F5D9
 P 6800 3900
-F 0 "#PWR34" H 6800 3750 50  0001 C CNN
+F 0 "#PWR35" H 6800 3750 50  0001 C CNN
 F 1 "VCC" H 6800 4050 50  0000 C CNN
 F 2 "" H 6800 3900 50  0001 C CNN
 F 3 "" H 6800 3900 50  0001 C CNN
@@ -1389,5 +1348,77 @@ Wire Wire Line
 	4850 4950 4050 4950
 Wire Wire Line
 	6800 3500 4650 3500
->>>>>>> ab3f9dede9a2ba7ff21475b9044eb887bcf60262
+$Comp
+L R_10k R8
+U 1 1 5A7BA170
+P 5050 3250
+F 0 "R8" V 5130 3250 50  0000 C CNN
+F 1 "R_10k" V 4950 3250 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4980 3250 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5130 3250 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 5050 3250 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5050 3250 60  0001 C CNN "MFN"
+F 6 "Value" H 5050 3250 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5530 3650 60  0001 C CNN "PurchasingLink"
+	1    5050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3400 5050 3500
+Connection ~ 5050 3500
+$Comp
+L VCC #PWR26
+U 1 1 5A7BAF85
+P 5050 3100
+F 0 "#PWR26" H 5050 2950 50  0001 C CNN
+F 1 "VCC" H 5050 3250 50  0000 C CNN
+F 2 "" H 5050 3100 50  0001 C CNN
+F 3 "" H 5050 3100 50  0001 C CNN
+	1    5050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_10uF_16V C14
+U 1 1 5A7CEB33
+P 2750 1350
+F 0 "C14" H 2775 1450 50  0000 L CNN
+F 1 "C_10uF_16V" H 2775 1250 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 2788 1200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf" H 2775 1450 50  0001 C CNN
+F 4 "1276-2399-1-ND" H 2750 1350 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2750 1350 60  0001 C CNN "MFN"
+F 6 "Value" H 2750 1350 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485" H 3175 1850 60  0001 C CNN "PurchasingLink"
+	1    2750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0.1uF C15
+U 1 1 5A7CEBFA
+P 2950 1350
+F 0 "C15" H 2975 1450 50  0000 L CNN
+F 1 "C_0.1uF" H 2975 1250 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 2988 1200 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2975 1450 50  0001 C CNN
+F 4 "478-3352-1-ND" H 2950 1350 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2950 1350 60  0001 C CNN "MFN"
+F 6 "Value" H 2950 1350 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3375 1850 60  0001 C CNN "PurchasingLink"
+	1    2950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1200 2750 1150
+Connection ~ 2750 1150
+Wire Wire Line
+	2950 1200 2950 1150
+Connection ~ 2950 1150
+Wire Wire Line
+	3150 1150 3150 1200
+Connection ~ 3100 1150
+Wire Wire Line
+	3150 1500 3150 1550
+Wire Wire Line
+	2750 1500 3150 1500
+Connection ~ 2950 1500
 $EndSCHEMATC
