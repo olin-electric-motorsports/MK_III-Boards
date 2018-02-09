@@ -216,16 +216,16 @@ $EndComp
 $Comp
 L C_47uF C10
 U 1 1 59E0494E
-P 9650 1550
-F 0 "C10" H 9675 1650 50  0000 L CNN
-F 1 "C_47uF" H 9675 1450 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 9688 1400 50  0001 C CNN
-F 3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" H 9675 1650 50  0001 C CNN
-F 4 "587-4280-1-ND" H 9650 1550 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 9650 1550 60  0001 C CNN "MFN"
-F 6 "Value" H 9650 1550 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" H 10075 2050 60  0001 C CNN "PurchasingLink"
-	1    9650 1550
+P 9250 1550
+F 0 "C10" H 9275 1650 50  0000 L CNN
+F 1 "C_47uF" H 9050 1300 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 9288 1400 50  0001 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" H 9275 1650 50  0001 C CNN
+F 4 "587-4280-1-ND" H 9250 1550 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 9250 1550 60  0001 C CNN "MFN"
+F 6 "Value" H 9250 1550 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" H 9675 2050 60  0001 C CNN "PurchasingLink"
+	1    9250 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2118,4 +2118,39 @@ AIR- Weld Detection
 Text Label 7350 1400 2    39   ~ 0
 12V_Fused
 Connection ~ 10000 5200
+$Comp
+L C_1uF C11
+U 1 1 5A7B3280
+P 9450 1550
+F 0 "C11" H 9475 1650 50  0000 L CNN
+F 1 "C_1uF" H 9350 1300 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 9488 1400 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9475 1650 50  0001 C CNN
+F 4 "CAP CER 1UF 25V X7R 0805" H 9975 2150 60  0001 C CNN "Description"
+F 5 "478-10487-1-ND" H 9450 1550 60  0001 C CNN "MPN"
+F 6 "Digi-Key" H 9450 1550 60  0001 C CNN "MFN"
+F 7 "Value" H 9450 1550 60  0001 C CNN "Package"
+F 8 "https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628" H 9875 2050 60  0001 C CNN "PurchasingLink"
+	1    9450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0.1uF C12
+U 1 1 5A7B3358
+P 9650 1550
+F 0 "C12" H 9675 1650 50  0000 L CNN
+F 1 "C_0.1uF" H 9675 1450 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 9688 1400 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9675 1650 50  0001 C CNN
+F 4 "478-3352-1-ND" H 9650 1550 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 9650 1550 60  0001 C CNN "MFN"
+F 6 "Value" H 9650 1550 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10075 2050 60  0001 C CNN "PurchasingLink"
+	1    9650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1700 9650 1700
+Connection ~ 9450 1400
+Connection ~ 9450 1700
 $EndSCHEMATC
