@@ -86,9 +86,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 655
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 4050 6075 4050
-Wire Wire Line
-	6075 4050 6200 4050
+	5450 4050 6200 4050
 $Comp
 L VCC #PWR?
 U 1 1 5A74CACF
@@ -133,13 +131,7 @@ F 3 "" H 3350 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 2475 3350 2600
-Wire Wire Line
-	3350 2600 3350 2900
-Wire Wire Line
-	3350 2900 3350 3200
-Wire Wire Line
-	3350 3200 3350 3475
+	3350 2475 3350 3475
 Wire Wire Line
 	3350 2600 3550 2600
 $Comp
@@ -165,11 +157,7 @@ Wire Wire Line
 	3550 2900 3350 2900
 Connection ~ 3350 2900
 Wire Wire Line
-	3350 3775 3350 4800
-Wire Wire Line
-	3350 4800 3350 4900
-Wire Wire Line
-	3350 4900 3350 5125
+	3350 3775 3350 5125
 Wire Wire Line
 	3350 4800 3550 4800
 Wire Wire Line
@@ -187,17 +175,6 @@ F 3 "" H 3350 5125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3350 4900
-$Comp
-L ATMEGA328P-AU U?
-U 1 1 5A74CCBF
-P 4450 3700
-F 0 "U?" H 3700 4950 50  0000 L BNN
-F 1 "ATMEGA328P-AU" H 4850 2300 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 4450 3700 50  0001 C CIN
-F 3 "" H 4450 3700 50  0001 C CNN
-	1    4450 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 3950 5625 3950
 Wire Wire Line
@@ -278,27 +255,21 @@ F 3 "" H 6775 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6475 4050 6775 4050
-Wire Wire Line
-	6775 4050 7125 4050
+	6475 4050 7125 4050
 Wire Wire Line
 	7125 4050 7125 3925
 Wire Wire Line
 	6475 4050 6475 3925
 Connection ~ 6775 4050
 Wire Wire Line
-	5450 3450 6475 3450
-Wire Wire Line
-	6475 3450 6725 3450
+	5450 3450 6725 3450
 Wire Wire Line
 	6475 3625 6475 3450
 Connection ~ 6475 3450
 Wire Wire Line
 	7125 3625 7125 3550
 Wire Wire Line
-	5450 3550 7125 3550
-Wire Wire Line
-	7125 3550 7325 3550
+	5450 3550 7325 3550
 Connection ~ 7125 3550
 Text GLabel 7850 3450 2    60   Input ~ 0
 PWM_0
@@ -349,9 +320,7 @@ F 3 "" H 6625 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6625 2775 6625 2600
-Wire Wire Line
-	6625 2600 6625 2475
+	6625 2475 6625 2775
 Wire Wire Line
 	6625 2175 6775 2175
 Wire Wire Line
@@ -360,15 +329,11 @@ Wire Wire Line
 	6775 2600 6625 2600
 Connection ~ 6625 2600
 Wire Wire Line
-	6725 2325 6900 2325
-Wire Wire Line
-	6900 2325 6950 2325
+	6725 2325 6950 2325
 Text Label 6950 2325 0    60   ~ 0
 XTAL1
 Wire Wire Line
-	6525 2325 6375 2325
-Wire Wire Line
-	6375 2325 6300 2325
+	6300 2325 6525 2325
 Text Label 6300 2325 2    60   ~ 0
 XTAL2
 Text Notes 7475 1950 2    60   ~ 0
@@ -410,8 +375,23 @@ Wire Wire Line
 	6900 2475 6900 2325
 Connection ~ 6900 2325
 Wire Wire Line
-	6375 2775 6625 2775
-Wire Wire Line
-	6625 2775 6900 2775
+	6375 2775 6900 2775
 Connection ~ 6625 2775
+$Comp
+L ATMEGA328P-AU U?
+U 1 1 5A790AA3
+P 4450 3700
+F 0 "U?" H 3700 4950 50  0000 L BNN
+F 1 "ATMEGA328P-AU" H 4850 2300 50  0000 L BNN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 4450 3700 50  0001 C CIN
+F 3 "" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4700 3350 4700
+Connection ~ 3350 4700
+Wire Wire Line
+	3550 2700 3350 2700
+Connection ~ 3350 2700
 $EndSCHEMATC
