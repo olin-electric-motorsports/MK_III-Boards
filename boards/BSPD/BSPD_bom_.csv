@@ -1,7 +1,7 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink,MNF
-1,Cap 50V 0.1uF 10% 0805,C_0.1uF,C2 C3,C_0.1uF,C_0805_OEM,2,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND,
+1,Cap 50V 0.1uF 10% 0805,C_0.1uF,C2 C3 C8 C9,C_0.1uF,C_0805_OEM,4,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND,
 2,CAP CER 10UF 10V X5R 0805,C_10uF,C5,C_10uF,C_0805_OEM,1,http://datasheets.avx.com/cx5r.pdf,Value,478-5167-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257,
-3,CAP CER 1UF 25V X7R 0805,C_1uF,C6,C_1uF,C_0805_OEM,1,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-10487-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628,
+3,CAP CER 1UF 25V X7R 0805,C_1uF,C6 C7,C_1uF,C_0805_OEM,2,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-10487-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628,
 4,Unpolarized capacitor,C_22uF,C1,C_22uF,C_1206_OEM,1,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf,Value,1276-2725-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=1276-2725-1-ND,
 5,CAP CER 47UF 6.3V X5R 0805,C_47uF,C4,C_47uF,C_0805_OEM,1,http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf,Value,587-4280-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315,
 6,DIODE SCHOTTKY 100V 1A SOD123,D_Schottky_SOD123,D6,D_Schottky_SOD123,D_SOD-123W_OEM,1,https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf,,1727-2394-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140,
@@ -29,12 +29,12 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 
 
 Component Groups:,24
-Component Count:,40
-Fitted Components:,40
+Component Count:,43
+Fitted Components:,43
 Number of PCBs:,1
-Total components:,40
+Total components:,43
 Schematic Version:,
 Schematic Date:,
-BoM Date:,Thu 25 Jan 2018 06:49:08 PM EST
+BoM Date:,Mon 05 Feb 2018 09:23:43 PM EST
 Schematic Source:,/home/bryce/Desktop/Formula/MK_III-Boards/boards/BSPD/BSPD.sch
 KiCad Version:,Eeschema 4.0.2+dfsg1-stable
