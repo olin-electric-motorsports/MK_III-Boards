@@ -134,7 +134,7 @@ F 4 "1727-2394-1-ND" H 3200 1900 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 3300 2000 60  0001 C CNN "MFN"
 F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" H 3400 2100 60  0001 C CNN "PurchasingLink"
 	1    3100 1700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR01
@@ -169,30 +169,15 @@ Wire Wire Line
 Wire Wire Line
 	3500 2150 3400 2150
 Connection ~ 3500 1700
-Text Label 3700 2650 0    60   ~ 0
-TS+Unfused
 Text Label 2650 2550 2    60   ~ 0
+TS+Unfused
+Text Label 3700 2650 0    60   ~ 0
 TS-Unfused
 $Comp
 L R_10k_HV R2
 U 1 1 59FF47B0
-P 3600 4150
-F 0 "R2" V 3600 4150 50  0000 C CNN
-F 1 "R_10k_HV" V 3500 4200 50  0000 C CNN
-F 2 "footprints:R_10K_HV" H 3530 4150 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 3680 4150 50  0001 C CNN
-F 4 "PPC5D10.0KCT-ND " H 3600 4150 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3600 4150 60  0001 C CNN "MFN"
-F 6 "Value" H 3600 4150 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 4080 4550 60  0001 C CNN "PurchasingLink"
-	1    3600 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L R_10k_HV R3
-U 1 1 59FF48D5
 P 3600 4350
-F 0 "R3" V 3600 4350 50  0000 C CNN
+F 0 "R2" V 3600 4350 50  0000 C CNN
 F 1 "R_10k_HV" V 3500 4400 50  0000 C CNN
 F 2 "footprints:R_10K_HV" H 3530 4350 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 3680 4350 50  0001 C CNN
@@ -201,6 +186,21 @@ F 5 "Digi-Key" H 3600 4350 60  0001 C CNN "MFN"
 F 6 "Value" H 3600 4350 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 4080 4750 60  0001 C CNN "PurchasingLink"
 	1    3600 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R_10k_HV R3
+U 1 1 59FF48D5
+P 3600 4150
+F 0 "R3" V 3600 4150 50  0000 C CNN
+F 1 "R_10k_HV" V 3500 4200 50  0000 C CNN
+F 2 "footprints:R_10K_HV" H 3530 4150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 3680 4150 50  0001 C CNN
+F 4 "PPC5D10.0KCT-ND " H 3600 4150 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3600 4150 60  0001 C CNN "MFN"
+F 6 "Value" H 3600 4150 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 4080 4550 60  0001 C CNN "PurchasingLink"
+	1    3600 4150
 	0    1    1    0   
 $EndComp
 $Comp
