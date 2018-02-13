@@ -1050,8 +1050,6 @@ Text Label 1150 4300 2    60   ~ 0
 ProgLED2
 Text Label 5900 2950 0    60   ~ 0
 ProgLED1
-Text Label 5900 3050 0    60   ~ 0
-ProgLED2
 $Comp
 L Conn_01x03 J1
 U 1 1 5A77FD3B
@@ -1484,7 +1482,6 @@ NoConn ~ 5900 4250
 NoConn ~ 5900 4450
 NoConn ~ 5900 4550
 NoConn ~ 5900 4950
-NoConn ~ 5900 5050
 NoConn ~ 1300 3100
 Wire Wire Line
 	1300 1400 1700 1400
@@ -1504,4 +1501,13 @@ F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LM324DT/497-15
 	1    8300 3000
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5900 3050
+Text Label 6150 4900 0    60   ~ 0
+ProgLED2
+Wire Wire Line
+	5900 5050 6100 5050
+Wire Wire Line
+	6100 5050 6100 4900
+Wire Wire Line
+	6100 4900 6150 4900
 $EndSCHEMATC
