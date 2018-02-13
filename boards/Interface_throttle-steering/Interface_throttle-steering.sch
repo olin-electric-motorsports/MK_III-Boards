@@ -149,37 +149,30 @@ Text Label 1490 5750 0    60   ~ 0
 Throttle_right
 Text Label 1490 5850 0    60   ~ 0
 GND
-Wire Wire Line
-	8490 1540 8840 1540
 Text Label 1500 7080 0    60   ~ 0
 ESTOP_in
 Text Label 1500 7180 0    60   ~ 0
 ESTOP_I_out
-Text Label 8690 1790 0    60   ~ 0
+Text Label 8700 1680 0    60   ~ 0
 Crash_sense
 Wire Wire Line
-	8690 1790 8640 1790
-Wire Wire Line
-	8640 1790 8640 1540
-Connection ~ 8640 1540
-Wire Wire Line
-	8500 2140 8850 2140
-Text Label 8700 2390 0    60   ~ 0
+	8500 1430 8850 1430
+Text Label 8680 2190 0    60   ~ 0
 BOTS_sense
 Wire Wire Line
-	8700 2390 8650 2390
+	8700 1680 8650 1680
 Wire Wire Line
-	8650 2390 8650 2140
-Connection ~ 8650 2140
+	8650 1680 8650 1430
+Connection ~ 8650 1430
 Wire Wire Line
-	8480 2650 8830 2650
-Text Label 8680 2900 0    60   ~ 0
+	8480 1940 8830 1940
+Text Label 8430 2870 0    60   ~ 0
 ESTOP_sense
 Wire Wire Line
-	8680 2900 8630 2900
+	8680 2190 8630 2190
 Wire Wire Line
-	8630 2900 8630 2650
-Connection ~ 8630 2650
+	8630 2190 8630 1940
+Connection ~ 8630 1940
 $Comp
 L Ampseal_23 J4
 U 1 1 5A260E79
@@ -269,30 +262,26 @@ Text Label 4230 1420 2    60   ~ 0
 CAN_high
 Text Label 4230 1320 2    60   ~ 0
 CAN_low
-Text Label 8490 1540 2    60   ~ 0
-BSPD_In/Crash_Sensor_Out
-Text Label 8840 1540 0    60   ~ 0
-BSPD_In/Crash_Sensor_Out
-Text Label 8500 2140 2    60   ~ 0
+Text Label 8500 1430 2    60   ~ 0
 Crash_Sensor_In/BOTS_Out
-Text Label 8850 2140 0    60   ~ 0
+Text Label 8850 1430 0    60   ~ 0
 Crash_Sensor_In/BOTS_Out
-Text Label 8480 2650 2    60   ~ 0
+Text Label 8480 1940 2    60   ~ 0
 BOTS_In/E-Stop_Out
-Text Label 8830 2650 0    60   ~ 0
+Text Label 8830 1940 0    60   ~ 0
 BOTS_In/E-Stop_Out
 Text Label 8710 3190 2    60   ~ 0
 BOTS_In/E-Stop_Out
 Text Label 8830 3190 0    60   ~ 0
 ESTOP_in
-Text Label 8020 3580 2    60   ~ 0
+Text Label 8180 2550 2    60   ~ 0
 ESTOP_I_out
-Text Label 8130 3580 0    60   ~ 0
+Text Label 8570 2550 0    60   ~ 0
 E-Stop_In/Connector_to_HVD_Out
 Wire Wire Line
 	8710 3190 8830 3190
 Wire Wire Line
-	8020 3580 8130 3580
+	8180 2550 8570 2550
 Text Label 1500 7380 0    60   ~ 0
 12V
 Text Label 1500 7280 0    60   ~ 0
@@ -302,7 +291,7 @@ Wire Notes Line
 Wire Notes Line
 	10200 850  10200 3860
 Wire Notes Line
-	10200 3860 7030 3860
+	10200 3440 7030 3440
 Wire Notes Line
 	7030 3860 7030 850 
 Text Notes 7280 1170 0    98   ~ 0
@@ -337,4 +326,9 @@ Wire Notes Line
 	3730 2770 3730 1000
 Text Notes 4080 2650 0    98   ~ 0
 RG45 for programming\n
+Wire Wire Line
+	8430 2870 8330 2870
+Wire Wire Line
+	8330 2870 8330 2550
+Connection ~ 8330 2550
 $EndSCHEMATC
