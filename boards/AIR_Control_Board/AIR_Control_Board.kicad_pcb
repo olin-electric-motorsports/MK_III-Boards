@@ -1,6 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
+<<<<<<< HEAD
     (links 172)
     (no_connects 160)
     (area 0 0 0 0)
@@ -9,6 +10,16 @@
     (tracks 0)
     (zones 0)
     (modules 77)
+=======
+    (links 176)
+    (no_connects 164)
+    (area 0 0 0 0)
+    (thickness 1.6)
+    (drawings 0)
+    (tracks 19)
+    (zones 0)
+    (modules 79)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (nets 66)
   )
 
@@ -65,7 +76,11 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
+<<<<<<< HEAD
     (visible_elements 7FFFFFFF)
+=======
+    (visible_elements 7FFFF77F)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -235,7 +250,11 @@
   )
 
   (module footprints:C_Radial_D10_L13_P5_OEM (layer F.Cu) (tedit 0) (tstamp 5A77C2CD)
+<<<<<<< HEAD
     (at 189.908301 132.939401)
+=======
+    (at 114.978301 98.649401)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (path /5A286F4E)
     (fp_text reference C1 (at -2.5019 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -271,7 +290,11 @@
   )
 
   (module footprints:C_Radial_D10_L13_P5_OEM (layer F.Cu) (tedit 0) (tstamp 5A77C2D9)
+<<<<<<< HEAD
     (at 212.768301 114.579401)
+=======
+    (at 137.838301 80.289401)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (path /5A287159)
     (fp_text reference C2 (at -2.5019 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -307,7 +330,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A77C2DF)
+<<<<<<< HEAD
     (at 204.444781 155.0374)
+=======
+    (at 148.984781 100.3674)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E068FA)
@@ -340,7 +367,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A77C2E5)
+<<<<<<< HEAD
     (at 237.004781 124.0274)
+=======
+    (at 114.284781 88.7874)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E06957)
@@ -373,7 +404,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A77C2EB)
+<<<<<<< HEAD
     (at 229.032876 129.4574)
+=======
+    (at 154.102876 95.1674)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E06E67)
@@ -406,7 +441,11 @@
   )
 
   (module footprints:C_1206_OEM (layer F.Cu) (tedit 59F253AA) (tstamp 5A77C2F1)
+<<<<<<< HEAD
     (at 242.966686 124.2774)
+=======
+    (at 94.488 52.578)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /59E04907)
@@ -439,7 +478,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A77C2F7)
+<<<<<<< HEAD
     (at 189.214781 123.0774)
+=======
+    (at 86.36 66.802)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E048C8)
@@ -472,15 +515,26 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A77C2FD)
+<<<<<<< HEAD
     (at 244.356686 117.0774)
+=======
+    (at 134.112 144.78 270)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E06F43)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference C8 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C_30pF (at 0 1.75) (layer F.Fab) hide
+=======
+    (fp_text reference C8 (at 0 -1.778 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value C_30pF (at 0 1.75 270) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -493,9 +547,15 @@
     (fp_line (start -1.75 -0.88) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
+<<<<<<< HEAD
     (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C8-Pad1)"))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+=======
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 5 "Net-(C8-Pad1)"))
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (net 2 GND))
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
       (at (xyz 0 0 0))
@@ -505,12 +565,20 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A77C303)
+<<<<<<< HEAD
     (at 223.676686 140.0074)
+=======
+    (at 130.81 147.574)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E06ED0)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference C9 (at 0 -1.5) (layer F.SilkS)
+=======
+    (fp_text reference C9 (at 0 1.778) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C_30pF (at 0 1.75) (layer F.Fab) hide
@@ -538,7 +606,11 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A77C309)
+<<<<<<< HEAD
     (at 236.766686 129.2274)
+=======
+    (at 114.046 43.434)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E0494E)
@@ -571,7 +643,11 @@
   )
 
   (module footprints:D_SOD-123W_OEM (layer F.Cu) (tedit 59F7E4A2) (tstamp 5A77C30F)
+<<<<<<< HEAD
     (at 172.949544 112.0524)
+=======
+    (at 89.039544 121.1324)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /59F139C5)
@@ -622,6 +698,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C315)
+<<<<<<< HEAD
     (at 216.507257 136.2074)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -1103,6 +1180,489 @@
     )
     (fp_text value D_Schottky_SOD123 (at -0.25 2.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.25)))
+=======
+    (at 141.577257 101.9174)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /5A7994E7)
+    (attr smd)
+    (fp_text reference D2 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 29 "Net-(D2-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C31B)
+    (at 122.107257 120.6974)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /5A77DAEB)
+    (attr smd)
+    (fp_text reference D3 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 7 "Net-(D3-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C321)
+    (at 154.667257 89.6874)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /5A77F2D0)
+    (attr smd)
+    (fp_text reference D4 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 8 "Net-(D4-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C327)
+    (at 167.437257 77.3074)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /59F1281A)
+    (attr smd)
+    (fp_text reference D5 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 9 "Net-(D5-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C32D)
+    (at 154.667257 84.2574)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /5A785705)
+    (attr smd)
+    (fp_text reference D6 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 33 "Net-(D6-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:D_SOD-123W_OEM (layer F.Cu) (tedit 59F7E4A2) (tstamp 5A77C333)
+    (at 113.029544 77.7624)
+    (descr D_SOD-123F)
+    (tags D_SOD-123F)
+    (path /59F13BD0)
+    (attr smd)
+    (fp_text reference D7 (at -0.127 -1.905) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value D_Schottky_SOD123 (at -0.25 2.1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.25)))
+    )
+    (fp_line (start 0.1 1.5) (end 0.5 1.5) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 1.5) (end 0.1 1.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 1.3) (end 0.1 1.7) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 1.7) (end -0.2 1.5) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.6 1.5) (end -0.2 1.5) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 1.5) (end -0.2 1.25) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 1.25) (end -0.2 1.75) (layer F.SilkS) (width 0.1))
+    (fp_text user %R (at -0.127 -1.905) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
+    (fp_line (start 0.25 0) (end 0.75 0) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.75 0) (end -0.35 0) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.4 0.9) (end -1.4 -0.9) (layer F.Fab) (width 0.1))
+    (fp_line (start 1.4 0.9) (end -1.4 0.9) (layer F.Fab) (width 0.1))
+    (fp_line (start 1.4 -0.9) (end 1.4 0.9) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.4 -0.9) (end 1.4 -0.9) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.3 -1.15) (end 2.2 -1.15) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.2 -1.15) (end 2.2 1.15) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.2 1.15) (end -2.3 1.15) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.3 -1.15) (end -2.3 1.15) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.2 1) (end 1.65 1) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.2 -1) (end 1.65 -1) (layer F.SilkS) (width 0.12))
+    (pad 1 smd rect (at -1.4 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 38 /ShutdownIn))
+    (pad 2 smd rect (at 1.4 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 10 "Net-(D7-Pad2)"))
+    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOD-123_OEM/SOD-123.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C339)
+    (at 123.347257 115.2674)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /59F2341F)
+    (attr smd)
+    (fp_text reference D8 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 11 "Net-(D8-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C33F)
+    (at 99.577257 124.0374)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /59F23079)
+    (attr smd)
+    (fp_text reference D9 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 12 "Net-(D9-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C345)
+    (at 114.467257 83.3074)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /5A7801EB)
+    (attr smd)
+    (fp_text reference D10 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 13 "Net-(D10-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C34B)
+    (at 132.697257 109.6674)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /5A7854CD)
+    (attr smd)
+    (fp_text reference D11 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 45 "Net-(D11-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C351)
+    (at 130.937257 115.2674)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /5A7870B2)
+    (attr smd)
+    (fp_text reference D12 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 46 "Net-(D12-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:D_SOD-123W_OEM (layer F.Cu) (tedit 59F7E4A2) (tstamp 5A77C357)
+    (at 98.019544 77.7624)
+    (descr D_SOD-123F)
+    (tags D_SOD-123F)
+    (path /59F1452A)
+    (attr smd)
+    (fp_text reference D13 (at -0.127 -1.905) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value D_Schottky_SOD123 (at -0.25 2.1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_line (start 0.1 1.5) (end 0.5 1.5) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 1.5) (end 0.1 1.3) (layer F.SilkS) (width 0.1))
@@ -1144,12 +1704,20 @@
   )
 
   (module footprints:DO-214AA (layer F.Cu) (tedit 5A59FDFB) (tstamp 5A77C35D)
+<<<<<<< HEAD
     (at 221.420496 119.3474)
+=======
+    (at 73.914 65.278 270)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (path /59FBEB61)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference D14 (at 0.3 -2.25) (layer F.SilkS)
+=======
+    (fp_text reference D14 (at 0.3 -2.25 270) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value D_Zener_18V (at 0 2.286) (layer F.Fab) hide
@@ -1373,6 +1941,7 @@
       (net 42 "Net-(C5-Pad1)"))
     (pad 20 smd rect (at 4.25 0.4) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
+<<<<<<< HEAD
     (pad 21 smd rect (at 4.25 -0.4) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
       (net 19 "Net-(IC1-Pad21)"))
     (pad 22 smd rect (at 4.25 -1.2) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
@@ -1396,6 +1965,232 @@
     (pad 31 smd rect (at -2 -4.25 90) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
       (net 27 /RESET))
     (pad 32 smd rect (at -2.8 -4.25 90) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+=======
+    (pad 1 smd rect (at -2.032 0 90) (size 1.778 2.159) (layers F.Cu F.Paste F.Mask)
+      (net 14 +12V))
+    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/DO_214AA_OEM/DO_214AA.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C363)
+    (at 98.552 58.674)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /59E047E3)
+    (attr smd)
+    (fp_text reference D15 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 47 "Net-(D15-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5A77C369)
+    (at 78.74 54.61)
+    (descr "LED 0805 smd package")
+    (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+    (path /59E0483A)
+    (attr smd)
+    (fp_text reference D16 (at 0 -1.45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.3) (end 0.15 0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.15 -0.35) (end 0.15 0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start 0.1 -0.3) (end 0.15 -0.35) (layer F.SilkS) (width 0.1))
+    (fp_line (start -0.2 0) (end 0.1 -0.3) (layer F.SilkS) (width 0.1))
+    (fp_line (start -1.8 -0.7) (end -1.8 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.8 0.7) (end 1 0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.8 -0.7) (end 1 -0.7) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.95 -0.85) (end 1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 48 "Net-(D16-Pad2)"))
+    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
+  (module footprints:Fuse_1210 (layer F.Cu) (tedit 59F24A11) (tstamp 5A77C36F)
+    (at 80.264 60.706)
+    (descr "Resistor SMD 1210, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 1210")
+    (path /59E0A5CF)
+    (attr smd)
+    (fp_text reference F1 (at 0 -2.25) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value F_500mA_16V (at 0 2.4) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.1))
+    (fp_line (start 1.6 1.25) (end -1.6 1.25) (layer F.Fab) (width 0.1))
+    (fp_line (start 1.6 -1.25) (end 1.6 1.25) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.6 -1.25) (end 1.6 -1.25) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 1.48) (end -1 1.48) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1 -1.48) (end 1 -1.48) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.15 -1.5) (end 2.15 -1.5) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.15 -1.5) (end -2.15 1.5) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.15 1.5) (end 2.15 -1.5) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.15 1.5) (end -2.15 1.5) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.45 0) (size 0.9 2.5) (layers F.Cu F.Paste F.Mask)
+      (net 14 +12V))
+    (pad 2 smd rect (at 1.45 0) (size 0.9 2.5) (layers F.Cu F.Paste F.Mask)
+      (net 3 /12V_Fused))
+    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/Fuse_1210_OEM/Fuse1210.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module footprints:TQFP-32_7x7mm_Pitch0.8mm (layer F.Cu) (tedit 59F24C0F) (tstamp 5A77C393)
+    (at 125.73 137.16 45)
+    (descr "32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
+    (tags "QFP 0.8")
+    (path /59E10948)
+    (attr smd)
+    (fp_text reference IC1 (at 0 -6.05 45) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value ATMEGA16M1 (at 0 6.05 45) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center -2.667 -2.6416) (end -2.667 -2.6924) (layer F.SilkS) (width 0.5))
+    (fp_circle (center -4.2164 -4.3942) (end -4.2164 -4.445) (layer F.SilkS) (width 0.5))
+    (fp_text user %R (at 0 0 45) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.5 -3.5) (end 3.5 -3.5) (layer F.Fab) (width 0.15))
+    (fp_line (start 3.5 -3.5) (end 3.5 3.5) (layer F.Fab) (width 0.15))
+    (fp_line (start 3.5 3.5) (end -3.5 3.5) (layer F.Fab) (width 0.15))
+    (fp_line (start -3.5 3.5) (end -3.5 -2.5) (layer F.Fab) (width 0.15))
+    (fp_line (start -3.5 -2.5) (end -2.5 -3.5) (layer F.Fab) (width 0.15))
+    (fp_line (start -5.3 -5.3) (end -5.3 5.3) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 5.3 -5.3) (end 5.3 5.3) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -5.3 -5.3) (end 5.3 -5.3) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -5.3 5.3) (end 5.3 5.3) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.625 -3.625) (end -3.625 -3.4) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.625 -3.625) (end 3.625 -3.3) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.625 3.625) (end 3.625 3.3) (layer F.SilkS) (width 0.15))
+    (fp_line (start -3.625 3.625) (end -3.625 3.3) (layer F.SilkS) (width 0.15))
+    (fp_line (start -3.625 -3.625) (end -3.3 -3.625) (layer F.SilkS) (width 0.15))
+    (fp_line (start -3.625 3.625) (end -3.3 3.625) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.625 3.625) (end 3.3 3.625) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.625 -3.625) (end 3.3 -3.625) (layer F.SilkS) (width 0.15))
+    (fp_line (start -3.625 -3.4) (end -5.05 -3.4) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -4.25 -2.8 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 15 /MISO))
+    (pad 2 smd rect (at -4.25 -2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 16 /MOSI))
+    (pad 3 smd rect (at -4.25 -1.2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 49 "Net-(IC1-Pad3)"))
+    (pad 4 smd rect (at -4.25 -0.4 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 1 VCC))
+    (pad 5 smd rect (at -4.25 0.4 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 6 smd rect (at -4.25 1.2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 50 /TXCAN))
+    (pad 7 smd rect (at -4.25 2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 51 /RXCAN))
+    (pad 8 smd rect (at -4.25 2.8 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 26 /ProgrammingLED1))
+    (pad 9 smd rect (at -2.8 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 17 /ProgrammingLED2))
+    (pad 10 smd rect (at -2 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 6 "Net-(C9-Pad1)"))
+    (pad 11 smd rect (at -1.2 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 5 "Net-(C8-Pad1)"))
+    (pad 12 smd rect (at -0.4 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 18 /SCK))
+    (pad 13 smd rect (at 0.4 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 22 /SenseBMS))
+    (pad 14 smd rect (at 1.2 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 24 /SenseIMD))
+    (pad 15 smd rect (at 2 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 25 /SenseMainTSConn))
+    (pad 16 smd rect (at 2.8 4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 52 /SenseConnToHVD))
+    (pad 17 smd rect (at 4.25 2.8 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 20 /AIR+LSD))
+    (pad 18 smd rect (at 4.25 2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 21 /PrechargeCTL))
+    (pad 19 smd rect (at 4.25 1.2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 42 "Net-(C5-Pad1)"))
+    (pad 20 smd rect (at 4.25 0.4 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 21 smd rect (at 4.25 -0.4 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 19 "Net-(IC1-Pad21)"))
+    (pad 22 smd rect (at 4.25 -1.2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 53 /AIR-_Weld_Detect))
+    (pad 23 smd rect (at 4.25 -2 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 54 "Net-(IC1-Pad23)"))
+    (pad 24 smd rect (at 4.25 -2.8 45) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 55 "Net-(IC1-Pad24)"))
+    (pad 25 smd rect (at 2.8 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 23 "Net-(IC1-Pad25)"))
+    (pad 26 smd rect (at 2 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 56 "Net-(IC1-Pad26)"))
+    (pad 27 smd rect (at 1.2 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 57 "Net-(IC1-Pad27)"))
+    (pad 28 smd rect (at 0.4 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 58 "Net-(IC1-Pad28)"))
+    (pad 29 smd rect (at -0.4 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 39 /IMDStatus))
+    (pad 30 smd rect (at -1.2 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 40 /BMSStatus))
+    (pad 31 smd rect (at -2 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+      (net 27 /RESET))
+    (pad 32 smd rect (at -2.8 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (net 28 "Net-(IC1-Pad32)"))
     (model Housings_QFP.3dshapes/TQFP-32_7x7mm_Pitch0.8mm.wrl
       (at (xyz 0 0 0))
@@ -1405,7 +2200,11 @@
   )
 
   (module footprints:Ultrafit_4 (layer F.Cu) (tedit 59F24F6F) (tstamp 5A77C39C)
+<<<<<<< HEAD
     (at 162.167401 144.867401)
+=======
+    (at 87.237401 110.577401)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (path /5A77CC96)
     (fp_text reference J1 (at 5.08 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1439,7 +2238,11 @@
   )
 
   (module footprints:Ultrafit_2 (layer F.Cu) (tedit 59F11364) (tstamp 5A77C3A3)
+<<<<<<< HEAD
     (at 177.177401 149.844401)
+=======
+    (at 99.277401 107.074401)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (path /5A796BE4)
     (fp_text reference J2 (at 5.08 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1469,7 +2272,11 @@
   )
 
   (module footprints:micromatch_female_ra_18 (layer F.Cu) (tedit 59EE7F29) (tstamp 5A77C3B9)
+<<<<<<< HEAD
     (at 157.817401 117.467401)
+=======
+    (at 67.31 71.12)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (path /5A77B032)
     (fp_text reference J3 (at 5.08 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1526,12 +2333,17 @@
   )
 
   (module footprints:Ultrafit_2 (layer F.Cu) (tedit 59F11364) (tstamp 5A77C3C0)
+<<<<<<< HEAD
     (at 198.717401 126.760116)
+=======
+    (at 123.787401 92.470116)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (path /59EEAA8E)
     (fp_text reference J4 (at 5.08 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PrechargeRelay (at 4.572 0.508 90) (layer F.Fab) hide
+<<<<<<< HEAD
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.588 -2.032) (end -2.54 -2.032) (layer F.Fab) (width 0.15))
@@ -1562,6 +2374,8 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value AIR+ (at 4.572 0.508 90) (layer F.Fab) hide
+=======
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.588 -2.032) (end -2.54 -2.032) (layer F.Fab) (width 0.15))
@@ -1579,6 +2393,7 @@
     (fp_line (start -2.42 5.65) (end -2.42 -2.15) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.302 5.65) (end 3.302 -2.15) (layer F.SilkS) (width 0.15))
     (pad 2 thru_hole circle (at 0 0) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
+<<<<<<< HEAD
       (net 41 "Net-(C2-Pad2)"))
     (pad 1 thru_hole circle (at 0 3.5) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 38 /ShutdownIn))
@@ -1671,13 +2486,185 @@
       (net 59 /Aux_Contact-))
     (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
       (at (xyz 0 0 0))
+=======
+      (net 38 /ShutdownIn))
+    (pad 1 thru_hole circle (at 0 3.5) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
+      (net 10 "Net-(D7-Pad2)"))
+    (pad "" thru_hole circle (at 2.23 1.75) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
+  )
+
+  (module footprints:Ultrafit_2 (layer F.Cu) (tedit 59F11364) (tstamp 5A77C3C7)
+    (at 102.247401 115.557401)
+    (path /59EEAB5B)
+    (fp_text reference J5 (at 5.08 5.08) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value AIR+ (at 4.572 0.508 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -5.588 -2.032) (end -2.54 -2.032) (layer F.Fab) (width 0.15))
+    (fp_line (start -2.54 -2.032) (end -2.54 5.588) (layer F.Fab) (width 0.15))
+    (fp_line (start -2.54 5.588) (end -5.588 5.588) (layer F.Fab) (width 0.15))
+    (fp_line (start -5.588 5.588) (end -5.588 -2.032) (layer F.Fab) (width 0.15))
+    (fp_text user "6.55mm Clearance" (at -4.07 1.75 90) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.08)))
+    )
+    (fp_line (start -2.42 -2.15) (end -5.73 -2.15) (layer F.SilkS) (width 0.15))
+    (fp_line (start -5.73 -2.15) (end -5.73 5.65) (layer F.SilkS) (width 0.15))
+    (fp_line (start -5.73 5.65) (end -2.42 5.65) (layer F.SilkS) (width 0.15))
+    (fp_line (start -2.42 5.65) (end 3.302 5.65) (layer F.SilkS) (width 0.15))
+    (fp_line (start -2.42 -2.15) (end 3.302 -2.15) (layer F.SilkS) (width 0.15))
+    (fp_line (start -2.42 5.65) (end -2.42 -2.15) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.302 5.65) (end 3.302 -2.15) (layer F.SilkS) (width 0.15))
+    (pad 2 thru_hole circle (at 0 0) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
+      (net 41 "Net-(C2-Pad2)"))
+    (pad 1 thru_hole circle (at 0 3.5) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
+      (net 38 /ShutdownIn))
+    (pad "" thru_hole circle (at 2.23 1.75) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
+  )
+
+  (module footprints:Pin_Header_Straight_2x03 (layer F.Cu) (tedit 59F24A3E) (tstamp 5A77C3D1)
+    (at 104.925733 84.3974)
+    (descr "Through hole pin header")
+    (tags "pin header")
+    (path /59E10F9E)
+    (fp_text reference J6 (at 1.778 -2.54) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_02X03 (at 1.27 7.874) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1.27 1.27) (end -1.27 6.35) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.55 -1.55) (end 0 -1.55) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 4.3 -1.75) (end 4.3 6.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 -1.75) (end 4.3 -1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 6.85) (end 4.3 6.85) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.27 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.27 6.35) (end 3.81 6.35) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.81 6.35) (end 3.81 1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.55 -1.55) (end -1.55 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.81 -1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer F.SilkS) (width 0.15))
+    (pad 1 thru_hole rect (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+      (net 15 /MISO))
+    (pad 2 thru_hole oval (at 2.54 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+      (net 1 VCC))
+    (pad 3 thru_hole oval (at 0 2.54) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+      (net 18 /SCK))
+    (pad 4 thru_hole oval (at 2.54 2.54) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+      (net 16 /MOSI))
+    (pad 5 thru_hole oval (at 0 5.08) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+      (net 27 /RESET))
+    (pad 6 thru_hole oval (at 2.54 5.08) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+      (net 2 GND))
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03.wrl
+      (at (xyz 0.05 -0.1 0))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
+  )
+
+<<<<<<< HEAD
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C414)
+    (at 210.406686 155.1874)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A7994DD)
+    (attr smd)
+    (fp_text reference R2 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_100k (at 0 1.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.55 -0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 59 /Aux_Contact-))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+=======
+  (module footprints:4.7uH_Inductor_OEM (layer F.Cu) (tedit 59D2CA8F) (tstamp 5A77C3D7)
+    (at 103.886 48.514)
+    (path /59E04875)
+    (fp_text reference L1 (at 0 5.08) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value L_4.7uH (at 0 -5.08) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+    )
+    (pad 1 smd rect (at -2.35 0) (size 3.3 8.2) (layers F.Cu F.Paste F.Mask)
+      (net 43 "Net-(C7-Pad2)"))
+    (pad 2 smd rect (at 2.35 0) (size 3.3 8.2) (layers F.Cu F.Paste F.Mask)
+      (net 44 "Net-(C10-Pad1)"))
+  )
+
+<<<<<<< HEAD
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C41A)
+    (at 235.130495 134.5774)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A7994D3)
+    (attr smd)
+    (fp_text reference R3 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_10k (at 0 1.75) (layer F.Fab) hide
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C40E)
+    (at 166.614305 95.2374)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A7994F2)
+    (attr smd)
+    (fp_text reference R1 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_1k (at 0 1.75) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.55 -0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
+=======
+      (net 29 "Net-(D2-Pad2)"))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 59 /Aux_Contact-))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C414)
-    (at 210.406686 155.1874)
+    (at 169.426686 82.9374)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7994DD)
@@ -1710,7 +2697,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C41A)
-    (at 235.130495 134.5774)
+    (at 149.560495 111.4174)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7994D3)
@@ -1732,10 +2719,13 @@
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (net 1 VCC))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 53 /AIR-_Weld_Detect))
     (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+<<<<<<< HEAD
+=======
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1743,7 +2733,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C420)
-    (at 243.254305 135.2274)
+    (at 105.794305 124.2374)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A77D9A1)
@@ -1776,7 +2766,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C426)
-    (at 233.791924 145.5074)
+    (at 159.191924 121.9174)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A77F213)
@@ -1798,6 +2788,136 @@
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 21 /PrechargeCTL))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 8 "Net-(D4-Pad2)"))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C42C)
+    (at 154.340495 121.7674)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /59F17A43)
+    (attr smd)
+    (fp_text reference R6 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_10k (at 0 1.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.55 -0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 21 /PrechargeCTL))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+<<<<<<< HEAD
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C420)
+    (at 243.254305 135.2274)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A77D9A1)
+    (attr smd)
+    (fp_text reference R4 (at 0 -1.65) (layer F.SilkS)
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C432)
+    (at 163.704305 111.2874)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A26385E)
+    (attr smd)
+    (fp_text reference R7 (at 0 -1.65) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_1k (at 0 1.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.55 -0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
+      (net 38 /ShutdownIn))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 7 "Net-(D3-Pad2)"))
+=======
+      (net 9 "Net-(D5-Pad2)"))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 61 /ShutdownSenseConnToHVD))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+<<<<<<< HEAD
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C426)
+    (at 233.791924 145.5074)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A77F213)
+    (attr smd)
+    (fp_text reference R5 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_200 (at 0 1.75) (layer F.Fab) hide
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C438)
+    (at 168.954305 105.9374)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A785710)
+    (attr smd)
+    (fp_text reference R8 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_1k (at 0 1.75) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.6 0.88) (end -0.6 0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.6 -0.88) (end 0.6 -0.88) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.55 -0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 21 /PrechargeCTL))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(D4-Pad2)"))
@@ -1867,6 +2987,11 @@
       (net 9 "Net-(D5-Pad2)"))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 61 /ShutdownSenseConnToHVD))
+=======
+      (net 33 "Net-(D6-Pad2)"))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 32 /ShutdownSenseMainTSConn))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1874,6 +2999,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C438)
     (at 247.744305 122.4274)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
@@ -1884,6 +3010,18 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_1k (at 0 1.75) (layer F.Fab) hide
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C43E)
+    (at 154.946686 100.5174)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /59F12807)
+    (attr smd)
+    (fp_text reference R9 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_100k (at 0 1.75) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -1897,9 +3035,15 @@
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 33 "Net-(D6-Pad2)"))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 32 /ShutdownSenseMainTSConn))
+=======
+      (net 61 /ShutdownSenseConnToHVD))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1907,6 +3051,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C43E)
     (at 213.036686 149.5874)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
@@ -1914,6 +3059,15 @@
     (path /59F12807)
     (attr smd)
     (fp_text reference R9 (at 0 -1.65) (layer F.SilkS)
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C444)
+    (at 135.476686 120.8974)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A7856FB)
+    (attr smd)
+    (fp_text reference R10 (at 0 -1.65) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_100k (at 0 1.75) (layer F.Fab) hide
@@ -1930,7 +3084,11 @@
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 61 /ShutdownSenseConnToHVD))
+=======
+      (net 32 /ShutdownSenseMainTSConn))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
@@ -1940,6 +3098,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C444)
     (at 229.876686 134.8074)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
@@ -1950,6 +3109,18 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_100k (at 0 1.75) (layer F.Fab) hide
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C44A)
+    (at 159.331924 116.5674)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /59F23415)
+    (attr smd)
+    (fp_text reference R11 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_200 (at 0 1.75) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -1963,9 +3134,15 @@
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 32 /ShutdownSenseMainTSConn))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
+=======
+      (net 26 /ProgrammingLED1))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 11 "Net-(D8-Pad2)"))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1973,6 +3150,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C44A)
     (at 224.091924 150.8574)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
@@ -1983,6 +3161,18 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_200 (at 0 1.75) (layer F.Fab) hide
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C450)
+    (at 159.730495 105.8674)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /59F127F3)
+    (attr smd)
+    (fp_text reference R12 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_10k (at 0 1.75) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -1996,9 +3186,15 @@
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 26 /ProgrammingLED1))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 11 "Net-(D8-Pad2)"))
+=======
+      (net 1 VCC))
+    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+      (net 52 /SenseConnToHVD))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2006,6 +3202,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C450)
     (at 228.940495 145.5074)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
@@ -2051,6 +3248,20 @@
     (fp_text value R_10k (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+=======
+  (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C456)
+    (at 149.330495 122.1174)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (path /5A7856F1)
+    (attr smd)
+    (fp_text reference R13 (at 0 -1.65) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_10k (at 0 1.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
@@ -2073,7 +3284,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C45C)
+<<<<<<< HEAD
     (at 224.091924 145.5074)
+=======
+    (at 154.411924 116.4174)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59F22E7B)
@@ -2106,7 +3321,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C462)
+<<<<<<< HEAD
     (at 242.091924 129.8774)
+=======
+    (at 164.581924 105.9374)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A78013C)
@@ -2139,7 +3358,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C468)
+<<<<<<< HEAD
     (at 215.660495 154.9374)
+=======
+    (at 159.260495 111.2174)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59F1937A)
@@ -2172,7 +3395,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C46E)
+<<<<<<< HEAD
     (at 239.434305 135.2274)
+=======
+    (at 165.454305 100.5874)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7854DA)
@@ -2205,7 +3432,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C474)
+<<<<<<< HEAD
     (at 180.724305 158.5274)
+=======
+    (at 145.034305 120.4974)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7870BD)
@@ -2238,7 +3469,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C47A)
+<<<<<<< HEAD
     (at 218.766686 149.5874)
+=======
+    (at 161.836686 95.0874)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7854C3)
@@ -2271,7 +3506,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C480)
+<<<<<<< HEAD
     (at 229.406686 140.1574)
+=======
+    (at 168.036686 89.8874)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7870A8)
@@ -2304,7 +3543,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C486)
+<<<<<<< HEAD
     (at 242.320495 151.2774)
+=======
+    (at 170.910495 95.2374)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7854B9)
@@ -2337,7 +3580,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C48C)
+<<<<<<< HEAD
     (at 237.540495 151.2774)
+=======
+    (at 149.560495 116.7674)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A78709E)
@@ -2370,7 +3617,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C492)
+<<<<<<< HEAD
     (at 243.631924 145.9274)
+=======
+    (at 154.411924 111.0674)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E06840)
@@ -2403,7 +3654,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C498)
+<<<<<<< HEAD
     (at 247.074305 135.2274)
+=======
+    (at 87.884 59.436)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E0432B)
@@ -2436,7 +3691,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C49E)
+<<<<<<< HEAD
     (at 229.180495 156.2074)
+=======
+    (at 93.218 61.976)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E042A3)
@@ -2469,7 +3728,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C4A4)
+<<<<<<< HEAD
     (at 239.440495 140.5774)
+=======
+    (at 84.836 53.086)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E042EA)
@@ -2502,7 +3765,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C4AA)
+<<<<<<< HEAD
     (at 223.914781 134.8074)
+=======
+    (at 99.822 65.024)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E0438C)
@@ -2535,7 +3802,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C4B0)
+<<<<<<< HEAD
     (at 238.711924 145.9274)
+=======
+    (at 164.111924 121.9874)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A78F4CE)
@@ -2568,7 +3839,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C4B6)
+<<<<<<< HEAD
     (at 244.291924 140.5774)
+=======
+    (at 169.031924 116.6374)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A78F699)
@@ -2601,7 +3876,11 @@
   )
 
   (module footprints:R_2512_OEM (layer F.Cu) (tedit 59F2514A) (tstamp 5A77C4BC)
+<<<<<<< HEAD
     (at 221.110972 126.1874)
+=======
+    (at 92.964 45.466)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 2512")
     (path /59E0444E)
@@ -2634,7 +3913,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C4C2)
+<<<<<<< HEAD
     (at 232.760495 150.8574)
+=======
+    (at 164.180495 116.6374)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E087A5)
@@ -2667,7 +3950,11 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5A77C4C8)
+<<<<<<< HEAD
     (at 224.331924 156.2074)
+=======
+    (at 106.172 66.04)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E04401)
@@ -2700,7 +3987,11 @@
   )
 
   (module footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM (layer F.Cu) (tedit 59F25ACD) (tstamp 5A77C4D4)
+<<<<<<< HEAD
     (at 174.45002 133.6974)
+=======
+    (at 99.52002 99.4074)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /59E1176B)
@@ -2751,7 +4042,11 @@
   )
 
   (module footprints:SOT-23-6_OEM (layer F.Cu) (tedit 59F2519B) (tstamp 5A77C4DE)
+<<<<<<< HEAD
     (at 208.856686 137.6574)
+=======
+    (at 105.918 58.42)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "6-pin SOT-23 package")
     (tags SOT-23-6)
     (path /59E04993)
@@ -2793,15 +4088,26 @@
   )
 
   (module footprints:Crystal_SMD_FA238 (layer F.Cu) (tedit 59F247A7) (tstamp 5A77C4E6)
+<<<<<<< HEAD
     (at 199.59001 143.73932)
+=======
+    (at 130.81 144.78 180)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr "crystal Epson Toyocom FA-238 series http://www.mouser.com/ds/2/137/1721499-465440.pdf, hand-soldering, 3.2x2.5mm^2 package")
     (tags "SMD SMT crystal hand-soldering")
     (path /59E10C38)
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference Y1 (at -0.67564 -2.66192) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Crystal_SMD (at 0.0762 2.42316) (layer F.Fab) hide
+=======
+    (fp_text reference Y1 (at -1.016 2.54 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Crystal_SMD (at 0.0762 2.42316 180) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -1.6) (end 0 -1.6) (layer F.SilkS) (width 0.1))
@@ -2814,6 +4120,7 @@
     (fp_line (start -1.5 1.25) (end -1.6 1.15) (layer F.Fab) (width 0.1))
     (fp_line (start -1.6 1.15) (end -1.6 -1.15) (layer F.Fab) (width 0.1))
     (fp_line (start -1.6 -1.15) (end -1.5 -1.25) (layer F.Fab) (width 0.1))
+<<<<<<< HEAD
     (pad 1 smd rect (at -1.1 0.8) (size 1.4 1.2) (layers F.Cu F.Mask)
       (net 5 "Net-(C8-Pad1)"))
     (pad 2 smd rect (at 1.1 0.8) (size 1.4 1.2) (layers F.Cu F.Mask)
@@ -2823,6 +4130,16 @@
     (pad 4 smd rect (at -1.1 -0.8) (size 1.4 1.2) (layers F.Cu F.Mask)
       (net 2 GND))
     (model Crystals.3dshapes/Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering.wrl
+=======
+    (pad 1 smd rect (at -1.1 0.8 180) (size 1.4 1.2) (layers F.Cu F.Mask)
+      (net 5 "Net-(C8-Pad1)"))
+    (pad 2 smd rect (at 1.1 0.8 180) (size 1.4 1.2) (layers F.Cu F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.1 -0.8 180) (size 1.4 1.2) (layers F.Cu F.Mask)
+      (net 6 "Net-(C9-Pad1)"))
+    (pad 4 smd rect (at -1.1 -0.8 180) (size 1.4 1.2) (layers F.Cu F.Mask)
+      (net 2 GND))
+    (model Crystals.3dshapes/Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.24 0.24 0.24))
       (rotate (xyz 0 0 0))
@@ -2830,7 +4147,7 @@
   )
 
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A79122D)
-    (at 210.666686 123.3574)
+    (at 146.556686 78.3574)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5A7994FC)
@@ -2861,12 +4178,70 @@
     (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 53 /AIR-_Weld_Detect))
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+      (at (xyz 0 0 0))
+      (scale (xyz 0.24 0.24 0.24))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+<<<<<<< HEAD
+  (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A79122D)
+    (at 210.666686 123.3574)
+    (descr "SOT-23, Standard")
+    (tags SOT-23)
+    (path /5A7994FC)
+    (attr smd)
+    (fp_text reference Q1 (at 0 -2.5) (layer F.SilkS)
+=======
+  (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791240)
+    (at 111.226686 107.4274)
+    (descr "SOT-23, Standard")
+    (tags SOT-23)
+    (path /59F17390)
+    (attr smd)
+    (fp_text reference Q2 (at 0 -2.5) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value NMOS_GSD_30V (at 0 2.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.7 -0.95) (end -0.7 1.5) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.15 -1.52) (end 0.7 -1.52) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.7 -0.95) (end -0.15 -1.52) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.7 -1.52) (end 0.7 1.52) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.7 1.52) (end 0.7 1.52) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.76 1.58) (end 0.76 0.65) (layer F.SilkS) (width 0.12))
+    (fp_line (start 0.76 -1.58) (end 0.76 -0.65) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.7 -1.75) (end 1.7 -1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.7 -1.75) (end 1.7 1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.7 1.75) (end -1.7 1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.7 1.75) (end -1.7 -1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 0.76 -1.58) (end -1.4 -1.58) (layer F.SilkS) (width 0.12))
+    (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
+    (pad 1 smd rect (at -1.05 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
+      (net 59 /Aux_Contact-))
+    (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 53 /AIR-_Weld_Detect))
+=======
+      (net 21 /PrechargeCTL))
+    (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 10 "Net-(D7-Pad2)"))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
+<<<<<<< HEAD
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791240)
     (at 198.626686 136.6274)
     (descr "SOT-23, Standard")
@@ -2874,6 +4249,15 @@
     (path /59F17390)
     (attr smd)
     (fp_text reference Q2 (at 0 -2.5) (layer F.SilkS)
+=======
+  (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791253)
+    (at 135.736686 89.0674)
+    (descr "SOT-23, Standard")
+    (tags SOT-23)
+    (path /59F127FD)
+    (attr smd)
+    (fp_text reference Q3 (at 0 -2.5) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value NMOS_GSD_30V (at 0 2.5) (layer F.Fab) hide
@@ -2893,11 +4277,19 @@
     (fp_line (start 0.76 -1.58) (end -1.4 -1.58) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
     (pad 1 smd rect (at -1.05 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 21 /PrechargeCTL))
     (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(D7-Pad2)"))
+=======
+      (net 61 /ShutdownSenseConnToHVD))
+    (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 52 /SenseConnToHVD))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2905,6 +4297,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791253)
     (at 221.486686 112.6474)
     (descr "SOT-23, Standard")
@@ -2912,6 +4305,15 @@
     (path /59F127FD)
     (attr smd)
     (fp_text reference Q3 (at 0 -2.5) (layer F.SilkS)
+=======
+  (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791266)
+    (at 123.696686 102.3374)
+    (descr "SOT-23, Standard")
+    (tags SOT-23)
+    (path /5A78571A)
+    (attr smd)
+    (fp_text reference Q4 (at 0 -2.5) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value NMOS_GSD_30V (at 0 2.5) (layer F.Fab) hide
@@ -2931,11 +4333,19 @@
     (fp_line (start 0.76 -1.58) (end -1.4 -1.58) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
     (pad 1 smd rect (at -1.05 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 61 /ShutdownSenseConnToHVD))
     (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 52 /SenseConnToHVD))
+=======
+      (net 32 /ShutdownSenseMainTSConn))
+    (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 25 /SenseMainTSConn))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2943,6 +4353,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791266)
     (at 233.216686 112.6474)
     (descr "SOT-23, Standard")
@@ -2950,6 +4361,15 @@
     (path /5A78571A)
     (attr smd)
     (fp_text reference Q4 (at 0 -2.5) (layer F.SilkS)
+=======
+  (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791279)
+    (at 114.196686 114.3774)
+    (descr "SOT-23, Standard")
+    (tags SOT-23)
+    (path /59F18F85)
+    (attr smd)
+    (fp_text reference Q5 (at 0 -2.5) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value NMOS_GSD_30V (at 0 2.5) (layer F.Fab) hide
@@ -2969,11 +4389,19 @@
     (fp_line (start 0.76 -1.58) (end -1.4 -1.58) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
     (pad 1 smd rect (at -1.05 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 32 /ShutdownSenseMainTSConn))
     (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 25 /SenseMainTSConn))
+=======
+      (net 20 /AIR+LSD))
+    (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 41 "Net-(C2-Pad2)"))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2981,6 +4409,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A791279)
     (at 186.156686 141.7174)
     (descr "SOT-23, Standard")
@@ -2988,6 +4417,15 @@
     (path /59F18F85)
     (attr smd)
     (fp_text reference Q5 (at 0 -2.5) (layer F.SilkS)
+=======
+  (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A79128C)
+    (at 158.286686 78.3574)
+    (descr "SOT-23, Standard")
+    (tags SOT-23)
+    (path /5A7854E4)
+    (attr smd)
+    (fp_text reference Q6 (at 0 -2.5) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value NMOS_GSD_30V (at 0 2.5) (layer F.Fab) hide
@@ -3007,11 +4445,19 @@
     (fp_line (start 0.76 -1.58) (end -1.4 -1.58) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
     (pad 1 smd rect (at -1.05 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 20 /AIR+LSD))
     (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 41 "Net-(C2-Pad2)"))
+=======
+      (net 30 /ShutdownSenseBMS))
+    (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 22 /SenseBMS))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3019,6 +4465,7 @@
     )
   )
 
+<<<<<<< HEAD
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A79128C)
     (at 189.126686 148.6674)
     (descr "SOT-23, Standard")
@@ -3026,6 +4473,15 @@
     (path /5A7854E4)
     (attr smd)
     (fp_text reference Q6 (at 0 -2.5) (layer F.SilkS)
+=======
+  (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5A79129F)
+    (at 135.736686 96.0174)
+    (descr "SOT-23, Standard")
+    (tags SOT-23)
+    (path /5A7870C7)
+    (attr smd)
+    (fp_text reference Q7 (at 0 -2.5) (layer F.SilkS)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value NMOS_GSD_30V (at 0 2.5) (layer F.Fab) hide
@@ -3045,15 +4501,24 @@
     (fp_line (start 0.76 -1.58) (end -1.4 -1.58) (layer F.SilkS) (width 0.12))
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
     (pad 1 smd rect (at -1.05 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+<<<<<<< HEAD
       (net 30 /ShutdownSenseBMS))
     (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 22 /SenseBMS))
+=======
+      (net 31 /ShutdownSenseIMD))
+    (pad 2 smd rect (at -1.05 0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (pad 3 smd rect (at 1.05 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 24 /SenseIMD))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+<<<<<<< HEAD
     )
   )
 
@@ -3094,5 +4559,95 @@
       (rotate (xyz 0 0 0))
     )
   )
+=======
+    )
+  )
+
+  (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A7B2842)
+    (at 112.776 50.8)
+    (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
+    (tags "capacitor 0805")
+    (path /5A7B3280)
+    (attr smd)
+    (fp_text reference C11 (at 0 -1.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value C_1uF (at 0 1.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.75 -0.88) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 -0.88) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.75 0.87) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 44 "Net-(C10-Pad1)"))
+    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5A7B2848)
+    (at 113.792 58.42)
+    (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
+    (tags "capacitor 0805")
+    (path /5A7B3358)
+    (attr smd)
+    (fp_text reference C12 (at 0 -1.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value C_0.1uF (at 0 1.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.75 -0.88) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 -0.88) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.75 0.87) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 44 "Net-(C10-Pad1)"))
+    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (segment (start 134.112 145.78) (end 132.11 145.78) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 132.11 145.78) (end 131.91 145.58) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 131.81 147.574) (end 131.81 145.68) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 131.81 145.68) (end 131.91 145.58) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 129.71 143.98) (end 130.21 143.98) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 130.21 143.98) (end 131.81 145.58) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 131.81 145.58) (end 131.91 145.58) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 134.112 143.78) (end 132.11 143.78) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 132.11 143.78) (end 131.91 143.98) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 131.91 143.98) (end 131.91 143.126) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 131.91 143.126) (end 130.434127 141.650127) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 130.434127 141.650127) (end 128.523071 141.650127) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 128.523071 141.650127) (end 127.886676 141.013732) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 129.81 147.574) (end 129.81 145.68) (width 0.254) (layer F.Cu) (net 6))
+  (segment (start 129.81 145.68) (end 129.71 145.58) (width 0.254) (layer F.Cu) (net 6))
+  (segment (start 129.71 145.58) (end 128.756 145.58) (width 0.254) (layer F.Cu) (net 6))
+  (segment (start 128.756 145.58) (end 127.957385 144.781385) (width 0.254) (layer F.Cu) (net 6))
+  (segment (start 127.957385 144.781385) (end 127.957385 142.215812) (width 0.254) (layer F.Cu) (net 6))
+  (segment (start 127.957385 142.215812) (end 127.32099 141.579417) (width 0.254) (layer F.Cu) (net 6))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 
 )

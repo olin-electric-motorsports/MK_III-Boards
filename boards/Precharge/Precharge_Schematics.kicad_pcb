@@ -2,10 +2,17 @@
 
   (general
     (links 5)
+<<<<<<< HEAD
     (no_connects 2)
     (area 115.672399 67.247203 182.772401 110.384035)
     (thickness 1.6)
     (drawings 36)
+=======
+    (no_connects 0)
+    (area 116.502599 67.147399 183.602601 110.247401)
+    (thickness 1.6)
+    (drawings 32)
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (tracks 14)
     (zones 0)
     (modules 5)
@@ -126,7 +133,7 @@
     (fp_text reference J3 (at -13.4672 -0.7646 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Ultrafit_2 (at 4.572 0.508 360) (layer F.Fab) hide
+    (fp_text value TS+ (at 4.572 0.508 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.588 -2.032) (end -2.54 -2.032) (layer F.Fab) (width 0.15))
@@ -218,7 +225,7 @@
     (fp_text reference J1 (at -4.12 -1.044 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Ultrafit_2 (at 4.572 0.508 360) (layer F.Fab) hide
+    (fp_text value BAT+ (at 4.572 0.508 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.588 -2.032) (end -2.54 -2.032) (layer F.Fab) (width 0.15))
@@ -253,7 +260,11 @@
     (fp_text reference J2 (at 9.0678 0.5917 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+<<<<<<< HEAD
     (fp_text value Ultrafit_2 (at 4.572 0.508 360) (layer F.Fab) hide
+=======
+    (fp_text value Shutdown_LSD (at 4.572 0.508 360) (layer F.Fab) hide
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.588 -2.032) (end -2.54 -2.032) (layer F.Fab) (width 0.15))
@@ -286,7 +297,7 @@
     (at 139.446 80.518)
     (descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 2W, length*width=11*7mm^2, http://www.vishay.com/docs/30218/cpcx.pdf")
     (tags "Resistor Radial_Power series Radial pin pitch 5.00mm 2W length 11mm width 7mm")
-    (path /5A767EE3)
+    (path /5A792106)
     (fp_text reference R1 (at -14.605 -11.303 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -335,28 +346,27 @@
     )
   )
 
+<<<<<<< HEAD
+=======
+  (gr_circle (center 120.5526 71.1974) (end 122.18455 71.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 183.5526 71.1974) (end 183.5526 106.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 179.5526 67.1974) (end 120.5526 67.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 120.5526 106.1974) (end 122.18455 106.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 120.5526 71.1974) (end 120.5526 67.1974) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 179.5526 71.1974) (end 183.5526 71.1974) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 179.5526 106.1974) (end 181.18455 106.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 120.5526 106.1974) (end 116.5526 106.1974) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 179.5526 110.1974) (end 120.5526 110.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 116.5526 71.1974) (end 116.5526 106.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 179.5526 71.1974) (end 181.18455 71.1974) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 179.5526 106.1974) (end 179.5526 110.1974) (angle -90) (layer Edge.Cuts) (width 0.1))
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   (gr_text SD_IN (at 178.3842 85.9282) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.22225)))
   )
   (gr_text LSD (at 174.8028 85.7758 90) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.1905)))
   )
-  (gr_arc (start 178.7224 71.334034) (end 182.7224 71.334034) (angle -90) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 178.7224 71.334034) (end 180.35435 71.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 178.7224 106.334034) (end 178.7224 110.334034) (angle -90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 115.7224 71.334034) (end 115.7224 106.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 178.7224 67.334034) (end 119.7224 67.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 182.7224 71.334034) (end 182.7224 106.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 178.7224 110.334034) (end 119.7224 110.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 178.7224 106.334034) (end 180.35435 106.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 119.7224 106.334034) (end 115.7224 106.334034) (angle -90) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 119.7224 106.334034) (end 121.35435 106.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 119.7224 71.334034) (end 119.7224 67.334034) (angle -90) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 119.7224 71.334034) (end 121.35435 71.334034) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 182.7224 75.297204) (end 182.7224 102.297204) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 174.7224 110.297204) (end 123.7224 110.297204) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 115.7224 75.297204) (end 115.7224 102.297204) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 174.7224 67.297204) (end 123.7224 67.297204) (layer Edge.Cuts) (width 0.1))
   (gr_text TS+ (at 139.6492 104.0892) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )

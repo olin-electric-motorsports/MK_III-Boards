@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:suspension_strain-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -2171,7 +2172,7 @@ F 7 "Value" H 2000 5650 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_female_RA_12 J2
+L micromatch_female_RA_12-RESCUE-suspension_strain J2
 U 1 1 59FC0B21
 P 2000 6450
 F 0 "J2" H 1900 7650 60  0000 C CNN
