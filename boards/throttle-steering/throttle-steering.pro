@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+update=Sun 04 Feb 2018 03:18:40 PM EST
+=======
 update=Sun 11 Feb 2018 11:15:02 AM EST
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +77,46 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=118
+<<<<<<< HEAD
+[general]
+version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=throttle-steering-rescue
+LibName2=power
+LibName3=device
+LibName4=switches
+LibName5=relays
+LibName6=motors
+LibName7=transistors
+LibName8=conn
+LibName9=linear
+LibName10=regul
+LibName11=74xx
+LibName12=cmos4000
+LibName13=adc-dac
+LibName14=memory
+LibName15=xilinx
+LibName16=microcontrollers
+LibName17=dsp
+LibName18=microchip
+LibName19=analog_switches
+LibName20=motorola
+LibName21=texas
+LibName22=intel
+LibName23=audio
+LibName24=interface
+LibName25=digital-audio
+LibName26=philips
+LibName27=display
+LibName28=cypress
+LibName29=siliconi
+LibName30=opto
+LibName31=atmel
+LibName32=contrib
+LibName33=valves
+LibName34=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
+=======
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
