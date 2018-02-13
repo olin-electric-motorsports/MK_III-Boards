@@ -145,7 +145,7 @@ U 1 1 5A77324C
 P 1000 3200
 F 0 "J2" H 750 5000 60  0000 C CNN
 F 1 "EXTERNAL" H 700 1400 60  0000 L CNN
-F 2 "" H 800 4550 60  0001 C CNN
+F 2 "footprints:Ampseal_35" H 800 4550 60  0001 C CNN
 F 3 "" H 800 4550 60  0001 C CNN
 	1    1000 3200
 	1    0    0    -1  
@@ -287,29 +287,29 @@ Text Label 5050 3750 0    60   ~ 0
 BMS_STATUS
 Text Label 5050 3850 0    60   ~ 0
 IMD_LATCH_STATUS
-Text Label 5250 4400 0    60   ~ 0
+Text Label 5050 4400 0    60   ~ 0
 BMS_5V_OUT
-Text Label 5250 4500 0    60   ~ 0
+Text Label 5050 4500 0    60   ~ 0
 MOSI_BMS
-Text Label 5250 4600 0    60   ~ 0
+Text Label 5050 4600 0    60   ~ 0
 MISO_BMS
-Text Label 5250 4700 0    60   ~ 0
+Text Label 5050 4700 0    60   ~ 0
 SCK_BMS
-Text Label 5250 4800 0    60   ~ 0
+Text Label 5050 4800 0    60   ~ 0
 BMS_RESET
-Text Label 5250 4900 0    60   ~ 0
+Text Label 5050 4900 0    60   ~ 0
 CAN_HIGH
-Text Label 5250 5000 0    60   ~ 0
+Text Label 5050 5000 0    60   ~ 0
 CAN_LOW
-Text Label 5250 5100 0    60   ~ 0
+Text Label 5050 5100 0    60   ~ 0
 BMS_LED_1
-Text Label 5250 5200 0    60   ~ 0
+Text Label 5050 5200 0    60   ~ 0
 BMS_LED_2
-Text Label 5250 5300 0    60   ~ 0
+Text Label 5050 5300 0    60   ~ 0
 FAN_PWM
-Text Label 5250 5400 0    60   ~ 0
+Text Label 5050 5400 0    60   ~ 0
 BMS_STATUS
-Text Label 5250 5500 0    60   ~ 0
+Text Label 5050 5500 0    60   ~ 0
 BSPD_CURRENT_SENSE
 Text Label 5050 1900 0    60   ~ 0
 GND
@@ -413,14 +413,18 @@ GND
 Text Label 3250 1300 0    60   ~ 0
 12V
 $Comp
-L MicroFit_12 J7
-U 1 1 5A7D1B20
-P 4700 4200
-F 0 "J7" H 4950 4100 60  0000 C CNN
-F 1 "BMS" H 5150 2800 60  0000 C CNN
-F 2 "" H 4700 4200 60  0001 C CNN
-F 3 "" H 4700 4200 60  0001 C CNN
-	1    4700 4200
+L micromatch_female_TOP_ENTRY_locking_12 J7
+U 1 1 5A825107
+P 4800 4950
+F 0 "J7" H 4800 5600 60  0000 C CNN
+F 1 "BMS" H 4850 4250 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 4700 5500 60  0001 C CNN
+F 3 "" H 4800 5600 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-2/A99503CT-ND/1955736" H 4900 5700 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 5000 5800 60  0001 C CNN "MFN"
+F 6 "A99503CT-ND" H 5000 6450 60  0001 C CNN "MPN"
+F 7 "Value" H 5100 6550 60  0001 C CNN "Package"
+	1    4800 4950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
