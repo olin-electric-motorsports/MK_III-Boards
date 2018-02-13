@@ -34,7 +34,7 @@ LIBS:formula
 LIBS:LV_Interface_Board-cache
 EELAYER 25 0
 EELAYER END
-$Descr A 11000 8500
+$Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -47,25 +47,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L micromatch_male_4 J9
-U 1 1 5A74DC14
-P 5845 6175
-F 0 "J9" H 5845 6325 60  0000 C CNN
-F 1 "micromatch_male_4" H 5845 5825 60  0000 C CNN
-F 2 "" H 5745 6225 60  0001 C CNN
-F 3 "" H 5845 6325 60  0001 C CNN
-F 4 "A107034CT-ND" H 5895 5925 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5845 5875 60  0001 C CNN "MFN"
-F 6 "Value" H 5845 5875 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-4/A107034CT-ND/3488595" H 6145 7775 60  0001 C CNN "PurchasingLink"
-	1    5845 6175
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR5
+L GND #PWR01
 U 1 1 5A74E31D
 P 6265 6000
-F 0 "#PWR5" H 6265 5750 50  0001 C CNN
+F 0 "#PWR01" H 6265 5750 50  0001 C CNN
 F 1 "GND" H 6265 5850 50  0000 C CNN
 F 2 "" H 6265 6000 50  0000 C CNN
 F 3 "" H 6265 6000 50  0000 C CNN
@@ -85,18 +70,16 @@ Wire Notes Line
 Wire Notes Line
 	6660 5750 6660 6730
 Wire Notes Line
-	6660 6730 5365 6730
-Wire Notes Line
-	5365 6730 5365 5750
+	5365 5750 5365 8225
 Wire Notes Line
 	5365 5750 5625 5750
 Text Notes 5670 5735 0    60   ~ 0
 DATA LOGGER\n
 $Comp
-L GND #PWR3
+L GND #PWR02
 U 1 1 5A750CFB
 P 3975 1225
-F 0 "#PWR3" H 3975 975 50  0001 C CNN
+F 0 "#PWR02" H 3975 975 50  0001 C CNN
 F 1 "GND" H 3975 1075 50  0000 C CNN
 F 2 "" H 3975 1225 50  0000 C CNN
 F 3 "" H 3975 1225 50  0000 C CNN
@@ -272,10 +255,10 @@ F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR03
 U 1 1 5A751669
 P 4050 5450
-F 0 "#PWR4" H 4050 5200 50  0001 C CNN
+F 0 "#PWR03" H 4050 5200 50  0001 C CNN
 F 1 "GND" H 4050 5300 50  0000 C CNN
 F 2 "" H 4050 5450 50  0000 C CNN
 F 3 "" H 4050 5450 50  0000 C CNN
@@ -334,7 +317,6 @@ Wire Wire Line
 	4025 6825 4025 7325
 Text Label 3850 7425 0    60   ~ 0
 BSPD_STATUS
-NoConn ~ 3850 7525
 Text Label 3850 6025 0    60   ~ 0
 BSPD_TEST_SWITCH+
 Text Label 3850 6125 0    60   ~ 0
@@ -352,10 +334,10 @@ Wire Notes Line
 Text Notes 3450 5200 0    60   ~ 0
 BSPD\n
 $Comp
-L GND #PWR2
+L GND #PWR04
 U 1 1 5A751D89
 P 1475 1725
-F 0 "#PWR2" H 1475 1475 50  0001 C CNN
+F 0 "#PWR04" H 1475 1475 50  0001 C CNN
 F 1 "GND" H 1475 1575 50  0000 C CNN
 F 2 "" H 1475 1725 50  0000 C CNN
 F 3 "" H 1475 1725 50  0000 C CNN
@@ -367,10 +349,10 @@ Wire Wire Line
 Wire Wire Line
 	1475 1600 1475 1725
 $Comp
-L GND #PWR1
+L GND #PWR05
 U 1 1 5A751DCD
 P 1450 4475
-F 0 "#PWR1" H 1450 4225 50  0001 C CNN
+F 0 "#PWR05" H 1450 4225 50  0001 C CNN
 F 1 "GND" H 1450 4325 50  0000 C CNN
 F 2 "" H 1450 4475 50  0000 C CNN
 F 3 "" H 1450 4475 50  0000 C CNN
@@ -470,39 +452,39 @@ Text Label 1250 5350 0    60   ~ 0
 CAN_HIGH
 Text Label 1250 5450 0    60   ~ 0
 CAN_LOW
-Text Label 1250 5550 0    60   ~ 0
-BRAKE_LED1
-Text Label 1250 5650 0    60   ~ 0
-BRAKE_LED2
-Text Label 1250 5750 0    60   ~ 0
-BRAKE_LIGHT_LSD
-Text Label 1250 5850 0    60   ~ 0
-BRAKE_SWITCH+
-Text Label 1250 5950 0    60   ~ 0
-BRAKE_SWITCH-
 Text Label 1250 6050 0    60   ~ 0
-BSPD_BRAKE_SENSE
+BRAKE_LED1
 Text Label 1250 6150 0    60   ~ 0
-BSPD_STATUS
+BRAKE_LED2
+Text Label 1250 5550 0    60   ~ 0
+BRAKE_LIGHT_LSD
+Text Label 1250 5650 0    60   ~ 0
+BRAKE_SWITCH+
+Text Label 1250 5750 0    60   ~ 0
+BRAKE_SWITCH-
+Text Label 1250 5850 0    60   ~ 0
+BSPD_BRAKE_SENSE
 Text Label 1250 6250 0    60   ~ 0
-SDA
+BSPD_STATUS
 Text Label 1250 6350 0    60   ~ 0
-SCL
+SDA
 Text Label 1250 6450 0    60   ~ 0
+SCL
+Text Label 1250 5950 0    60   ~ 0
 ANALOG_BRAKE_SENSE_OUTPUT
 NoConn ~ 1250 6550
 Text Label 1225 7025 0    60   ~ 0
-MAIN_FUSE_SHUTDOWN_SENSE
+MAIN_SHUTDOWN_FUSE
 Text Label 1225 7125 0    60   ~ 0
-LEFT_E-STOP_SHUTDOWN_SENSE
+LEFT_E-STOP
 Text Label 1225 7225 0    60   ~ 0
-RIGHT_E-STOP_SHUTDOWN_SENSE
+RIGHT_E-STOP
 Text Label 1225 7325 0    60   ~ 0
-BSPD_SHUTDOWN_SENSE
+BSPD_SHUTDOWN_OUT
 Text Label 1225 7425 0    60   ~ 0
-HVD_SHUTDOWN_SENSE
+HVD
 Text Label 1225 7525 0    60   ~ 0
-TSMS_SHUTDOWN_SENSE
+TSMS
 $Comp
 L micromatch_male_6 J3
 U 1 1 5A752C12
@@ -544,19 +526,19 @@ $EndComp
 $Comp
 L Ampseal_35 J2
 U 1 1 5A7532DE
-P 8465 2495
-F 0 "J2" H 8215 4295 60  0000 C CNN
-F 1 "Ampseal_35" H 8165 695 60  0000 L CNN
-F 2 "" H 8265 3845 60  0001 C CNN
-F 3 "" H 8265 3845 60  0001 C CNN
-	1    8465 2495
+P 9740 2525
+F 0 "J2" H 9490 4325 60  0000 C CNN
+F 1 "Ampseal_35" H 9440 725 60  0000 L CNN
+F 2 "" H 9540 3875 60  0001 C CNN
+F 3 "" H 9540 3875 60  0001 C CNN
+	1    9740 2525
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR06
 U 1 1 5A7537E4
 P 7020 830
-F 0 "#PWR6" H 7020 580 50  0001 C CNN
+F 0 "#PWR06" H 7020 580 50  0001 C CNN
 F 1 "GND" H 7020 680 50  0000 C CNN
 F 2 "" H 7020 830 50  0000 C CNN
 F 3 "" H 7020 830 50  0000 C CNN
@@ -566,7 +548,7 @@ $EndComp
 Wire Wire Line
 	6620 1005 6520 1005
 Wire Wire Line
-	6620 805  6620 1005
+	6620 805  6620 1105
 Wire Wire Line
 	6620 805  6520 805 
 Wire Wire Line
@@ -595,9 +577,9 @@ Text Label 3850 5725 0    60   ~ 0
 Text Label 3850 1475 0    60   ~ 0
 12V
 Text Label 1250 4750 0    60   ~ 0
-BRAKE_LIGHT_12V
-Text Label 6095 6225 0    60   ~ 0
 12V
+Text Label 6095 6225 0    60   ~ 0
+5V_DATA
 Text Label 1275 2000 0    60   ~ 0
 12V
 $Comp
@@ -642,26 +624,15 @@ Text Label 7325 6320 0    60   ~ 0
 STRAIN_LED2
 Text Label 7325 6420 0    60   ~ 0
 WHEEL_SPEED_LED2
-$Comp
-L RJ45_RA U1
-U 1 1 5A78F0D6
-P 9380 5950
-F 0 "U1" H 9105 6565 60  0000 C CNN
-F 1 "RJ45_RA" H 9390 6610 60  0000 C CNN
-F 2 "footprints:RJ45-RightAngle" H 9280 5260 60  0001 C CNN
-F 3 "" H 9380 5360 60  0001 C CNN
-	1    9380 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9890 6340 9890 6430
 Wire Wire Line
 	9780 6340 9780 6430
 $Comp
-L GND #PWR10
+L GND #PWR07
 U 1 1 5A78F362
 P 9890 6430
-F 0 "#PWR10" H 9890 6180 50  0001 C CNN
+F 0 "#PWR07" H 9890 6180 50  0001 C CNN
 F 1 "GND" H 9890 6280 50  0000 C CNN
 F 2 "" H 9890 6430 50  0000 C CNN
 F 3 "" H 9890 6430 50  0000 C CNN
@@ -669,10 +640,10 @@ F 3 "" H 9890 6430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L GND #PWR08
 U 1 1 5A78F392
 P 9780 6430
-F 0 "#PWR9" H 9780 6180 50  0001 C CNN
+F 0 "#PWR08" H 9780 6180 50  0001 C CNN
 F 1 "GND" H 9780 6280 50  0000 C CNN
 F 2 "" H 9780 6430 50  0000 C CNN
 F 3 "" H 9780 6430 50  0000 C CNN
@@ -688,10 +659,10 @@ Wire Wire Line
 Wire Wire Line
 	10350 5820 10350 5890
 $Comp
-L GND #PWR7
+L GND #PWR09
 U 1 1 5A78F609
 P 9090 6480
-F 0 "#PWR7" H 9090 6230 50  0001 C CNN
+F 0 "#PWR09" H 9090 6230 50  0001 C CNN
 F 1 "GND" H 9090 6330 50  0000 C CNN
 F 2 "" H 9090 6480 50  0000 C CNN
 F 3 "" H 9090 6480 50  0000 C CNN
@@ -699,10 +670,10 @@ F 3 "" H 9090 6480 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR010
 U 1 1 5A78F639
 P 9420 6470
-F 0 "#PWR8" H 9420 6220 50  0001 C CNN
+F 0 "#PWR010" H 9420 6220 50  0001 C CNN
 F 1 "GND" H 9420 6320 50  0000 C CNN
 F 2 "" H 9420 6470 50  0000 C CNN
 F 3 "" H 9420 6470 50  0000 C CNN
@@ -710,10 +681,10 @@ F 3 "" H 9420 6470 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L GND #PWR011
 U 1 1 5A78F6AF
 P 10350 5890
-F 0 "#PWR11" H 10350 5640 50  0001 C CNN
+F 0 "#PWR011" H 10350 5640 50  0001 C CNN
 F 1 "GND" H 10350 5740 50  0000 C CNN
 F 2 "" H 10350 5890 50  0000 C CNN
 F 3 "" H 10350 5890 50  0000 C CNN
@@ -768,89 +739,87 @@ Wire Notes Line
 	8440 5130 8440 5350
 Text Notes 9720 5120 2    60   ~ 0
 External RJ45\n
-Text Label 8665 1495 0    60   ~ 0
+Text Label 9940 1525 0    60   ~ 0
 GAUGE1+
-Text Label 8665 1395 0    60   ~ 0
+Text Label 9940 1425 0    60   ~ 0
 GAUGE1-
-Text Label 8665 1295 0    60   ~ 0
+Text Label 9940 1325 0    60   ~ 0
 GAUGE4+
-Text Label 8665 1195 0    60   ~ 0
+Text Label 9940 1225 0    60   ~ 0
 GAUGE4_MID
-Text Label 8665 1095 0    60   ~ 0
+Text Label 9940 1125 0    60   ~ 0
 GAUGE4-
-Text Label 8665 995  0    60   ~ 0
+Text Label 9940 1025 0    60   ~ 0
 GAUGE6+
-Text Label 8665 895  0    60   ~ 0
+Text Label 9940 925  0    60   ~ 0
 GAUGE6_MID
-Text Label 8665 795  0    60   ~ 0
+Text Label 9940 825  0    60   ~ 0
 GAUGE6-
-Text Label 8665 2595 0    60   ~ 0
+Text Label 9940 2625 0    60   ~ 0
 GAUGE1_MID
-Text Label 8665 2495 0    60   ~ 0
+Text Label 9940 2525 0    60   ~ 0
 GAUGE2_MID
-Text Label 8665 2395 0    60   ~ 0
+Text Label 9940 2425 0    60   ~ 0
 GAUGE3+
-Text Label 8665 2295 0    60   ~ 0
+Text Label 9940 2325 0    60   ~ 0
 GAUGE3-
-Text Label 8665 3695 0    60   ~ 0
+Text Label 9940 3725 0    60   ~ 0
 GAUGE2+
-Text Label 8665 3595 0    60   ~ 0
+Text Label 9940 3625 0    60   ~ 0
 GAUGE2-
-Text Label 8665 3495 0    60   ~ 0
+Text Label 9940 3525 0    60   ~ 0
 GAUGE3_MID
-Text Label 8665 3395 0    60   ~ 0
+Text Label 9940 3425 0    60   ~ 0
 GAUGE5+
-Text Label 8665 2095 0    60   ~ 0
+Text Label 9940 2125 0    60   ~ 0
 GAUGE5-
-Text Label 8665 2195 0    60   ~ 0
+Text Label 9940 2225 0    60   ~ 0
 GAUGE5_MID
 Text Label 1275 3000 0    60   ~ 0
 SENSOR_LEFT1+
-Text Label 1275 3100 0    60   ~ 0
-SENSOR_LEFT1-
-Text Label 1275 3200 0    60   ~ 0
-SENSOR_LEFT2+
-Text Label 1275 3300 0    60   ~ 0
-SENSOR_LEFT2-
 Text Label 1275 3400 0    60   ~ 0
-SENSOR_RIGHT1+
+SENSOR_LEFT1-
+Text Label 1275 3100 0    60   ~ 0
+SENSOR_LEFT2+
 Text Label 1275 3500 0    60   ~ 0
-SENSOR_RIGHT1-
+SENSOR_LEFT2-
+Text Label 1275 3200 0    60   ~ 0
+SENSOR_RIGHT1+
 Text Label 1275 3600 0    60   ~ 0
+SENSOR_RIGHT1-
+Text Label 1275 3300 0    60   ~ 0
 SENSOR_RIGHT2+
 Text Label 1275 3700 0    60   ~ 0
 SENSOR_RIGHT2-
-Text Label 8665 3995 0    60   ~ 0
+Text Label 9940 4025 0    60   ~ 0
 SENSOR_LEFT1+
-Text Label 8665 3895 0    60   ~ 0
+Text Label 9940 3925 0    60   ~ 0
 SENSOR_LEFT1-
-Text Label 8665 2895 0    60   ~ 0
+Text Label 9940 2925 0    60   ~ 0
 SENSOR_LEFT2+
-Text Label 8665 3795 0    60   ~ 0
+Text Label 9940 3825 0    60   ~ 0
 SENSOR_LEFT2-
-Text Label 8665 2795 0    60   ~ 0
+Text Label 9940 2825 0    60   ~ 0
 SENSOR_RIGHT1+
-Text Label 8665 1595 0    60   ~ 0
+Text Label 9940 1625 0    60   ~ 0
 SENSOR_RIGHT1-
-Text Label 8665 1695 0    60   ~ 0
+Text Label 9940 1725 0    60   ~ 0
 SENSOR_RIGHT2+
-Text Label 8665 2695 0    60   ~ 0
+Text Label 9940 2725 0    60   ~ 0
 SENSOR_RIGHT2-
-Text Label 8665 3295 0    60   ~ 0
+Text Label 9940 3325 0    60   ~ 0
 BSPD_CURRENT_SENSE
-Text Label 8665 4095 0    60   ~ 0
+Text Label 9940 4125 0    60   ~ 0
 ANALOG_BRAKE_SENSE_OUTPUT
-Text Label 8665 4195 0    60   ~ 0
-ANALOG_BRAKE_SENSE_12V
-Text Label 8665 2995 0    60   ~ 0
-ANALOG_BRAKE_SENSE_GND
-Text Label 8665 1995 0    60   ~ 0
+Text Label 9940 4225 0    60   ~ 0
+12V
+Text Label 9940 2025 0    60   ~ 0
 BSPD_SHUTDOWN_OUT
-Text Notes 9645 1985 0    60   ~ 0
+Text Notes 10920 2015 0    60   ~ 0
 (to inertia switch)\n
-Text Label 8665 3095 0    60   ~ 0
+Text Label 9940 3125 0    60   ~ 0
 BSPD_TEST_SWITCH+
-Text Label 8665 3195 0    60   ~ 0
+Text Label 9940 3225 0    60   ~ 0
 BSPD_TEST_SWITCH-
 Text Label 6520 1605 0    60   ~ 0
 BRAKE_LIGHT_12V
@@ -860,28 +829,22 @@ Text Label 6520 1805 0    60   ~ 0
 BRAKE_SWITCH+
 Text Label 6520 1905 0    60   ~ 0
 BRAKE_SWITCH-
-Text Label 6520 1105 0    60   ~ 0
-IMU_GND
 Text Label 6520 1405 0    60   ~ 0
-IMU_12V
+12V
 Text Label 6520 1205 0    60   ~ 0
-IMU_CAN_HIGH
+CAN_HIGH
 Text Label 6520 1305 0    60   ~ 0
-IMU_CAN_LOW
+CAN_LOW
 Text Label 6520 1505 0    60   ~ 0
-BRAKE_DISC_TEMP_12V
-Text Label 6520 2305 0    60   ~ 0
-BRAKE_DISC_TEMP_GND
+12V
 Text Label 6520 2405 0    60   ~ 0
-BRAKE_DISC_TEMP_CAN_HIGH
+CAN_HIGH
 Text Label 6520 2505 0    60   ~ 0
-BRAKE_DISC_TEMP_CAN_LOW
+CAN_LOW
 Text Label 6520 2605 0    60   ~ 0
 COOLING_PUMP_12V_FUSED
-Text Label 6520 3705 0    60   ~ 0
-COOLING_PUMP_GND
-NoConn ~ 8665 1795
-NoConn ~ 8665 1895
+NoConn ~ 9940 1825
+NoConn ~ 9940 1925
 Text Label 6520 3405 0    60   ~ 0
 BAT+
 Text Notes 6755 3400 0    60   ~ 0
@@ -928,4 +891,116 @@ Text Label 6520 4105 0    60   ~ 0
 LEFT_E-STOP
 Text Notes 7120 4100 0    60   ~ 0
 (to right E-stop)\n
+$Comp
+L RJ45_VT U1
+U 1 1 5A7CF4A3
+P 9380 5950
+F 0 "U1" H 9910 6645 60  0000 C CNN
+F 1 "RJ45_VT" H 9390 6610 60  0000 C CNN
+F 2 "footprints:RJ45-Vertical" H 9280 5260 60  0001 C CNN
+F 3 "" H 9380 5360 60  0001 C CNN
+	1    9380 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L micromatch_male_20 J9
+U 1 1 5A824E3D
+P 5945 7225
+F 0 "J9" H 5845 8425 60  0000 C CNN
+F 1 "micromatch_male_20" H 5895 6325 60  0000 C CNN
+F 2 "" H 5745 8325 60  0001 C CNN
+F 3 "" H 5845 8425 60  0001 C CNN
+F 4 "A111126CT-ND" H 5945 7225 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5945 7225 60  0001 C CNN "MFN"
+F 6 "Value" H 5945 7225 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-215464-0/A111126CT-ND/4142510" H 6245 8825 60  0001 C CNN "PurchasingLink"
+	1    5945 7225
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6095 6525
+NoConn ~ 6095 6625
+NoConn ~ 6095 6725
+NoConn ~ 6095 6825
+NoConn ~ 6095 6925
+NoConn ~ 6095 7025
+NoConn ~ 6095 7125
+NoConn ~ 6095 7225
+NoConn ~ 6095 7325
+NoConn ~ 6095 7425
+NoConn ~ 6095 7525
+NoConn ~ 6095 7625
+NoConn ~ 6095 7725
+NoConn ~ 6095 7825
+NoConn ~ 6095 7925
+NoConn ~ 6095 8025
+Wire Notes Line
+	5365 8225 6660 8225
+Wire Notes Line
+	6660 8225 6660 6725
+Text Notes 2245 7325 0    60   ~ 0
+shutdown sense\n
+Wire Wire Line
+	9940 3025 11050 3025
+$Comp
+L GND #PWR012
+U 1 1 5A8261AB
+P 11050 3025
+F 0 "#PWR012" H 11050 2775 50  0001 C CNN
+F 1 "GND" H 11050 2875 50  0000 C CNN
+F 2 "" H 11050 3025 50  0000 C CNN
+F 3 "" H 11050 3025 50  0000 C CNN
+	1    11050 3025
+	1    0    0    -1  
+$EndComp
+Text Notes 1430 7420 0    60   ~ 0
+shutdown sense\n
+Text Notes 6990 2485 0    60   ~ 0
+brake disc\ntemp\n
+Wire Wire Line
+	6520 2305 7925 2305
+Wire Wire Line
+	7925 2305 7925 2380
+$Comp
+L GND #PWR013
+U 1 1 5A8267DE
+P 7925 2380
+F 0 "#PWR013" H 7925 2130 50  0001 C CNN
+F 1 "GND" H 7925 2230 50  0000 C CNN
+F 2 "" H 7925 2380 50  0000 C CNN
+F 3 "" H 7925 2380 50  0000 C CNN
+	1    7925 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6620 1105 6520 1105
+Connection ~ 6620 1005
+Text Notes 6955 1395 0    60   ~ 0
+I\nM\nU
+Text Notes 2260 7010 0    60   ~ 0
+shutdown sense\n
+Wire Wire Line
+	6520 3705 7685 3705
+Wire Wire Line
+	7685 3705 7685 3730
+$Comp
+L GND #PWR014
+U 1 1 5A826DAD
+P 7685 3730
+F 0 "#PWR014" H 7685 3480 50  0001 C CNN
+F 1 "GND" H 7685 3580 50  0000 C CNN
+F 2 "" H 7685 3730 50  0000 C CNN
+F 3 "" H 7685 3730 50  0000 C CNN
+	1    7685 3730
+	1    0    0    -1  
+$EndComp
+Text Notes 1470 7525 0    60   ~ 0
+shutdown sense\n
+Text Label 3850 7525 0    60   ~ 0
+5V_DATA
+Text Notes 1855 7130 0    60   ~ 0
+shutdown sense\n
+Text Notes 1905 7220 0    60   ~ 0
+shutdown sense\n
+Text Notes 6710 1500 0    60   ~ 0
+brake disc temp\n
 $EndSCHEMATC
