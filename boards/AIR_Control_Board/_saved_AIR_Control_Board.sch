@@ -1209,13 +1209,13 @@ Text Label 9050 3900 0    60   ~ 0
 PrechargeCTL
 Text Notes 700  4050 0    60   ~ 0
 To Relays
-Text Label 1150 2700 0    60   ~ 0
+Text Label 1150 2900 0    60   ~ 0
 ShutdownSenseMainTSConn
-Text Label 1150 2600 0    60   ~ 0
+Text Label 1150 2800 0    60   ~ 0
 ShutdownSenseIMD
 Text Label 3700 1300 2    60   ~ 0
 ShutdownSenseConnToHVD
-Text Label 1150 2500 0    60   ~ 0
+Text Label 1150 2700 0    60   ~ 0
 ShutdownSenseBMS
 Wire Wire Line
 	8000 1100 7600 1100
@@ -1277,9 +1277,9 @@ F 3 "" H 1750 1600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1150 1600 1750 1600
-Text Label 1150 2900 0    60   ~ 0
+Text Label 1150 2500 0    60   ~ 0
 IMDStatus
-Text Label 1150 3000 0    60   ~ 0
+Text Label 1150 2600 0    60   ~ 0
 BMSStatus
 Text Label 9050 3500 0    60   ~ 0
 BMSStatus
@@ -1360,7 +1360,7 @@ F 7 "Value" H 1300 4100 60  0001 C CNN "Package"
 	1    1000 2500
 	1    0    0    -1  
 $EndComp
-Text Label 1150 2800 0    60   ~ 0
+Text Label 1150 3000 0    60   ~ 0
 ShutdownSenseConnToHVD
 Wire Wire Line
 	1200 4650 1300 4650
