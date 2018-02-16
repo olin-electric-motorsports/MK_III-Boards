@@ -49,6 +49,7 @@ ENDDRAW
 ENDDEF
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # MicroFit_12
 #
@@ -75,6 +76,8 @@ ENDDRAW
 ENDDEF
 #
 >>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+=======
+>>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
 # RJ45_VT
 #
 DEF RJ45_VT U 0 40 Y Y 1 F N
@@ -138,6 +141,34 @@ X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
 X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_TOP_ENTRY_locking_12
+#
+DEF micromatch_female_TOP_ENTRY_locking_12 J 0 40 Y Y 1 F N
+F0 "J" 0 650 60 H V C CNN
+F1 "micromatch_female_TOP_ENTRY_locking_12" 50 -700 60 H V C CNN
+F2 "footprints:micromatch_female_vert_12" -100 550 60 H I C CNN
+F3 "" 0 650 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-2/A99503CT-ND/1955736" 100 750 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 200 850 60 H I C CNN "MFN"
+F6 "A99503CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 150 -600 -150 600 0 1 0 f
+X 1 1 250 550 100 L 50 50 1 1 B
+X 2 2 250 450 100 L 50 50 1 1 B
+X 3 3 250 350 100 L 50 50 1 1 B
+X 4 4 250 250 100 L 50 50 1 1 B
+X 5 5 250 150 100 L 50 50 1 1 B
+X 6 6 250 50 100 L 50 50 1 1 B
+X 7 7 250 -50 100 L 50 50 1 1 B
+X 8 8 250 -150 100 L 50 50 1 1 B
+X 9 9 250 -250 100 L 50 50 1 1 B
+X 10 10 250 -350 100 L 50 50 1 1 B
+X 11 11 250 -450 100 L 50 50 1 1 B
+X 12 12 250 -550 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

@@ -1,0 +1,89 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# +5V
+#
+DEF +5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Ultrafit_5
+#
+DEF Ultrafit_5 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "Ultrafit_5" 0 -350 60 H V C CNN
+F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "Value" 0 0 60 H I C CNN "Package"
+F6 "WM11667-ND" 0 0 60 H I C CNN "MPN"
+F7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -250 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+X ~ 5 350 -200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# micromatch_female_RA_20
+#
+DEF micromatch_female_RA_20 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "micromatch_female_RA_20" 0 -950 60 H V C CNN
+F2 "footprints:micromatch_female_ra_20" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338070-0/A99490CT-ND/1955792" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99490CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
+DRAW
+S 50 -850 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 20 20 150 -800 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+X 19 19 150 -700 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
