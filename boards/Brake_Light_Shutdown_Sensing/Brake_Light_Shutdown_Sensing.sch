@@ -2160,11 +2160,11 @@ Text Label 8650 6900 0    59   ~ 0
 SCL
 Text Label 9550 5750 0    59   ~ 0
 data1
-Text Label 3700 6050 0    59   ~ 0
+Text Label 3700 4950 0    59   ~ 0
 data1
-Text Label 3700 4850 0    59   ~ 0
+Text Label 3700 6050 0    59   ~ 0
 data2
-Text Label 8650 5650 0    59   ~ 0
+Text Label 8650 6700 0    59   ~ 0
 data2
 $Comp
 L R_10k R37
@@ -2192,11 +2192,11 @@ F 3 "" H 9400 5650 50  0001 C CNN
 	1    9400 5650
 	1    0    0    -1  
 $EndComp
-Text Label 8650 5550 0    59   ~ 0
+Text Label 8650 6600 0    59   ~ 0
 data3
 Text Label 8650 7850 0    59   ~ 0
 data4
-Text Label 3700 4950 0    59   ~ 0
+Text Label 3700 4850 0    59   ~ 0
 data3
 Text Label 3700 6150 0    59   ~ 0
 data4
@@ -2290,8 +2290,6 @@ Text Label 7450 8350 1    59   ~ 0
 LED5
 Text Label 7800 8350 1    59   ~ 0
 LED6
-NoConn ~ 8650 6600
-NoConn ~ 8650 6700
 NoConn ~ 8650 7150
 NoConn ~ 8650 7250
 NoConn ~ 8650 7350
@@ -2774,4 +2772,6 @@ $EndComp
 Wire Wire Line
 	3700 5450 4450 5450
 NoConn ~ 3700 6450
+NoConn ~ 8650 5650
+NoConn ~ 8650 5550
 $EndSCHEMATC
