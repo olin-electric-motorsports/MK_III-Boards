@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:formula
+LIBS:Data_Logger_Extension-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 5929 5118
@@ -63,10 +64,8 @@ F 7 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5
 $EndComp
 Text Notes 730  850  0    60   ~ 0
 *not an ultrafit*
-Text Label 1380 1230 0    60   ~ 0
-CAN_High
 Text Label 1380 1130 0    60   ~ 0
-CAN_Low
+CAN_High
 NoConn ~ 1380 1330
 Text Label 1380 1530 0    60   ~ 0
 GND
@@ -143,4 +142,6 @@ Text Label 1790 2790 1    60   ~ 0
 GND
 Text Label 1560 2790 1    60   ~ 0
 5V
+Text Label 1380 1230 0    60   ~ 0
+CAN_Low
 $EndSCHEMATC
