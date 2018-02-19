@@ -283,9 +283,9 @@ Text Label 5050 3750 0    60   ~ 0
 MAIN_PACK_IN/BMS_OUT
 Text Label 5050 3850 0    60   ~ 0
 HVD_IN/MAIN_PACK_OUT
-Text Label 5050 3350 0    60   ~ 0
-BMS_STATUS
 Text Label 5050 3450 0    60   ~ 0
+BMS_STATUS
+Text Label 5050 3350 0    60   ~ 0
 IMD_LATCH_STATUS
 Text Label 5050 4400 0    60   ~ 0
 BMS_5V_OUT
