@@ -518,7 +518,7 @@ U 1 1 5A7531B2
 P 6320 2505
 F 0 "J1" H 6070 4305 60  0000 C CNN
 F 1 "Ampseal_35" H 6020 705 60  0000 L CNN
-F 2 "" H 6120 3855 60  0001 C CNN
+F 2 "footprints:Ampseal_35" H 6120 3855 60  0001 C CNN
 F 3 "" H 6120 3855 60  0001 C CNN
 	1    6320 2505
 	1    0    0    -1  
@@ -529,7 +529,7 @@ U 1 1 5A7532DE
 P 9740 2525
 F 0 "J2" H 9490 4325 60  0000 C CNN
 F 1 "Ampseal_35" H 9440 725 60  0000 L CNN
-F 2 "" H 9540 3875 60  0001 C CNN
+F 2 "footprints:Ampseal_35" H 9540 3875 60  0001 C CNN
 F 3 "" H 9540 3875 60  0001 C CNN
 	1    9740 2525
 	1    0    0    -1  
@@ -588,7 +588,7 @@ U 1 1 5A74E8A3
 P 7175 6220
 F 0 "SW1" H 7075 7420 60  0000 C CNN
 F 1 "3P4T_rotary_switch" H 7125 5770 60  0000 C CNN
-F 2 "" H 6975 7320 60  0001 C CNN
+F 2 "footprints:3P4T_rotary_switch" H 6975 7320 60  0001 C CNN
 F 3 "" H 7075 7420 60  0001 C CNN
 F 4 "s14100400am2451" H 7175 6220 60  0001 C CNN "MPN"
 F 5 "Uxcell" H 7175 6220 60  0001 C CNN "MFN"
@@ -1003,4 +1003,32 @@ Text Notes 1905 7220 0    60   ~ 0
 shutdown sense\n
 Text Notes 6710 1500 0    60   ~ 0
 brake disc temp\n
+$Comp
+L fuse_holder_125V_15A F1
+U 1 1 5A8B5DEC
+P 12210 5240
+F 0 "F1" H 12210 5410 50  0000 C CNN
+F 1 "fuse_holder_125V_15A" H 12240 4930 50  0000 C CNN
+F 2 "footprints:fuse_block" V 13610 5240 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" V 13490 5860 50  0001 C CNN
+F 4 "Digi-Key" H 13230 4700 60  0001 C CNN "MFN"
+F 5 "F5764CT-ND" H 13060 4480 60  0001 C CNN "MPN"
+F 6 "Value" H 13220 4840 60  0001 C CNN "Package"
+	1    12210 5240
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11080 4590 11080 6400
+Wire Notes Line
+	11080 6400 13480 6400
+Wire Notes Line
+	13480 6400 13480 4410
+Wire Notes Line
+	13480 4410 11080 4410
+Wire Notes Line
+	11080 4410 11080 4890
+Text Notes 11985 4330 0    60   ~ 0
+Fuse Holder\n
+Text Notes 7340 1595 0    60   ~ 0
+Actual light, not the board
 $EndSCHEMATC

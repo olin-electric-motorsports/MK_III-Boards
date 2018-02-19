@@ -144,6 +144,40 @@ X GND 14 510 -390 200 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# fuse_holder_125V_15A
+#
+DEF fuse_holder_125V_15A F 0 0 N Y 1 F N
+F0 "F" 0 170 50 H V C CNN
+F1 "fuse_holder_125V_15A" 30 -310 50 H V C CNN
+F2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" 1400 0 50 V I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" 1280 620 50 V I C CNN
+F4 "Digi-Key" 1020 -540 60 H I C CNN "MFN"
+F5 "F5764CT-ND" 850 -760 60 H I C CNN "MPN"
+F6 "Value" 1010 -400 60 H I C CNN "Package"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -110 100 130 -240 0 1 0 N
+S 110 -220 -90 -160 0 1 10 N
+S 110 -140 -90 -80 0 1 10 N
+S 110 -60 -90 0 0 1 10 N
+S 110 20 -90 80 0 1 10 N
+P 2 0 1 0  -90 -190  110 -190 N
+P 2 0 1 0  -90 -110  110 -110 N
+P 2 0 1 0  -90 -30  110 -30 N
+P 2 0 1 0  -90 50  110 50 N
+X in 1 -250 50 157 R 50 50 1 1 P
+X out 2 270 50 157 L 50 50 1 1 P
+X in 3 -250 -30 157 R 50 50 1 1 P
+X out 4 270 -30 157 L 50 50 1 1 P
+X in 5 -250 -110 157 R 50 50 1 1 P
+X out 6 270 -110 157 L 50 50 1 1 P
+X in 7 -250 -190 157 R 50 50 1 1 P
+X out 8 270 -190 157 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # micromatch_male_12
 #
 DEF micromatch_male_12 J 0 40 Y Y 1 F N
