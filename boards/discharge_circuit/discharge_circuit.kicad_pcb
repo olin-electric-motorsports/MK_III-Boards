@@ -3,15 +3,7 @@
   (general
     (links 19)
     (no_connects 0)
-<<<<<<< HEAD
-<<<<<<< HEAD
     (area 99.683099 27.3682 197.314501 77.240601)
-=======
-    (area 99.683099 28.880599 193.763101 77.240601)
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
-=======
-    (area 99.683099 27.3682 197.314501 77.240601)
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
     (thickness 1.6)
     (drawings 38)
     (tracks 67)
@@ -156,18 +148,11 @@
       (net 11 "Net-(J3-Pad4)"))
     (pad 5 thru_hole circle (at 23.53 2.93 90) (size 5.28 5.28) (drill 4.78) (layers *.Cu *.Mask))
     (pad 6 thru_hole circle (at -17.69 2.93 90) (size 5.28 5.28) (drill 4.78) (layers *.Cu *.Mask))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/mx150l_2/194270032.wrl
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/mx150l_2/194270032.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   )
 
   (module footprints:Relay_SPDT_OMRON-G2RL-1-E (layer F.Cu) (tedit 5A7654AD) (tstamp 5A013186)
@@ -228,26 +213,15 @@
   )
 
   (module footprints:D_SOD-123W_OEM (layer F.Cu) (tedit 5A77AF3A) (tstamp 5A013101)
-<<<<<<< HEAD
-    (at 146.304 58.42 180)
-=======
     (at 146.304 58.42)
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /59FF3637)
     (attr smd)
-<<<<<<< HEAD
-    (fp_text reference D1 (at 3.302 0 360) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value D_Schottky_SOD123 (at -0.25 2.1 180) (layer F.Fab) hide
-=======
     (fp_text reference D1 (at 3.302 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value D_Schottky_SOD123 (at -0.25 2.1) (layer F.Fab) hide
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_line (start 0.1 1.5) (end 0.5 1.5) (layer F.SilkS) (width 0.1))
@@ -257,11 +231,7 @@
     (fp_line (start -0.6 1.5) (end -0.2 1.5) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 1.5) (end -0.2 1.25) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 1.25) (end -0.2 1.75) (layer F.SilkS) (width 0.1))
-<<<<<<< HEAD
-    (fp_text user %R (at -0.127 -1.905 180) (layer F.Fab) hide
-=======
     (fp_text user %R (at -0.127 -1.905) (layer F.Fab) hide
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
@@ -282,21 +252,11 @@
     (fp_line (start -2.3 -1.15) (end -2.3 1.15) (layer F.CrtYd) (width 0.05))
     (fp_line (start -2.2 1) (end 1.65 1) (layer F.SilkS) (width 0.12))
     (fp_line (start -2.2 -1) (end 1.65 -1) (layer F.SilkS) (width 0.12))
-<<<<<<< HEAD
-    (pad 1 smd rect (at -1.4 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
-=======
     (pad 1 smd rect (at -1.4 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 1 /Shutdown))
     (pad 2 smd rect (at 1.4 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
       (net 2 GND))
-<<<<<<< HEAD
-    (pad 2 smd rect (at 1.4 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
-      (net 1 /Shutdown))
-    (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/D_SOD-123F.wrl
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/SOD-123_OEM/SOD-123.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -394,15 +354,7 @@
       (net 8 "Net-(J3-Pad2)"))
     (pad 2 thru_hole circle (at 33 0 180) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 6 /TS-Unfused))
-<<<<<<< HEAD
-<<<<<<< HEAD
-    (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Radial_Power_L11.0mm_W7.0mm_P5.00mm.wrl
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_10K_HV/part_sp.wrl
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_10K_HV/part_sp.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -432,15 +384,7 @@
       (net 9 "Net-(J3-Pad1)"))
     (pad 2 thru_hole circle (at 33 0 180) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 /TS+Unfused))
-<<<<<<< HEAD
-<<<<<<< HEAD
-    (model ${KISYS3DMOD}/Resistors_THT.3dshapes/R_Radial_Power_L11.0mm_W7.0mm_P5.00mm.wrl
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_10K_HV/part_sp.wrl
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_10K_HV/part_sp.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1050,18 +994,11 @@
     (pad 1 thru_hole circle (at 0 3.5 180) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 3 /TS+Fused))
     (pad "" thru_hole circle (at 7.91 1.75 180) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   )
 
   (module footprints:Ultrafit_2_RA (layer F.Cu) (tedit 5A79BD15) (tstamp 5A73C665)
@@ -1086,18 +1023,11 @@
     (pad 1 thru_hole circle (at 0 3.5 180) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 3 /TS+Fused))
     (pad "" thru_hole circle (at 7.91 1.75 180) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   )
 
   (module footprints:Ultrafit_2_RA (layer F.Cu) (tedit 5A79BD18) (tstamp 5A73C65E)
@@ -1122,18 +1052,11 @@
     (pad 1 thru_hole circle (at 0 3.5 180) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 3 /TS+Fused))
     (pad "" thru_hole circle (at 7.91 1.75 180) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   )
 
   (module footprints:Ultrafit_2_RA (layer F.Cu) (tedit 5A790F48) (tstamp 5A01314B)
@@ -1158,18 +1081,11 @@
     (pad 1 thru_hole circle (at 0 3.5 270) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 1 /Shutdown))
     (pad "" thru_hole circle (at 7.91 1.75 270) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   )
 
   (module footprints:Ultrafit_2_RA (layer F.Cu) (tedit 5A79C127) (tstamp 5A013138)
@@ -1194,18 +1110,11 @@
     (pad 1 thru_hole circle (at 0 3.5 180) (size 1.397 1.397) (drill 1.02) (layers *.Cu *.Mask)
       (net 4 /TS+Unfused))
     (pad "" thru_hole circle (at 7.91 1.75 180) (size 1.981 1.981) (drill 1.6) (layers *.Cu *.Mask))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    (model ../../../../../home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
-=======
     (model /home/william/Desktop/Formula/OEM_Preferred_Parts/3DModels/Ultrafit-2-RA/1723101302.wrl
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   )
 
   (gr_arc (start 188.6331 34.0106) (end 193.7131 34.0106) (angle -90) (layer Edge.Cuts) (width 0.1))
@@ -1229,7 +1138,6 @@
     (arrow2b (pts (xy 143.51 66.548) (xy 142.383496 67.134421)))
   )
   (gr_text "HV\n" (at 127.381 73.279) (layer F.SilkS)
-<<<<<<< HEAD
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "HV\n" (at 150.622 40.894) (layer F.SilkS)
@@ -1274,52 +1182,6 @@
   (gr_text - (at 116.713 73.533 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-=======
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "HV\n" (at 150.622 40.894) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "LV\n" (at 132.842 73.152) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "LV\n" (at 150.495 46.863) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text - (at 118.11 44.323 270) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_line (start 130.302 67.818) (end 130.302 76.835) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 130.302 54.356) (end 130.302 67.818) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 132.588 52.07) (end 130.302 54.356) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text "+\n" (at 117.856 30.226) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "+\n" (at 117.729 66.421) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text F (at 114.427 57.277) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "William Fairman  Rev_1" (at 124.714 75.692) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "+\n" (at 143.129 60.198) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "-\n" (at 149.225 60.198) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text - (at 118.11 36.576 270) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "+\n" (at 117.983 38.227) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text - (at 116.713 73.533 270) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   (gr_text "TS\n" (at 118.237 73.279 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -1357,16 +1219,6 @@
   (gr_line (start 132.588 52.07) (end 141.986 42.672) (angle 90) (layer F.SilkS) (width 0.2))
 
   (segment (start 144.328 63.754) (end 144.328 58.996) (width 0.508) (layer F.Cu) (net 1))
-<<<<<<< HEAD
-  (segment (start 144.328 58.996) (end 144.904 58.42) (width 0.508) (layer F.Cu) (net 1) (tstamp 5A7906E3))
-  (segment (start 144.904 58.42) (end 144.904 57.28) (width 0.508) (layer F.Cu) (net 1))
-  (segment (start 145.93 56.254) (end 152.908 56.254) (width 0.508) (layer F.Cu) (net 1) (tstamp 5A77B4B9))
-  (segment (start 144.904 57.28) (end 145.93 56.254) (width 0.508) (layer F.Cu) (net 1) (tstamp 5A77B4B8))
-  (segment (start 147.828 63.754) (end 147.828 58.544) (width 0.508) (layer F.Cu) (net 2))
-  (segment (start 147.828 58.544) (end 147.704 58.42) (width 0.508) (layer F.Cu) (net 2) (tstamp 5A7906E0))
-  (segment (start 147.828 63.754) (end 152.908 63.754) (width 0.508) (layer F.Cu) (net 2))
-  (segment (start 147.704 58.42) (end 147.704 58.55) (width 0.508) (layer F.Cu) (net 2))
-=======
   (segment (start 145.93 56.254) (end 152.908 56.254) (width 0.508) (layer F.Cu) (net 1) (tstamp 5A77B4B9))
   (segment (start 144.904 57.28) (end 145.93 56.254) (width 0.508) (layer F.Cu) (net 1) (tstamp 5A77B4B8))
   (segment (start 144.328 58.996) (end 144.904 58.42) (width 0.508) (layer F.Cu) (net 1) (tstamp 5A7906E3))
@@ -1375,7 +1227,6 @@
   (segment (start 147.828 58.544) (end 147.704 58.42) (width 0.508) (layer F.Cu) (net 2) (tstamp 5A7906E0))
   (segment (start 147.704 58.42) (end 147.704 58.55) (width 0.508) (layer F.Cu) (net 2))
   (segment (start 147.828 63.754) (end 152.908 63.754) (width 0.508) (layer F.Cu) (net 2))
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
   (segment (start 113.5 40) (end 109.606 40) (width 0.508) (layer F.Cu) (net 3))
   (segment (start 107.696 51.689) (end 104.267 55.118) (width 0.508) (layer F.Cu) (net 3) (tstamp 5A79C171))
   (segment (start 107.696 41.91) (end 107.696 51.689) (width 0.508) (layer F.Cu) (net 3) (tstamp 5A79C16F))

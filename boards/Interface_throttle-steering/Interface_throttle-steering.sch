@@ -123,45 +123,6 @@ Text Label 1400 3650 0    60   ~ 0
 ESTOP_sense
 Text Label 1400 3750 0    60   ~ 0
 Crash_sense
-<<<<<<< HEAD
-Text Label 1500 4250 0    60   ~ 0
-GND
-Text Label 1500 4350 0    60   ~ 0
-GND
-Text Label 1500 4450 0    60   ~ 0
-5V
-Text Label 1500 4550 0    60   ~ 0
-Throtle_left
-Text Label 1500 4650 0    60   ~ 0
-GND
-Text Label 1500 4750 0    60   ~ 0
-BSPD_In/Crash_Sensor_Out
-Text Label 1500 4950 0    60   ~ 0
-Crash_Sensor_In/BOTS_Out
-Text Label 1500 5050 0    60   ~ 0
-CAN_high
-Text Label 1500 5150 0    60   ~ 0
-CAN_low
-Text Label 1500 5250 0    60   ~ 0
-12V
-Text Label 1500 5350 0    60   ~ 0
-5V
-Text Label 1500 5450 0    60   ~ 0
-Throtte_right
-Text Label 1500 5550 0    60   ~ 0
-GND
-Text Label 3500 4250 2    60   ~ 0
-IS_in
-Text Label 3850 4250 0    60   ~ 0
-IS_out
-Wire Wire Line
-	3500 4250 3650 4250
-Wire Wire Line
-	3650 4250 3850 4250
-Text Label 1500 6800 0    60   ~ 0
-ESTOP_in
-Text Label 1500 6900 0    60   ~ 0
-=======
 Text Label 1490 4550 0    60   ~ 0
 GND
 Text Label 1490 4650 0    60   ~ 0
@@ -191,7 +152,6 @@ GND
 Text Label 1500 7080 0    60   ~ 0
 ESTOP_in
 Text Label 1500 7180 0    60   ~ 0
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 ESTOP_I_out
 Text Label 8700 1680 0    60   ~ 0
 Crash_sense
@@ -224,27 +184,6 @@ F 3 "" H 1090 6400 60  0001 C CNN
 	1    1290 5650
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
-Text Label 1500 4850 0    60   ~ 0
-BSPD_In/Crash_Sensor_Out
-Text Label 1500 6050 0    60   ~ 0
-5V
-Text Label 1500 6150 0    60   ~ 0
-Steering_sense
-Text Label 1500 6250 0    60   ~ 0
-GND
-Text Label 1500 6450 0    60   ~ 0
-E-Stop_In/Connector_to_HVD_Out
-Text Label 1500 5650 0    60   ~ 0
-Crash_Sensor_In/BOTS_Out
-Text Label 1500 5750 0    60   ~ 0
-CAN_high
-Text Label 1500 5850 0    60   ~ 0
-CAN_low
-Text Label 1500 5950 0    60   ~ 0
-12V
-Text Label 1500 6350 0    60   ~ 0
-=======
 Text Label 1490 5150 0    60   ~ 0
 BSPD_In/Crash_Sensor_Out
 Text Label 1490 6350 0    60   ~ 0
@@ -264,29 +203,10 @@ CAN_low
 Text Label 1490 6250 0    60   ~ 0
 12V
 Text Label 1490 6650 0    60   ~ 0
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 BOTS_In/E-Stop_Out
 Text Label 1400 3850 0    60   ~ 0
 RTD_LS
 $Comp
-<<<<<<< HEAD
-L Ultrafit_4 J?
-U 1 1 5A7922D8
-P 1150 7000
-F 0 "J?" H 1150 7300 60  0000 C CNN
-F 1 "Ultrafit_4" H 1150 6800 60  0000 C CNN
-F 2 "footprints:Ultrafit_4" H 1050 7250 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1150 7350 60  0001 C CNN
-F 4 "Digi-Key" H 1150 7000 60  0001 C CNN "MFN"
-F 5 "Value" H 1150 7000 60  0001 C CNN "Package"
-F 6 "WM11574-ND" H 1150 7000 60  0001 C CNN "MPN"
-F 7 "WM11564-ND" H 1550 7750 60  0001 C CNN "MPN2"
-F 8 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 1650 7850 60  0001 C CNN "PurchasingLink"
-F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" H 1750 7950 60  0001 C CNN "PurchasingLink2"
-	1    1150 7000
-	1    0    0    -1  
-$EndComp
-=======
 L Ultrafit_4 J2
 U 1 1 5A7922D8
 P 1150 7280
@@ -411,5 +331,4 @@ Wire Wire Line
 Wire Wire Line
 	8330 2870 8330 2550
 Connection ~ 8330 2550
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 $EndSCHEMATC

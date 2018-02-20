@@ -36,23 +36,6 @@ X 19 19 200 -700 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
-# Ultrafit_4
-#
-DEF Ultrafit_4 J 0 40 Y N 1 F N
-F0 "J" 0 300 60 H V C CNN
-F1 "Ultrafit_4" 0 -200 60 H V C CNN
-F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
-F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
-F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "Value" 0 0 60 H I C CNN "Package"
-F6 "WM11574-ND" 0 0 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
-F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
-DRAW
-S 150 250 -150 -150 0 1 0 N
-=======
 # RJ45
 #
 DEF RJ45 U 0 40 Y Y 1 F N
@@ -94,7 +77,6 @@ F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CN
 F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
 DRAW
 S 150 250 -150 -150 0 1 0 f
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
