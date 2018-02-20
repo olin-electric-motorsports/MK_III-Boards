@@ -188,10 +188,13 @@ F1 "mx150L_2" 0 -200 60 H V C CNN
 F2 "" -100 250 60 H I C CNN
 F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" 0 350 60 H I C CNN
 F4 "Value" 0 0 60 H I C CNN "Package"
+<<<<<<< HEAD
+=======
 F5 " WM17505-ND" 300 600 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/molex-llc/0194270032/WM17505-ND/863309" 300 600 60 H I C CNN "Purchasing Link"
+>>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 DRAW
-S 150 250 -150 -150 0 1 0 f
+S 150 250 -150 -150 0 1 0 N
 X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
