@@ -156,17 +156,17 @@ Text Label 1200 1600 0    60   ~ 0
 GND
 Text Label 1200 1700 0    60   ~ 0
 GND
-Text Label 1200 1800 0    60   ~ 0
+Text Label 2020 1760 0    60   ~ 0
 FAN_GND
-Text Label 1200 1900 0    60   ~ 0
+Text Label 2020 1860 0    60   ~ 0
 FAN_GND
-Text Label 1200 2000 0    60   ~ 0
+Text Label 2020 1960 0    60   ~ 0
 FAN_GND
-Text Label 1200 2100 0    60   ~ 0
+Text Label 2020 2060 0    60   ~ 0
 FAN_12V
-Text Label 1200 2200 0    60   ~ 0
+Text Label 2020 2160 0    60   ~ 0
 FAN_12V
-Text Label 1200 2300 0    60   ~ 0
+Text Label 2020 2260 0    60   ~ 0
 FAN_12V
 Text Label 1200 2400 0    60   ~ 0
 FAN_PWM
@@ -275,45 +275,27 @@ Text Label 5050 3150 0    60   ~ 0
 AIR_CTRL_LED_1
 Text Label 5050 3250 0    60   ~ 0
 AIR_CTRL_LED_2
-Text Label 5050 3350 0    60   ~ 0
-BMS_IN/IMD_LATCH_OUT
-Text Label 5050 3450 0    60   ~ 0
-IMD_LATCH_IN/HVD_OUT
 Text Label 5050 3550 0    60   ~ 0
-MAIN_PACK_IN/BMS_OUT
+BMS_IN/IMD_LATCH_OUT
 Text Label 5050 3650 0    60   ~ 0
-HVD_IN/MAIN_PACK_OUT
+IMD_LATCH_IN/HVD_OUT
 Text Label 5050 3750 0    60   ~ 0
-BMS_STATUS
+MAIN_PACK_IN/BMS_OUT
 Text Label 5050 3850 0    60   ~ 0
+HVD_IN/MAIN_PACK_OUT
+Text Label 5050 3450 0    60   ~ 0
+BMS_STATUS
+Text Label 5050 3350 0    60   ~ 0
 IMD_LATCH_STATUS
 Text Label 5050 4400 0    60   ~ 0
 BMS_5V_OUT
-<<<<<<< HEAD
-<<<<<<< HEAD
-Text Label 5050 4600 0    60   ~ 0
-MOSI_BMS
-Text Label 5050 4700 0    60   ~ 0
-MISO_BMS
-Text Label 5050 4800 0    60   ~ 0
-SCK_BMS
-Text Label 5050 4900 0    60   ~ 0
-=======
-Text Label 5250 4500 0    60   ~ 0
-=======
 Text Label 5050 4500 0    60   ~ 0
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
 MOSI_BMS
 Text Label 5050 4600 0    60   ~ 0
 MISO_BMS
 Text Label 5050 4700 0    60   ~ 0
 SCK_BMS
-<<<<<<< HEAD
-Text Label 5250 4800 0    60   ~ 0
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
-=======
 Text Label 5050 4800 0    60   ~ 0
->>>>>>> 9866cafbaa90d527fdf94d61d5ce5ce1127dda27
 BMS_RESET
 Text Label 5050 4900 0    60   ~ 0
 CAN_HIGH
@@ -332,17 +314,10 @@ BSPD_CURRENT_SENSE
 Text Label 5050 1900 0    60   ~ 0
 GND
 $Comp
-<<<<<<< HEAD
-L RJ45_VT U?
-U 1 1 5A791FDB
-P 3075 3635
-F 0 "U?" H 3075 3045 60  0000 C CNN
-=======
 L RJ45_VT U2
 U 1 1 5A791FDB
 P 3075 3635
 F 0 "U2" H 3075 3045 60  0000 C CNN
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 F 1 "RJ45_VT_BMS" H 3085 4295 60  0000 C CNN
 F 2 "footprints:RJ45-Vertical" H 2975 2945 60  0001 C CNN
 F 3 "" H 3075 3045 60  0001 C CNN
@@ -376,17 +351,10 @@ CAN_LOW
 Text Label 2595 3305 2    60   ~ 0
 CAN_HIGH
 $Comp
-<<<<<<< HEAD
-L RJ45_VT U?
-U 1 1 5A793BC8
-P 2955 5420
-F 0 "U?" H 2955 4830 60  0000 C CNN
-=======
 L RJ45_VT U1
 U 1 1 5A793BC8
 P 2955 5420
 F 0 "U1" H 2955 4830 60  0000 C CNN
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
 F 1 "RJ45_VT_AIR" H 2965 6080 60  0000 C CNN
 F 2 "footprints:RJ45-Vertical" H 2855 4730 60  0001 C CNN
 F 3 "" H 2955 4830 60  0001 C CNN
@@ -421,8 +389,6 @@ Text Label 3805 5090 0    60   ~ 0
 MOSI_AIR
 Text Label 3805 5190 0    60   ~ 0
 AIR_CTRL_5V_OUT
-<<<<<<< HEAD
-=======
 $Comp
 L Ultrafit_4 J6
 U 1 1 5A7D1779
@@ -461,5 +427,53 @@ F 7 "Value" H 5100 6550 60  0001 C CNN "Package"
 	1    4800 4950
 	1    0    0    -1  
 $EndComp
->>>>>>> 637db1ec9200d763bb910209238ff442d48542a1
+$Comp
+L Ultrafit_2 J11
+U 1 1 5A864268
+P 3780 4425
+F 0 "J11" H 3780 4575 60  0000 C CNN
+F 1 "Energy_Meter_Power" H 3880 4275 60  0000 C CNN
+F 2 "footprints:Ultrafit_2" H 3680 4475 60  0001 C CNN
+F 3 "" H 3780 4575 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 3880 4675 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 3980 4775 60  0001 C CNN "MFN"
+F 6 "WM11570-ND" H 4080 4875 60  0001 C CNN "MPN"
+F 7 "Value" H 4180 4975 60  0001 C CNN "Package"
+	1    3780 4425
+	1    0    0    -1  
+$EndComp
+Text Label 2475 5190 2    60   ~ 0
+AIR_CTRL_RESET
+Text Label 4030 4375 0    60   ~ 0
+12V
+Text Label 4030 4475 0    60   ~ 0
+GND
+Text Label 1200 1800 0    60   ~ 0
+GND
+Text Label 1200 1900 0    60   ~ 0
+GND
+Text Label 1200 2000 0    60   ~ 0
+GND
+Text Label 1200 2100 0    60   ~ 0
+12V
+Text Label 1200 2200 0    60   ~ 0
+12V
+Text Label 1200 2300 0    60   ~ 0
+12V
+Text Label 1200 3000 0    60   ~ 0
+12V
+Text Label 1200 3100 0    60   ~ 0
+12V
+Text Label 1200 3600 0    60   ~ 0
+GND
+Text Label 1200 3700 0    60   ~ 0
+GND
+Text Label 1200 3500 0    60   ~ 0
+CAN_HIGH
+Text Label 1200 3300 0    60   ~ 0
+CAN_LOW
+Text Label 1200 3400 0    60   ~ 0
+CAN_HIGH
+Text Label 1200 3200 0    60   ~ 0
+CAN_LOW
 $EndSCHEMATC
