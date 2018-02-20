@@ -1191,21 +1191,6 @@ Text GLabel 7425 3850 2    60   Input ~ 0
 SDA
 Text GLabel 7425 3950 2    60   Input ~ 0
 SCL
-$Comp
-L Crystal_SMD Y2
-U 1 1 5A794343
-P 9410 2150
-F 0 "Y2" H 9135 1875 50  0000 L CNN
-F 1 "Crystal_SMD" H 9260 1875 50  0000 L CNN
-F 2 "footprints:Crystal_SMD_FA238" H 9360 2225 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" H 9460 2325 50  0001 C CNN
-F 4 "Digi-Key" H 9410 2150 60  0001 C CNN "MFN"
-F 5 "SER3686CT-ND" H 9410 2150 60  0001 C CNN "MPN"
-F 6 "Value" H 9410 2150 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" H 9860 2725 60  0001 C CNN "PurchasingLink"
-	1    9410 2150
-	-1   0    0    1   
-$EndComp
 Text Notes 9930 1815 2    60   ~ 0
 Same 16MHz as on 16M1
 $Comp
@@ -1221,21 +1206,6 @@ F 5 "Digi-Key" H 9685 2450 60  0001 C CNN "MFN"
 F 6 "Value" H 9685 2450 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 10110 2950 60  0001 C CNN "PurchasingLink"
 	1    9685 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_30pF C10
-U 1 1 5A794346
-P 9160 2450
-F 0 "C10" H 9185 2550 50  0000 L CNN
-F 1 "C_30pF" H 9185 2350 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 9198 2300 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9185 2550 50  0001 C CNN
-F 4 "1276-1130-1-ND" H 9160 2450 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 9160 2450 60  0001 C CNN "MFN"
-F 6 "Value" H 9160 2450 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 9585 2950 60  0001 C CNN "PurchasingLink"
-	1    9160 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1366,6 +1336,135 @@ Text GLabel 3490 3650 2    60   Input ~ 0
 TXCAN
 Text GLabel 3490 3740 2    60   Input ~ 0
 RXCAN
+NoConn ~ 3400 3550
+NoConn ~ 2055 -355
+NoConn ~ 2035 1505
+NoConn ~ 8075 2885
+$Comp
+L LED_0805 D6
+U 1 1 5A7C565A
+P 8170 2600
+F 0 "D6" H 8170 2500 50  0000 C CNN
+F 1 "LED_0805" H 8170 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 8070 2600 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8170 2700 50  0001 C CNN
+F 4 "475-1410-1-ND" H 8170 2600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 8170 2600 60  0001 C CNN "MFN"
+F 6 "Value" H 8170 2600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8570 3100 60  0001 C CNN "PurchasingLink"
+	1    8170 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_0805 D7
+U 1 1 5A7C5664
+P 8170 2700
+F 0 "D7" H 8170 2600 50  0000 C CNN
+F 1 "LED_0805" H 8170 2800 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 8070 2700 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8170 2800 50  0001 C CNN
+F 4 "475-1410-1-ND" H 8170 2700 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 8170 2700 60  0001 C CNN "MFN"
+F 6 "Value" H 8170 2700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8570 3200 60  0001 C CNN "PurchasingLink"
+	1    8170 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_200 R17
+U 1 1 5A7C5674
+P 7470 2700
+F 0 "R17" V 7550 2700 50  0000 C CNN
+F 1 "R_200" V 7370 2700 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 7400 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7550 2700 50  0001 C CNN
+F 4 "Digi-Key" H 7470 2700 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 7470 2700 60  0001 C CNN "MPN"
+F 6 "Value" H 7470 2700 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7950 3100 60  0001 C CNN "PurchasingLink"
+	1    7470 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R_200 R16
+U 1 1 5A7C567E
+P 7470 2600
+F 0 "R16" V 7550 2600 50  0000 C CNN
+F 1 "R_200" V 7370 2600 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 7400 2600 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7550 2600 50  0001 C CNN
+F 4 "Digi-Key" H 7470 2600 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 7470 2600 60  0001 C CNN "MPN"
+F 6 "Value" H 7470 2600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7950 3000 60  0001 C CNN "PurchasingLink"
+	1    7470 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 5A7C566A
+P 9420 2600
+F 0 "#PWR046" H 9420 2350 50  0001 C CNN
+F 1 "GND" H 9420 2450 50  0000 C CNN
+F 2 "" H 9420 2600 50  0001 C CNN
+F 3 "" H 9420 2600 50  0001 C CNN
+	1    9420 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 5A7D073E
+P 8460 2785
+F 0 "#PWR047" H 8460 2535 50  0001 C CNN
+F 1 "GND" H 8460 2635 50  0000 C CNN
+F 2 "" H 8460 2785 50  0001 C CNN
+F 3 "" H 8460 2785 50  0001 C CNN
+	1    8460 2785
+	1    0    0    -1  
+$EndComp
+$Comp
+L NanoFit_2 J4
+U 1 1 5A7F827D
+P 4265 1115
+F 0 "J4" H 4615 1065 60  0000 C CNN
+F 1 "NanoFit_2" H 4765 615 60  0000 C CNN
+F 2 "footprints:OLIN_O" H 4265 1115 60  0001 C CNN
+F 3 "" H 4265 1115 60  0001 C CNN
+	1    4265 1115
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4365 1315
+NoConn ~ 4365 1465
+$Comp
+L Crystal_SMD Y2
+U 1 1 5A794343
+P 9410 2150
+F 0 "Y2" H 9135 1875 50  0000 L CNN
+F 1 "Crystal_SMD" H 9260 1875 50  0000 L CNN
+F 2 "footprints:Crystal_SMD_FA238" H 9360 2225 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" H 9460 2325 50  0001 C CNN
+F 4 "Digi-Key" H 9410 2150 60  0001 C CNN "MFN"
+F 5 "SER3686CT-ND" H 9410 2150 60  0001 C CNN "MPN"
+F 6 "Value" H 9410 2150 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" H 9860 2725 60  0001 C CNN "PurchasingLink"
+	1    9410 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_30pF C10
+U 1 1 5A794346
+P 9160 2450
+F 0 "C10" H 9185 2550 50  0000 L CNN
+F 1 "C_30pF" H 8775 2355 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 9198 2300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9185 2550 50  0001 C CNN
+F 4 "1276-1130-1-ND" H 9160 2450 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 9160 2450 60  0001 C CNN "MFN"
+F 6 "Value" H 9160 2450 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 9585 2950 60  0001 C CNN "PurchasingLink"
+	1    9160 2450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2350 950  2800 950 
 Wire Wire Line
@@ -1488,12 +1587,6 @@ Wire Wire Line
 	7875 3700 7875 3750
 Connection ~ 7875 4050
 Wire Wire Line
-	9410 2300 9410 2665
-Wire Wire Line
-	9410 2000 9560 2000
-Wire Wire Line
-	9560 2000 9560 2600
-Wire Wire Line
 	9510 2150 9735 2150
 Wire Wire Line
 	9085 2150 9310 2150
@@ -1574,70 +1667,6 @@ Wire Wire Line
 Wire Wire Line
 	1140 2875 1000 2875
 Connection ~ 1000 2875
-NoConn ~ 3400 3550
-NoConn ~ 2055 -355
-NoConn ~ 2035 1505
-NoConn ~ 8075 2885
-$Comp
-L LED_0805 D6
-U 1 1 5A7C565A
-P 8170 2600
-F 0 "D6" H 8170 2500 50  0000 C CNN
-F 1 "LED_0805" H 8170 2700 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 8070 2600 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8170 2700 50  0001 C CNN
-F 4 "475-1410-1-ND" H 8170 2600 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8170 2600 60  0001 C CNN "MFN"
-F 6 "Value" H 8170 2600 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8570 3100 60  0001 C CNN "PurchasingLink"
-	1    8170 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L LED_0805 D7
-U 1 1 5A7C5664
-P 8170 2700
-F 0 "D7" H 8170 2600 50  0000 C CNN
-F 1 "LED_0805" H 8170 2800 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 8070 2700 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8170 2800 50  0001 C CNN
-F 4 "475-1410-1-ND" H 8170 2700 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8170 2700 60  0001 C CNN "MFN"
-F 6 "Value" H 8170 2700 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8570 3200 60  0001 C CNN "PurchasingLink"
-	1    8170 2700
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_200 R17
-U 1 1 5A7C5674
-P 7470 2700
-F 0 "R17" V 7550 2700 50  0000 C CNN
-F 1 "R_200" V 7370 2700 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 7400 2700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7550 2700 50  0001 C CNN
-F 4 "Digi-Key" H 7470 2700 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 7470 2700 60  0001 C CNN "MPN"
-F 6 "Value" H 7470 2700 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7950 3100 60  0001 C CNN "PurchasingLink"
-	1    7470 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L R_200 R16
-U 1 1 5A7C567E
-P 7470 2600
-F 0 "R16" V 7550 2600 50  0000 C CNN
-F 1 "R_200" V 7370 2600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 7400 2600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7550 2600 50  0001 C CNN
-F 4 "Digi-Key" H 7470 2600 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 7470 2600 60  0001 C CNN "MPN"
-F 6 "Value" H 7470 2600 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7950 3000 60  0001 C CNN "PurchasingLink"
-	1    7470 2600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7620 2600 8020 2600
 Wire Wire Line
@@ -1648,54 +1677,27 @@ Wire Wire Line
 	7250 2600 7320 2600
 Wire Wire Line
 	7250 2700 7320 2700
-$Comp
-L GND #PWR046
-U 1 1 5A7C566A
-P 9415 2665
-F 0 "#PWR046" H 9415 2415 50  0001 C CNN
-F 1 "GND" H 9415 2515 50  0000 C CNN
-F 2 "" H 9415 2665 50  0001 C CNN
-F 3 "" H 9415 2665 50  0001 C CNN
-	1    9415 2665
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR047
-U 1 1 5A7D073E
-P 8460 2785
-F 0 "#PWR047" H 8460 2535 50  0001 C CNN
-F 1 "GND" H 8460 2635 50  0000 C CNN
-F 2 "" H 8460 2785 50  0001 C CNN
-F 3 "" H 8460 2785 50  0001 C CNN
-	1    8460 2785
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8460 2600 8460 2785
 Wire Wire Line
 	8320 2600 8460 2600
 Connection ~ 8460 2700
 Wire Wire Line
-	9410 2665 9415 2665
+	9410 2300 9410 2600
 Wire Wire Line
-	9160 2600 9685 2600
+	9410 2600 9420 2600
 Wire Wire Line
-	9410 2600 9410 2605
-Connection ~ 9410 2605
+	9414 2602 9414 2600
+Connection ~ 9414 2600
 Wire Wire Line
-	9560 2600 9500 2600
-Connection ~ 9500 2600
-$Comp
-L NanoFit_2 J4
-U 1 1 5A7F827D
-P 4265 1115
-F 0 "J4" H 4615 1065 60  0000 C CNN
-F 1 "NanoFit_2" H 4765 615 60  0000 C CNN
-F 2 "footprints:OLIN_O" H 4265 1115 60  0001 C CNN
-F 3 "" H 4265 1115 60  0001 C CNN
-	1    4265 1115
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4365 1315
-NoConn ~ 4365 1465
+	9160 2600 9416 2600
+Wire Wire Line
+	9685 2600 9412 2600
+Wire Wire Line
+	9412 2600 9412 2598
+Wire Wire Line
+	9410 2000 9548 2000
+Wire Wire Line
+	9548 2000 9548 2600
+Connection ~ 9548 2600
 $EndSCHEMATC
