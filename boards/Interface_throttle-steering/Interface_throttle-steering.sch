@@ -325,7 +325,7 @@ Wire Notes Line
 Wire Notes Line
 	3730 2770 3730 1000
 Text Notes 4080 2650 0    98   ~ 0
-RG45 for programming\n
+RJ45 for programming\n
 Wire Wire Line
 	8430 2870 8330 2870
 Wire Wire Line
