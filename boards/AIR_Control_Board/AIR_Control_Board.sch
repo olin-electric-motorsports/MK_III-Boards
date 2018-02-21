@@ -39,12 +39,12 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "AIR Control Board 2018 MK 3"
+Date "2018-02-19"
+Rev "1"
 Comp "Olin Electric Motorsports"
-Comment1 ""
-Comment2 ""
+Comment1 "Electrical Design Lead"
+Comment2 "Lucky Jordan"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1345,21 +1345,6 @@ F 7 "https://www.digikey.com/products/en?keywords=493-1305-ND" H 5725 4800 60  0
 	1    5300 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L micromatch_female_RA_18 J3
-U 1 1 5A77B032
-P 1000 2500
-F 0 "J3" H 900 3700 60  0000 C CNN
-F 1 "To Interface Board" V 650 2700 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_18" H 800 3600 60  0001 C CNN
-F 3 "" H 900 3700 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-8/A99489CT-ND/1955791" H 1000 3800 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 1100 3900 60  0001 C CNN "MFN"
-F 6 "A99489CT-ND" H 1200 4000 60  0001 C CNN "MPN"
-F 7 "Value" H 1300 4100 60  0001 C CNN "Package"
-	1    1000 2500
-	1    0    0    -1  
-$EndComp
 Text Label 1150 3000 0    60   ~ 0
 ShutdownSenseConnToHVD
 Wire Wire Line
@@ -2117,4 +2102,19 @@ Wire Wire Line
 	2100 7350 2100 7050
 NoConn ~ 9050 3200
 NoConn ~ 9050 3100
+$Comp
+L micromatch_female_TOP_ENTRY_locking_18 J3
+U 1 1 5A873888
+P 1000 2500
+F 0 "J3" H 900 3700 60  0000 C CNN
+F 1 "micromatch_female_TOP_ENTRY_locking_18" V 650 2750 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_18" H 800 3600 60  0001 C CNN
+F 3 "" H 900 3700 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-8/A99500CT-ND/1955733" H 1000 3800 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 1100 3900 60  0001 C CNN "MFN"
+F 6 "A99500CT-ND" H 1200 4000 60  0001 C CNN "MPN"
+F 7 "Value" H 1300 4100 60  0001 C CNN "Package"
+	1    1000 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

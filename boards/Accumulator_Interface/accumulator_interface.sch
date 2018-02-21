@@ -156,17 +156,17 @@ Text Label 1200 1600 0    60   ~ 0
 GND
 Text Label 1200 1700 0    60   ~ 0
 GND
-Text Label 1200 1800 0    60   ~ 0
+Text Label 2020 1760 0    60   ~ 0
 FAN_GND
-Text Label 1200 1900 0    60   ~ 0
+Text Label 2020 1860 0    60   ~ 0
 FAN_GND
-Text Label 1200 2000 0    60   ~ 0
+Text Label 2020 1960 0    60   ~ 0
 FAN_GND
-Text Label 1200 2100 0    60   ~ 0
+Text Label 2020 2060 0    60   ~ 0
 FAN_12V
-Text Label 1200 2200 0    60   ~ 0
+Text Label 2020 2160 0    60   ~ 0
 FAN_12V
-Text Label 1200 2300 0    60   ~ 0
+Text Label 2020 2260 0    60   ~ 0
 FAN_12V
 Text Label 1200 2400 0    60   ~ 0
 FAN_PWM
@@ -283,9 +283,9 @@ Text Label 5050 3750 0    60   ~ 0
 MAIN_PACK_IN/BMS_OUT
 Text Label 5050 3850 0    60   ~ 0
 HVD_IN/MAIN_PACK_OUT
-Text Label 5050 3350 0    60   ~ 0
-BMS_STATUS
 Text Label 5050 3450 0    60   ~ 0
+BMS_STATUS
+Text Label 5050 3350 0    60   ~ 0
 IMD_LATCH_STATUS
 Text Label 5050 4400 0    60   ~ 0
 BMS_5V_OUT
@@ -448,4 +448,32 @@ Text Label 4030 4375 0    60   ~ 0
 12V
 Text Label 4030 4475 0    60   ~ 0
 GND
+Text Label 1200 1800 0    60   ~ 0
+GND
+Text Label 1200 1900 0    60   ~ 0
+GND
+Text Label 1200 2000 0    60   ~ 0
+GND
+Text Label 1200 2100 0    60   ~ 0
+12V
+Text Label 1200 2200 0    60   ~ 0
+12V
+Text Label 1200 2300 0    60   ~ 0
+12V
+Text Label 1200 3000 0    60   ~ 0
+12V
+Text Label 1200 3100 0    60   ~ 0
+12V
+Text Label 1200 3600 0    60   ~ 0
+GND
+Text Label 1200 3700 0    60   ~ 0
+GND
+Text Label 1200 3500 0    60   ~ 0
+CAN_HIGH
+Text Label 1200 3300 0    60   ~ 0
+CAN_LOW
+Text Label 1200 3400 0    60   ~ 0
+CAN_HIGH
+Text Label 1200 3200 0    60   ~ 0
+CAN_LOW
 $EndSCHEMATC
