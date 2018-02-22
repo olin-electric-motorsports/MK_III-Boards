@@ -188,8 +188,8 @@ F 0 "J6" H 8110 13050 60  0000 C CNN
 F 1 "micromatch_male_12" H 8160 11750 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_12" H 8010 12950 60  0001 C CNN
 F 3 "" H 8110 13050 60  0001 C CNN
-F 4 "A110882CT-ND" H 8160 12650 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8110 12600 60  0001 C CNN "MFN"
+F 4 "Digi-Key" H 8110 12600 60  0001 C CNN "MFN"
+F 5 "A110882CT-ND" H 8160 12650 60  0001 C CNN "MPN"
 F 6 "Value" H 8110 12600 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-2/A110882CT-ND/4142266" H 8510 13450 60  0001 C CNN "PurchasingLink"
 	1    8210 11850
@@ -203,8 +203,8 @@ F 0 "J7" H 8110 14650 60  0000 C CNN
 F 1 "micromatch_male_18" H 8160 12750 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_18" H 8010 14550 60  0001 C CNN
 F 3 "" H 8110 14650 60  0001 C CNN
-F 4 "A110884CT-ND" H 8210 13450 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8210 13450 60  0001 C CNN "MFN"
+F 4 "Digi-Key" H 8210 13450 60  0001 C CNN "MFN"
+F 5 "A110884CT-ND" H 8210 13450 60  0001 C CNN "MPN"
 F 6 "Value" H 8210 13450 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-8/A110884CT-ND/4142268" H 8510 15050 60  0001 C CNN "PurchasingLink"
 	1    8210 13450
