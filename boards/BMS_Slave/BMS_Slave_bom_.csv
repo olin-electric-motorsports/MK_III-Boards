@@ -7,12 +7,12 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 6,,200mA_Fuse,F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11,200mA_Fuse,Fuse_1812,11,https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf,Value,507-1757-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0020AF2C/507-1757-1-ND/4156197
 7,,MicroFit_12,J5,MicroFit_12,Microfit3_Header_02x06_Angled_OEM,1,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-5984.pdf,Value,WM1818-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/0430451200/WM1818-ND/252531
 8,,MicroFit_20,J6,MicroFit_20,Molex_Microfit3_Header_02x10_Angled_OEM,1,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-5984.pdf,Value,WM4726-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/0430452000/WM4726-ND/531426
-9,,NanoFit_2,J7 J8,NanoFit_2,Molex_NanoFit_1x02x2.50mm_Angled_OEM,2,,,,,
+9,,NanoFit_2,J7 J8,NanoFit_2,Molex_NanoFit_1x02x2.50mm_Angled_OEM,2,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF,Value,WM14958-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1053071202/WM14958-ND/6131600
 10,N-channel MOSFET,NMOS_GSD_30V,Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11,NMOS_GSD_30V,SOT-23F,10,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND,Value,SSM3K333RLFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND
-11,Transistor NPN (general),Q_NPN_BCE,Q1,Q_NPN_BCE,SOT-223,1,http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF,,,,
-12,Resistor,R,R26 R30 R34 R38 R42 R46 R50 R54 R58 R62,3.3k,R_0805_OEM,10,,,,,
-13,Resistor,R,R3 R4,4.99k,R_0805_OEM,2,,,,,
-14,Resistor,R,R18 R19 R20 R21,60.4,R_0805_OEM,4,,,,,
+11,Transistor NPN (general),Q_NPN_BCE,Q1,Q_NPN_BCE,SOT-223,1,http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF,Value,NSS1C201MZ4T1GOSCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T1G/NSS1C201MZ4T1GOSCT-ND/4331829
+12,Resistor,R,R26 R30 R34 R38 R42 R46 R50 R54 R58 R62,3.3k,R_0805_OEM,10,http://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf,Value,RG20N3.3KWCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/susumu/RG2012N-332-W-T1/RG20N3.3KWCT-ND/600888
+13,Resistor,R,R3 R4,4.99k,R_0805_OEM,2,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,Value,P4.99KDACT-ND,Digi-Key,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB4991V/P4.99KDACT-ND/3075161
+14,Resistor,R,R18 R19 R20 R21,60.4,R_0805_OEM,4,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,Value,P60.4CCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF60R4V/P60.4CCT-ND/118605
 15,,DTO25,R24 R28 R32 R36 R40 R44 R48 R52 R56 R60,DTO25,DTO25,10,http://www.bourns.com/docs/Product-Datasheets/PWR163.pdf,Value,PWR163S-25-27R0F-ND,Digi-Key,https://www.digikey.com/product-detail/en/bourns-inc/PWR163S-25-27R0F/PWR163S-25-27R0F-ND/2416264
 16,Res 100 1%,R_100,R1 R2 R7 R22 R25 R29 R33 R37 R41 R45 R49 R53 R57 R61,R_100,R_0805_OEM,14,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD100RCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND
 17,Res 10k 1%,R_10k,R8 R9 R10 R11 R12 R13 R14 R15 R16 R17,R_10k,R_0805_OEM,10,http://www.bourns.com/data/global/pdfs/CRS.pdf,Value,CRS0805-FX-1002ELFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND
