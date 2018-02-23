@@ -1,0 +1,20 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink
+1,Waterproof Panel-Mount Connector RA 14-Pin,Ampseal_14,J2,Ampseal_14,Ampseal_14,1,,,,,
+2,CONN FMALE-ON-BRD 14POS VERT T/H,micromatch_female_TOP_ENTRY_locking_14,J1,micromatch_female_TOP_ENTRY_locking_14,micromatch_female_vert_14,1,,Value,A99502CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-4/A99502CT-ND/1955735
+3,CONN FMALE-ON-BRD 6POS VERT T/H,micromatch_female_TOP_ENTRY_locking_6,J3,micromatch_female_TOP_ENTRY_locking_6,micromatch_female_vert_6,1,,Value,A99437CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-6/A99437CT-ND/1955739
+4,,RJ45_VT,U1,RJ45_VT,RJ45-Vertical,1,,,,,
+
+
+
+
+
+Component Groups:,4
+Component Count:,4
+Fitted Components:,4
+Number of PCBs:,1
+Total components:,4
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Wed 21 Feb 2018 10:11:25 PM EST
+Schematic Source:,/home/lanfenson/MK_III-Boards-master/boards/dashboard/ExternalInterface/ExternalInterface.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1

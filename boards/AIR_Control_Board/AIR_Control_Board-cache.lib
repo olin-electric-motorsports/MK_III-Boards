@@ -783,16 +783,16 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# micromatch_female_RA_18
+# micromatch_female_TOP_ENTRY_locking_18
 #
-DEF micromatch_female_RA_18 J 0 40 Y Y 1 F N
+DEF micromatch_female_TOP_ENTRY_locking_18 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "micromatch_female_RA_18" 0 -800 60 H V C CNN
-F2 "footprints:micromatch_female_ra_18" -200 1100 60 H I C CNN
+F1 "micromatch_female_TOP_ENTRY_locking_18" 0 -800 60 H V C CNN
+F2 "footprints:micromatch_female_vert_18" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-8/A99489CT-ND/1955791" 0 1300 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-8/A99500CT-ND/1955733" 0 1300 60 H I C CNN "PurchasingLink"
 F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
-F6 "A99489CT-ND" 200 1500 60 H I C CNN "MPN"
+F6 "A99500CT-ND" 200 1500 60 H I C CNN "MPN"
 F7 "Value" 300 1600 60 H I C CNN "Package"
 DRAW
 S 50 -650 -250 1150 0 1 0 f

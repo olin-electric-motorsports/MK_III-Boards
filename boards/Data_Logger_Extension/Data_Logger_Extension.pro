@@ -1,4 +1,4 @@
-update=Mon 12 Feb 2018 08:59:21 PM EST
+update=Tue 20 Feb 2018 09:36:23 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=/home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

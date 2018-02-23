@@ -657,21 +657,6 @@ F 3 "" H 1750 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATMEGA16M1 IC1
-U 1 1 59E10948
-P 2600 6250
-F 0 "IC1" H 1650 8080 50  0000 L BNN
-F 1 "ATMEGA16M1" H 3100 4850 50  0000 L BNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2600 6250 50  0001 C CIN
-F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1650 8080 50  0001 C CNN
-F 4 "ATMEGA16M1-AU-ND" H 2600 6250 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 2600 6250 60  0001 C CNN "MFN"
-F 6 "Value" H 2600 6250 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 2050 8480 60  0001 C CNN "PurchasingLink"
-	1    2600 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Crystal_SMD Y1
 U 1 1 59E10C38
 P 3850 7550
@@ -937,7 +922,7 @@ Text Label 11100 1400 0    59   ~ 0
 Main_Shut_Fuse
 Text Label 14300 1400 0    59   ~ 0
 L_E-Stop_Pin
-Text Label 3700 5850 0    59   ~ 0
+Text Label 3700 4650 0    59   ~ 0
 L_E-Stop_Pin
 Text Label 12750 1400 0    59   ~ 0
 R_EStop_Pin
@@ -951,7 +936,7 @@ Text Label 1350 800  0    59   ~ 0
 GND
 Text Label 1350 900  0    59   ~ 0
 +12V
-Text Label 1350 1900 0    59   ~ 0
+Text Label 1350 1700 0    59   ~ 0
 Brake_Light_LSD
 Text Label 1350 1000 0    59   ~ 0
 VCC
@@ -1698,49 +1683,47 @@ F 7 "Value" H 1500 3500 60  0001 C CNN "Package"
 $EndComp
 Text Label 3700 5550 0    59   ~ 0
 BSPD_Stat_Out
-Text Label 1350 2300 0    59   ~ 0
+Text Label 1350 2400 0    59   ~ 0
 BSPD_Stat_Out
 Text Label 1350 3250 0    59   ~ 0
 R_E-Stop_Sense
 Text Label 1350 3450 0    59   ~ 0
 HVD_Sense
-Text Label 1350 2400 0    59   ~ 0
-SDA
 Text Label 1350 2500 0    59   ~ 0
+SDA
+Text Label 1350 2600 0    59   ~ 0
 SCL
-Text Label 3700 6850 0    59   ~ 0
-Brake_Light_Gate
-Text Label 3700 4750 0    59   ~ 0
-HVD_Pin
-Text Label 3700 5150 0    59   ~ 0
-R_EStop_Pin
 Text Label 3700 5050 0    59   ~ 0
+Brake_Light_Gate
+Text Label 3700 7050 0    59   ~ 0
+HVD_Pin
+Text Label 3700 6850 0    59   ~ 0
+R_EStop_Pin
+Text Label 3700 4750 0    59   ~ 0
 TSMS_Pin
-Text Label 3700 6150 0    59   ~ 0
+Text Label 3700 4550 0    59   ~ 0
 Main_Shut_Fuse
-Text Label 3700 5450 0    59   ~ 0
+Text Label 3700 6950 0    59   ~ 0
 BSPD_Pin
-NoConn ~ 3500 5800
 NoConn ~ 10600 1650
-NoConn ~ -4650 -900
 NoConn ~ 10400 3600
-Text Label 1350 1700 0    59   ~ 0
+Text Label 1350 2200 0    59   ~ 0
 LED_1
-Text Label 1350 1800 0    59   ~ 0
+Text Label 1350 2300 0    59   ~ 0
 LED_2
 $Comp
 L R_200 R38
 U 1 1 5A303208
-P 4350 5250
-F 0 "R38" V 4430 5250 50  0000 C CNN
-F 1 "R_200" V 4250 5250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4280 5250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4430 5250 50  0001 C CNN
-F 4 "Digi-Key" H 4350 5250 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 4350 5250 60  0001 C CNN "MPN"
-F 6 "Value" H 4350 5250 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4830 5650 60  0001 C CNN "PurchasingLink"
-	1    4350 5250
+P 4600 5450
+F 0 "R38" V 4680 5450 50  0000 C CNN
+F 1 "R_200" V 4500 5450 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4530 5450 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4680 5450 50  0001 C CNN
+F 4 "Digi-Key" H 4600 5450 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 4600 5450 60  0001 C CNN "MPN"
+F 6 "Value" H 4600 5450 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5080 5850 60  0001 C CNN "PurchasingLink"
+	1    4600 5450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1758,9 +1741,9 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4530 67
 	1    4050 6350
 	0    1    1    0   
 $EndComp
-Text Label 4600 5250 3    59   ~ 0
-LED_1
 Text Label 4300 6350 0    59   ~ 0
+LED_1
+Text Label 4850 5450 0    59   ~ 0
 LED_2
 $Comp
 L LED_0805 D13
@@ -1818,7 +1801,7 @@ F 3 "" H 2650 9050 50  0001 C CNN
 $EndComp
 Text Label 3700 5950 0    59   ~ 0
 LED_3
-Text Label 3700 6050 0    59   ~ 0
+Text Label 3700 5850 0    59   ~ 0
 LED_4
 $Comp
 L VCC #PWR057
@@ -1831,13 +1814,13 @@ F 3 "" H 3050 950 50  0001 C CNN
 	1    3050 950 
 	-1   0    0    1   
 $EndComp
-Text Label 1350 2600 0    59   ~ 0
-Analog_Brake_Sense
-Text Label 1350 2000 0    59   ~ 0
-Brake_Switch+
 Text Label 1350 2100 0    59   ~ 0
+Analog_Brake_Sense
+Text Label 1350 1800 0    59   ~ 0
+Brake_Switch+
+Text Label 1350 1900 0    59   ~ 0
 Brake_Switch-
-Text Label 1350 2200 0    59   ~ 0
+Text Label 1350 2000 0    59   ~ 0
 BSPD_Out
 Text Label 1350 3050 0    59   ~ 0
 Main_Sense
@@ -1858,11 +1841,9 @@ F 3 "" H 3500 2200 50  0001 C CNN
 	1    3500 2200
 	1    0    0    -1  
 $EndComp
-Text Label 3700 4550 0    59   ~ 0
+Text Label 3700 5250 0    59   ~ 0
 Analog_Brake_Sense
-Text Label 3700 4650 0    59   ~ 0
-RESET
-Text Label 3700 4850 0    59   ~ 0
+Text Label 3700 5150 0    59   ~ 0
 BSPD_Out
 $Comp
 L R_200 R32
@@ -2136,9 +2117,9 @@ F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    0    0    -1  
 $EndComp
 Text Label 6250 8350 2    59   ~ 0
-32
+MISO
 Text Label 6250 8450 2    59   ~ 0
-SCK32
+SCK
 $Comp
 L VCC #PWR069
 U 1 1 5A78B938
@@ -2151,7 +2132,7 @@ F 3 "" H 6750 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6750 8450 0    59   ~ 0
-MOSI32
+MOSI
 $Comp
 L GND #PWR070
 U 1 1 5A78BA91
@@ -2168,9 +2149,9 @@ RST32
 Text Label 9100 7000 0    59   ~ 0
 RST32
 Text Label 8650 5850 0    59   ~ 0
-MOSI32
+MOSI
 Text Label 8650 5950 0    59   ~ 0
-MISO32
+MISO
 Text Label 8650 6050 0    59   ~ 0
 SCK
 Text Label 8650 6800 0    59   ~ 0
@@ -2179,11 +2160,11 @@ Text Label 8650 6900 0    59   ~ 0
 SCL
 Text Label 9550 5750 0    59   ~ 0
 data1
-Text Label 3700 7050 0    59   ~ 0
+Text Label 3700 4950 0    59   ~ 0
 data1
-Text Label 3700 6950 0    59   ~ 0
+Text Label 3700 6050 0    59   ~ 0
 data2
-Text Label 8650 5650 0    59   ~ 0
+Text Label 8650 6700 0    59   ~ 0
 data2
 $Comp
 L R_10k R37
@@ -2211,13 +2192,13 @@ F 3 "" H 9400 5650 50  0001 C CNN
 	1    9400 5650
 	1    0    0    -1  
 $EndComp
-Text Label 8650 5550 0    59   ~ 0
+Text Label 8650 6600 0    59   ~ 0
 data3
 Text Label 8650 7850 0    59   ~ 0
 data4
-Text Label 3700 6450 0    59   ~ 0
+Text Label 3700 4850 0    59   ~ 0
 data3
-Text Label 3700 4950 0    59   ~ 0
+Text Label 3700 6150 0    59   ~ 0
 data4
 Text Label 8650 6400 0    59   ~ 0
 LED5
@@ -2309,8 +2290,6 @@ Text Label 7450 8350 1    59   ~ 0
 LED5
 Text Label 7800 8350 1    59   ~ 0
 LED6
-NoConn ~ 8650 6600
-NoConn ~ 8650 6700
 NoConn ~ 8650 7150
 NoConn ~ 8650 7250
 NoConn ~ 8650 7350
@@ -2582,11 +2561,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 9050 2650 8900
 Wire Wire Line
-	3700 5250 4200 5250
-Wire Wire Line
 	3700 6350 3900 6350
-Wire Wire Line
-	6750 5500 6750 6150
 Connection ~ 6750 5650
 Connection ~ 6750 5850
 Wire Wire Line
@@ -2712,7 +2687,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4500 1100 4550
 Wire Wire Line
-	4500 5250 4600 5250
+	4750 5450 4850 5450
 Wire Wire Line
 	4200 6350 4300 6350
 Wire Wire Line
@@ -2722,4 +2697,81 @@ Wire Wire Line
 Wire Wire Line
 	1700 8050 1700 8100
 Connection ~ 1500 7450
+$Comp
+L C_0.1uF C14
+U 1 1 5A8226BF
+P 6650 1600
+F 0 "C14" H 6675 1700 50  0000 L CNN
+F 1 "C_0.1uF" H 6675 1500 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6688 1450 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6675 1700 50  0001 C CNN
+F 4 "478-3352-1-ND" H 6650 1600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6650 1600 60  0001 C CNN "MFN"
+F 6 "Value" H 6650 1600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7075 2100 60  0001 C CNN "PurchasingLink"
+	1    6650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_1uF C13
+U 1 1 5A8227BA
+P 6450 1600
+F 0 "C13" H 6475 1700 50  0000 L CNN
+F 1 "C_1uF" H 6475 1500 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6488 1450 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6475 1700 50  0001 C CNN
+F 4 "CAP CER 1UF 25V X7R 0805" H 6975 2200 60  0001 C CNN "Description"
+F 5 "478-10487-1-ND" H 6450 1600 60  0001 C CNN "MPN"
+F 6 "Digi-Key" H 6450 1600 60  0001 C CNN "MFN"
+F 7 "Value" H 6450 1600 60  0001 C CNN "Package"
+F 8 "https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628" H 6875 2100 60  0001 C CNN "PurchasingLink"
+	1    6450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR075
+U 1 1 5A822FDC
+P 6450 1750
+F 0 "#PWR075" H 6450 1500 50  0001 C CNN
+F 1 "GND" H 6450 1600 50  0000 C CNN
+F 2 "" H 6450 1750 50  0001 C CNN
+F 3 "" H 6450 1750 50  0001 C CNN
+	1    6450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR076
+U 1 1 5A82309C
+P 6650 1750
+F 0 "#PWR076" H 6650 1500 50  0001 C CNN
+F 1 "GND" H 6650 1600 50  0000 C CNN
+F 2 "" H 6650 1750 50  0001 C CNN
+F 3 "" H 6650 1750 50  0001 C CNN
+	1    6650 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 1450
+Connection ~ 8850 8350
+Wire Wire Line
+	6750 5500 6750 6150
+$Comp
+L ATMEGA16M1 IC1
+U 1 1 59E10948
+P 2600 6250
+F 0 "IC1" H 1650 8080 50  0000 L BNN
+F 1 "ATMEGA16M1" H 3100 4850 50  0000 L BNN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2600 6250 50  0001 C CIN
+F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1650 8080 50  0001 C CNN
+F 4 "ATMEGA16M1-AU-ND" H 2600 6250 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2600 6250 60  0001 C CNN "MFN"
+F 6 "Value" H 2600 6250 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 2050 8480 60  0001 C CNN "PurchasingLink"
+	1    2600 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5450 4450 5450
+NoConn ~ 3700 6450
+NoConn ~ 8650 5650
+NoConn ~ 8650 5550
 $EndSCHEMATC

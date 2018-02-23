@@ -1,0 +1,46 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,Purchasing Link,MFN,PurchasingLink,PurchasingLink2,MPN2
+1,,CP_1mF,C1 C2,CP_1mF,C_Radial_D10_L13_P5_OEM,2,http://nichicon-us.com/english/products/pdfs/e-uvz.pdf,"Radial, Can",493-1305-ND,https://www.digikey.com/products/en?keywords=493-1305-ND,Digi-Key,,,
+2,Cap 50V 0.1uF 10% 0805,C_0.1uF,C3 C4 C7 C12,C_0.1uF,C_0805_OEM,4,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND,,
+3,Cap 50V 100pF 5% 0805,C_100pF,C5,C_100pF,C_0805_OEM,1,https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf,Value,399-1122-1-ND,,Digi-Key,https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1-ND/411397,,
+4,CAP CER 1UF 25V X7R 0805,C_1uF,C11,C_1uF,C_0805_OEM,1,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-10487-1-ND,,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628,,
+5,Unpolarized capacitor,C_22uF,C6,C_22uF,C_1206_OEM,1,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf,Value,1276-2725-1-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=1276-2725-1-ND,,
+6,Cap 50V 30pF 5% 0805,C_30pF,C8 C9,C_30pF,C_0805_OEM,2,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,Value,1276-1130-1-ND,,Digi-Key,https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216,,
+7,CAP CER 47UF 6.3V X5R 0805,C_47uF,C10,C_47uF,C_0805_OEM,1,http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf,Value,587-4280-1-ND,,Digi-Key,https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315,,
+8,DIODE SCHOTTKY 100V 1A SOD123,D_Schottky_SOD123,D1 D7 D13,D_Schottky_SOD123,D_SOD-123W_OEM,3,https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf,,1727-2394-1-ND,,Digi-Key,https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140,,
+9,DIODE ZENER 18V 5W DO214AA,D_Zener_18V,D14,D_Zener_18V,DO-214AA,1,http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf,DO-214AA (SMB),SMBJ5355B-TPMSCT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND,,
+10,LED_0805,LED_0805,D2 D3 D4 D5 D6 D8 D9 D10 D11 D12 D15 D16,LED_0805,LED_0805_OEM,12,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND,,
+11,PTC Fuse 16V 500mA,F_500mA_16V,F1,F_500mA_16V,Fuse_1210,1,https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf,Value,507-1786-1-ND,,Digi-Key,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209,,
+12,"TQFP32, 16k Flash, 1k SRAM, 512B EEPROM, CAN",ATMEGA16M1,IC1,ATMEGA16M1,TQFP-32_7x7mm_Pitch0.8mm,1,http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf,Value,ATMEGA16M1-AU-ND,,Digi-Key,https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208,,
+13,,Ultrafit_2-RESCUE-AIR_Control_Board,J5,AIR+,Ultrafit_2,1,,Value,WM11570-ND,,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+14,Ultrafit 4 Pin Connector,Ultrafit_4,J1,AIR-,Ultrafit_4,1,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf,Value,WM11574-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=WM11574-ND,https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228,WM11564-ND
+15,"Connector, double row, 02x03",CONN_02X03,J6,CONN_02X03,Pin_Header_Straight_2x03,1,http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf,Value,609-3234-ND,,Digi-Key,https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491,,
+16,,Ultrafit_2-RESCUE-AIR_Control_Board,J4,PrechargeRelay,Ultrafit_2,1,,Value,WM11570-ND,,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+17,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J2,Ultrafit_2,Ultrafit_2,1,,Value,WM11570-ND,,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+18,CONN FMALE-ON-BRD 18POS VERT T/H,micromatch_female_TOP_ENTRY_locking_18,J3,micromatch_female_TOP_ENTRY_locking_18,micromatch_female_vert_18,1,,Value,A99500CT-ND,,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-8/A99500CT-ND/1955733,,
+19,Inductor 4.7uH 4.4A,L_4.7uH,L1,L_4.7uH,4.7uH_Inductor_OEM,1,https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf,Value,445-6583-1-ND,,Digi-Key,https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893,,
+20,N-channel MOSFET,NMOS_GSD_30V,Q2 Q3 Q4 Q5 Q6 Q7,NMOS_GSD_30V,SOT-23F,6,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND,Value,SSM3K333RLFCT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=SSM3K333RLFCT-ND,,
+21,Res 0 2512 3W Jumper,R_0_Jumper,R30,R_0_Jumper,R_2512_OEM,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English,Value,A121322CT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=A121322CT-ND,,
+22,Res 100 1%,R_100,R23,R_100,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD100RCT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND,,
+23,Res 100k 1%,R_100k,R9 R10 R19 R20,R_100k,R_0805_OEM,4,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,Value,311-100KCRCT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=311-100KCRCT-ND,,
+24,Res 10k 1%,R_10k,R3 R6 R12 R13 R16 R21 R22 R25 R26 R31,R_10k,R_0805_OEM,10,http://www.bourns.com/data/global/pdfs/CRS.pdf,Value,CRS0805-FX-1002ELFCT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND,,
+25,Res 1k 1%,R_1k,R4 R7 R8 R17 R18 R24,R_1k,R_0805_OEM,6,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD1K00CT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND,,
+26,Res 200 5%,R_200,R1 R5 R11 R14 R15 R28 R29 R32,R_200,R_0805_OEM,8,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805JT200RCT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND,,
+27,Res 55.1k 1%,R_55.1k,R27,R_55.1k,R_0805_OEM,1,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,Value,311-51.1KCRCT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND,,
+28,"High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package",CAN_Transceiver,U1,CAN_Transceiver,SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM,1,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044,Value,MCP2561-E/SN-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn,,
+29,4.5V - 17V Input 1A Synchronous Buck Converter,TPS561201,U2,TPS561201,SOT-23-6_OEM,1,http://www.ti.com/lit/ds/symlink/tps561201.pdf,Value,TPS561201,,Digi-Key,https://www.digikey.com/products/en?keywords=296-46928-1-ND,,
+30,"Two pin crystal, two ground/package pins (pin2 and 3) small symbol",Crystal_SMD,Y1,Crystal_SMD,Crystal_SMD_FA238,1,https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf,Value,SER3686CT-ND,,Digi-Key,https://www.digikey.com/products/en?keywords=SER3686CT-ND,,
+
+
+
+
+
+Component Groups:,30
+Component Count:,77
+Fitted Components:,77
+Number of PCBs:,1
+Total components:,77
+Schematic Version:,
+Schematic Date:,
+BoM Date:,2/19/2018 1:06:32 PM
+Schematic Source:,C:/Users/ljordan/Desktop/Olin/Formula/2017-18/MK_III-Boards/boards/AIR_Control_Board/AIR_Control_Board.sch
+KiCad Version:,Eeschema 4.0.7
