@@ -406,8 +406,6 @@ F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5
 	1    2900 1400
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	6200 850  6300 950 
 Text Label 3250 1200 0    60   ~ 0
 GND
 Text Label 3250 1300 0    60   ~ 0
