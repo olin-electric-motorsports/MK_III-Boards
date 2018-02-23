@@ -1,0 +1,20 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink,PurchasingLink2,MPN2
+1,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J2 J3,Ultrafit_2,Ultrafit_2,2,,Value,WM11570-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+2,Ultrafit 4 Pin Connector,Ultrafit_4,J4 J5 J6,Ultrafit_4,Ultrafit_4,3,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf,Value,WM11574-ND,Digi-Key,https://www.digikey.com/products/en?keywords=WM11574-ND,https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228,WM11564-ND
+3,CONN FMALE-ON-BRD 10POS VERT T/H,micromatch_female_TOP_ENTRY_locking_10,J1,micromatch_female_TOP_ENTRY_locking_10,micromatch_female_vert_10,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English,Value,A99504CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-0/A99504CT-ND/1955737,,
+4,Res 200 5%,R_200,R1,R_200,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805JT200RCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND,,
+
+
+
+
+
+Component Groups:,4
+Component Count:,7
+Fitted Components:,7
+Number of PCBs:,1
+Total components:,7
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Wed 21 Feb 2018 10:05:45 PM EST
+Schematic Source:,/home/lanfenson/MK_III-Boards-master/boards/dashboard/InternalInterface/InternalInterface.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1
