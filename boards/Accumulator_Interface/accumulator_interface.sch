@@ -289,27 +289,27 @@ Text Label 5050 3350 0    60   ~ 0
 IMD_LATCH_STATUS
 Text Label 5050 4400 0    60   ~ 0
 BMS_5V_OUT
-Text Label 5050 4500 0    60   ~ 0
-MOSI_BMS
-Text Label 5050 4600 0    60   ~ 0
-MISO_BMS
 Text Label 5050 4700 0    60   ~ 0
-SCK_BMS
+MOSI_BMS
 Text Label 5050 4800 0    60   ~ 0
-BMS_RESET
+MISO_BMS
 Text Label 5050 4900 0    60   ~ 0
-CAN_HIGH
+SCK_BMS
 Text Label 5050 5000 0    60   ~ 0
+BMS_RESET
+Text Label 5050 4500 0    60   ~ 0
+CAN_HIGH
+Text Label 5050 4600 0    60   ~ 0
 CAN_LOW
 Text Label 5050 5100 0    60   ~ 0
 BMS_LED_1
 Text Label 5050 5200 0    60   ~ 0
 BMS_LED_2
-Text Label 5050 5300 0    60   ~ 0
-FAN_PWM
 Text Label 5050 5400 0    60   ~ 0
-BMS_STATUS
+FAN_PWM
 Text Label 5050 5500 0    60   ~ 0
+BMS_STATUS
+Text Label 5050 5300 0    60   ~ 0
 BSPD_CURRENT_SENSE
 Text Label 5050 1900 0    60   ~ 0
 GND
@@ -406,9 +406,9 @@ F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5
 	1    2900 1400
 	1    0    0    -1  
 $EndComp
-Text Label 3250 1200 0    60   ~ 0
-GND
 Text Label 3250 1300 0    60   ~ 0
+GND
+Text Label 3250 1200 0    60   ~ 0
 12V
 $Comp
 L micromatch_female_TOP_ENTRY_locking_12 J7
@@ -474,4 +474,6 @@ Text Label 1200 3400 0    60   ~ 0
 CAN_HIGH
 Text Label 1200 3200 0    60   ~ 0
 CAN_LOW
+Text Label 1200 4700 0    60   ~ 0
+TSMS_IN
 $EndSCHEMATC

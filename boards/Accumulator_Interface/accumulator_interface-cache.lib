@@ -6,8 +6,11 @@ EESchema-LIBRARY Version 2.3
 DEF Ampseal_35 J 0 40 Y Y 1 F N
 F0 "J" -250 1800 60 H V C CNN
 F1 "Ampseal_35" -300 -1800 60 H V L CNN
-F2 "" -200 1350 60 H I C CNN
-F3 "" -200 1350 60 H I C CNN
+F2 "footprints:Ampseal_35" -200 1350 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2293782&DocType=Customer+Drawing&DocLang=English" -200 1350 60 H I C CNN
+F4 "A121829-ND" -150 1900 60 H I C CNN "MPN"
+F5 "Digi-key" -50 2000 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/products/en?keywords=776164-1" 50 2100 60 H I C CNN "PurchasingLink"
 DRAW
 S 0 1750 -300 -1750 0 1 0 f
 X 1 1 200 1700 200 L 50 50 1 1 P
@@ -54,7 +57,10 @@ DEF RJ45_VT U 0 40 Y Y 1 F N
 F0 "U" 0 -590 60 H V C CNN
 F1 "RJ45_VT" 10 660 60 H V C CNN
 F2 "footprints:RJ45-Vertical" -100 -690 60 H I C CNN
-F3 "" 0 -590 60 H I C CNN
+F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" 0 -590 60 H I C CNN
+F4 "MRJ-5481-01-ND" 200 -390 60 H I C CNN "MPN"
+F5 "Digi-Key" 300 -290 60 H V C CNN "MFN"
+F6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" 400 -190 60 H I C CNN "PurchasingLink"
 DRAW
 S -280 570 650 -190 0 1 0 N
 X CANL 1 -480 430 200 R 50 50 1 1 B
