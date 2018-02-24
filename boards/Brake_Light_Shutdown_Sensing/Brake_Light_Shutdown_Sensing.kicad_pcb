@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 202)
     (no_connects 0)
     (area 137.7442 74.1934 216.484201 152.933401)
     (thickness 1.6)
-    (drawings 23)
+    (drawings 21)
     (tracks 1037)
     (zones 0)
     (modules 86)
@@ -24,14 +24,14 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
     (48 B.Fab user)
     (49 F.Fab user)
   )
@@ -376,7 +376,7 @@
       (net 34 /RESET))
     (pad 32 smd rect (at -2.8 -4.25 135) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
       (net 71 "Net-(IC1-Pad32)"))
-    (model Housings_QFP.3dshapes/TQFP-32_7x7mm_Pitch0.8mm.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/Atmega16m1/Atmega16m1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -508,7 +508,7 @@
       (net 5 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -541,7 +541,7 @@
       (net 6 "Net-(C5-Pad1)"))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -706,7 +706,7 @@
       (net 1 VCC))
     (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -777,7 +777,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -2.032 0 90) (size 1.778 2.159) (layers F.Cu F.Paste F.Mask)
       (net 10 +12V))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/DO_214AA_OEM/DO_214AA.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/DO_214AA_OEM/DO_214AA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -819,10 +819,10 @@
       (net 11 "Net-(D2-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+    (model "/home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -903,7 +903,7 @@
       (net 13 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+    (model "/home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -945,7 +945,7 @@
       (net 14 "Net-(D5-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+    (model "/home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -987,7 +987,7 @@
       (net 15 "Net-(D6-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+    (model "/home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1029,7 +1029,7 @@
       (net 16 "Net-(D7-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+    (model "/home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1071,7 +1071,7 @@
       (net 17 "Net-(D8-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+    (model "/home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1113,7 +1113,7 @@
       (net 18 "Net-(D9-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
+    (model "/home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1314,7 +1314,7 @@
       (net 10 +12V))
     (pad 2 smd rect (at 1.45 0 270) (size 0.9 2.5) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C3-Pad1)"))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/Fuse_1210_OEM/Fuse1210.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/Fuse_1210_OEM/Fuse1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1352,6 +1352,11 @@
       (net 36 /BSPD_Sense))
     (pad 6 thru_hole circle (at 2.54 1.27) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 35 /TSMS_Sense))
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/Micromatch_Female_RA_8/micromatch_female_ra_8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:micromatch_female_ra_20 (layer F.Cu) (tedit 5A82194B) (tstamp 5A78D26A)
@@ -1476,6 +1481,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/Header_Pin_2x3/Header_Straight_2x3.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:Pin_Header_Straight_2x03 (layer F.Cu) (tedit 59F24A3E) (tstamp 5A78D284)
@@ -1514,7 +1524,7 @@
       (net 65 /RST32))
     (pad 6 thru_hole oval (at 2.54 5.08) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/Header_Pin_2x3/Header_Straight_2x3.wrl
       (at (xyz 0.05 -0.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1595,6 +1605,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:SOT-23F (layer F.Cu) (tedit 5A790898) (tstamp 5A78D299)
@@ -1628,7 +1643,7 @@
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 33 /TSMS_Pin))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1666,7 +1681,7 @@
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 30 /R_EStop_Pin))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1704,7 +1719,7 @@
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 31 /BSPD_Pin))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1742,7 +1757,7 @@
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 29 /L_E-Stop_Pin))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1780,7 +1795,7 @@
       (net 2 GND))
     (pad 3 smd rect (at 1.05 0 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 32 /HVD_Pin))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/SOT-23_OEM/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1813,7 +1828,7 @@
       (net 1 VCC))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(C2-Pad1)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1945,7 +1960,7 @@
       (net 1 VCC))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 34 /RESET))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2242,7 +2257,7 @@
       (net 47 /Main_Sense))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 13 "Net-(D4-Pad2)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2275,7 +2290,7 @@
       (net 35 /TSMS_Sense))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(D5-Pad2)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2308,7 +2323,7 @@
       (net 47 /Main_Sense))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2341,7 +2356,7 @@
       (net 35 /TSMS_Sense))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2374,7 +2389,7 @@
       (net 9 +5V))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 28 /Main_Shut_Fuse))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2407,7 +2422,7 @@
       (net 9 +5V))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 33 /TSMS_Pin))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2440,7 +2455,7 @@
       (net 38 /R_E-Stop_Sense))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(D6-Pad2)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2473,7 +2488,7 @@
       (net 36 /BSPD_Sense))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(D7-Pad2)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2506,7 +2521,7 @@
       (net 38 /R_E-Stop_Sense))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2539,7 +2554,7 @@
       (net 36 /BSPD_Sense))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2572,7 +2587,7 @@
       (net 9 +5V))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 30 /R_EStop_Pin))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2605,7 +2620,7 @@
       (net 9 +5V))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 31 /BSPD_Pin))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2638,7 +2653,7 @@
       (net 48 /L_E-Stop_Sense))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 17 "Net-(D8-Pad2)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2671,7 +2686,7 @@
       (net 39 /HVD_Sense))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 18 "Net-(D9-Pad2)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2704,7 +2719,7 @@
       (net 48 /L_E-Stop_Sense))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2737,7 +2752,7 @@
       (net 39 /HVD_Sense))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2770,7 +2785,7 @@
       (net 9 +5V))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 29 /L_E-Stop_Pin))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2803,7 +2818,7 @@
       (net 9 +5V))
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 32 /HVD_Pin))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3034,7 +3049,7 @@
       (net 45 /LED_2))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 69 "Net-(IC1-Pad30)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3067,7 +3082,7 @@
       (net 44 /LED_1))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 58 "Net-(IC1-Pad29)"))
-    (model "/home/josh/Formula/OEM_Preferred_Parts/3DModels/WRL Files/res0805.wrl"
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3253,7 +3268,7 @@
       (net 82 "Net-(U3-Pad31)"))
     (pad 32 smd rect (at -2.8 -4.25 225) (size 1.6 0.55) (layers F.Cu F.Paste F.Mask)
       (net 83 "Net-(U3-Pad32)"))
-    (model ${KISYS3DMOD}/Housings_QFP.3dshapes/TQFP-32_7x7mm_Pitch0.8mm.wrl
+    (model /home/vscheyer/Desktop/Formula/OEM_Preferred_Parts/3DModels/Atmega16m1/Atmega16m1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3484,30 +3499,6 @@
     )
   )
 
-  (dimension 45.50011 (width 0.3) (layer Dwgs.User)
-    (gr_text "45.500 mm" (at 147.227195 102.582207 89.87407541) (layer Dwgs.User)
-      (effects (font (size 1.5 1.5) (thickness 0.3)))
-    )
-    (feature1 (pts (xy 145.6272 125.3288) (xy 148.527192 125.335174)))
-    (feature2 (pts (xy 145.7272 79.8288) (xy 148.627192 79.835174)))
-    (crossbar (pts (xy 145.927199 79.82924) (xy 145.827199 125.32924)))
-    (arrow1a (pts (xy 145.827199 125.32924) (xy 145.243256 124.20145)))
-    (arrow1b (pts (xy 145.827199 125.32924) (xy 146.416094 124.204028)))
-    (arrow2a (pts (xy 145.927199 79.82924) (xy 145.338304 80.954452)))
-    (arrow2b (pts (xy 145.927199 79.82924) (xy 146.511142 80.95703)))
-  )
-  (dimension 13.5 (width 0.3) (layer Dwgs.User)
-    (gr_text "13.500 mm" (at 144.5272 86.5788 270) (layer Dwgs.User)
-      (effects (font (size 1.5 1.5) (thickness 0.3)))
-    )
-    (feature1 (pts (xy 144.4272 93.3288) (xy 144.5272 93.3288)))
-    (feature2 (pts (xy 144.4272 79.8288) (xy 144.5272 79.8288)))
-    (crossbar (pts (xy 144.5272 79.8288) (xy 144.5272 93.3288)))
-    (arrow1a (pts (xy 144.5272 93.3288) (xy 143.940779 92.202296)))
-    (arrow1b (pts (xy 144.5272 93.3288) (xy 145.113621 92.202296)))
-    (arrow2a (pts (xy 144.5272 79.8288) (xy 143.940779 80.955304)))
-    (arrow2b (pts (xy 144.5272 79.8288) (xy 145.113621 80.955304)))
-  )
   (gr_text "12V\n" (at 157.1752 84.7598) (layer F.SilkS) (tstamp 5A8742E5)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
