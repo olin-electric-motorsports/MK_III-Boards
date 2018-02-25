@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 4)
     (no_connects 0)
-    (area 95.009999 78.729999 165.285001 148.830001)
+    (area 95.009999 78.729999 165.110001 148.830001)
     (thickness 1.6)
     (drawings 14)
     (tracks 20)
@@ -202,6 +202,11 @@
       (net 20 "Net-(J2-Pad19)"))
     (pad 20 thru_hole circle (at 2.54 19.05 180) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 21 "Net-(J2-Pad20)"))
+    (model /home/corey/Desktop/Formula/OEM_Preferred_Parts/3DModels/Micromatch_Female_RA_20/Micromatch_Female_RA_20.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:Data-Logger-Pads (layer F.Cu) (tedit 5A82527F) (tstamp 5A8260D4)
