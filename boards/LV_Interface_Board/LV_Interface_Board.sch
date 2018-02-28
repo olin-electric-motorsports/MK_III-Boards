@@ -743,37 +743,37 @@ Text Label 5525 3055 0    60   ~ 0
 GAUGE1+
 Text Label 5525 2955 0    60   ~ 0
 GAUGE1-
-Text Label 5525 2855 0    60   ~ 0
+Text Label 5525 3655 0    60   ~ 0
 GAUGE4+
-Text Label 5525 2755 0    60   ~ 0
+Text Label 5525 3755 0    60   ~ 0
 GAUGE4_MID
-Text Label 5525 2655 0    60   ~ 0
+Text Label 5525 4955 0    60   ~ 0
 GAUGE4-
-Text Label 5525 2555 0    60   ~ 0
+Text Label 5525 5155 0    60   ~ 0
 GAUGE6+
-Text Label 5525 2455 0    60   ~ 0
+Text Label 5525 4055 0    60   ~ 0
 GAUGE6_MID
-Text Label 5525 2355 0    60   ~ 0
+Text Label 5525 5255 0    60   ~ 0
 GAUGE6-
 Text Label 5525 4155 0    60   ~ 0
 GAUGE1_MID
-Text Label 5525 4055 0    60   ~ 0
+Text Label 5525 2755 0    60   ~ 0
 GAUGE2_MID
-Text Label 5525 3955 0    60   ~ 0
+Text Label 5525 2555 0    60   ~ 0
 GAUGE3+
-Text Label 5525 3855 0    60   ~ 0
+Text Label 5525 2355 0    60   ~ 0
 GAUGE3-
-Text Label 5525 5255 0    60   ~ 0
+Text Label 5525 2855 0    60   ~ 0
 GAUGE2+
-Text Label 5525 5155 0    60   ~ 0
+Text Label 5525 2655 0    60   ~ 0
 GAUGE2-
-Text Label 5525 5055 0    60   ~ 0
+Text Label 5525 2455 0    60   ~ 0
 GAUGE3_MID
-Text Label 5525 4955 0    60   ~ 0
+Text Label 5525 3855 0    60   ~ 0
 GAUGE5+
-Text Label 5525 3655 0    60   ~ 0
+Text Label 5525 3955 0    60   ~ 0
 GAUGE5-
-Text Label 5525 3755 0    60   ~ 0
+Text Label 5525 5055 0    60   ~ 0
 GAUGE5_MID
 Text Label 5365 12055 0    60   ~ 0
 SENSOR_LEFT1+
