@@ -1,0 +1,29 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink,PurchasingLink2,MPN2
+1,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J3,AIR_CTRL,Ultrafit_2,1,,Value,WM11570-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+2,CONN FMALE-ON-BRD 18POS VERT T/H,micromatch_female_TOP_ENTRY_locking_18,J10,AIR_CTRL_18,micromatch_female_vert_18,1,,Value,A99500CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-8/A99500CT-ND/1955733,,
+3,CONN FMALE-ON-BRD 12POS VERT T/H,micromatch_female_TOP_ENTRY_locking_12,J7,BMS,micromatch_female_vert_12,1,,Value,A99503CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-2/A99503CT-ND/1955736,,
+4,Ultrafit 4 Pin Connector,Ultrafit_4,J6,BMS_Master,Ultrafit_4,1,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf,Value,WM11574-ND,Digi-Key,https://www.digikey.com/products/en?keywords=WM11574-ND,https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228,WM11564-ND
+5,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J5,DISCHARGE,Ultrafit_2,1,,Value,WM11570-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+6,Waterproof Panel-Mount Connector RA 35-Pin,Ampseal_35,J2,EXTERNAL,Ampseal_35,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2293782&DocType=Customer+Drawing&DocLang=English,,,,,,
+7,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J11,Energy_Meter_Power,Ultrafit_2,1,,Value,WM11570-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+8,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J4,IMD_LATCH,Ultrafit_2,1,,Value,WM11570-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267,,
+9,CONN FMALE-ON-BRD 4POS VERT T/H,micromatch_female_TOP_ENTRY_locking_4,J9,IMD_LATCH,micromatch_female_vert_4,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English,Value,338068-4,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740,,
+10,Ultrafit 4 Pin Connector,Ultrafit_4,J1,INTERNAL,Ultrafit_4,1,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf,Value,WM11574-ND,Digi-Key,https://www.digikey.com/products/en?keywords=WM11574-ND,https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228,WM11564-ND
+11,CONN FMALE-ON-BRD 4POS VERT T/H,micromatch_female_TOP_ENTRY_locking_4,J8,TSAL/AIL,micromatch_female_vert_4,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English,Value,338068-4,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740,,
+12,CONN MOD JACK 8P8C VERT UNSHLD,RJ45_VT,U1,RJ45_VT_AIR,RJ45-Vertical,1,https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf,,,,,,
+13,CONN MOD JACK 8P8C VERT UNSHLD,RJ45_VT,U2,RJ45_VT_BMS,RJ45-Vertical,1,https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf,,,,,,
+
+
+
+
+
+Component Groups:,13
+Component Count:,13
+Fitted Components:,13
+Number of PCBs:,1
+Total components:,13
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Mon 26 Feb 2018 09:31:12 PM EST
+Schematic Source:,/home/william/Desktop/Formula/MK_III-Boards/boards/Accumulator_Interface/accumulator_interface.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1
