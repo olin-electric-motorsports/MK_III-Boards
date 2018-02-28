@@ -1,0 +1,202 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# D_Schottky_SOD123
+#
+DEF D_Schottky_SOD123 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky_SOD123" 0 -100 50 H V C CNN
+F2 "footprints:D_SOD-123W_OEM" -100 0 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf" 0 100 50 H I C CNN
+F4 "1727-2394-1-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140" 300 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# F_3.15A_450V
+#
+DEF F_3.15A_450V F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "F_3.15A_450V" -75 0 50 V V C CNN
+F2 "footprints:Fuse_TE7_Littelfuse-807Series" -70 0 50 V I C CNN
+F3 "http://www.mouser.com/ds/2/240/Littelfuse_Fuse_807_Datasheet.pdf-794915.pdf" 80 0 50 V I C CNN
+F4 "Mouser" 0 0 60 H I C CNN "MFN"
+F5 "80713150440" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.mouser.com/ProductDetail/Littelfuse/80713150440/?qs=%2fha2pyFaduj6aUSS3K8RSlC9flo%2fx0HLwwpdMiFRoD3Yb7kI5hEeOg%3d%3d" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# G2RL-1-E
+#
+DEF G2RL-1-E K 0 40 Y Y 1 F N
+F0 "K" 650 350 50 H V L CNN
+F1 "G2RL-1-E" 650 250 50 H V L CNN
+F2 "footprints:Relay_SPDT_OMRON-G2RL-1-E" 650 150 50 H I L CNN
+F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf" 650 -150 50 H I L CNN
+F4 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G2RL-1-E-DC12/Z2834-ND/368834?WT.srch=1&gclid=CjwKCAjw7MDPBRAFEiwAppdF9Hq_oi1W3KBGxJPPM2RUBlXwE31iIe8Dui3_bYGZrJP0d0zIX0IHKBoCkWsQAvD_BwE" 750 450 60 H I C CNN "PurchasingLink"
+F5 "Z2834-ND" 850 550 60 H I C CNN "MPN"
+F6 "Digi-Key" 950 650 60 H I C CNN "MFN"
+F7 "Value" 1050 750 60 H I C CNN "Package"
+$FPLIST
+ Relay?SPDT?OMRON?G5Q*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 300 350 300 400 N
+P 2 0 0 0 500 350 500 400 N
+P 4 0 0 0 500 350 500 300 475 325 500 350 F
+S -200 400 600 0 0 1 10 f
+S -125 275 125 125 0 1 10 N
+P 2 0 1 10 -100 125 100 275 N
+P 2 0 1 0 0 0 0 125 N
+P 2 0 1 0 0 400 0 275 N
+P 2 0 1 10 125 200 150 200 N
+P 2 0 1 10 175 200 200 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 275 200 300 200 N
+P 2 0 1 0 300 350 300 300 N
+P 2 0 1 10 325 200 350 200 N
+P 2 0 1 10 375 200 400 200 N
+P 2 0 1 0 400 100 400 0 N
+P 2 0 1 20 400 100 480 380 N
+P 3 0 1 0 300 300 325 325 300 350 N
+X ~ 1 0 -100 100 U 50 50 1 1 B
+X ~ 2 500 500 100 D 50 50 1 1 B
+X ~ 4 300 500 100 D 50 50 1 1 B
+X ~ 6 400 -100 100 U 50 50 1 1 B
+X ~ 8 0 500 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG
+#
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X pwr 1 0 0 0 U 50 50 0 0 w
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+ENDDRAW
+ENDDEF
+#
+# R_10k_HV
+#
+DEF R_10k_HV R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_10k_HV" -100 0 50 V V C CNN
+F2 "footprints:R_1K_HV" -70 0 50 H I C CNN
+F3 "http://www.vishay.com/docs/28731/pacserie.pdf" 80 0 50 H I C CNN
+F4 "PPC5D10.0KCT-ND " 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_3k_HS
+#
+DEF R_3k_HS R 0 0 Y Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_3k_HS" -100 0 50 V V C CNN
+F2 "footprints:R_3k_HS_TO247" -70 0 50 H I C CNN
+F3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "AP101 3K J " 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" 480 400 60 H I C CNN "PurchasingLink"
+F8 "https://www.digikey.com/products/en?keywords=RA-T2X-25E-ND" 580 500 60 H I C CNN "PurchasingLink-Heatsink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ultrafit_2
+#
+DEF Ultrafit_2 J 0 40 Y Y 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "Ultrafit_2" 100 -200 60 H V C CNN
+F2 "footprints:Ultrafit_2" -100 50 60 H I C CNN
+F3 "" 0 150 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" 100 250 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 200 350 60 H I C CNN "MFN"
+F6 "WM11570-ND" 300 450 60 H I C CNN "MPN"
+F7 "Value" 400 550 60 H I C CNN "Package"
+DRAW
+S 150 -100 -150 100 0 1 0 f
+X 1 1 250 50 100 L 50 50 1 1 B
+X 2 2 250 -50 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# mx150L_2
+#
+DEF mx150L_2 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "mx150L_2" 0 -200 60 H V C CNN
+F2 "" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" 0 350 60 H I C CNN
+F4 "Value" 0 0 60 H I C CNN "Package"
+F5 " WM17505-ND" 300 600 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/0194270032/WM17505-ND/863309" 300 600 60 H I C CNN "Purchasing Link"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
