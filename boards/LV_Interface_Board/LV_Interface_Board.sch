@@ -3,7 +3,6 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -824,11 +823,11 @@ Text Label 5525 4755 0    60   ~ 0
 BSPD_TEST_SWITCH-
 Text Label 2105 3135 0    60   ~ 0
 12V
-Text Label 2105 3235 0    60   ~ 0
+Text Label 2105 4135 0    60   ~ 0
 BRAKE_LIGHT_LSD
-Text Label 2105 3335 0    60   ~ 0
+Text Label 5525 3355 0    60   ~ 0
 BRAKE_SWITCH+
-Text Label 2105 3435 0    60   ~ 0
+Text Label 5525 3455 0    60   ~ 0
 BRAKE_SWITCH-
 Text Label 2105 2935 0    60   ~ 0
 12V
@@ -842,10 +841,8 @@ Text Label 2105 3935 0    60   ~ 0
 CAN_HIGH
 Text Label 2105 4035 0    60   ~ 0
 CAN_LOW
-Text Label 2105 4135 0    60   ~ 0
+Text Label 2105 3335 0    60   ~ 0
 COOLING_PUMP_12V_FUSED
-NoConn ~ 5525 3355
-NoConn ~ 5525 3455
 Text Label 2105 4935 0    60   ~ 0
 BAT+
 Text Notes 2340 4930 0    60   ~ 0
@@ -900,6 +897,7 @@ F 0 "U1" H 8155 9205 60  0000 C CNN
 F 1 "RJ45_VT" H 7635 9170 60  0000 C CNN
 F 2 "footprints:RJ45-Vertical" H 7525 7820 60  0001 C CNN
 F 3 "" H 7625 7920 60  0001 C CNN
+F 4 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" H 7625 8510 60  0001 C CNN "PurchasingLink"
 	1    7625 8510
 	1    0    0    -1  
 $EndComp
@@ -1015,6 +1013,7 @@ F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/li
 F 4 "Digi-Key" H 2880 8015 60  0001 C CNN "MFN"
 F 5 "F5764CT-ND" H 2710 7795 60  0001 C CNN "MPN"
 F 6 "Value" H 2870 8155 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en/circuit-protection/fuseholders/140?k=&pkeyword=&pv2094=i4&FV=ffe0008c%2C114007b%2C1140003&mnonly=0&ColumnSort=1000011&page=1&stock=1&quantity=0&ptm=0&fid=0&pageSize=25" H 1860 8555 60  0001 C CNN "PurchasingLink"
 	1    1860 8555
 	1    0    0    -1  
 $EndComp
@@ -1326,9 +1325,9 @@ Wire Wire Line
 	1280 8585 1280 8415
 Text Label 1280 8415 0    60   ~ 0
 GLVMS
-Text Label 2130 8505 0    60   ~ 0
-12V
 Text Label 2130 8585 0    60   ~ 0
+12V
+Text Label 2130 8505 0    60   ~ 0
 COOLING_PUMP_12V_FUSED
 Text Label 2130 8665 0    60   ~ 0
 MAIN_SHUTDOWN_FUSE
@@ -1364,4 +1363,14 @@ Wire Notes Line
 	4220 10375 4220 10395
 Text Notes 12110 11690 0    60   ~ 0
 BSPD shutdown in\n
+Text Notes 11420 2340 0    60   ~ 0
+needs purchasing\n
+Text Notes 4445 2080 0    60   ~ 0
+needs purchasing\n
+Text Notes 16670 1480 0    60   ~ 0
+needs purchasing (led)
+Text Label 2105 3235 0    60   ~ 0
+COOLING_PUMP_12V_FUSED
+Text Label 2105 3435 0    60   ~ 0
+COOLING_PUMP_12V_FUSED
 $EndSCHEMATC

@@ -1,0 +1,31 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink
+1,CAP CER 10UF 10V X5R 0805,C_10uF,C1,C_10uF,C_0805_OEM,1,http://datasheets.avx.com/cx5r.pdf,Value,478-5167-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257
+2,DIODE SCHOTTKY 100V 1A SOD123,D_Schottky_SOD123,D1 D2 D3,D_Schottky_SOD123,D_SOD-123W_OEM,3,https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf,,1727-2394-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140
+3,LED_0805,LED_0805,D4,LED_0805,LED_0805_OEM,1,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND
+4,fuse block,fuse_holder_125V_15A,F1,fuse_holder_125V_15A,fuse_block,1,http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf,Value,F5764CT-ND,Digi-Key,https://www.digikey.com/products/en/circuit-protection/fuseholders/140?k=&pkeyword=&pv2094=i4&FV=ffe0008c%2C114007b%2C1140003&mnonly=0&ColumnSort=1000011&page=1&stock=1&quantity=0&ptm=0&fid=0&pageSize=25
+5,Waterproof Panel-Mount Connector RA 35-Pin,Ampseal_35,J1 J2,Ampseal_35,Ampseal_35,2,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2293782&DocType=Customer+Drawing&DocLang=English,,,,
+6,connector micromatch male 12,micromatch_male_12,J6,micromatch_male_12,micromatch_female_ra_12,1,,Value,A110882CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-2/A110882CT-ND/4142266
+7,connector micromatch male 18,micromatch_male_18,J7,micromatch_male_18,micromatch_female_ra_18,1,,Value,A110884CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-8/A110884CT-ND/4142268
+8,connector micromatch male 20,micromatch_male_20,J4 J5 J8 J9,micromatch_male_20,micromatch_female_ra_20,4,,Value,A111126CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-215464-0/A111126CT-ND/4142510
+9,connector micromatch male 6,micromatch_male_6,J3,micromatch_male_6,micromatch_female_ra_6,1,,Value,A107035CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-6/A107035CT-ND/3488596
+10,,SEGMENT_12BAR_BICOLOR,LED1 LED2,SEGMENT_12BAR_BICOLOR,SEGMENT_BICOL_BL-AR12Z3010,2,,,,,
+11,Res 10k 1%,R_10k,R2 R3,R_10k,R_0805_OEM,2,http://www.bourns.com/data/global/pdfs/CRS.pdf,Value,CRS0805-FX-1002ELFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND
+12,Resistor 500Ohm 0.1% Tolerance,R_500,R1,R_500,R_0805_OEM,1,http://www.vishay.com/docs/60057/pnm.pdf,Value,541-1905-2-ND,Digi Key,https://www.digikey.com/product-detail/en/vishay-dale/PNM0402E5000BST1/541-1905-2-ND/4341867
+13,3P4T rotary switch,3P4T_rotary_switch,SW1,3P4T_rotary_switch,3P4T_rotary_switch,1,,Value,s14100400am2451,Uxcell,https://www.amazon.com/Single-Rotary-Switch-Selector-Position/dp/B00K86H2SE/ref=pd_cp_60_3?_encoding=UTF8&pd_rd_i=B00K86H2SE&pd_rd_r=GKBDC7XXPS2AG12Y4S0Q&pd_rd_w=njTRL&pd_rd_wg=MZCL4&psc=1&refRID=GKBDC7XXPS2AG12Y4S0Q
+14,,HT16K33,U2,HT16K33,SOP28,1,,,,,
+15,CONN MOD JACK 8P8C VERT UNSHLD,RJ45_VT,U1,RJ45_VT,RJ45-Vertical,1,https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf,,,,https://www.digikey.com/products/en?keywords=MRJ-5481-01
+
+
+
+
+
+Component Groups:,15
+Component Count:,23
+Fitted Components:,23
+Number of PCBs:,1
+Total components:,23
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Mon 26 Feb 2018 10:05:01 PM EST
+Schematic Source:,/home/bryce/Storage/Formula/Boards/boards/LV_Interface_Board/LV_Interface_Board.sch
+KiCad Version:,Eeschema 4.0.2+dfsg1-stable
