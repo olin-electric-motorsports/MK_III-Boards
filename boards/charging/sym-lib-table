@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name formula)(type Legacy)(uri /home/hyegibang/Formula/OEM_Preferred_Parts/schematic/formula.lib)(options "")(descr ""))
+  (lib (name etc.-rescue)(type Legacy)(uri ${KIPRJMOD}/etc.-rescue.lib)(options "")(descr ""))
+)
