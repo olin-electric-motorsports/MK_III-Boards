@@ -3,7 +3,7 @@
   (general
     (links 84)
     (no_connects 1)
-    (area 25.133528 29.1516 131.106955 107.7036)
+    (area 25.133528 29.1516 131.106955 110.337601)
     (thickness 1.6)
     (drawings 61)
     (tracks 479)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -68,7 +68,7 @@
     (grid_origin 43.19524 53.4416)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -89,7 +89,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -1912,8 +1912,8 @@
   (segment (start 61.14034 75.184) (end 71.57974 64.7446) (width 0.508) (layer F.Cu) (net 30) (tstamp 5A91855B))
   (segment (start 95.829 40.696) (end 96.816 40.696) (width 0.508) (layer F.Cu) (net 30) (tstamp 5A8AEB20))
   (segment (start 60.452 75.184) (end 60.452 75.057) (width 0.508) (layer F.Cu) (net 30))
-  (segment (start 57.912 73.914) (end 61.47639 73.914) (width 0.508) (layer F.Cu) (net 31) (status 400000))
-  (segment (start 64.816 61.72736) (end 64.816 48.696) (width 0.508) (layer F.Cu) (net 31) (tstamp 5A98A29D) (status 800000))
+  (segment (start 57.912 73.914) (end 61.47639 73.914) (width 0.508) (layer F.Cu) (net 31))
+  (segment (start 64.816 61.72736) (end 64.816 48.696) (width 0.508) (layer F.Cu) (net 31) (tstamp 5A98A29D))
   (segment (start 64.91224 61.8236) (end 64.816 61.72736) (width 0.508) (layer F.Cu) (net 31) (tstamp 5A98A29C))
   (via (at 64.91224 61.8236) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 31))
   (segment (start 64.91224 65.5066) (end 64.91224 61.8236) (width 0.508) (layer B.Cu) (net 31) (tstamp 5A98A298))
