@@ -1025,7 +1025,7 @@ U 1 1 59FFDBD2
 P 4400 8900
 F 0 "J4" H 4400 9050 60  0000 C CNN
 F 1 "Mounting_Hole_4-40" H 4450 8750 60  0000 C CNN
-F 2 "footprints:Mounting_Hole_4-40" H 4300 8950 60  0001 C CNN
+F 2 "footprints:Mounting_Hole_Insert_4-40" H 4300 8950 60  0001 C CNN
 F 3 "" H 4400 8900 60  0001 C CNN
 F 4 "Value" H 4400 8900 60  0001 C CNN "MFN"
 F 5 "Value" H 4400 8900 60  0001 C CNN "MPN"
@@ -1039,7 +1039,7 @@ U 1 1 59FFDFD6
 P 3350 8900
 F 0 "J2" H 3350 9050 60  0000 C CNN
 F 1 "Mounting_Hole_4-40" H 3400 8750 60  0000 C CNN
-F 2 "footprints:Mounting_Hole_4-40" H 3250 8950 60  0001 C CNN
+F 2 "footprints:Mounting_Hole_Insert_4-40" H 3250 8950 60  0001 C CNN
 F 3 "" H 3350 8900 60  0001 C CNN
 F 4 "Value" H 3350 8900 60  0001 C CNN "MFN"
 F 5 "Value" H 3350 8900 60  0001 C CNN "MPN"
@@ -1071,37 +1071,26 @@ F 3 "" H 10050 1400 60  0001 C CNN
 	1    10050 1400
 	1    0    0    -1  
 $EndComp
-Text Label 6400 8350 0    60   ~ 0
-CELL_TEMP1
-Text Label 6400 8450 0    60   ~ 0
-CELL_TEMP2
-Text Label 6400 8550 0    60   ~ 0
-CELL_TEMP3
-Text Label 6400 8650 0    60   ~ 0
-CELL_TEMP4
-Text Label 6400 8750 0    60   ~ 0
-CELL_TEMP5
 Text Label 6400 8850 0    60   ~ 0
-CELL_TEMP6
+CELL_TEMP1
 Text Label 6400 8950 0    60   ~ 0
-CELL_TEMP7
+CELL_TEMP2
 Text Label 6400 9050 0    60   ~ 0
-CELL_TEMP8
+CELL_TEMP3
 Text Label 6400 9150 0    60   ~ 0
-CELL_TEMP9
+CELL_TEMP4
 Text Label 6400 9250 0    60   ~ 0
+CELL_TEMP5
+Text Label 6400 10250 0    60   ~ 0
+CELL_TEMP6
+Text Label 6400 10150 0    60   ~ 0
+CELL_TEMP7
+Text Label 6400 10050 0    60   ~ 0
+CELL_TEMP8
+Text Label 6400 9950 0    60   ~ 0
+CELL_TEMP9
+Text Label 6400 9850 0    60   ~ 0
 CELL_TEMP10
-$Comp
-L GND #PWR017
-U 1 1 5A00BA8F
-P 6400 10650
-F 0 "#PWR017" H 6400 10400 50  0001 C CNN
-F 1 "GND" H 6400 10500 50  0000 C CNN
-F 2 "" H 6400 10650 50  0001 C CNN
-F 3 "" H 6400 10650 50  0001 C CNN
-	1    6400 10650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9200 950 
 NoConn ~ 9200 1650
 NoConn ~ 5950 4900
@@ -1240,26 +1229,37 @@ $EndComp
 $Comp
 L MicroFit_12 J5
 U 1 1 5A1DBB3E
-P 1350 5150
-F 0 "J5" H 1600 5050 60  0000 C CNN
-F 1 "MicroFit_12" H 1800 3750 60  0000 C CNN
-F 2 "footprints:Microfit3_Header_02x06_Angled_OEM" H 1350 5150 60  0001 C CNN
-F 3 "" H 1350 5150 60  0001 C CNN
-	1    1350 5150
-	-1   0    0    1   
+P 250 3650
+F 0 "J5" H 500 3550 60  0000 C CNN
+F 1 "MicroFit_12" H 700 2250 60  0000 C CNN
+F 2 "footprints:Microfit3_Header_02x06_Angled_OEM" H 250 3650 60  0001 C CNN
+F 3 "" H 250 3650 60  0001 C CNN
+	1    250  3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 800  4150
+$Comp
+L GND #PWR017
+U 1 1 5A00BA8F
+P 6400 9550
+F 0 "#PWR017" H 6400 9300 50  0001 C CNN
+F 1 "GND" H 6400 9400 50  0000 C CNN
+F 2 "" H 6400 9550 50  0001 C CNN
+F 3 "" H 6400 9550 50  0001 C CNN
+	1    6400 9550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR018
 U 1 1 5A59223B
-P 6400 10250
-F 0 "#PWR018" H 6400 10000 50  0001 C CNN
-F 1 "GND" H 6400 10100 50  0000 C CNN
-F 2 "" H 6400 10250 50  0001 C CNN
-F 3 "" H 6400 10250 50  0001 C CNN
-	1    6400 10250
-	1    0    0    -1  
+P 6400 8550
+F 0 "#PWR018" H 6400 8300 50  0001 C CNN
+F 1 "GND" H 6400 8400 50  0000 C CNN
+F 2 "" H 6400 8550 50  0001 C CNN
+F 3 "" H 6400 8550 50  0001 C CNN
+	1    6400 8550
+	0    -1   -1   0   
 $EndComp
-NoConn ~ 800  4150
 $Comp
 L MicroFit_20 J6
 U 1 1 5A0F4926
@@ -1271,16 +1271,6 @@ F 3 "" H 5800 8100 60  0001 C CNN
 	1    5800 8100
 	1    0    0    -1  
 $EndComp
-Connection ~ 6400 10150
-Connection ~ 6400 10050
-Connection ~ 6400 9950
-Connection ~ 6400 9850
-Connection ~ 6400 9750
-Connection ~ 6400 9650
-Connection ~ 6400 9550
-Connection ~ 6400 9450
-Wire Wire Line
-	6400 9350 6400 10250
 Wire Wire Line
 	1200 4650 800  4650
 Wire Wire Line
@@ -1518,13 +1508,13 @@ Wire Wire Line
 Wire Wire Line
 	7350 2000 7200 2000
 Wire Wire Line
-	7350 1100 7350 1250
+	7350 1250 7350 1100
 Wire Wire Line
-	7900 1100 7350 1100
+	7350 1100 7900 1100
 Wire Wire Line
-	7900 1150 7900 1100
+	7900 1100 7900 1150
 Wire Wire Line
-	7950 1150 7900 1150
+	7900 1150 7950 1150
 Wire Wire Line
 	7950 950  7750 950 
 Wire Wire Line
@@ -1886,4 +1876,14 @@ Wire Wire Line
 	1800 950  1800 750 
 Wire Wire Line
 	1800 750  4750 750 
+Wire Wire Line
+	6400 8350 6400 8750
+Connection ~ 6400 8450
+Connection ~ 6400 8550
+Connection ~ 6400 8650
+Wire Wire Line
+	6400 9350 6400 9750
+Connection ~ 6400 9450
+Connection ~ 6400 9550
+Connection ~ 6400 9650
 $EndSCHEMATC
