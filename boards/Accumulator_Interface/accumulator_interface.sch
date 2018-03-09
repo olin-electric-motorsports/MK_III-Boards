@@ -156,18 +156,6 @@ Text Label 1200 1600 0    60   ~ 0
 GND
 Text Label 1200 1700 0    60   ~ 0
 GND
-Text Label 2020 1760 0    60   ~ 0
-FAN_GND
-Text Label 2020 1860 0    60   ~ 0
-FAN_GND
-Text Label 2020 1960 0    60   ~ 0
-FAN_GND
-Text Label 2020 2060 0    60   ~ 0
-FAN_12V
-Text Label 2020 2160 0    60   ~ 0
-FAN_12V
-Text Label 2020 2260 0    60   ~ 0
-FAN_12V
 Text Label 1200 2400 0    60   ~ 0
 FAN_PWM
 Text Label 1200 2500 0    60   ~ 0
@@ -476,4 +464,8 @@ Text Label 1200 3200 0    60   ~ 0
 CAN_LOW
 Text Label 1200 4700 0    60   ~ 0
 TSMS_IN
+NoConn ~ 5050 3950
+NoConn ~ 3100 2000
+NoConn ~ 300  3050
+NoConn ~ 5350 1550
 $EndSCHEMATC
