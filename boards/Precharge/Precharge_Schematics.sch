@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:formula
+LIBS:Precharge_Schematics-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -121,9 +122,17 @@ Text GLabel 1650 3650 2    60   Input ~ 0
 Low_Side_Drive
 Text GLabel 2850 3100 3    60   Input ~ 0
 Low_Side_Drive
+Wire Wire Line
+	2150 1000 2250 1000
+Wire Wire Line
+	2250 2500 2450 2500
+Wire Wire Line
+	2250 1950 2250 2500
+Wire Wire Line
+	2250 1000 2250 1650
 $Comp
 L R_1k_HS R1
-U 1 1 5A767EE3
+U 1 1 5A792106
 P 2250 1800
 F 0 "R1" V 2330 1800 50  0000 C CNN
 F 1 "R_1k_HS" V 2150 1800 50  0000 C CNN
@@ -138,12 +147,4 @@ F 9 "https://www.digikey.com/products/en?keywords=RA-T2X-25E-ND" V 2930 2400 60 
 	1    2250 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 1000 2250 1000
-Wire Wire Line
-	2250 2500 2450 2500
-Wire Wire Line
-	2250 1950 2250 2500
-Wire Wire Line
-	2250 1000 2250 1650
 $EndSCHEMATC
