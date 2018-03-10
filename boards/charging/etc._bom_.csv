@@ -1,0 +1,43 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink,PurchasingLink2,MPN2
+1,,C_0.1uF-formula-etc.-rescue,C1 C2 C8 C9 C10,C_0.1uF,C_0805_OEM,5,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND,,
+2,,C_100pF-formula-etc.-rescue,C3,C_100pF,C_0805_OEM,1,https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf,Value,399-1122-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1-ND/411397,,
+3,CAP CER 1UF 25V X7R 0805,C_1uF-formula-etc.-rescue,C11,C_1uF,C_0805_OEM,1,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-10487-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628,,
+4,,C_22uF-formula-etc.-rescue,C13,C_22uF,C_0805_OEM,1,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf,Value,1276-2725-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=1276-2725-1-ND,,
+5,,C_30pF-formula-etc.-rescue,C4 C5 C6 C7,C_30pF,C_0805_OEM,4,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,Value,1276-1130-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216,,
+6,,C_47uF-formula-etc.-rescue,C12,C_47uF,C_0805_OEM,1,http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf,Value,587-4280-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315,,
+7,,D_Zener_18V-formula-etc.-rescue,D7,D_Zener_18V,DO-214AA,1,http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf,DO-214AA (SMB),SMBJ5355B-TPMSCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND,,
+8,,LED_0805-formula-etc.-rescue,D1 D2 D3 D4 D8 D9,LED_0805,LED_0805_OEM,6,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND,,
+9,,F_500mA_16V-formula-etc.-rescue,F1,F_500mA_16V,Fuse_1210,1,https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf,Value,507-1786-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209,,
+10,,ATMEGA16M1-formula-etc.-rescue,IC1,ATMEGA16M1,TQFP-32_7x7mm_Pitch0.8mm,1,http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf,Value,ATMEGA16M1-AU-ND,Digi-Key,https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208,,
+11,Waterproof Panel-Mount Connector RA 8 Pin,Ampseal_8,J2,Ampseal_8,Ampseal_8,1,,,,,,,
+12,,micromatch_male_16-formula-etc.-rescue,J1,LCD screen,micromatch_female_vert_16,1,,Value,A116164CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-6/A116164CT-ND/4569759,,
+13,Ultrafit 4 Pin Connector,Ultrafit_4,J3 J4,Ultrafit_4,Ultrafit_4,2,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf,Value,WM11574-ND,Digi-Key,https://www.digikey.com/products/en?keywords=WM11574-ND,https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228,WM11564-ND
+14,,L_4.7uH-formula-etc.-rescue,L1,L_4.7uH,4.7uH_Inductor_OEM,1,https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf,Value,445-6583-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893,,
+15,,CONN_02X03-formula-etc.-rescue,P1 P2,CONN_02X03,Pin_Header_Straight_2x03,2,http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf,Value,609-3234-ND,Digi-Key,https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491,,
+16,,R_0_Jumper-formula-etc.-rescue,R13,R_0_Jumper,R_2512_OEM,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English,Value,A121322CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=A121322CT-ND,,
+17,,R_100-formula-etc.-rescue,R1,R_100,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD100RCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND,,
+18,,R_10k-formula-etc.-rescue,R2 R3 R6 R16 R17,R_10k,R_0805_OEM,5,http://www.bourns.com/data/global/pdfs/CRS.pdf,Value,CRS0805-FX-1002ELFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND,,
+19,,R_1k-formula-etc.-rescue,R18,R_1k,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD1K00CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND,,
+20,,R_200-formula-etc.-rescue,R4 R5 R7 R8 R9 R10 R14,R_200,R_0805_OEM,7,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805JT200RCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND,,
+21,,R_55.1k-formula-etc.-rescue,R15,R_55.1k,R_0805_OEM,1,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,Value,311-51.1KCRCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND,,
+22,,POT_TRIM-device-etc.-rescue,RV1,POT_TRIM-device,Potentiometer_Trimmer_Bourns_TCC3,1,,,,,,,
+23,,ATMEGA328P-AU-atmel-etc.-rescue,U1,ATMEGA328P-AU,TQFP-32_7x7mm_Pitch0.8mm,1,http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf,,,,,,
+24,,CAN_Transceiver-formula-etc.-rescue,U2,CAN_Transceiver,SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM,1,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044,Value,MCP2561-E/SN-ND,Digi-Key,https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn,,
+25,CONN MOD JACK 8P8C VERT UNSHLD,RJ45_VT,U3,RJ45_VT,RJ45-Vertical,1,https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf,,MRJ-5481-01-ND,Digi-Key,https://www.digikey.com/products/en?keywords=MRJ-5481-01,,
+26,,TPS561201-formula-etc.-rescue,U4,TPS561201,SOT-23-6_OEM,1,http://www.ti.com/lit/ds/symlink/tps561201.pdf,Value,TPS561201,Digi-Key,https://www.digikey.com/products/en?keywords=296-46928-1-ND,,
+27,,Crystal_SMD-formula-etc.-rescue,Y1 Y2,Crystal_SMD,Crystal_SMD_FA238,2,https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf,Value,SER3686CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SER3686CT-ND,,
+
+
+
+
+
+Component Groups:,27
+Component Count:,52
+Fitted Components:,52
+Number of PCBs:,1
+Total components:,52
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Thu 08 Mar 2018 08:58:53 PM EST
+Schematic Source:,/home/hyegibang/Formula/MK_III-Boards/boards/charging/etc..sch
+KiCad Version:,Eeschema 5.0-dev-unknown-dd04bcb~61~ubuntu16.04.1

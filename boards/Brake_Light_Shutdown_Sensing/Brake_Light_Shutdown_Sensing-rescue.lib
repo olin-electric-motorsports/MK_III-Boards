@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# ATMEGA16M1-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue-etc.-rescue IC 0 40 Y Y 1 F N
+DEF ATMEGA16M1-RESCUE-Brake_Light_Shutdown_Sensing IC 0 40 Y Y 1 F N
 F0 "IC" -950 1830 50 H V L BNN
-F1 "etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue-etc.-rescue" 500 -1400 50 H V L BNN
+F1 "ATMEGA16M1-RESCUE-Brake_Light_Shutdown_Sensing" 500 -1400 50 H V L BNN
 F2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
 F3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" -950 1830 50 H I C CNN
 F4 "ATMEGA16M1-AU-ND" 0 0 60 H I C CNN "MPN"
@@ -52,11 +52,11 @@ X (PCINT1/MOSI/PSCOUT2B)PB1 9 1100 1600 150 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue-etc.-rescue
+# ATMEGA328P-AU-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue-etc.-rescue U 0 40 Y Y 1 F N
+DEF ATMEGA328P-AU-RESCUE-Brake_Light_Shutdown_Sensing U 0 40 Y Y 1 F N
 F0 "U" -750 1250 50 H V L BNN
-F1 "etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue-etc.-rescue" 400 -1400 50 H V L BNN
+F1 "ATMEGA328P-AU-RESCUE-Brake_Light_Shutdown_Sensing" 400 -1400 50 H V L BNN
 F2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -99,11 +99,11 @@ X (PCINT21/OC0B/T1)PD5 9 1000 -1000 150 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# CAN_Transceiver-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue-etc.-rescue U 0 40 Y Y 1 F N
+DEF CAN_Transceiver-RESCUE-Brake_Light_Shutdown_Sensing U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue-etc.-rescue" 100 350 50 H V L CNN
+F1 "CAN_Transceiver-RESCUE-Brake_Light_Shutdown_Sensing" 100 350 50 H V L CNN
 F2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" 0 -500 50 H I C CIN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" -400 350 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -126,11 +126,11 @@ X STBY 8 -500 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# CONN_02X03-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue P 0 1 Y N 1 F N
+DEF CONN_02X03-RESCUE-Brake_Light_Shutdown_Sensing P 0 1 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 -200 50 H V C CNN
+F1 "CONN_02X03-RESCUE-Brake_Light_Shutdown_Sensing" 0 -200 50 H V C CNN
 F2 "footprints:Pin_Header_Straight_2x03" 0 -1200 50 H I C CNN
 F3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" 0 -1200 50 H I C CNN
 F4 "609-3234-ND" 0 0 60 H I C CNN "MPN"
@@ -160,11 +160,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# C_0.1uF-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+DEF C_0.1uF-RESCUE-Brake_Light_Shutdown_Sensing C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F1 "C_0.1uF-RESCUE-Brake_Light_Shutdown_Sensing" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
@@ -186,11 +186,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# C_100pF-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+DEF C_100pF-RESCUE-Brake_Light_Shutdown_Sensing C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F1 "C_100pF-RESCUE-Brake_Light_Shutdown_Sensing" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" 25 100 50 H I C CNN
 F4 "399-1122-1-ND" 0 0 60 H I C CNN "MPN"
@@ -212,11 +212,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# C_1uF-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+DEF C_1uF-RESCUE-Brake_Light_Shutdown_Sensing C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F1 "C_1uF-RESCUE-Brake_Light_Shutdown_Sensing" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "CAP CER 1UF 25V X7R 0805" 525 600 60 H I C CNN "Description"
@@ -239,11 +239,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# C_22uF-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+DEF C_22uF-RESCUE-Brake_Light_Shutdown_Sensing C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F1 "C_22uF-RESCUE-Brake_Light_Shutdown_Sensing" 25 -100 50 H V L CNN
 F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf" 25 100 50 H I C CNN
 F4 "1276-2725-1-ND" 0 0 60 H I C CNN "MPN"
@@ -265,11 +265,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# C_30pF-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+DEF C_30pF-RESCUE-Brake_Light_Shutdown_Sensing C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F1 "C_30pF-RESCUE-Brake_Light_Shutdown_Sensing" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
 F4 "1276-1130-1-ND" 0 0 60 H I C CNN "MPN"
@@ -291,11 +291,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# C_47uF-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+DEF C_47uF-RESCUE-Brake_Light_Shutdown_Sensing C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F1 "C_47uF-RESCUE-Brake_Light_Shutdown_Sensing" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" 25 100 50 H I C CNN
 F4 "587-4280-1-ND" 0 0 60 H I C CNN "MPN"
@@ -317,11 +317,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# Crystal_SMD-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue Y 0 40 Y N 1 F N
+DEF Crystal_SMD-RESCUE-Brake_Light_Shutdown_Sensing Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
-F1 "etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue" 50 100 50 H V L CNN
+F1 "Crystal_SMD-RESCUE-Brake_Light_Shutdown_Sensing" 50 100 50 H V L CNN
 F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
 F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" 50 175 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -344,11 +344,11 @@ X 4 4 0 150 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# D_Zener_18V-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue-etc.-rescue D 0 40 N N 1 F N
+DEF D_Zener_18V-RESCUE-Brake_Light_Shutdown_Sensing D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 -100 50 H V C CNN
+F1 "D_Zener_18V-RESCUE-Brake_Light_Shutdown_Sensing" 0 -100 50 H V C CNN
 F2 "footprints:DO-214AA" -100 0 50 H I C CNN
 F3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" 0 100 50 H I C CNN
 F4 "SMBJ5355B-TPMSCT-ND" 100 200 60 H I C CNN "MPN"
@@ -373,11 +373,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# F_500mA_16V-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue-etc.-rescue F 0 0 N Y 1 F N
+DEF F_500mA_16V-RESCUE-Brake_Light_Shutdown_Sensing F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue-etc.-rescue" -75 0 50 V V C CNN
+F1 "F_500mA_16V-RESCUE-Brake_Light_Shutdown_Sensing" -75 0 50 V V C CNN
 F2 "footprints:Fuse_1210" -70 0 50 V I C CNN
 F3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" 80 0 50 V I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -395,11 +395,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# LED_0805-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D 0 40 N N 1 F N
+DEF LED_0805-RESCUE-Brake_Light_Shutdown_Sensing D 0 40 N N 1 F N
 F0 "D" 0 -100 50 H V C CNN
-F1 "etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 100 50 H V C CNN
+F1 "LED_0805-RESCUE-Brake_Light_Shutdown_Sensing" 0 100 50 H V C CNN
 F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
@@ -420,11 +420,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# L_4.7uH-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue-etc.-rescue L 0 10 N N 1 F N
+DEF L_4.7uH-RESCUE-Brake_Light_Shutdown_Sensing L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue-etc.-rescue" 30 -40 50 H V L CNN
+F1 "L_4.7uH-RESCUE-Brake_Light_Shutdown_Sensing" 30 -40 50 H V L CNN
 F2 "footprints:4.7uH_Inductor_OEM" -70 -60 50 H I C CNN
 F3 "https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf" 30 40 50 H I C CNN
 F4 "445-6583-1-ND" 0 0 60 H I C CNN "MPN"
@@ -447,31 +447,35 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue-etc.-rescue
+# MCP6001RT-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue-etc.-rescue RV 0 40 Y N 1 F N
-F0 "RV" -175 0 50 V V C CNN
-F1 "etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF MCP6001RT-RESCUE-Brake_Light_Shutdown_Sensing U 0 20 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "MCP6001RT-RESCUE-Brake_Light_Shutdown_Sensing" 0 -200 50 H V L CNN
+F2 "footprints:SOT-23-5_OEM" -100 100 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
+F4 "Value" 0 0 60 H I C CNN "Package"
+F5 "Digi-Key" 100 300 60 H I C CNN "MFN"
+F6 "MCP6001RT-I/OTCT-ND" 200 400 60 H I C CNN "MPN"
+F7 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001RT-I-OT/MCP6001RT-I-OTCT-ND/669498" 300 500 60 H I C CNN "PurchasingLink"
 $FPLIST
- Potentiometer*
+ SOT*23*
 $ENDFPLIST
 DRAW
-S 40 100 -40 -100 0 1 10 N
-P 2 0 1 0 60 30 60 -30 N
-P 2 0 1 0 100 0 60 0 N
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V+ 2 -100 300 150 D 50 50 0 1 W
+X V- 5 -100 -300 150 U 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# R_0_Jumper-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+DEF R_0_Jumper-RESCUE-Brake_Light_Shutdown_Sensing R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F1 "R_0_Jumper-RESCUE-Brake_Light_Shutdown_Sensing" -100 0 50 V V C CNN
 F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
 F4 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
@@ -489,11 +493,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# R_100-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+DEF R_100-RESCUE-Brake_Light_Shutdown_Sensing R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F1 "R_100-RESCUE-Brake_Light_Shutdown_Sensing" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -511,11 +515,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# R_100k-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+DEF R_100k-RESCUE-Brake_Light_Shutdown_Sensing R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F1 "R_100k-RESCUE-Brake_Light_Shutdown_Sensing" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
+F4 "311-100KCRCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=311-100KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_10k-RESCUE-Brake_Light_Shutdown_Sensing
+#
+DEF R_10k-RESCUE-Brake_Light_Shutdown_Sensing R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_10k-RESCUE-Brake_Light_Shutdown_Sensing" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
@@ -533,11 +559,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# R_1k-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+DEF R_1k-RESCUE-Brake_Light_Shutdown_Sensing R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F1 "R_1k-RESCUE-Brake_Light_Shutdown_Sensing" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -555,11 +581,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# R_200-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+DEF R_200-RESCUE-Brake_Light_Shutdown_Sensing R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F1 "R_200-RESCUE-Brake_Light_Shutdown_Sensing" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -577,11 +603,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# R_55.1k-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+DEF R_55.1k-RESCUE-Brake_Light_Shutdown_Sensing R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F1 "R_55.1k-RESCUE-Brake_Light_Shutdown_Sensing" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "311-51.1KCRCT-ND" 0 0 60 H I C CNN "MPN"
@@ -599,11 +625,49 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# SSM3K333R-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue-etc.-rescue U 0 40 Y Y 1 F N
+DEF SSM3K333R-RESCUE-Brake_Light_Shutdown_Sensing Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "SSM3K333R-RESCUE-Brake_Light_Shutdown_Sensing" 200 0 50 H V L CNN
+F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
+F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
+F4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" 300 175 60 H I C CNN "PurchasingLink"
+F5 "SSM3K333RLFCT-ND" 400 275 60 H I C CNN "MPN"
+F6 "Digi-Key" 500 375 60 H I C CNN "MFN"
+F7 "SOT-23-3 Flat Leads" 600 475 60 H I C CNN "Package"
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TPS561201-RESCUE-Brake_Light_Shutdown_Sensing
+#
+DEF TPS561201-RESCUE-Brake_Light_Shutdown_Sensing U 0 40 Y Y 1 F N
 F0 "U" -200 -300 60 H V C CNN
-F1 "etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 350 60 H V C CNN
+F1 "TPS561201-RESCUE-Brake_Light_Shutdown_Sensing" 0 350 60 H V C CNN
 F2 "footprints:SOT-23-6_OEM" -300 250 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" -200 350 60 H I C CNN
 F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
@@ -624,19 +688,19 @@ X VBST 6 450 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue-etc.-rescue
+# micromatch_female_RA_20-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue-etc.-rescue J 0 40 Y Y 1 F N
+DEF micromatch_female_RA_20-RESCUE-Brake_Light_Shutdown_Sensing J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue-etc.-rescue" -50 -500 60 H V C CNN
-F2 "" -200 1100 60 H I C CNN
+F1 "micromatch_female_RA_20-RESCUE-Brake_Light_Shutdown_Sensing" 0 -950 60 H V C CNN
+F2 "footprints:micromatch_female_ra_20" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
-F4 "A116164CT-ND" 0 0 60 H I C CNN "MPN"
-F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F6 "Value" 0 0 60 H I C CNN "Package"
-F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-6/A116164CT-ND/4569759" 300 1600 60 H I C CNN "PurchasingLink"
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338070-0/A99490CT-ND/1955792" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99490CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
 DRAW
-S -250 1150 50 -450 0 1 0 f
+S 50 -850 -250 1150 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
 X 10 10 150 200 100 L 50 50 1 1 B
 X 11 11 150 100 100 L 50 50 1 1 B
@@ -645,7 +709,11 @@ X 13 13 150 -100 100 L 50 50 1 1 B
 X 14 14 150 -200 100 L 50 50 1 1 B
 X 15 15 150 -300 100 L 50 50 1 1 B
 X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+X 19 19 150 -700 100 L 50 50 1 1 B
 X 2 2 150 1000 100 L 50 50 1 1 B
+X 20 20 150 -800 100 L 50 50 1 1 B
 X 3 3 150 900 100 L 50 50 1 1 B
 X 4 4 150 800 100 L 50 50 1 1 B
 X 5 5 150 700 100 L 50 50 1 1 B
@@ -656,129 +724,25 @@ X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula:Ampseal_8
+# micromatch_female_RA_6-RESCUE-Brake_Light_Shutdown_Sensing
 #
-DEF formula:Ampseal_8 J 0 40 Y Y 1 F N
-F0 "J" -250 450 60 H V C CNN
-F1 "formula:Ampseal_8" -300 -450 60 H V L CNN
-F2 "" -200 0 60 H I C CNN
-F3 "" -200 0 60 H I C CNN
+DEF micromatch_female_RA_6-RESCUE-Brake_Light_Shutdown_Sensing J 0 40 Y Y 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "micromatch_female_RA_6-RESCUE-Brake_Light_Shutdown_Sensing" 100 -400 60 H V C CNN
+F2 "footprints:micromatch_female_ra_6" -100 250 60 H I C CNN
+F3 "" 0 350 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-6/A99483CT-ND/1955785" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "Digi-Key" 100 1400 60 H I C CNN "MFN"
+F6 "A99483CT-ND" 200 1500 60 H I C CNN "MPN"
+F7 "Value" 300 1600 60 H I C CNN "Package"
 DRAW
-S 0 400 -300 -400 0 1 0 f
-X 1 1 200 350 200 L 50 50 1 1 P
-X 2 2 200 250 200 L 50 50 1 1 P
-X 3 3 200 150 200 L 50 50 1 1 P
-X 4 4 200 50 200 L 50 50 1 1 P
-X 5 5 200 -50 200 L 50 50 1 1 P
-X 6 6 200 -150 200 L 50 50 1 1 P
-X 7 7 200 -250 200 L 50 50 1 1 P
-X 8 8 200 -350 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula:RJ45_VT
-#
-DEF formula:RJ45_VT U 0 40 Y Y 1 F N
-F0 "U" 0 -590 60 H V C CNN
-F1 "formula:RJ45_VT" 10 660 60 H V C CNN
-F2 "footprints:RJ45-Vertical" -100 -690 60 H I C CNN
-F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" 0 -590 60 H I C CNN
-F4 "MRJ-5481-01-ND" 200 -390 60 H I C CNN "MPN"
-F5 "Digi-Key" 300 -290 60 H V C CNN "MFN"
-F6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" 400 -190 60 H I C CNN "PurchasingLink"
-DRAW
-S -280 570 650 -190 0 1 0 N
-X CANL 1 -480 430 200 R 50 50 1 1 B
-X LED_1 10 -70 -390 200 U 50 50 1 1 B
-X GND 11 100 -390 200 U 50 50 1 1 B
-X LED_2 12 210 -390 200 U 50 50 1 1 B
-X GND 13 400 -390 200 U 50 50 1 1 B
-X GND 14 510 -390 200 U 50 50 1 1 B
-X CANH 2 -480 330 200 R 50 50 1 1 B
-X RESET 3 -480 230 200 R 50 50 1 1 B
-X SCK 4 -480 130 200 R 50 50 1 1 B
-X MISO 5 850 430 200 L 50 50 1 1 B
-X MOSI 6 850 330 200 L 50 50 1 1 B
-X 5V 7 850 230 200 L 50 50 1 1 B
-X GND 8 850 130 200 L 50 50 1 1 B
-X GND 9 -180 -390 200 U 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# formula:Ultrafit_4
-#
-DEF formula:Ultrafit_4 J 0 40 Y N 1 F N
-F0 "J" 0 300 60 H V C CNN
-F1 "formula:Ultrafit_4" 0 -200 60 H V C CNN
-F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
-F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
-F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
-F5 "Value" 0 0 60 H I C CNN "Package"
-F6 "WM11574-ND" 0 0 60 H I C CNN "MPN"
-F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
-F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
-F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
-DRAW
-S 150 250 -150 -150 0 1 0 f
-X 1 1 350 200 200 L 50 50 1 1 P
-X 2 2 350 100 200 L 50 50 1 1 P
-X 3 3 350 0 200 L 50 50 1 1 P
-X 4 4 350 -100 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power:+12V
-#
-DEF power:+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GND
-#
-DEF power:GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:PWR_FLAG
-#
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# power:VCC
-#
-DEF power:VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
+S 150 -300 -150 300 0 1 0 f
+X 1 1 250 250 100 L 50 50 1 1 B
+X 2 2 250 150 100 L 50 50 1 1 B
+X 3 3 250 50 100 L 50 50 1 1 B
+X 4 4 250 -50 100 L 50 50 1 1 B
+X 5 5 250 -150 100 L 50 50 1 1 B
+X 6 6 250 -250 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
