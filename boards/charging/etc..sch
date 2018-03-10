@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue R16
+L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue R16
 U 1 1 59E042A3
 P 9700 5450
 F 0 "R16" V 9780 5450 50  0000 C CNN
@@ -30,7 +30,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 101
 	-1   0    0    1   
 $EndComp
 $Comp
-L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue R17
+L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue R17
 U 1 1 59E042EA
 P 9850 4400
 F 0 "R17" V 9930 4400 50  0000 C CNN
@@ -45,7 +45,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 103
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue R18
+L etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue-etc.-rescue R18
 U 1 1 59E0432B
 P 9850 5950
 F 0 "R18" V 9930 5950 50  0000 C CNN
@@ -60,7 +60,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 10330 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue R15
+L etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue-etc.-rescue R15
 U 1 1 59E0438C
 P 9700 4200
 F 0 "R15" V 9600 4200 50  0000 C CNN
@@ -75,7 +75,7 @@ F 7 "https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND" H 10180 4600
 	-1   0    0    1   
 $EndComp
 $Comp
-L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue R14
+L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R14
 U 1 1 59E04401
 P 9650 3150
 F 0 "R14" V 9550 3150 50  0000 C CNN
@@ -90,7 +90,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 10130 3
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue R13
+L etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue-etc.-rescue R13
 U 1 1 59E0444E
 P 9500 3500
 F 0 "R13" V 9580 3500 50  0000 C CNN
@@ -105,7 +105,7 @@ F 7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 9980 3900 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue D9
+L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D9
 U 1 1 59E047E3
 P 10150 5950
 F 0 "D9" H 10150 5850 50  0000 C CNN
@@ -120,7 +120,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 10550 6450 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue D8
+L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D8
 U 1 1 59E0483A
 P 9950 3150
 F 0 "D8" H 9950 3050 50  0000 C CNN
@@ -135,7 +135,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 10350 3650 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue L1
+L etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue-etc.-rescue L1
 U 1 1 59E04875
 P 9500 3850
 F 0 "L1" V 9550 3800 50  0000 L CNN
@@ -150,7 +150,7 @@ F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445
 	-1   0    0    1   
 $EndComp
 $Comp
-L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue C10
+L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C10
 U 1 1 59E048C8
 P 9350 4250
 F 0 "C10" H 9400 4150 50  0000 L CNN
@@ -165,12 +165,12 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9775 4750 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue C13
+L etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C13
 U 1 1 59E04907
 P 9850 5700
 F 0 "C13" H 9875 5800 50  0000 L CNN
 F 1 "C_22uF" H 9875 5600 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 9888 5550 50  0001 C CNN
+F 2 "footprints:C_1206_OEM" H 9888 5550 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf" H 9875 5800 50  0001 C CNN
 F 4 "1276-2725-1-ND" H 9850 5700 60  0001 C CNN "MPN"
 F 5 "Digi-Key" H 9850 5700 60  0001 C CNN "MFN"
@@ -180,7 +180,7 @@ F 7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" H 10275 6200 6
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue C12
+L etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C12
 U 1 1 59E0494E
 P 9850 3650
 F 0 "C12" H 9875 3750 50  0000 L CNN
@@ -195,7 +195,7 @@ F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue U4
+L etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue-etc.-rescue U4
 U 1 1 59E04993
 P 9600 4850
 F 0 "U4" H 9400 4550 60  0000 C CNN
@@ -287,7 +287,7 @@ F 3 "" H 10100 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue F1
+L etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue-etc.-rescue F1
 U 1 1 59E0A5CF
 P 9550 5950
 F 0 "F1" V 9630 5950 50  0000 C CNN
@@ -357,7 +357,7 @@ F 3 "" H 1850 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue R1
+L etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue-etc.-rescue R1
 U 1 1 59E06840
 P 1950 1450
 F 0 "R1" V 1850 1550 50  0000 C CNN
@@ -372,7 +372,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 2430 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue C8
+L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C8
 U 1 1 59E068FA
 P 6450 2150
 F 0 "C8" V 6400 2000 50  0000 L CNN
@@ -387,7 +387,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 6875 2650 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue C2
+L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C2
 U 1 1 59E06957
 P 1750 1450
 F 0 "C2" V 1800 1300 50  0000 L CNN
@@ -402,7 +402,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2175 1950 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue C3
+L etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C3
 U 1 1 59E06E67
 P 1950 1750
 F 0 "C3" H 1975 1850 50  0000 L CNN
@@ -417,7 +417,7 @@ F 7 "https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue C6
+L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C6
 U 1 1 59E06ED0
 P 4650 4450
 F 0 "C6" H 4675 4550 50  0000 L CNN
@@ -432,7 +432,7 @@ F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue C4
+L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C4
 U 1 1 59E06F43
 P 4350 4450
 F 0 "C4" H 4250 4550 50  0000 L CNN
@@ -514,7 +514,7 @@ F 3 "" H 6800 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue R6
+L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue R6
 U 1 1 59E087A5
 P 4750 3850
 F 0 "R6" V 4830 3850 50  0000 C CNN
@@ -678,7 +678,7 @@ TXCAN
 Text GLabel 4350 2500 2    60   Input ~ 0
 RXCAN
 $Comp
-L etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue IC1
+L etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue-etc.-rescue IC1
 U 1 1 59E10948
 P 3250 3000
 F 0 "IC1" H 2300 4830 50  0000 L BNN
@@ -693,7 +693,7 @@ F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue Y1
+L etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue Y1
 U 1 1 59E10C38
 P 4500 4300
 F 0 "Y1" H 4550 4475 50  0000 L CNN
@@ -708,7 +708,7 @@ F 7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" H 4950 4875 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue P2
+L etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue P2
 U 1 1 59E10F9E
 P 5350 3400
 F 0 "P2" H 5350 3600 50  0000 C CNN
@@ -723,7 +723,7 @@ F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue U2
+L etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue-etc.-rescue U2
 U 1 1 59E1176B
 P 6300 2600
 F 0 "U2" H 5900 2950 50  0000 L CNN
@@ -778,7 +778,7 @@ DB6
 Text GLabel 4350 2700 2    60   Input ~ 0
 DB7
 $Comp
-L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue R4
+L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R4
 U 1 1 59E889C3
 P 4700 2600
 F 0 "R4" V 4800 2600 39  0000 C CNN
@@ -793,7 +793,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5180 30
 	0    1    1    0   
 $EndComp
 $Comp
-L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue R5
+L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R5
 U 1 1 59E88C19
 P 4750 2300
 F 0 "R5" V 4650 2300 39  0000 C CNN
@@ -830,7 +830,7 @@ F 3 "" H 5500 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue D1
+L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D1
 U 1 1 59E8C0F2
 P 5200 2300
 F 0 "D1" H 5200 2200 39  0000 C CNN
@@ -845,7 +845,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5600 2800 60 
 	-1   0    0    1   
 $EndComp
 $Comp
-L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue D2
+L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D2
 U 1 1 59E8C23B
 P 5200 2600
 F 0 "D2" H 5300 2650 39  0000 C CNN
@@ -928,7 +928,7 @@ F 3 "" H 7200 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue R7
+L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R7
 U 1 1 59E95678
 P 4900 1400
 F 0 "R7" V 4950 1250 39  0000 C CNN
@@ -943,7 +943,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5380 18
 	0    1    1    0   
 $EndComp
 $Comp
-L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue R8
+L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R8
 U 1 1 59E959F8
 P 4950 1300
 F 0 "R8" V 4900 1450 39  0000 C CNN
@@ -982,7 +982,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 5700 9700 5700
 $Comp
-L etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue D7
+L etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue-etc.-rescue D7
 U 1 1 5A00A462
 P 9600 6450
 F 0 "D7" V 9554 6529 50  0000 L CNN
@@ -1025,7 +1025,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3800 2150 4200
 $Comp
-L etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue U1
+L etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue-etc.-rescue U1
 U 1 1 5A7A32AF
 P 2350 6250
 F 0 "U1" H 2400 7617 50  0000 C CNN
@@ -1095,7 +1095,7 @@ Connection ~ 1300 7450
 NoConn ~ 1450 6500
 NoConn ~ 1450 6600
 $Comp
-L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue C1
+L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C1
 U 1 1 5A7BDCE5
 P 900 6250
 F 0 "C1" H 1015 6296 50  0000 L CNN
@@ -1118,7 +1118,7 @@ Wire Wire Line
 Wire Wire Line
 	900  7350 1300 7350
 $Comp
-L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue R3
+L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue R3
 U 1 1 5A7D1C46
 P 4250 5150
 F 0 "R3" H 4180 5104 50  0000 R CNN
@@ -1175,7 +1175,7 @@ SCL
 Wire Wire Line
 	3350 6600 3900 6600
 $Comp
-L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue R2
+L etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue R2
 U 1 1 5A7E5A0D
 P 3900 6450
 F 0 "R2" H 3970 6496 50  0000 L CNN
@@ -1236,7 +1236,7 @@ SCK
 Text GLabel 4150 7650 0    60   Input ~ 0
 RST32
 $Comp
-L etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue P1
+L etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue P1
 U 1 1 5A7EB2B5
 P 4400 7550
 F 0 "P1" H 4400 7750 50  0000 C CNN
@@ -1253,7 +1253,7 @@ $EndComp
 Wire Wire Line
 	4650 7650 4700 7650
 $Comp
-L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue R9
+L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R9
 U 1 1 5A7ED913
 P 5500 5350
 F 0 "R9" V 5400 5300 50  0000 L CNN
@@ -1272,7 +1272,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 5500 5500 5650
 $Comp
-L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue D3
+L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D3
 U 1 1 5A7ED920
 P 5500 5800
 F 0 "D3" H 5550 6000 50  0000 R CNN
@@ -1300,7 +1300,7 @@ F 3 "" H 5500 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue R10
+L etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R10
 U 1 1 5A7ED932
 P 5850 5350
 F 0 "R10" V 5750 5300 50  0000 L CNN
@@ -1319,7 +1319,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 5500 5850 5650
 $Comp
-L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue D4
+L etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D4
 U 1 1 5A7ED93F
 P 5850 5800
 F 0 "D4" H 5900 6000 50  0000 R CNN
@@ -1351,7 +1351,7 @@ LED5
 Text GLabel 5500 5100 1    60   Input ~ 0
 LED6
 $Comp
-L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue C7
+L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C7
 U 1 1 5A7F36AA
 P 4750 6100
 F 0 "C7" H 4775 6200 50  0000 L CNN
@@ -1366,7 +1366,7 @@ F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue C5
+L etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C5
 U 1 1 5A7F36B5
 P 4450 6100
 F 0 "C5" H 4350 6200 50  0000 L CNN
@@ -1425,7 +1425,7 @@ F 3 "" H 4950 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue Y2
+L etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue Y2
 U 1 1 5A7F36D9
 P 4600 5950
 F 0 "Y2" H 4650 6125 50  0000 L CNN
@@ -1472,7 +1472,7 @@ Text GLabel 4350 1500 2    60   Input ~ 0
 DATA
 NoConn ~ 4350 3600
 $Comp
-L etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue J1
+L etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue-etc.-rescue J1
 U 1 1 59E83768
 P 7350 3600
 F 0 "J1" H 7072 3902 60  0000 R CNN
@@ -1493,7 +1493,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 4800 6800 4500
 $Comp
-L etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue RV1
+L etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue-etc.-rescue RV1
 U 1 1 5A97B362
 P 8550 3700
 F 0 "RV1" H 8480 3654 50  0000 R CNN
@@ -1543,7 +1543,7 @@ RS
 Text GLabel 4350 3100 2    60   Input ~ 0
 E
 $Comp
-L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue C9
+L etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C9
 U 1 1 5A98A088
 P 9850 3850
 F 0 "C9" V 9800 3950 50  0000 C CNN
@@ -1561,7 +1561,7 @@ Connection ~ 9700 3850
 Wire Wire Line
 	9700 3850 9700 4000
 $Comp
-L etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue C11
+L etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C11
 U 1 1 5A98A2D0
 P 10100 4000
 F 0 "C11" V 10150 4100 50  0000 C CNN
@@ -1904,10 +1904,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 4500 7200 4500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5AA25D47
 P 7700 6340
-F 0 "#PWR?" H 7700 6090 50  0001 C CNN
+F 0 "#PWR0117" H 7700 6090 50  0001 C CNN
 F 1 "GND" H 7705 6167 50  0000 C CNN
 F 2 "" H 7700 6340 50  0001 C CNN
 F 3 "" H 7700 6340 50  0001 C CNN
