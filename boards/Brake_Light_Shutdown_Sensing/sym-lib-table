@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Brake_Light_Shutdown_Sensing-rescue)(type Legacy)(uri ${KIPRJMOD}/Brake_Light_Shutdown_Sensing-rescue.lib)(options "")(descr ""))
-)
