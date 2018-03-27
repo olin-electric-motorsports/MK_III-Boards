@@ -1,4 +1,4 @@
-update=Wed 07 Feb 2018 02:05:50 PM EST
+update=Sat 10 Mar 2018 07:25:13 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../../OEM_Preferred_Parts/schematic
@@ -63,3 +61,5 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=/home/lanfenson/OEM_Preferred_Parts/schematic/formula
+[general]
+version=1
