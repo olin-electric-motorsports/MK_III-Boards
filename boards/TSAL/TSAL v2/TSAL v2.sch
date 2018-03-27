@@ -495,7 +495,7 @@ F 2 "footprints:ZXRE160" H 6800 4950 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ZXRE160.pdf" H 6900 5050 60  0001 C CNN
 F 4 "DigiKey" H 7000 5150 60  0001 C CNN "MFN"
 F 5 "ZXRE160FT4-7DICT-ND" H 7100 5250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/ZXRE160H5TA/ZXRE160H5TADICT-ND/3677932" H 7200 5350 60  0001 C CNN "Webpage"
+F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/ZXRE160AET5TA/ZXRE160AET5TADICT-ND/3677927" H 7200 5350 60  0001 C CNN "Webpage"
 	1    6900 5650
 	0    1    1    0   
 $EndComp
@@ -538,7 +538,7 @@ F 2 "footprints:R_0805_OEM" V 7800 2550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 7600 2550 50  0001 C CNN
 F 4 "Digikey" V 7480 2650 60  0001 C CNN "MFN"
 F 5 "P178KDATR-ND" V 7580 2750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864" V 7680 2850 60  0001 C CNN "Webpage"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDACT-ND/3074993" V 7680 2850 60  0001 C CNN "Webpage"
 	1    7300 2550
 	0    1    1    0   
 $EndComp
