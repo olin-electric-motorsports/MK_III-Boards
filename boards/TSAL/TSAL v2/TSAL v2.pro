@@ -1,4 +1,4 @@
-update=2/4/2018 4:42:40 PM
+update=Thu 08 Feb 2018 09:20:07 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=C:/Users/ugupta/Documents/GitHub/OEM_Preferred_Parts/schematic/formula
+LibName35=/home/utsav22g/Formula/OEM_Preferred_Parts/schematic/formula
