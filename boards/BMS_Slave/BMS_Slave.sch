@@ -1071,25 +1071,25 @@ F 3 "" H 10050 1400 60  0001 C CNN
 	1    10050 1400
 	1    0    0    -1  
 $EndComp
-Text Label 6400 8850 0    60   ~ 0
+Text Label 6350 9350 0    60   ~ 0
 CELL_TEMP1
-Text Label 6400 8950 0    60   ~ 0
+Text Label 6350 9450 0    60   ~ 0
 CELL_TEMP2
-Text Label 6400 9050 0    60   ~ 0
+Text Label 6350 9550 0    60   ~ 0
 CELL_TEMP3
-Text Label 6400 9150 0    60   ~ 0
+Text Label 6350 9650 0    60   ~ 0
 CELL_TEMP4
-Text Label 6400 9250 0    60   ~ 0
+Text Label 6350 9750 0    60   ~ 0
 CELL_TEMP5
-Text Label 6400 10250 0    60   ~ 0
+Text Label 6350 9850 0    60   ~ 0
 CELL_TEMP6
-Text Label 6400 10150 0    60   ~ 0
+Text Label 6350 9950 0    60   ~ 0
 CELL_TEMP7
-Text Label 6400 10050 0    60   ~ 0
+Text Label 6350 10050 0    60   ~ 0
 CELL_TEMP8
-Text Label 6400 9950 0    60   ~ 0
+Text Label 6350 10150 0    60   ~ 0
 CELL_TEMP9
-Text Label 6400 9850 0    60   ~ 0
+Text Label 6350 10250 0    60   ~ 0
 CELL_TEMP10
 NoConn ~ 9200 950 
 NoConn ~ 9200 1650
@@ -1239,36 +1239,25 @@ F 3 "" H 250 3650 60  0001 C CNN
 $EndComp
 NoConn ~ 800  4150
 $Comp
-L GND #PWR017
-U 1 1 5A00BA8F
-P 6400 9550
-F 0 "#PWR017" H 6400 9300 50  0001 C CNN
-F 1 "GND" H 6400 9400 50  0000 C CNN
-F 2 "" H 6400 9550 50  0001 C CNN
-F 3 "" H 6400 9550 50  0001 C CNN
-	1    6400 9550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GND #PWR018
 U 1 1 5A59223B
-P 6400 8550
-F 0 "#PWR018" H 6400 8300 50  0001 C CNN
-F 1 "GND" H 6400 8400 50  0000 C CNN
-F 2 "" H 6400 8550 50  0001 C CNN
-F 3 "" H 6400 8550 50  0001 C CNN
-	1    6400 8550
+P 6350 8550
+F 0 "#PWR018" H 6350 8300 50  0001 C CNN
+F 1 "GND" H 6350 8400 50  0000 C CNN
+F 2 "" H 6350 8550 50  0001 C CNN
+F 3 "" H 6350 8550 50  0001 C CNN
+	1    6350 8550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L MicroFit_20 J6
 U 1 1 5A0F4926
-P 5800 8100
-F 0 "J6" H 6100 7950 60  0000 C CNN
-F 1 "MicroFit_20" H 6300 5850 60  0000 C CNN
-F 2 "footprints:Molex_Microfit3_Header_02x10_Angled_OEM" H 5800 8100 60  0001 C CNN
-F 3 "" H 5800 8100 60  0001 C CNN
-	1    5800 8100
+P 5750 8100
+F 0 "J6" H 6050 7950 60  0000 C CNN
+F 1 "MicroFit_20" H 6250 5850 60  0000 C CNN
+F 2 "footprints:Molex_Microfit3_Header_02x10_Angled_OEM" H 5750 8100 60  0001 C CNN
+F 3 "" H 5750 8100 60  0001 C CNN
+	1    5750 8100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1877,13 +1866,13 @@ Wire Wire Line
 Wire Wire Line
 	1800 750  4750 750 
 Wire Wire Line
-	6400 8350 6400 8750
-Connection ~ 6400 8450
-Connection ~ 6400 8550
-Connection ~ 6400 8650
-Wire Wire Line
-	6400 9350 6400 9750
-Connection ~ 6400 9450
-Connection ~ 6400 9550
-Connection ~ 6400 9650
+	6350 8350 6350 9250
+Connection ~ 6350 8450
+Connection ~ 6350 8550
+Connection ~ 6350 8650
+Connection ~ 6350 8750
+Connection ~ 6350 8850
+Connection ~ 6350 8950
+Connection ~ 6350 9050
+Connection ~ 6350 9150
 $EndSCHEMATC

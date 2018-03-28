@@ -3,7 +3,7 @@
   (general
     (links 155)
     (no_connects 0)
-    (area 124.384999 59.614999 202.005001 121.995001)
+    (area 113.665 53.975 206.375001 127.000001)
     (thickness 1.6)
     (drawings 24)
     (tracks 627)
@@ -417,7 +417,7 @@
     (tags "capacitor 0805")
     (path /59E06E67)
     (attr smd)
-    (fp_text reference C3 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C3 (at -2.54 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C_100pF (at 0 1.75) (layer F.Fab) hide
@@ -516,7 +516,7 @@
     (tags "capacitor 0805")
     (path /59E0494E)
     (attr smd)
-    (fp_text reference C6 (at 0 -1.905 270) (layer F.SilkS)
+    (fp_text reference C6 (at -0.635 -1.905 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C_47uF (at 0 1.75 270) (layer F.Fab) hide
@@ -582,7 +582,7 @@
     (tags "capacitor 0805")
     (path /59E06ED0)
     (attr smd)
-    (fp_text reference C8 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C8 (at 0 1.905) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C_30pF (at 0 1.75) (layer F.Fab) hide
@@ -714,7 +714,7 @@
     (tags "capacitor 0805")
     (path /59E5ACE4/59E5E2C3)
     (attr smd)
-    (fp_text reference C12 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C12 (at -3.175 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.75) (layer F.Fab) hide
@@ -747,7 +747,7 @@
     (tags "capacitor 0805")
     (path /59E5ACE4/59FA4DD6)
     (attr smd)
-    (fp_text reference C13 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C13 (at -3.175 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10nF (at 0 1.75) (layer F.Fab) hide
@@ -1659,7 +1659,7 @@
     (tags "resistor 0805")
     (path /59E06840)
     (attr smd)
-    (fp_text reference R5 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R5 (at 2.54 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R_100 (at 0 1.75 180) (layer F.Fab) hide
@@ -2161,7 +2161,7 @@
     (tags "resistor 0805")
     (path /59E5ACE4/59E5E17E)
     (attr smd)
-    (fp_text reference R27 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R27 (at 3.175 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 60.4 (at 0 1.75 180) (layer F.Fab) hide
@@ -2194,7 +2194,7 @@
     (tags "resistor 0805")
     (path /59E5ACE4/59E5E1E6)
     (attr smd)
-    (fp_text reference R28 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R28 (at -3.175 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 60.4 (at 0 1.75) (layer F.Fab) hide
@@ -2584,7 +2584,7 @@
     (tags "capacitor 0805")
     (path /5A7CEB33)
     (attr smd)
-    (fp_text reference C14 (at 0 -1.5 270) (layer F.SilkS)
+    (fp_text reference C14 (at 3.175 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C_10uF_16V (at 0 1.75 270) (layer F.Fab) hide
@@ -2617,7 +2617,7 @@
     (tags "capacitor 0805")
     (path /5A7CEBFA)
     (attr smd)
-    (fp_text reference C15 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference C15 (at 3.175 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value C_0.1uF (at 0 1.75 90) (layer F.Fab) hide
