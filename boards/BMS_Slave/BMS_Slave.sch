@@ -1237,7 +1237,6 @@ F 3 "" H 250 3650 60  0001 C CNN
 	1    250  3650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 800  4150
 $Comp
 L GND #PWR018
 U 1 1 5A59223B
@@ -1307,7 +1306,7 @@ Wire Wire Line
 Wire Wire Line
 	950  6950 950  4550
 Wire Wire Line
-	900  4450 800  4450
+	800  4450 950  4450
 Wire Wire Line
 	900  4450 900  7500
 Wire Wire Line
@@ -1875,4 +1874,9 @@ Connection ~ 6350 8850
 Connection ~ 6350 8950
 Connection ~ 6350 9050
 Connection ~ 6350 9150
+Wire Wire Line
+	800  4150 950  4150
+Wire Wire Line
+	950  4150 950  4450
+Connection ~ 900  4450
 $EndSCHEMATC
