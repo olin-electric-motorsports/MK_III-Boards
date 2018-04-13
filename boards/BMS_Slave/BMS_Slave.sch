@@ -1102,7 +1102,6 @@ NoConn ~ 7800 8100
 NoConn ~ 7800 8200
 NoConn ~ 7800 8300
 NoConn ~ 5950 3900
-NoConn ~ 5950 3800
 NoConn ~ 5950 3500
 NoConn ~ 5950 3400
 $Comp
@@ -1879,4 +1878,31 @@ Wire Wire Line
 Wire Wire Line
 	950  4150 950  4450
 Connection ~ 900  4450
+Wire Wire Line
+	5950 3800 6050 3800
+Wire Wire Line
+	6050 3800 6050 4100
+Connection ~ 6050 4100
+Text Label 900  950  0    60   ~ 0
+Cell10
+Text Label 1150 2000 0    60   ~ 0
+Cell9
+Text Label 900  2650 0    60   ~ 0
+Cell8
+Text Label 1250 3400 0    60   ~ 0
+Cell7
+Text Label 1300 4000 0    60   ~ 0
+Cell6
+Text Label 1200 4500 0    60   ~ 0
+Cell5
+Text Label 1100 5050 0    60   ~ 0
+Cell4
+Text Label 1050 5550 0    60   ~ 0
+Cell3
+Text Label 1000 6400 0    60   ~ 0
+Cell2
+Text Label 950  6950 0    60   ~ 0
+Cell1
+Text Label 900  7500 0    60   ~ 0
+LowSide
 $EndSCHEMATC
