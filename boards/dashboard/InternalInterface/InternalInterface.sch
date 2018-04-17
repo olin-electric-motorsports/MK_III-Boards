@@ -47,21 +47,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L micromatch_female_RA_10 J1
-U 1 1 5A28D92D
-P 1350 2720
-F 0 "J1" H 1250 3920 60  0000 C CNN
-F 1 "micromatch_female_RA_10" H 1300 2770 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_10" H 1150 3820 60  0001 C CNN
-F 3 "" H 1250 3920 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338070-0/A99485CT-ND/1955787" H 1350 4020 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 1450 4120 60  0001 C CNN "MFN"
-F 6 "A99485CT-ND" H 1550 4220 60  0001 C CNN "MPN"
-F 7 "Value" H 1650 4320 60  0001 C CNN "Package"
-	1    1350 2720
-	1    0    0    -1  
-$EndComp
 Text GLabel 1500 1820 2    60   BiDi ~ 0
 START
 Text GLabel 1500 1920 2    60   BiDi ~ 0
@@ -275,12 +260,12 @@ $EndComp
 $Comp
 L +5V #PWR017
 U 1 1 5A28E3A4
-P 3370 2660
-F 0 "#PWR017" H 3370 2510 50  0001 C CNN
-F 1 "+5V" H 3370 2800 50  0000 C CNN
-F 2 "" H 3370 2660 50  0001 C CNN
-F 3 "" H 3370 2660 50  0001 C CNN
-	1    3370 2660
+P 3070 2660
+F 0 "#PWR017" H 3070 2510 50  0001 C CNN
+F 1 "+5V" H 3070 2800 50  0000 C CNN
+F 2 "" H 3070 2660 50  0001 C CNN
+F 3 "" H 3070 2660 50  0001 C CNN
+	1    3070 2660
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -397,4 +382,34 @@ F 9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5
 $EndComp
 Wire Wire Line
 	1500 1720 1580 1720
+$Comp
+L R_200 R1
+U 1 1 5A7E6031
+P 3220 2660
+F 0 "R1" V 3300 2660 50  0000 C CNN
+F 1 "R_200" V 3120 2660 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3150 2660 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3300 2660 50  0001 C CNN
+F 4 "Digi-Key" H 3220 2660 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3220 2660 60  0001 C CNN "MPN"
+F 6 "Value" H 3220 2660 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3700 3060 60  0001 C CNN "PurchasingLink"
+	1    3220 2660
+	0    1    1    0   
+$EndComp
+$Comp
+L micromatch_female_TOP_ENTRY_locking_10 J1
+U 1 1 5A80658E
+P 1350 2720
+F 0 "J1" H 1250 3920 60  0000 C CNN
+F 1 "micromatch_female_TOP_ENTRY_locking_10" H 1300 2770 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_10" H 1150 3820 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English" H 1250 3920 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-338068-0/A99504CT-ND/1955737" H 1350 4020 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 1450 4120 60  0001 C CNN "MFN"
+F 6 "A99504CT-ND" H 1550 4220 60  0001 C CNN "MPN"
+F 7 "Value" H 1650 4320 60  0001 C CNN "Package"
+	1    1350 2720
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

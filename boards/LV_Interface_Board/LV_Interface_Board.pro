@@ -1,4 +1,4 @@
-update=Fri 02 Feb 2018 03:53:57 PM EST
+update=Mon 26 Feb 2018 09:51:08 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/bryce/Desktop/Formula/OEM_Preferred_Parts/schematic
+LibDir=../../../OEM/schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device

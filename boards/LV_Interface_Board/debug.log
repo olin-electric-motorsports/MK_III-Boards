@@ -1,0 +1,6 @@
+[0326/143008:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected identifier", source: https://sp.analytics.yahoo.com/sp.pl?a=10001942155268&jsonp=YAHOO.ywa.I13N.handleJSONResponse&d=Mon%2C%2026%20Mar%202018%2018%3A30%3A08%20GMT&n=4d&b=Altium%20Documentation%20%7C%20Online%20Documentation%20for%20Altium%20Products&.yp=429165&f=https%3A%2F%2Fwww.altium.com%2Fdocumentation%2F&enc=UTF-8 (1)
+[0326/143009:ERROR:webrtcsession.cc(1388)] ConnectDataChannel called when data_channel_ is NULL.
+[0326/143009:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 101 to 127
+[0326/143009:WARNING:p2ptransportchannel.cc(487)] Jingle:Port[0331C1D0:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0326/143009:WARNING:p2ptransportchannel.cc(487)] Jingle:Port[0331BD00:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0326/143009:INFO:CONSOLE(25)] "[Facebook Pixel] - Multiple pixels with conflicting versions were detected on this page.", source: https://connect.facebook.net/en_US/fbevents.js (25)

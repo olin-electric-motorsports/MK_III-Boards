@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:dashboard-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -1453,7 +1454,7 @@ CS
 Wire Wire Line
 	5660 6750 5750 6750
 $Comp
-L micromatch_female_RA_6 J3
+L micromatch_female_RA_6-RESCUE-dashboard J3
 U 1 1 5A2F3264
 P 5160 1220
 F 0 "J3" H 5060 2420 60  0000 C CNN

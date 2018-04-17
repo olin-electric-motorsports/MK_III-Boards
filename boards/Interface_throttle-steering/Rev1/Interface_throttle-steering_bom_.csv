@@ -1,0 +1,21 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,PurchasingLink2,Package,MPN,MFN,MPN2,PurchasingLink
+1,Waterproof Panel-Mount Connector RA 23-Pin,Ampseal_23,J4,Ampseal_23,Ampseal_23,1,,,,,,,
+2,Ultrafit 4 Pin Connector,Ultrafit_4,J2,Ultrafit_4,Ultrafit_4,1,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf,https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228,Value,WM11574-ND,Digi-Key,WM11564-ND,https://www.digikey.com/products/en?keywords=WM11574-ND
+3,connector micromatch male 20,micromatch_male_20,J3,micromatch_male_20,micromatch_female_ra_20,1,,,Value,A111126CT-ND,Digi-Key,,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-215464-0/A111126CT-ND/4142510
+4,connector micromatch male 4,micromatch_male_4,J1,micromatch_male_4,micromatch_female_ra_4,1,,,Value,A107034CT-ND,Digi-Key,,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/215464-4/A107034CT-ND/3488595
+5,,RJ45,U1,RJ45,RJ45-Vertical,1,,,,,,,
+
+
+
+
+
+Component Groups:,5
+Component Count:,5
+Fitted Components:,5
+Number of PCBs:,1
+Total components:,5
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Mon 12 Feb 2018 08:14:13 PM EST
+Schematic Source:,/home/corey/Desktop/Formula/MK_III-Boards/boards/Interface_throttle-steering/Interface_throttle-steering.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1

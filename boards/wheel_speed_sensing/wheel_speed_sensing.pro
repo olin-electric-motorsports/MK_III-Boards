@@ -1,4 +1,4 @@
-update=Thu 02 Nov 2017 09:16:49 PM EDT
+update=Mon 26 Feb 2018 04:56:50 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=valves
 LibName33=/home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
 LibName34=C:/Users/ljordan/Desktop/Olin/Formula/2017-18/OEM_Preferred_Parts/schematic/formula
 LibName35=/home/jonah/Desktop/Formula/OEM_Preferred_Parts/schematic/formula
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
