@@ -680,11 +680,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# micromatch_female_RA_6
+# micromatch_female_RA_6-RESCUE-dashboard
 #
-DEF micromatch_female_RA_6 J 0 40 Y Y 1 F N
+DEF micromatch_female_RA_6-RESCUE-dashboard J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "micromatch_female_RA_6" 0 450 60 H V C CNN
+F1 "micromatch_female_RA_6-RESCUE-dashboard" 0 450 60 H V C CNN
 F2 "footprints:micromatch_female_ra_6" -200 1100 60 H I C CNN
 F3 "" -100 1200 60 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-6/A99483CT-ND/1955785" 0 1300 60 H I C CNN "PurchasingLink"

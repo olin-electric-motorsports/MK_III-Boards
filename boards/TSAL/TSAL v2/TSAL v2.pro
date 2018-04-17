@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 update=2/4/2018 4:42:40 PM
-=======
-update=1/25/2018 7:15:39 PM
->>>>>>> ab3f9dede9a2ba7ff21475b9044eb887bcf60262
 version=1
 last_client=kicad
 [pcbnew]
