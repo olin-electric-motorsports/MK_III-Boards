@@ -1,4 +1,4 @@
-update=Mon 16 Apr 2018 07:48:38 PM EDT
+update=Thu 16 Nov 2017 09:28:08 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,13 +63,3 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=/home/noah/formula/OEM_Preferred_Parts/schematic/formula
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
