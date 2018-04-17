@@ -617,9 +617,7 @@ F 3 "" H 3550 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 950  2650 950 
-Wire Wire Line
-	2650 950  2950 950 
+	2500 950  2950 950 
 Wire Wire Line
 	2500 850  2500 650 
 Wire Wire Line
@@ -704,19 +702,13 @@ F 3 "" H 3950 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  2550 1000 2550
-Wire Wire Line
-	1000 2550 1200 2550
+	800  2550 1200 2550
 Connection ~ 1000 2550
 Wire Wire Line
-	950  1150 1200 1150
-Wire Wire Line
-	1200 1150 1300 1150
+	950  1150 1300 1150
 Connection ~ 1200 1150
 Wire Wire Line
-	3400 5250 3650 5250
-Wire Wire Line
-	3650 5250 3850 5250
+	3400 5250 3850 5250
 Wire Wire Line
 	3650 5100 3650 5250
 Connection ~ 3650 5250
@@ -884,4 +876,38 @@ F 3 "" H 750 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	750  850  950  850 
+$Comp
+L C_1uF C?
+U 1 1 5A8235EB
+P 3050 1300
+F 0 "C?" H 3075 1400 50  0000 L CNN
+F 1 "C_1uF" H 2950 1200 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3088 1150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3075 1400 50  0001 C CNN
+F 4 "CAP CER 1UF 25V X7R 0805" H 3575 1900 60  0001 C CNN "Description"
+F 5 "478-10487-1-ND" H 3050 1300 60  0001 C CNN "MPN"
+F 6 "Digi-Key" H 3050 1300 60  0001 C CNN "MFN"
+F 7 "Value" H 3050 1300 60  0001 C CNN "Package"
+F 8 "https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628" H 3475 1800 60  0001 C CNN "PurchasingLink"
+	1    3050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_0.1uF C?
+U 1 1 5A82366B
+P 2850 1300
+F 0 "C?" H 2875 1400 50  0000 L CNN
+F 1 "C_0.1uF" H 2650 1200 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 2888 1150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2875 1400 50  0001 C CNN
+F 4 "478-3352-1-ND" H 2850 1300 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2850 1300 60  0001 C CNN "MFN"
+F 6 "Value" H 2850 1300 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3275 1800 60  0001 C CNN "PurchasingLink"
+	1    2850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1450 3250 1450
+Connection ~ 3050 1450
 $EndSCHEMATC
