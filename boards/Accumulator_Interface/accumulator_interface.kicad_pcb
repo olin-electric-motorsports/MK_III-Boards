@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 84)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -87,7 +87,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
