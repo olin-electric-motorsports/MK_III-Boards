@@ -4,10 +4,6 @@ Info: Using references to match components and footprints.
 
 Info: Checking netlist component footprint "C1:/5A6AA0D7:footprints:C_0805_OEM".
 
-Info: Checking netlist component footprint "C2:/5A72B0F2:footprints:C_0805_OEM".
-
-Info: Checking netlist component footprint "C3:/5A72B56E:footprints:C_0805_OEM".
-
 Info: Checking netlist component footprint "C4:/5A6A9455:footprints:C_0805_OEM".
 
 Info: Checking netlist component footprint "D1:/5A4D7BD9:footprints:LED_0805_OEM".
@@ -38,19 +34,41 @@ Info: Checking netlist component footprint "R7:/5A76A43A:footprints:R_0805_OEM".
 
 Info: Checking netlist component footprint "R8:/5A72C48F:footprints:R_0805_OEM".
 
+Changing component "R8:/5A72C48F" pin "1" net name from "/5V_TS" to "Net-(R13-Pad1)".
+
+Changing component "R8:/5A72C48F" pin "2" net name from "Net-(R8-Pad2)" to "/5V_TS".
+
 Info: Checking netlist component footprint "R9:/5A6A8451:footprints:R_0805_OEM".
 
 Info: Checking netlist component footprint "R10:/5A776213:footprints:R_0805_OEM".
 
 Info: Checking netlist component footprint "R11:/5A4D7E79:footprints:R_0805_OEM".
 
-Info: Checking netlist component footprint "U1:/5A76D9DB:TO_SOT_Packages_SMD:TO-252-3_TabPin2".
+Info: Checking netlist component footprint "R12:/5A7BCAC8:footprints:R_0805_OEM".
 
-Info: Checking netlist component footprint "U2:/5A7696F2:footprints:ZXRE160".
+Info: Checking netlist component footprint "R13:/5ADBA6B2:footprints:R_0805_OEM".
+
+Adding new component "R13:/5ADBA6B2" footprint "footprints:R_0805_OEM".
+
+Changing component "R13:/5ADBA6B2" pin "1" net name from "" to "Net-(R13-Pad1)".
+
+Changing component "R13:/5ADBA6B2" pin "2" net name from "" to "TS-".
+
+Info: Checking netlist component footprint "U1:/5A76D9DB:TO_SOT_Packages_SMD:TO-252-3_TabPin2".
 
 Info: Checking netlist component footprint "U3:/5A775866:footprints:SOT-23-5_OEM".
 
+Changing component "U3:/5A775866" pin "4" net name from "Net-(R8-Pad2)" to "Net-(R13-Pad1)".
+
 Info: Checking netlist component footprint "U4:/5A4E83AE:Housings_SOIC:SO-4_4.4x3.6mm_Pitch2.54mm".
 
-Changing component "U4:/5A4E83AE" pin "4" net name from "VCC" to "GLV+".
+Removing unused component "C2:/5A72B0F2".
+
+Removing unused component "C3:/5A72B56E".
+
+Removing unused component "U2:/5A7696F2".
+
+Removing unused component "G***:".
+
+Removing unused component "G***:".
 

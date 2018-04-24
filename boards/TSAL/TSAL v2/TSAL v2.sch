@@ -199,10 +199,10 @@ $EndComp
 Text GLabel 9550 6400 2    60   Input ~ 0
 TS-
 $Comp
-L R_1k R5
+L R_1k R8
 U 1 1 5A72C48F
 P 6350 5300
-F 0 "R5" V 6430 5300 50  0000 C CNN
+F 0 "R8" V 6430 5300 50  0000 C CNN
 F 1 "R_1k" V 6250 5300 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6280 5300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6430 5300 50  0001 C CNN
@@ -215,7 +215,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6830 5
 $EndComp
 Text Label 3950 3750 2    60   ~ 0
 5V_TS
-Text Label 5600 4900 2    60   ~ 0
+Text Label 5600 5100 2    60   ~ 0
 5V_TS
 Text GLabel 9600 4050 2    60   Input ~ 0
 TS-
@@ -242,162 +242,12 @@ Text GLabel 5600 2050 0    60   Input ~ 0
 TS+
 Text GLabel 2200 5700 0    60   Input ~ 0
 TS-
-Wire Wire Line
-	3400 4250 4100 4250
-Wire Wire Line
-	3000 4550 3000 5100
-Wire Wire Line
-	4100 3750 3950 3750
-Wire Wire Line
-	3850 5700 2200 5700
-Wire Wire Line
-	3000 5700 3000 5400
-Wire Wire Line
-	2500 4250 2600 4250
-Wire Wire Line
-	2500 3900 2500 4250
-Wire Wire Line
-	2500 3050 2500 3600
-Wire Wire Line
-	2500 3050 2200 3050
-Wire Notes Line
-	1450 2700 4550 2700
-Wire Notes Line
-	4550 2700 4550 6000
-Wire Notes Line
-	4550 6000 1450 6000
-Wire Notes Line
-	1450 6000 1450 2700
-Wire Wire Line
-	8900 4700 8900 5450
-Wire Wire Line
-	12600 3850 12600 4400
-Wire Wire Line
-	12600 5100 12600 5250
-Wire Wire Line
-	14200 4950 14200 4800
-Wire Wire Line
-	8300 4300 8700 4300
-Wire Wire Line
-	8300 2950 8300 4300
-Wire Wire Line
-	5600 2050 5600 2550
-Wire Wire Line
-	5600 3350 6550 3350
-Wire Wire Line
-	5600 3850 5600 3350
-Wire Wire Line
-	7800 3350 6850 3350
-Wire Wire Line
-	7800 2550 7800 3350
-Wire Wire Line
-	7450 2550 7800 2550
-Wire Wire Line
-	8300 2950 7800 2950
-Connection ~ 7800 2950
-Wire Notes Line
-	4800 1750 4800 6650
-Wire Notes Line
-	13250 6650 13250 3900
-Wire Notes Line
-	13250 1750 13250 4050
-Wire Wire Line
-	12600 4400 12400 4400
-Wire Notes Line
-	12100 4750 12100 6550
-Wire Notes Line
-	12100 4250 12100 1850
-Wire Notes Line
-	10500 1750 13250 1750
-Wire Notes Line
-	10500 6650 13250 6650
-Wire Wire Line
-	12600 4800 12600 4600
-Connection ~ 12600 4600
-Wire Notes Line
-	13500 2800 13500 5550
-Wire Notes Line
-	13500 5550 15350 5550
-Wire Notes Line
-	15350 2800 13500 2800
-Wire Wire Line
-	12400 4600 13900 4600
-Wire Wire Line
-	14200 3800 14600 3800
-Wire Wire Line
-	14200 4400 14200 4200
-Wire Wire Line
-	14200 4200 14600 4200
-Wire Wire Line
-	14200 3100 14200 3800
-Wire Wire Line
-	11800 4600 11600 4600
-Wire Wire Line
-	11600 4600 11600 5100
-Wire Wire Line
-	10950 4900 10950 5000
-Wire Wire Line
-	10950 5300 10950 5400
-Wire Wire Line
-	9300 4400 11300 4400
-Wire Wire Line
-	11600 4400 11800 4400
-Wire Wire Line
-	8900 3150 8900 4100
-Wire Wire Line
-	3500 4500 3500 4250
-Connection ~ 3500 4250
-Wire Wire Line
-	3000 4900 3500 4900
-Wire Wire Line
-	3500 4900 3500 4800
-Connection ~ 3000 4900
-Wire Wire Line
-	3850 4500 3850 4250
-Connection ~ 3850 4250
-Wire Wire Line
-	3850 4800 3850 5700
-Wire Notes Line
-	4800 6650 10100 6650
-Wire Notes Line
-	4800 1750 10100 1750
-Wire Wire Line
-	9550 6400 9450 6400
-Wire Wire Line
-	9450 6400 9450 5600
-Wire Wire Line
-	9150 3700 8900 3700
-Connection ~ 8900 3700
-Wire Wire Line
-	9450 3700 9600 3700
-Wire Wire Line
-	9600 3700 9600 4050
-Wire Notes Line
-	10100 1750 10100 6650
-Wire Notes Line
-	10500 1750 10500 6650
-Wire Wire Line
-	2200 3050 2200 4200
-Wire Wire Line
-	2200 4200 2050 4200
-Wire Wire Line
-	2200 5700 2200 4300
-Wire Wire Line
-	2200 4300 2050 4300
 Text GLabel 2200 3050 0    60   Input ~ 0
 TS+
 Text GLabel 7350 8650 0    60   Input ~ 0
 TSAL-
-Wire Wire Line
-	7350 8650 7700 8650
-Wire Wire Line
-	7700 8650 7700 8450
 Text GLabel 7350 9000 0    60   Input ~ 0
 TSAL+
-Wire Wire Line
-	7350 9000 7800 9000
-Wire Wire Line
-	7800 9000 7800 8450
 Text GLabel 8250 9000 2    60   Input ~ 0
 GLV+
 $Comp
@@ -411,14 +261,8 @@ F 3 "" H 8000 8450 50  0001 C CNN
 	1    8000 8450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 8450 7900 9000
-Wire Wire Line
-	7900 9000 8250 9000
-Wire Notes Line
-	15350 5550 15350 2800
 $Comp
-L R_270k R4
+L R_270k R3
 U 1 1 5A76A339
 P 5950 2550
 F 0 "R4" V 6030 2550 50  0000 C CNN
@@ -488,18 +332,6 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    6850 2550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5600 2550 5800 2550
-Wire Wire Line
-	6100 2550 6250 2550
-Wire Wire Line
-	6550 2550 6700 2550
-Wire Wire Line
-	7000 2550 7150 2550
-Connection ~ 9450 4400
-Wire Wire Line
-	10950 4600 10950 4400
-Connection ~ 10950 4400
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 5A76C4FF
@@ -668,17 +500,8 @@ F 7 "Value" H 8100 9800 60  0001 C CNN "Package"
 $EndComp
 Text GLabel 12600 3850 2    60   Input ~ 0
 GLV+
-Connection ~ 3000 5700
 Text Notes 8250 7650 0    118  ~ 24
 MISC
-Wire Notes Line
-	6700 7800 10450 7800
-Wire Notes Line
-	10450 7800 10450 9250
-Wire Notes Line
-	10450 9250 6700 9250
-Wire Notes Line
-	6700 9250 6700 7800
 $Comp
 L R_1.43k R11
 U 1 1 5A7BCAC8
@@ -693,12 +516,205 @@ F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/R
 	1    9450 5000
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_137 R13
+U 1 1 5ADBA6B2
+P 7050 5650
+F 0 "R13" V 7130 5650 50  0000 C CNN
+F 1 "R_137" V 6950 5650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" V 7650 5700 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English" V 7750 5800 50  0001 C CNN
+F 4 "DigiKey" V 7230 5750 60  0001 C CNN "MFN"
+F 5 "A110460CT-ND" V 7330 5850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/3-2176091-7/A110460CT-ND/4034815" V 7430 5950 60  0001 C CNN "Purchasing Link"
+	1    7050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4250 4100 4250
+Wire Wire Line
+	3000 4550 3000 5100
+Wire Wire Line
+	4100 4250 4100 3800
+Wire Wire Line
+	4100 3800 3950 3800
+Wire Wire Line
+	3850 5700 2200 5700
+Wire Wire Line
+	3000 5700 3000 5400
+Wire Wire Line
+	2500 4250 2600 4250
+Wire Wire Line
+	2500 3900 2500 4250
+Wire Wire Line
+	2500 3050 2500 3600
+Wire Wire Line
+	2500 3050 2200 3050
+Wire Notes Line
+	1450 2700 4550 2700
+Wire Notes Line
+	4550 2700 4550 6000
+Wire Notes Line
+	4550 6000 1450 6000
+Wire Notes Line
+	1450 6000 1450 2700
+Wire Wire Line
+	8900 4700 8900 5450
+Wire Wire Line
+	12600 3850 12600 4400
+Wire Wire Line
+	12600 5100 12600 5250
+Wire Wire Line
+	14200 4950 14200 4800
+Wire Wire Line
+	8300 4300 8700 4300
+Wire Wire Line
+	8300 2950 8300 4300
+Wire Wire Line
+	5600 2050 5600 2550
+Wire Wire Line
+	5600 3350 6550 3350
+Wire Wire Line
+	5600 3850 5600 3350
+Wire Wire Line
+	7800 3350 6850 3350
+Wire Wire Line
+	7800 2550 7800 3350
+Wire Wire Line
+	7450 2550 7800 2550
+Wire Wire Line
+	8300 2950 7800 2950
+Connection ~ 7800 2950
+Wire Notes Line
+	4800 1750 4800 6650
+Wire Notes Line
+	13250 6650 13250 3900
+Wire Notes Line
+	13250 1750 13250 4050
+Wire Wire Line
+	12600 4400 12400 4400
+Wire Notes Line
+	12100 4750 12100 6550
+Wire Notes Line
+	12100 4250 12100 1850
+Wire Notes Line
+	10500 1750 13250 1750
+Wire Notes Line
+	10500 6650 13250 6650
+Wire Wire Line
+	12600 4800 12600 4600
+Connection ~ 12600 4600
+Wire Notes Line
+	13500 2800 13500 5550
+Wire Notes Line
+	13500 5550 15350 5550
+Wire Notes Line
+	15350 2800 13500 2800
+Wire Wire Line
+	12400 4600 13900 4600
+Wire Wire Line
+	14200 3800 14600 3800
+Wire Wire Line
+	14200 4400 14200 4200
+Wire Wire Line
+	14200 4200 14600 4200
+Wire Wire Line
+	14200 3100 14200 3800
+Wire Wire Line
+	11800 4600 11600 4600
+Wire Wire Line
+	11600 4600 11600 5100
+Wire Wire Line
+	10950 4900 10950 5000
+Wire Wire Line
+	10950 5300 10950 5400
+Wire Wire Line
+	9300 4400 11300 4400
+Wire Wire Line
+	11600 4400 11800 4400
+Wire Wire Line
+	8900 3150 8900 4100
+Wire Wire Line
+	3500 4500 3500 4250
+Connection ~ 3500 4250
+Wire Wire Line
+	3000 4900 3500 4900
+Wire Wire Line
+	3500 4900 3500 4800
+Connection ~ 3000 4900
+Wire Wire Line
+	3850 4500 3850 4250
+Connection ~ 3850 4250
+Wire Wire Line
+	3850 4800 3850 5700
+Wire Notes Line
+	4800 6650 10100 6650
+Wire Notes Line
+	4800 1750 10100 1750
+Wire Wire Line
+	9550 6400 9450 6400
+Wire Wire Line
+	9450 6400 9450 5600
+Wire Wire Line
+	9150 3700 8900 3700
+Connection ~ 8900 3700
+Wire Wire Line
+	9450 3700 9600 3700
+Wire Wire Line
+	9600 3700 9600 4050
+Wire Notes Line
+	10100 1750 10100 6650
+Wire Notes Line
+	10500 1750 10500 6650
+Wire Wire Line
+	2200 3050 2200 4200
+Wire Wire Line
+	2200 4200 2050 4200
+Wire Wire Line
+	2200 5700 2200 4300
+Wire Wire Line
+	2200 4300 2050 4300
+Wire Wire Line
+	7350 8650 7700 8650
+Wire Wire Line
+	7700 8650 7700 8450
+Wire Wire Line
+	7350 9000 7800 9000
+Wire Wire Line
+	7800 9000 7800 8450
+Wire Wire Line
+	7900 8450 7900 9000
+Wire Wire Line
+	7900 9000 8250 9000
+Wire Notes Line
+	15350 5550 15350 2800
+Wire Wire Line
+	5600 2550 5800 2550
+Wire Wire Line
+	6100 2550 6250 2550
+Wire Wire Line
+	6550 2550 6700 2550
+Wire Wire Line
+	7000 2550 7150 2550
+Connection ~ 9450 4400
+Wire Wire Line
+	10950 4600 10950 4400
+Connection ~ 10950 4400
+Connection ~ 3000 5700
+Wire Notes Line
+	6700 7800 10450 7800
+Wire Notes Line
+	10450 7800 10450 9250
+Wire Notes Line
+	10450 9250 6700 9250
+Wire Notes Line
+	6700 9250 6700 7800
 Wire Wire Line
 	9450 5150 9450 5500
 Wire Wire Line
 	9450 4850 9450 4400
 Wire Wire Line
-	5600 4900 5600 5300
+	5600 5100 5600 5300
 Wire Wire Line
 	5600 5300 6200 5300
 Wire Wire Line
@@ -707,44 +723,11 @@ Wire Wire Line
 	8300 5300 8300 4500
 Wire Wire Line
 	8300 4500 8700 4500
-Connection ~ 7200 5300
-Text GLabel 7200 5850 3    60   Input ~ 0
+Wire Wire Line
+	7050 5300 7050 5500
+Connection ~ 7050 5300
+Text GLabel 7050 6000 0    60   Input ~ 0
 TS-
 Wire Wire Line
-	7200 5850 7200 5750
-Wire Wire Line
-	7200 5450 7200 5300
-$Comp
-L R_137 R9
-U 1 1 5AD7FFF6
-P 7200 5600
-F 0 "R9" V 7280 5600 50  0000 C CNN
-F 1 "R_137" V 7100 5600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" V 7800 5650 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English" V 7900 5750 50  0001 C CNN
-F 4 "DigiKey" V 7380 5700 60  0001 C CNN "MFN"
-F 5 "A110460CT-ND" V 7480 5800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/3-2176091-7/A110460CT-ND/4034815" V 7580 5900 60  0001 C CNN "Purchasing Link"
-	1    7200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_0_Jumper R3
-U 1 1 5AD80B15
-P 4100 4000
-F 0 "R3" H 4180 4000 50  0000 C CNN
-F 1 "R_0_Jumper" V 4000 4000 50  0000 C CNN
-F 2 "footprints:R_2512_OEM" H 4030 4000 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 4180 4000 50  0001 C CNN
-F 4 "A121322CT-ND" H 4100 4000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 4100 4000 60  0001 C CNN "MFN"
-F 6 "Value" H 4100 4000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 4580 4400 60  0001 C CNN "PurchasingLink"
-	1    4100 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4100 4250 4100 4150
-Wire Wire Line
-	4100 3850 4100 3750
+	7050 6000 7050 5800
 $EndSCHEMATC
