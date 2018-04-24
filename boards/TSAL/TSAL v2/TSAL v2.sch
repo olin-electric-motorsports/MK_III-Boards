@@ -57,10 +57,10 @@ DETECTION
 Text GLabel 11600 5100 0    60   Input ~ 0
 TS-
 $Comp
-L R_10k R11
+L R_10k R14
 U 1 1 5A4D7E79
 P 12600 4950
-F 0 "R11" V 12680 4950 50  0000 C CNN
+F 0 "R14" V 12680 4950 50  0000 C CNN
 F 1 "R_10k" V 12500 4950 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12530 4950 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 12680 4950 50  0001 C CNN
@@ -108,10 +108,10 @@ ISOLATION
 Text Notes 14050 2650 0    118  ~ 24
 OUTPUT
 $Comp
-L LTV-356T U4
+L LTV-356T U3
 U 1 1 5A4E83AE
 P 12100 4500
-F 0 "U4" H 11890 4690 50  0000 L CNN
+F 0 "U3" H 11890 4690 50  0000 L CNN
 F 1 "LTV-356T" H 12100 4700 50  0000 L CNN
 F 2 "Housings_SOIC:SO-4_4.4x3.6mm_Pitch2.54mm" H 11900 4300 50  0001 L CIN
 F 3 "" H 12100 4500 50  0001 L CNN
@@ -134,10 +134,10 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 11350 5250 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_1k R9
+L R_1k R12
 U 1 1 5A6A8451
 P 10950 5150
-F 0 "R9" V 11030 5150 50  0000 C CNN
+F 0 "R12" V 11030 5150 50  0000 C CNN
 F 1 "R_1k" V 10850 5150 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 10880 5150 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 11030 5150 50  0001 C CNN
@@ -149,10 +149,10 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 11430 
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_10uF C4
+L C_10uF C2
 U 1 1 5A6A9455
 P 9300 3700
-F 0 "C4" H 9325 3800 50  0000 L CNN
+F 0 "C2" H 9325 3800 50  0000 L CNN
 F 1 "C_10uF" H 9325 3600 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9338 3550 50  0001 C CNN
 F 3 "http://datasheets.avx.com/cx5r.pdf" H 9325 3800 50  0001 C CNN
@@ -182,10 +182,10 @@ $EndComp
 Text GLabel 10950 5400 0    59   Input ~ 0
 TS-
 $Comp
-L Ultrafit_2 J2
+L Ultrafit_2 J3
 U 1 1 5A729471
 P 9200 5550
-F 0 "J2" H 9200 5700 60  0000 C CNN
+F 0 "J3" H 9200 5700 60  0000 C CNN
 F 1 "Ultrafit_2" H 9100 5350 60  0000 C CNN
 F 2 "footprints:Ultrafit_2" H 9100 5600 60  0001 C CNN
 F 3 "" H 9200 5700 60  0001 C CNN
@@ -213,7 +213,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6830 5
 	1    6350 5300
 	0    1    1    0   
 $EndComp
-Text Label 3950 3800 2    60   ~ 0
+Text Label 3950 3750 2    60   ~ 0
 5V_TS
 Text Label 5600 5100 2    60   ~ 0
 5V_TS
@@ -265,7 +265,7 @@ $Comp
 L R_270k R3
 U 1 1 5A76A339
 P 5950 2550
-F 0 "R3" V 6030 2550 50  0000 C CNN
+F 0 "R4" V 6030 2550 50  0000 C CNN
 F 1 "R_270k" V 5850 2550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 5880 2550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 6500 2650 50  0001 C CNN
@@ -276,10 +276,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L R_10k R5
+L R_10k R7
 U 1 1 5A76A3B1
 P 6700 3350
-F 0 "R5" V 6780 3350 50  0000 C CNN
+F 0 "R7" V 6780 3350 50  0000 C CNN
 F 1 "R_10k" V 6600 3350 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6630 3350 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6780 3350 50  0001 C CNN
@@ -291,10 +291,10 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 718
 	0    1    1    0   
 $EndComp
 $Comp
-L R_178k R7
+L R_178k R10
 U 1 1 5A76A43A
 P 7300 2550
-F 0 "R7" V 7380 2550 50  0000 C CNN
+F 0 "R10" V 7380 2550 50  0000 C CNN
 F 1 "R_178k" V 7200 2550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 7800 2550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 7600 2550 50  0001 C CNN
@@ -305,10 +305,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L R_270k R4
+L R_270k R6
 U 1 1 5A76A6C9
 P 6400 2550
-F 0 "R4" V 6480 2550 50  0000 C CNN
+F 0 "R6" V 6480 2550 50  0000 C CNN
 F 1 "R_270k" V 6300 2550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 6330 2550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 6950 2650 50  0001 C CNN
@@ -319,10 +319,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L R_270k R6
+L R_270k R8
 U 1 1 5A76A72E
 P 6850 2550
-F 0 "R6" V 6930 2550 50  0000 C CNN
+F 0 "R8" V 6930 2550 50  0000 C CNN
 F 1 "R_270k" V 6750 2550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 6780 2550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 7400 2650 50  0001 C CNN
@@ -395,10 +395,10 @@ F 6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" H 28
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP6001RT U3
+L MCP6001RT U2
 U 1 1 5A775866
 P 9000 4400
-F 0 "U3" H 8650 4150 50  0000 L CNN
+F 0 "U2" H 8650 4150 50  0000 L CNN
 F 1 "MCP6001RT" H 9000 4650 50  0000 L CNN
 F 2 "footprints:SOT-23-5_OEM" H 8900 4500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9000 4600 50  0001 C CNN
@@ -410,10 +410,10 @@ F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001RT-I-
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_499 R10
+L R_499 R13
 U 1 1 5A776213
 P 11450 4400
-F 0 "R10" V 11530 4400 50  0000 C CNN
+F 0 "R13" V 11530 4400 50  0000 C CNN
 F 1 "R_499" V 11350 4400 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 11380 4400 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 11530 4400 50  0001 C CNN
@@ -484,10 +484,10 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 3980 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L micromatch_female_TOP_ENTRY_locking_4 J3
+L micromatch_female_TOP_ENTRY_locking_4 J2
 U 1 1 5A78D935
 P 7800 8200
-F 0 "J3" H 7800 8600 60  0000 C CNN
+F 0 "J2" H 7800 8600 60  0000 C CNN
 F 1 "micromatch_female_TOP_ENTRY_locking_4" V 7550 8200 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_4" H 7600 9300 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English" H 7700 9400 60  0001 C CNN
@@ -503,10 +503,10 @@ GLV+
 Text Notes 8250 7650 0    118  ~ 24
 MISC
 $Comp
-L R_1.43k R12
+L R_1.43k R11
 U 1 1 5A7BCAC8
 P 9450 5000
-F 0 "R12" V 9530 5000 50  0000 C CNN
+F 0 "R11" V 9530 5000 50  0000 C CNN
 F 1 "R_1.43k" V 9350 5000 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 9250 5300 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/RN73_Series_2011.pdf" H 9500 4700 50  0001 C CNN
