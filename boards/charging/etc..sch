@@ -1,6 +1,7 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
 LIBS:etc.-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -632,32 +633,32 @@ $EndComp
 $Comp
 L power:VCC #PWR026
 U 1 1 59E0C6BE
-P 5600 3300
-F 0 "#PWR026" H 5600 3150 50  0001 C CNN
-F 1 "VCC" H 5600 3450 50  0000 C CNN
-F 2 "" H 5600 3300 50  0001 C CNN
-F 3 "" H 5600 3300 50  0001 C CNN
-	1    5600 3300
+P 6100 3525
+F 0 "#PWR026" H 6100 3375 50  0001 C CNN
+F 1 "VCC" H 6100 3675 50  0000 C CNN
+F 2 "" H 6100 3525 50  0001 C CNN
+F 3 "" H 6100 3525 50  0001 C CNN
+	1    6100 3525
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR027
 U 1 1 59E0C704
-P 5650 3500
-F 0 "#PWR027" H 5650 3250 50  0001 C CNN
-F 1 "GND" H 5650 3350 50  0000 C CNN
-F 2 "" H 5650 3500 50  0001 C CNN
-F 3 "" H 5650 3500 50  0001 C CNN
-	1    5650 3500
+P 6150 3725
+F 0 "#PWR027" H 6150 3475 50  0001 C CNN
+F 1 "GND" H 6150 3575 50  0000 C CNN
+F 2 "" H 6150 3725 50  0001 C CNN
+F 3 "" H 6150 3725 50  0001 C CNN
+	1    6150 3725
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 3400 2    60   Input ~ 0
+Text GLabel 6100 3625 2    60   Input ~ 0
 MOSI
-Text GLabel 5100 3300 0    60   Input ~ 0
+Text GLabel 5600 3525 0    60   Input ~ 0
 MISO
-Text GLabel 5100 3400 0    60   Input ~ 0
+Text GLabel 5600 3625 0    60   Input ~ 0
 SCK
-Text GLabel 5100 3500 0    60   Input ~ 0
+Text GLabel 5600 3725 0    60   Input ~ 0
 RESET
 Text GLabel 5800 2400 0    60   Input ~ 0
 TXCAN
@@ -710,16 +711,16 @@ $EndComp
 $Comp
 L etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue P2
 U 1 1 59E10F9E
-P 5350 3400
-F 0 "P2" H 5350 3600 50  0000 C CNN
-F 1 "CONN_02X03" H 5350 3200 50  0000 C CNN
-F 2 "footprints:Pin_Header_Straight_2x03" H 5350 2200 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 5350 2200 50  0001 C CNN
-F 4 "609-3234-ND" H 5350 3400 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 5350 3400 60  0001 C CNN "MFN"
-F 6 "Value" H 5350 3400 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 5750 4000 60  0001 C CNN "PurchasingLink"
-	1    5350 3400
+P 5850 3625
+F 0 "P2" H 5850 3825 50  0000 C CNN
+F 1 "CONN_02X03" H 5850 3425 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 5850 2425 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 5850 2425 50  0001 C CNN
+F 4 "609-3234-ND" H 5850 3625 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5850 3625 60  0001 C CNN "MFN"
+F 6 "Value" H 5850 3625 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 6250 4225 60  0001 C CNN "PurchasingLink"
+	1    5850 3625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -905,7 +906,7 @@ Wire Wire Line
 	4600 3850 4600 4000
 Connection ~ 4600 4000
 Wire Wire Line
-	5600 3500 5650 3500
+	6100 3725 6150 3725
 Wire Wire Line
 	4350 2600 4550 2600
 Wire Wire Line
