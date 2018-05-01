@@ -1,12 +1,12 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Package,MPN,MFN,PurchasingLink
-1,CAP CER 10UF 16V X5R 0805,C_10uF_16V,C1,C_10uF_16V,C_0805_OEM,1,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf,Value,1276-2399-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485
+1,CAP CER 10UF 16V X5R 0805,C_10uF_16V,C1 C2,C_10uF_16V,C_0805_OEM,2,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf,Value,1276-2399-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485
 2,DIODE SCHOTTKY 100V 1A SOD123,D_Schottky_SOD123,D4,D_Schottky_SOD123,D_SOD-123W_OEM,1,https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf,,1727-2394-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG10010ELRX/1727-2394-1-ND/5436140
 3,DIODE ZENER 18V 5W DO214AA,D_Zener_18V,D1,D_Zener_18V,DO-214AA,1,http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf,DO-214AA (SMB),SMBJ5355B-TPMSCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND
 4,LED_0805,LED_0805,D2 D3,LED_0805,LED_0805_OEM,2,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND
 5,PTC Fuse 16V 500mA,F_500mA_16V,F1,500mA,Fuse_1210,1,https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf,Value,507-1786-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209
 6,ULTRAFIT CONN HDR 02CKT,Ultrafit_2,J2,Ultrafit_2,Ultrafit_2,1,,Value,WM11570-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267
 7,,Ultrafit_5,J1,Ultrafit_5,Ultrafit_5,1,http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf,Value,WM11667-ND,Digi-Key,https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132
-8,connector micromatch female RA 4,micromatch_female_RA_4,J3,micromatch_female_RA_4,micromatch_female_ra_4,1,,Value,A99482CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338070-4/A99482CT-ND/1955784
+8,CONN FMALE-ON-BRD 4POS VERT T/H,micromatch_female_TOP_ENTRY_locking_4,J3,micromatch_female_TOP_ENTRY_locking_4,micromatch_female_vert_4,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English,Value,338068-4,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740
 9,g5q power relay,G5Q-1A4-DC5-5V,K1,G5Q-1A4-DC5-5V,Relay_SPST_OMRON-G5Q-1A4_OEM,1,http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf,,Z3632-ND,Digi-Key,https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721
 10,"60V Vds, 0.115A Id, N-channel MOSFET, SOT-23",SSM3K333R,Q1 Q2,SSM3K333R,SOT-23F,2,https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk,SOT-23-3 Flat Leads,SSM3K333RLFCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391
 11,,R_120k,R4,R_120k,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805FT120KCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248
@@ -14,20 +14,20 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 13,RES SMD 2.2K OHM 1% 1/8W 0805,R_2.2k,R6,R_2.2k,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805FT2K20CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387
 14,,R_200k,R2,R_200k,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805FG200K,Digi-Key,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FG200K/RMCF0805FG200KCT-ND/6053195
 15,RES SMD 604K OHM 1% 1/8W 0805,R_604k,R3 R7 R8,R_604k,R_0805_OEM,3,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805FT604KCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214
-16,IC NOR R/S LTCH 3ST QUAD 16TSSOP,CD4043BPWR,U1,CD4043BPWR,TSSOP-16-OEM,1,http://www.ti.com/lit/ds/symlink/cd4043b.pdf,,296-14106-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904
-17,IC COMPARATR NANOPWR P-P SOT23-5,TLV3701QDBVRG4Q1,U2,TLV3701QDBVRG4Q1,SOT-23-5_OEM,1,http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf,,497-10249-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000
+16,IC NOR R/S LTCH 3ST QUAD 16TSSOP,CD4044BPWR,U2,CD4044BPWR,TSSOP-16-OEM,1,http://www.ti.com/lit/ds/symlink/cd4043b.pdf,,296-14106-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904
+17,IC COMPARATR NANOPWR P-P SOT23-5,TLV3701QDBVRG4Q1,U1,TLV3701QDBVRG4Q1,SOT-23-5_OEM,1,http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf,,497-10249-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000
 
 
 
 
 
 Component Groups:,17
-Component Count:,22
-Fitted Components:,22
+Component Count:,23
+Fitted Components:,23
 Number of PCBs:,1
-Total components:,22
+Total components:,23
 Schematic Version:,
 Schematic Date:,
-BoM Date:,Thu 01 Feb 2018 09:35:49 PM EST
-Schematic Source:,/home/josh/Formula/MK_III-Boards/boards/IMD_Latch/IMD_Latch_v3/IMD_Latch_v3.sch
+BoM Date:,Tue 17 Apr 2018 08:30:16 PM EDT
+Schematic Source:,/home/josh/Formula/MK_III-Boards/boards/IMD_Latch/IMD_Latch_v4/IMD_Latch_v3.sch
 KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1
