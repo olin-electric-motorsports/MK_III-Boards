@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x00020_00000000)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -1154,7 +1154,7 @@
   (gr_text F (at 114.427 57.277) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "William Fairman  Rev_1" (at 124.714 75.692) (layer F.SilkS)
+  (gr_text "William Fairman  Rev_2\n" (at 124.714 75.692) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "+\n" (at 143.129 60.198) (layer F.SilkS)
