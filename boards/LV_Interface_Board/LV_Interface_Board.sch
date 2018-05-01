@@ -3,6 +3,7 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -1011,7 +1012,7 @@ F 1 "fuse_holder_125V_15A" H 1525 7090 50  0000 C CNN
 F 2 "footprints:fuse_block" V 2895 7400 50  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" V 2775 8020 50  0001 C CNN
 F 4 "Digi-Key" H 2515 6860 60  0001 C CNN "MFN"
-F 5 "F5764CT-ND" H 2345 6640 60  0001 C CNN "MPN"
+F 5 "F1403-ND" H 2345 6640 60  0001 C CNN "MPN"
 F 6 "Value" H 2505 7000 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en/circuit-protection/fuseholders/140?k=&pkeyword=&pv2094=i4&FV=ffe0008c%2C114007b%2C1140003&mnonly=0&ColumnSort=1000011&page=1&stock=1&quantity=0&ptm=0&fid=0&pageSize=25" H 1495 7400 60  0001 C CNN "PurchasingLink"
 	1    1495 7400
