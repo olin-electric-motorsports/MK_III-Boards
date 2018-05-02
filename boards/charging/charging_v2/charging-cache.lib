@@ -536,6 +536,8 @@ F0 "U" 0 -590 60 H V C CNN
 F1 "RJ45_RA" 10 660 60 H V C CNN
 F2 "footprints:RJ45-RightAngle" -100 -690 60 H I C CNN
 F3 "" 0 -590 60 H I C CNN
+F4 "MRJ-5381-01-ND" 200 -390 60 H V C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/amphenol-commercial-products/MRJ-5381-01/MRJ-5381-01-ND/1242668" 300 -290 60 H V C CNN "PurchasingLink"
 DRAW
 S -280 570 650 -190 0 1 0 N
 X CANL 1 -480 430 200 R 50 50 1 1 B
