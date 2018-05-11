@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	7525 8660 7525 8760
 Text Label 7400 9210 0    60   ~ 0
-MOSI
+STRAIN_MOSI
 Text Label 7400 9310 0    60   ~ 0
 MISO
 Text Label 7400 9410 0    60   ~ 0
@@ -163,7 +163,7 @@ Wire Wire Line
 Text Label 8775 8910 0    60   ~ 0
 5V
 Text Label 7400 9510 0    60   ~ 0
-STRAIN_RESET
+RESET
 Text Label 7400 9810 0    60   ~ 0
 STRAIN_LED1
 Text Label 7400 9910 0    60   ~ 0
@@ -389,7 +389,7 @@ Wire Wire Line
 Text Label 5655 9015 0    60   ~ 0
 5V
 Text Label 4405 9415 0    60   ~ 0
-MOSI
+WHEEL_SPEED_MOSI
 Text Label 4405 9515 0    60   ~ 0
 MISO
 Text Label 4405 9615 0    60   ~ 0
@@ -399,7 +399,7 @@ CAN_HIGH
 Text Label 4405 9915 0    60   ~ 0
 CAN_LOW
 Text Label 4405 9715 0    60   ~ 0
-WHEEL_SPEED_RESET
+RESET
 Text Label 4405 10015 0    60   ~ 0
 WHEEL_SPEED_LED1
 Text Label 4405 10115 0    60   ~ 0
@@ -440,7 +440,7 @@ Wire Wire Line
 Wire Wire Line
 	2780 9110 2780 8810
 Text Label 1530 9210 0    60   ~ 0
-MOSI
+BRAKE_MOSI
 Text Label 1530 9310 0    60   ~ 0
 MISO
 Text Label 1530 9410 0    60   ~ 0
@@ -448,7 +448,7 @@ SCK
 Text Label 2780 8810 0    60   ~ 0
 5V
 Text Label 1530 9510 0    60   ~ 0
-BRAKE_RESET
+RESET
 Text Label 1530 9610 0    60   ~ 0
 CAN_HIGH
 Text Label 1530 9710 0    60   ~ 0
@@ -598,14 +598,6 @@ F 7 "https://www.amazon.com/Single-Rotary-Switch-Selector-Position/dp/B00K86H2SE
 	1    4045 7655
 	1    0    0    -1  
 $EndComp
-Text Label 4195 6555 0    60   ~ 0
-RESET
-Text Label 4195 6655 0    60   ~ 0
-BRAKE_RESET
-Text Label 4195 6755 0    60   ~ 0
-STRAIN_RESET
-Text Label 4195 6855 0    60   ~ 0
-WHEEL_SPEED_RESET
 NoConn ~ 4195 6955
 NoConn ~ 4195 7455
 NoConn ~ 4195 7955
@@ -1003,21 +995,6 @@ Text Notes 2185 11480 0    60   ~ 0
 shutdown sense\n
 Text Notes 2295 3030 0    60   ~ 0
 brake disc temp\n
-$Comp
-L fuse_holder_125V_15A F1
-U 1 1 5A8B5DEC
-P 1495 7400
-F 0 "F1" H 1495 7570 50  0000 C CNN
-F 1 "fuse_holder_125V_15A" H 1525 7090 50  0000 C CNN
-F 2 "footprints:fuse_block" V 2895 7400 50  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lorho_datasheet.pdf.pdf" V 2775 8020 50  0001 C CNN
-F 4 "Digi-Key" H 2515 6860 60  0001 C CNN "MFN"
-F 5 "F1403-ND" H 2345 6640 60  0001 C CNN "MPN"
-F 6 "Value" H 2505 7000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en/circuit-protection/fuseholders/140?k=&pkeyword=&pv2094=i4&FV=ffe0008c%2C114007b%2C1140003&mnonly=0&ColumnSort=1000011&page=1&stock=1&quantity=0&ptm=0&fid=0&pageSize=25" H 1495 7400 60  0001 C CNN "PurchasingLink"
-	1    1495 7400
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	685  7920 3085 7920
 Wire Notes Line
@@ -1311,26 +1288,13 @@ Text Label 10170 4275 0    60   ~ 0
 ROW9
 Text Label 10170 4375 0    60   ~ 0
 ROW10
-NoConn ~ 1245 7590
-NoConn ~ 1765 7590
-Wire Wire Line
-	1150 7510 1245 7510
-Wire Wire Line
-	1150 7350 1150 7510
-Wire Wire Line
-	915  7430 1245 7430
-Wire Wire Line
-	1150 7350 1245 7350
-Connection ~ 1150 7430
-Wire Wire Line
-	915  7430 915  7260
-Text Label 915  7260 0    60   ~ 0
+Text Label 900  7250 0    60   ~ 0
 GLVMS
-Text Label 1765 7430 0    60   ~ 0
+Text Label 1750 7550 0    60   ~ 0
 12V
-Text Label 1765 7350 0    60   ~ 0
+Text Label 1750 7350 0    60   ~ 0
 COOLING_PUMP_12V_FUSED
-Text Label 1765 7510 0    60   ~ 0
+Text Label 1750 7750 0    60   ~ 0
 MAIN_SHUTDOWN_FUSE
 Wire Notes Line
 	680  6795 680  7920
@@ -1374,4 +1338,75 @@ Text Label 2105 3235 0    60   ~ 0
 COOLING_PUMP_12V_FUSED
 Text Label 2105 3435 0    60   ~ 0
 COOLING_PUMP_12V_FUSED
+Text Label 4195 6555 0    60   ~ 0
+MOSI
+Text Label 4195 6655 0    60   ~ 0
+BRAKE_MOSI
+Text Label 4195 6755 0    60   ~ 0
+STRAIN_MOSI
+Text Label 4195 6855 0    60   ~ 0
+WHEEL_SPEED_MOSI
+$Comp
+L Fuse_Holder_Blade F1
+U 1 1 5AF563B4
+P 1400 7350
+F 0 "F1" V 1480 7350 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" V 1325 7350 50  0000 C CNN
+F 2 "footprints:fuse_block_holder" V 1330 7350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" V 1480 7350 50  0001 C CNN
+F 4 "Digi-Key" H 1400 7350 60  0001 C CNN "MFN"
+F 5 "36-3557-2-ND" H 1400 7350 60  0001 C CNN "MPN"
+F 6 "Value" H 1400 7350 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" V 1880 7750 60  0001 C CNN "PurchasingLink"
+	1    1400 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse_Holder_Blade F2
+U 1 1 5AF5648E
+P 1400 7550
+F 0 "F2" V 1480 7550 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" V 1325 7550 50  0000 C CNN
+F 2 "footprints:fuse_block_holder" V 1330 7550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" V 1480 7550 50  0001 C CNN
+F 4 "Digi-Key" H 1400 7550 60  0001 C CNN "MFN"
+F 5 "36-3557-2-ND" H 1400 7550 60  0001 C CNN "MPN"
+F 6 "Value" H 1400 7550 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" V 1880 7950 60  0001 C CNN "PurchasingLink"
+	1    1400 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse_Holder_Blade F3
+U 1 1 5AF564F3
+P 1400 7750
+F 0 "F3" V 1480 7750 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" V 1325 7750 50  0000 C CNN
+F 2 "footprints:fuse_block_holder" V 1330 7750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" V 1480 7750 50  0001 C CNN
+F 4 "Digi-Key" H 1400 7750 60  0001 C CNN "MFN"
+F 5 "36-3557-2-ND" H 1400 7750 60  0001 C CNN "MPN"
+F 6 "Value" H 1400 7750 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" V 1880 8150 60  0001 C CNN "PurchasingLink"
+	1    1400 7750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 7350 900  7350
+Wire Wire Line
+	900  7350 900  7250
+Wire Wire Line
+	1250 7550 1000 7550
+Wire Wire Line
+	1000 7350 1000 7750
+Connection ~ 1000 7350
+Wire Wire Line
+	1000 7750 1250 7750
+Connection ~ 1000 7550
+Wire Wire Line
+	1550 7350 1750 7350
+Wire Wire Line
+	1550 7550 1750 7550
+Wire Wire Line
+	1550 7750 1750 7750
 $EndSCHEMATC
