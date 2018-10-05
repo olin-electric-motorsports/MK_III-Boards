@@ -1,0 +1,785 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue-etc.-rescue IC 0 40 Y Y 1 F N
+F0 "IC" -950 1830 50 H V L BNN
+F1 "etc.-rescue:ATMEGA16M1-formula-etc.-rescue-etc.-rescue-etc.-rescue" 500 -1400 50 H V L BNN
+F2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
+F3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" -950 1830 50 H I C CNN
+F4 "ATMEGA16M1-AU-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" -550 2230 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TQFP*32*7x7mm*
+$ENDFPLIST
+DRAW
+S -950 1800 950 -1300 0 1 10 f
+X (PCINT18/PSCIN2/OC1A/MISO_A)PD2 1 1100 -300 150 L 40 40 1 1 B
+X (PCINT19/TXD/TXLIN/OC0A/~SS~/MOSI_A)PD3 2 1100 -400 150 L 40 40 1 1 B
+X (PCINT9/PSCIN1/OC1B/~SS_A~)PC1 3 1100 700 150 L 40 40 1 1 B
+X VCC 4 -1100 1700 150 R 40 40 1 1 W
+X GND 5 -1100 -1200 150 R 40 40 1 1 W
+X (PCINT10/T0/TXCAN)PC2 6 1100 600 150 L 40 40 1 1 B
+X (PCINT11/T1/ICP1B/RXCAN)PC3 7 1100 500 150 L 40 40 1 1 B
+X (PCINT0/MISO/PSCOUT2A)PB0 8 1100 1700 150 L 40 40 1 1 B
+X (PCINT1/MOSI/PSCOUT2B)PB1 9 1100 1600 150 L 40 40 1 1 B
+X (PCINT25/OC0B/XTAL1)PE1 10 1100 -1100 150 L 40 40 1 1 B
+X AGND 20 -1100 -800 150 R 40 40 1 1 W
+X (PCINT8/INT3/PSCOUT1A)PC0 30 1100 800 150 L 40 40 1 1 B
+X (PCINT26/ADC0/XTAL2)PE2 11 1100 -1200 150 L 40 40 1 1 B
+X AREF(ISRC) 21 -1100 1000 150 R 40 40 1 1 W
+X (PCINT24/OCD/~RESET~)PE0 31 1100 -1000 150 L 40 40 1 1 B
+X (PCINT20/ADC1/RXD/RXLIN/ICP1A/SCK_A)PD4 12 1100 -500 150 L 40 40 1 1 B
+X (PCINT14/ADC10/ACMP1)PC6 22 1100 200 150 L 40 40 1 1 B
+X (PCINT17/CLKO/PSCIN0)PD1 32 1100 -200 150 L 40 40 1 1 B
+X (PCINT21/ADC2/ACMP2)PD5 13 1100 -600 150 L 40 40 1 1 B
+X (PCINT3/AMP0-)PB3 23 1100 1400 150 L 40 40 1 1 B
+X (PCINT22/ADC3/INT0/ACMPN2)PD6 14 1100 -700 150 L 40 40 1 1 B
+X (PCINT4/AMP0+)PB4 24 1100 1300 150 L 40 40 1 1 B
+X (PCINT23/ACMP0)PD7 15 1100 -800 150 L 40 40 1 1 B
+X (PCINT15/D2A/AMP2+)PC7 25 1100 100 150 L 40 40 1 1 B
+X (PCINT2/ADC5/INT1/ACMPN0)PB2 16 1100 1500 150 L 40 40 1 1 B
+X (PCINT5/ADC6/INT2/ACMPN1/AMP2-)PB5 26 1100 1200 150 L 40 40 1 1 B
+X (PCINT12/ADC8/ACMPN3/AMP1-)PC4 17 1100 400 150 L 40 40 1 1 B
+X (PCINT6/ADC7/PSCOUT1B)PB6 27 1100 1100 150 L 40 40 1 1 B
+X (PCINT13/ADC9/ACMP3/AMP1+)PC5 18 1100 300 150 L 40 40 1 1 B
+X (PCINT7/ADC4/SCK/PSCOUT0B)PB7 28 1100 1000 150 L 40 40 1 1 B
+X AVCC 19 -1100 1400 150 R 40 40 1 1 W
+X (PCINT16/PSCOUT0A)PD0 29 1100 -100 150 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue-etc.-rescue U 0 40 Y Y 1 F N
+F0 "U" -750 1250 50 H V L BNN
+F1 "etc.-rescue:ATMEGA328P-AU-atmel-etc.-rescue-etc.-rescue-etc.-rescue" 400 -1400 50 H V L BNN
+F2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TQFP*7x7mm*Pitch0.8mm*
+$ENDFPLIST
+DRAW
+S -750 1200 850 -1300 0 1 10 f
+X (PCINT19/OC2B/INT1)PD3 1 1000 -800 150 L 40 40 1 1 B
+X (PCINT20/XCK/T0)PD4 2 1000 -900 150 L 40 40 1 1 B
+X GND 3 -900 -1200 150 R 40 40 1 1 W
+X VCC 4 -900 1100 150 R 40 40 1 1 W
+X GND 5 -900 -1100 150 R 40 40 1 1 W
+X VCC 6 -900 1000 150 R 40 40 1 1 W
+X (PCINT6/XTAL1/TOSC1)PB6 7 1000 500 150 L 40 40 1 1 B
+X (PCINT7/XTAL2/TOSC2)PB7 8 1000 400 150 L 40 40 1 1 B
+X (PCINT21/OC0B/T1)PD5 9 1000 -1000 150 L 40 40 1 1 B
+X (PCINT22/OC0A/AIN0)PD6 10 1000 -1100 150 L 40 40 1 1 B
+X AREF 20 -900 500 150 R 40 40 1 1 B
+X (PCINT16/RXD)PD0 30 1000 -500 150 L 40 40 1 1 B
+X (PCINT23/AIN1)PD7 11 1000 -1200 150 L 40 40 1 1 B
+X GND 21 -900 -1000 150 R 40 40 1 1 W
+X (PCINT17/TXD)PD1 31 1000 -600 150 L 40 40 1 1 B
+X (PCINT0/CLKO/ICP1)PB0 12 1000 1100 150 L 40 40 1 1 B
+X ADC7 22 -900 -350 150 R 40 40 1 1 I
+X (PCINT18/INT0)PD2 32 1000 -700 150 L 40 40 1 1 B
+X (PCINT1/OC1A)PB1 13 1000 1000 150 L 40 40 1 1 B
+X (PCINT8/ADC0)PC0 23 1000 250 150 L 40 40 1 1 B
+X (PCINT2/OC1B/~SS~)PB2 14 1000 900 150 L 40 40 1 1 B
+X (PCINT9/ADC1)PC1 24 1000 150 150 L 40 40 1 1 B
+X (PCINT3/OC2A/MOSI)PB3 15 1000 800 150 L 40 40 1 1 B
+X (PCINT10/ADC2)PC2 25 1000 50 150 L 40 40 1 1 B
+X (PCINT4/MISO)PB4 16 1000 700 150 L 40 40 1 1 B
+X (PCINT11/ADC3)PC3 26 1000 -50 150 L 40 40 1 1 B
+X (PCINT5/SCK)PB5 17 1000 600 150 L 40 40 1 1 B
+X (PCINT12/SDA/ADC4)PC4 27 1000 -150 150 L 40 40 1 1 B
+X AVCC 18 -900 800 150 R 40 40 1 1 W
+X (PCINT13/SCL/ADC5)PC5 28 1000 -250 150 L 40 40 1 1 B
+X ADC6 19 -900 -250 150 R 40 40 1 1 I
+X (PCINT14/~RESET~)PC6 29 1000 -350 150 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue-etc.-rescue U 0 40 Y Y 1 F N
+F0 "U" -400 350 50 H V L CNN
+F1 "etc.-rescue:CAN_Transceiver-formula-etc.-rescue-etc.-rescue-etc.-rescue" 100 350 50 H V L CNN
+F2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" 0 -500 50 H I C CIN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" -400 350 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "MCP2561-E/SN-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" 0 750 60 H I C CNN "PurchasingLink"
+$FPLIST
+ SOIC*Pitch1.27mm*
+$ENDFPLIST
+DRAW
+S -400 300 400 -300 0 1 10 f
+X TXD 1 -500 200 100 R 50 50 1 1 I
+X VSS 2 0 -400 100 U 50 50 1 1 W
+X VDD 3 0 400 100 D 50 50 1 1 W
+X RXD 4 -500 100 100 R 50 50 1 1 O
+X SPLIT 5 500 0 100 L 50 50 1 1 P
+X CANL 6 500 -100 100 L 50 50 1 1 B
+X CANH 7 500 100 100 L 50 50 1 1 B
+X STBY 8 -500 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue P 0 1 Y N 1 F N
+F0 "P" 0 200 50 H V C CNN
+F1 "etc.-rescue:CONN_02X03-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 -200 50 H V C CNN
+F2 "footprints:Pin_Header_Straight_2x03" 0 -1200 50 H I C CNN
+F3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" 0 -1200 50 H I C CNN
+F4 "609-3234-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" 400 600 60 H I C CNN "PurchasingLink"
+$FPLIST
+ Pin_Header_Straight_2X03
+ Pin_Header_Angled_2X03
+ Socket_Strip_Straight_2X03
+ Socket_Strip_Angled_2X03
+$ENDFPLIST
+DRAW
+S -100 -95 -50 -105 0 1 0 N
+S -100 5 -50 -5 0 1 0 N
+S -100 105 -50 95 0 1 0 N
+S -100 150 100 -150 0 1 0 N
+S 50 -95 100 -105 0 1 0 N
+S 50 5 100 -5 0 1 0 N
+S 50 105 100 95 0 1 0 N
+X P1 1 -250 100 150 R 50 50 1 1 P
+X P2 2 250 100 150 L 50 50 1 1 P
+X P3 3 -250 0 150 R 50 50 1 1 P
+X P4 4 250 0 150 L 50 50 1 1 P
+X P5 5 -250 -100 150 R 50 50 1 1 P
+X P6 6 250 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "etc.-rescue:C_0.1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
+F4 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "etc.-rescue:C_100pF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" 25 100 50 H I C CNN
+F4 "399-1122-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1-ND/411397" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "etc.-rescue:C_1uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
+F4 "CAP CER 1UF 25V X7R 0805" 525 600 60 H I C CNN "Description"
+F5 "478-10487-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F7 "Value" 0 0 60 H I C CNN "Package"
+F8 "https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "etc.-rescue:C_22uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf" 25 100 50 H I C CNN
+F4 "1276-2725-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "etc.-rescue:C_30pF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
+F4 "1276-1130-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue-etc.-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "etc.-rescue:C_47uF-formula-etc.-rescue-etc.-rescue-etc.-rescue" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" 25 100 50 H I C CNN
+F4 "587-4280-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue Y 0 40 Y N 1 F N
+F0 "Y" 50 175 50 H V L CNN
+F1 "etc.-rescue:Crystal_SMD-formula-etc.-rescue-etc.-rescue-etc.-rescue" 50 100 50 H V L CNN
+F2 "footprints:Crystal_SMD_FA238" -50 75 50 H I C CNN
+F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" 50 175 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "SER3686CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" 450 575 60 H I C CNN "PurchasingLink"
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+P 4 0 1 0 -50 -50 -50 -75 50 -75 50 -50 N
+P 4 0 1 0 -50 50 -50 75 50 75 50 50 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 0 -150 75 U 50 50 1 1 P
+X 3 3 100 0 50 L 50 50 1 1 P
+X 4 4 0 150 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue-etc.-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "etc.-rescue:D_Zener_18V-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 -100 50 H V C CNN
+F2 "footprints:DO-214AA" -100 0 50 H I C CNN
+F3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" 0 100 50 H I C CNN
+F4 "SMBJ5355B-TPMSCT-ND" 100 200 60 H I C CNN "MPN"
+F5 "Digi-Key" 200 300 60 H I C CNN "MFN"
+F6 "DO-214AA (SMB)" 300 400 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -100 -50 N
+P 2 0 1 8 -50 50 0 50 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue-etc.-rescue F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "etc.-rescue:F_500mA_16V-formula-etc.-rescue-etc.-rescue-etc.-rescue" -75 0 50 V V C CNN
+F2 "footprints:Fuse_1210" -70 0 50 V I C CNN
+F3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" 80 0 50 V I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "507-1786-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" 480 400 60 V I C CNN "PurchasingLink"
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue D 0 40 N N 1 F N
+F0 "D" 0 -100 50 H V C CNN
+F1 "etc.-rescue:LED_0805-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 100 50 H V C CNN
+F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
+F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
+F4 "475-1410-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" 400 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue-etc.-rescue L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "etc.-rescue:L_4.7uH-formula-etc.-rescue-etc.-rescue-etc.-rescue" 30 -40 50 H V L CNN
+F2 "footprints:4.7uH_Inductor_OEM" -70 -60 50 H I C CNN
+F3 "https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf" 30 40 50 H I C CNN
+F4 "445-6583-1-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893" 430 440 60 H I C CNN "PurchasingLink"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue-etc.-rescue RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "etc.-rescue:POT_TRIM-device-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 60 30 60 -30 N
+P 2 0 1 0 100 0 60 0 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "etc.-rescue:R_0_Jumper-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
+F4 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "etc.-rescue:R_100-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD100RCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "etc.-rescue:R_10k-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
+F4 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "etc.-rescue:R_1k-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "etc.-rescue:R_200-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805JT200RCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue-etc.-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "etc.-rescue:R_55.1k-formula-etc.-rescue-etc.-rescue-etc.-rescue" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
+F4 "311-51.1KCRCT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue-etc.-rescue U 0 40 Y Y 1 F N
+F0 "U" -200 -300 60 H V C CNN
+F1 "etc.-rescue:TPS561201-formula-etc.-rescue-etc.-rescue-etc.-rescue" 0 350 60 H V C CNN
+F2 "footprints:SOT-23-6_OEM" -300 250 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" -200 350 60 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "TPS561201" 0 0 60 H I C CNN "MPN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" 200 750 60 H I C CNN "PurchasingLink"
+$FPLIST
+ SOT-23-6*
+$ENDFPLIST
+DRAW
+S -250 300 250 -250 0 1 0 f
+X GND 1 0 -450 200 U 50 50 1 1 P
+X SW 2 450 100 200 L 50 50 1 1 P
+X VIN 3 -450 200 200 R 50 50 1 1 P
+X VFB 4 450 -100 200 L 50 50 1 1 I
+X EN 5 -450 -100 200 R 50 50 1 1 I
+X VBST 6 450 200 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue-etc.-rescue
+#
+DEF etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue-etc.-rescue J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "etc.-rescue:micromatch_male_16-formula-etc.-rescue-etc.-rescue-etc.-rescue" -50 -500 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
+F4 "A116164CT-ND" 0 0 60 H I C CNN "MPN"
+F5 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F6 "Value" 0 0 60 H I C CNN "Package"
+F7 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1-215464-6/A116164CT-ND/4569759" 300 1600 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -450 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# formula:Ampseal_8
+#
+DEF formula:Ampseal_8 J 0 40 Y Y 1 F N
+F0 "J" -250 450 60 H V C CNN
+F1 "formula:Ampseal_8" -300 -450 60 H V L CNN
+F2 "" -200 0 60 H I C CNN
+F3 "" -200 0 60 H I C CNN
+DRAW
+S 0 400 -300 -400 0 1 0 f
+X 1 1 200 350 200 L 50 50 1 1 P
+X 2 2 200 250 200 L 50 50 1 1 P
+X 3 3 200 150 200 L 50 50 1 1 P
+X 4 4 200 50 200 L 50 50 1 1 P
+X 5 5 200 -50 200 L 50 50 1 1 P
+X 6 6 200 -150 200 L 50 50 1 1 P
+X 7 7 200 -250 200 L 50 50 1 1 P
+X 8 8 200 -350 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula:RJ45_VT
+#
+DEF formula:RJ45_VT U 0 40 Y Y 1 F N
+F0 "U" 0 -590 60 H V C CNN
+F1 "formula:RJ45_VT" 10 660 60 H V C CNN
+F2 "footprints:RJ45-Vertical" -100 -690 60 H I C CNN
+F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" 0 -590 60 H I C CNN
+F4 "MRJ-5481-01-ND" 200 -390 60 H I C CNN "MPN"
+F5 "Digi-Key" 300 -290 60 H V C CNN "MFN"
+F6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" 400 -190 60 H I C CNN "PurchasingLink"
+DRAW
+S -280 570 650 -190 0 1 0 N
+X CANL 1 -480 430 200 R 50 50 1 1 B
+X CANH 2 -480 330 200 R 50 50 1 1 B
+X RESET 3 -480 230 200 R 50 50 1 1 B
+X SCK 4 -480 130 200 R 50 50 1 1 B
+X MISO 5 850 430 200 L 50 50 1 1 B
+X MOSI 6 850 330 200 L 50 50 1 1 B
+X 5V 7 850 230 200 L 50 50 1 1 B
+X GND 8 850 130 200 L 50 50 1 1 B
+X GND 9 -180 -390 200 U 50 50 1 1 B
+X LED_1 10 -70 -390 200 U 50 50 1 1 B
+X GND 11 100 -390 200 U 50 50 1 1 B
+X LED_2 12 210 -390 200 U 50 50 1 1 B
+X GND 13 400 -390 200 U 50 50 1 1 B
+X GND 14 510 -390 200 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# formula:Ultrafit_4
+#
+DEF formula:Ultrafit_4 J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "formula:Ultrafit_4" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F4 "Digi-Key" 0 0 60 H I C CNN "MFN"
+F5 "Value" 0 0 60 H I C CNN "Package"
+F6 "WM11574-ND" 0 0 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=WM11574-ND" 500 850 60 H I C CNN "PurchasingLink"
+F9 "https://www.digikey.com/product-detail/en/molex-llc/1722561004/WM11564-ND/5291228" 600 950 60 H I C CNN "PurchasingLink2"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power:+12V
+#
+DEF power:+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:PWR_FLAG
+#
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X pwr 1 0 0 0 U 50 50 0 0 w
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+ENDDRAW
+ENDDEF
+#
+# power:VCC
+#
+DEF power:VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
