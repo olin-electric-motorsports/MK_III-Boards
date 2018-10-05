@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name charging-rescue)(type Legacy)(uri ${LOCAL_DIR}/MK_III-Boards/boards/charging/charging_v2/charging-rescue.lib)(options "")(descr ""))
+)
